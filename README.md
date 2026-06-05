@@ -4,6 +4,7 @@
 [![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite-orange.svg)]()
 [![Backend](https://img.shields.io/badge/backend-Django%205%20%7C%20DRF-blue.svg)]()
 [![Docs](https://img.shields.io/badge/docs-public%20overview-purple.svg)]()
+[![Releases](https://img.shields.io/badge/releases-v2.5.0-blue.svg)](https://github.com/Jonizz14/Knowza-Overview/releases)
 
 **Knowza** is a unified multi-role educational SaaS platform designed for private schools and learning centers. It integrates secure online testing, academic scheduling, classroom management, student homework tracking, league gamification, and AI-assisted educational tools under a single ecosystem.
 
@@ -11,16 +12,60 @@ This repository serves as the centralized overview hub for the Knowza project.
 
 ---
 
+## 📸 Platform Preview
+
+### Admin Dashboard — Analytics & School Management
+> The admin overview provides real-time statistics on students, teachers, active groups, and system activity with interactive charts.
+
+![Admin Dashboard](docs/images/admin_dashboard.png)
+
+### Class Scheduling System
+> A full weekly/daily schedule grid linking classrooms, subjects, teachers, and time slots — built directly into the admin panel.
+
+![Schedule System](docs/images/admin_schedule.png)
+
+### Teacher Test Builder
+> Teachers create quizzes and exams with configurable time limits, question pools, anti-cheat settings, and optional star-pricing.
+
+![Test Builder](docs/images/teacher_test_builder.png)
+
+### Sentinel Anti-Cheat Monitoring
+> Real-time violation tracking — tab switches, window blur events, and suspicious activity are flagged with severity indicators.
+
+![Anti-Cheat Logs](docs/images/teacher_anticheat_logs.png)
+
+### Student Dashboard — Daily Overview
+> Students see their daily schedule, active assignments, Dynamic Island notifications, and gamification stats (XP, Stars, Streak).
+
+![Student Dashboard](docs/images/student_dashboard.png)
+
+### League & Gamification System
+> A competitive leaderboard with XP-based rankings, levels, daily streaks, and Stars currency across student leagues.
+
+![League System](docs/images/student_league.png)
+
+### Live Exam Session
+> The exam interface with real-time countdown, question navigation, and answer syncing — all protected by the anti-cheat layer.
+
+![Exam Session](docs/images/student_exam_session.png)
+
+### SaaS Pricing Plans
+> Five-tier subscription model with feature differentiation for learning centers of different sizes.
+
+![Pricing Page](docs/images/pricing_page.png)
+
+---
+
 ## 🏛 Directory & Documentation Map
 
 To understand different layers of Knowza, explore the links below:
 
-*   **System Architecture Details:** [`docs/ARCHITECTURE.md`](file:///Users/jakhongir/Documents/Knowza-Overview/docs/ARCHITECTURE.md) - Database models, tenant query filtering, and server-side lifecycle sequence diagrams.
-*   **Public API Structure:** [`docs/API_REFERENCE.md`](file:///Users/jakhongir/Documents/Knowza-Overview/docs/API_REFERENCE.md) - Secure REST endpoints for login, test sessions, anti-cheat reports, and limit checks.
-*   **Feature Inventory:** [`docs/FEATURES.md`](file:///Users/jakhongir/Documents/Knowza-Overview/docs/FEATURES.md) - Detailed breakdown of features per role and component.
-*   **Pitch & Product Strategy:** [`presentation/PITCH_DECK.md`](file:///Users/jakhongir/Documents/Knowza-Overview/presentation/PITCH_DECK.md) - Slide outline, market positioning, and SaaS monetization model.
-*   **Presentation Script:** [`presentation/DEMO_FLOW.md`](file:///Users/jakhongir/Documents/Knowza-Overview/presentation/DEMO_FLOW.md) - Step-by-step instructions to demonstrate the system live.
-*   **Evolution Timeline:** [`updates/README.md`](file:///Users/jakhongir/Documents/Knowza-Overview/updates/README.md) - Chronological releases tracker.
+*   **System Architecture Details:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — Database models, tenant query filtering, and server-side lifecycle sequence diagrams.
+*   **Public API Structure:** [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) — Secure REST endpoints for login, test sessions, anti-cheat reports, and limit checks.
+*   **Feature Inventory:** [`docs/FEATURES.md`](docs/FEATURES.md) — Detailed breakdown of features per role and component.
+*   **Pitch & Product Strategy:** [`presentation/PITCH_DECK.md`](presentation/PITCH_DECK.md) — Slide outline, market positioning, and SaaS monetization model.
+*   **Presentation Script:** [`presentation/DEMO_FLOW.md`](presentation/DEMO_FLOW.md) — Step-by-step instructions to demonstrate the system live.
+*   **Evolution Timeline:** [`updates/README.md`](updates/README.md) — Chronological releases tracker (v1.0.0 → v2.5.0).
 
 ---
 
@@ -42,7 +87,7 @@ The operational pipeline follows a sequential workflow from registration to eval
 ### 2. School Infrastructure Setup
 *   The Admin logs into the Admin Dashboard.
 *   The Admin creates classrooms (`Classrooms`), school subjects (`Subjects`), and student class groups (`Groups`).
-*   The Admin registers Teachers, Sub-Admins, and Students belonging to the school. Users can be created individually or imported instantly via bulk CSV files.
+*   The Admin registers Teachers, Sub-Admins, and Students belonging to the school. Users can be created individually or imported instantly via bulk Excel files.
 
 ### 3. Class Scheduling & Assignment
 *   The Admin maps the school schedule by creating `ClassScheduleSlots` linking days, times, subjects, and classrooms.
@@ -70,4 +115,20 @@ The operational pipeline follows a sequential workflow from registration to eval
 *   **Frontend SPA:** [Test-App](https://github.com/Jonizz14/Test-App)
     *   *Stack:* React 19, Vite, React Router 7, TanStack Query, Axios, Tailwind CSS 4, Ant Design, GSAP, ECharts.
 *   **Backend REST API:** [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend)
-    *   *Stack:* Django 5, Django REST Framework, JWT, PostgreSQL, Redis.
+    *   *Stack:* Django 5, Django REST Framework, SimpleJWT, PostgreSQL, Redis.
+
+---
+
+## 📦 Repositories
+
+| Repository | Description | Tech |
+|---|---|---|
+| [Test-App](https://github.com/Jonizz14/Test-App) | Frontend SPA — Student, Teacher, Admin dashboards | React 19, Vite, Ant Design |
+| [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend) | REST API — Auth, Tests, Anti-Cheat, SaaS Engine | Django 5, DRF, JWT, PostgreSQL |
+| [Knowza-Overview](https://github.com/Knowza/Knowza-Overview) | Documentation hub — Architecture, API docs, Releases | Markdown |
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
