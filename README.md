@@ -17,42 +17,42 @@ This repository serves as the centralized overview hub for the Knowza project.
 ### Admin Dashboard — Analytics & School Management
 > The admin overview provides real-time statistics on students, teachers, active groups, and system activity with interactive charts.
 
-![Admin Dashboard](docs/images/admin_dashboard.png)
+![Admin Dashboard](docs/images/Overview.png)
 
 ### Class Scheduling System
 > A full weekly/daily schedule grid linking classrooms, subjects, teachers, and time slots — built directly into the admin panel.
 
-![Schedule System](docs/images/admin_schedule.png)
+![Schedule System](docs/images/Schedule.png)
 
 ### Teacher Test Builder
 > Teachers create quizzes and exams with configurable time limits, question pools, anti-cheat settings, and optional star-pricing.
 
-![Test Builder](docs/images/teacher_test_builder.png)
+![Test Builder](docs/images/TeacherTest.png)
 
-### Sentinel Anti-Cheat Monitoring
-> Real-time violation tracking — tab switches, window blur events, and suspicious activity are flagged with severity indicators.
+### Sentinel Anti-Cheat & Exam Results
+> Real-time violation tracking and detailed exam result analytics — tab switches, window blur events, and per-student scoring breakdowns.
 
-![Anti-Cheat Logs](docs/images/teacher_anticheat_logs.png)
+![Anti-Cheat & Results](docs/images/TeacherExamResult.png)
 
 ### Student Dashboard — Daily Overview
 > Students see their daily schedule, active assignments, Dynamic Island notifications, and gamification stats (XP, Stars, Streak).
 
-![Student Dashboard](docs/images/student_dashboard.png)
+![Student Dashboard](docs/images/StudentOverview.png)
 
 ### League & Gamification System
 > A competitive leaderboard with XP-based rankings, levels, daily streaks, and Stars currency across student leagues.
 
-![League System](docs/images/student_league.png)
+![League System](docs/images/StudentLeague.png)
 
 ### Live Exam Session
 > The exam interface with real-time countdown, question navigation, and answer syncing — all protected by the anti-cheat layer.
 
-![Exam Session](docs/images/student_exam_session.png)
+![Exam Session](docs/images/ExamSession.png)
 
 ### SaaS Pricing Plans
 > Five-tier subscription model with feature differentiation for learning centers of different sizes.
 
-![Pricing Page](docs/images/pricing_page.png)
+![Pricing Page](docs/images/PricingPage.png)
 
 ---
 
