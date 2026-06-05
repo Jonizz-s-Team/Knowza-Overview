@@ -39,6 +39,7 @@ Migrate the entire UI component library from raw CSS and Material UI to **Ant De
 
 ## 🗑 Deletions & Cleanups
 
+- **Material UI (MUI) Removed:** The full `@mui/material` and `@mui/icons-material` packages were removed on **December 20, 2025** (`a88e0e4`) as part of the Ant Design migration. MUI icons were temporarily re-added on Dec 29 (`1096768`) for specific components, but the main `@mui/material` library was fully replaced by Ant Design. As of the latest codebase, MUI is no longer actively used anywhere in the source code.
 - **Dark Mode Styles Removed:** After initial implementation, unused dark mode CSS was cleaned up for simplicity (`7f6bd40`, Dec 28).
 - **Dark Mode Theme Changer Deleted:** The theme toggle was removed in favor of a simpler approach (`d26a045`, Jan 10).
 - **Import Bug Fixes:** Fixed multiple issues with student and teacher Excel import (`d33c1fe`–`bc67ad7`, Dec 23).
