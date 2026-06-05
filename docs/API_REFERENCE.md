@@ -9,7 +9,7 @@ Authorization: Bearer <your_jwt_access_token>
 
 ---
 
-## 🔑 1. Authentication
+## 🔑 1. Authentication Endpoints
 
 ### User Login
 Authenticate credentials and return JWT session tokens.
@@ -25,8 +25,8 @@ Authenticate credentials and return JWT session tokens.
 *   **Response (200 OK):**
     ```json
     {
-      "access": "eyJhbGciOiJIUzI1NiIsIn...",
-      "refresh": "eyJhbGciOiJIUzI1NiIsIn...",
+      "access": "access_token_jwt_hash",
+      "refresh": "refresh_token_jwt_hash",
       "user": {
         "id": "KNZ-982736",
         "username": "student_johndoe",
@@ -41,7 +41,7 @@ Authenticate credentials and return JWT session tokens.
     ```
 
 ### Retrieve Profile Info
-Retrieve or update the active user's profile inline details.
+Retrieve or update the active user's profile details.
 
 *   **Endpoint:** `GET /api/users/me/`
 *   **Response (200 OK):**
@@ -67,7 +67,7 @@ Retrieve or update the active user's profile inline details.
 ### Start Test Session
 Initialize a server-authoritative session for taking a test.
 
-*   **Endpoint:** `POST /api/sessions/`
+*   **Endpoint:** `POST /api/sessions/start_session/`
 *   **Request Body:**
     ```json
     {
@@ -89,14 +89,15 @@ Initialize a server-authoritative session for taking a test.
 ### Sync Answers (Progressive Save)
 Save selections/answers progressively during an active session.
 
-*   **Endpoint:** `PATCH /api/sessions/ses-abc123xyz/`
+*   **Endpoint:** `PUT /api/sessions/update_answers/`
 *   **Request Body:**
     ```json
     {
-      "answers": [
-        { "question_id": 101, "selected_option": "A" },
-        { "question_id": 102, "selected_option": "C" }
-      ]
+      "session_id": "ses-abc123xyz",
+      "answers": {
+        "question_101": "A",
+        "question_102": "C"
+      }
     }
     ```
 *   **Response (200 OK):**
@@ -110,7 +111,7 @@ Save selections/answers progressively during an active session.
 ### Log Cheat Violation
 Notify backend of focus loss, blur, or tab-switch violations.
 
-*   **Endpoint:** `POST /api/test-violations/`
+*   **Endpoint:** `POST /api/test-violations/report/`
 *   **Request Body:**
     ```json
     {
@@ -128,7 +129,6 @@ Notify backend of focus loss, blur, or tab-switch violations.
       "message": "Tab switching detected. Warning 2 of 3."
     }
     ```
-    *Note: If `current_violations_count` exceeds `allowed_violations`, the response will flag the session as banned with `status: "banned"`.*
 
 ---
 

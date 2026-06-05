@@ -38,7 +38,7 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 *   **Action:** Switch to a Student account (`/knowza/test-platform/student`).
     1.  Start a test session.
     2.  Show the countdown timer syncing.
-    3.  **Simulate Cheating:** Alt-Tab out of the browser or click another window. Show the warning toast popup: *"Warning: Tab switching detected."*
+    3.  **Simulate Cheating:** Alt-Tab out of the browser or click another window. Show the warning toast popup: *"Warning: tab switching detected."*
     4.  Repeat the tab switches until the warning threshold is reached. Show how the session is forced-closed and banned.
 *   **Narrative:** *"When a student starts an exam, a server session is created. If the student attempts to cheat by leaving the page, Knowza Sentinel catches the window blur events in real-time. Exceeding thresholds triggers an automatic backend ban, score invalidation, and logs a TestViolation record."*
 *   **Showcase:** Show the results screen (0 points due to cheating) or a successfully completed test displaying XP and Stars distribution.

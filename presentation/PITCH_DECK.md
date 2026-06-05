@@ -1,6 +1,6 @@
 # 📈 Knowza Startup Pitch Deck & Product Strategy
 
-This document lays out the strategic slides structure, business model analysis, and product narrative for the **Knowza Educational Platform** presentation.
+This document outlines the strategic slide deck structure, business model analysis, and product positioning for the **Knowza Educational Platform** presentation.
 
 ---
 

@@ -1,136 +1,252 @@
-# 🎓 Knowza — Institutional EdTech & Assessment Ecosystem
+# 🎓 Knowza — Ta'lim Markazlari Uchun Raqamli Ekotizim
 
-[![Platform Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+[![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite-orange.svg)]()
 [![Backend](https://img.shields.io/badge/backend-Django%205%20%7C%20DRF-blue.svg)]()
-[![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite%208-orange.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-green.svg)]()
+[![Docs](https://img.shields.io/badge/docs-public%20overview-purple.svg)]()
 
-Knowza is a multi-role educational SaaS platform designed for learning centers, schools, teachers, and students. Unlike simple test-taking apps, Knowza is an **educational operating system** that integrates secure server-authoritative testing, school administration, academic scheduling, performance analytics, gamified student engagement, monetization tiers, and AI-assisted learning tools into a single ecosystem.
+**Knowza** — maktablar, o'quv markazlari, ustozlar va o'quvchilar uchun qurilgan katta EdTech platforma. Bu faqat test yechish sayti emas. Knowza ichida test, guruh, fan, dars jadvali, uyga vazifa, reyting, premium, star, support, analytics va AI yordamchi bitta tizimda ishlaydi.
 
-This repository serves as the central hub and high-level overview of the entire Knowza ecosystem.
+Bu repository Knowza loyihasini GitHub'da tushuntirish uchun ochiq overview hisoblanadi. Kodning nozik joylari, secret key, parol, real baza sxemasi va private server sozlamalari bu yerda berilmaydi.
 
----
+## Qisqa Gap
 
-## 🏛 Ecosystem Repositories
+Knowza'ning asosiy g'oyasi oddiy:
 
-The platform is split into two specialized repositories:
+> O'quv markazi yoki maktab o'z odamlarini, testlarini, darslarini, natijalarini va to'lovga yaqin jarayonlarini bitta joyda boshqara olishi kerak.
 
-1.  **Frontend SPA**: [Test-App](https://github.com/Jonizz14/Test-App)
-    *   *Stack:* React 19, Vite 8, React Router 7, TanStack Query, Tailwind CSS 4, Ant Design & Material-UI, Framer Motion & GSAP, ECharts.
-2.  **Backend REST API**: [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend)
-    *   *Stack:* Django 5, Django REST Framework, SimpleJWT, PostgreSQL/SQLite, Redis-compatible Cache, Swagger/ReDoc.
+Platforma uchta katta muammoni hal qiladi:
 
----
+- **Adolatli test**: test vaqti, session, natija va ban faqat browserga ishonib qolmaydi.
+- **Tartibli boshqaruv**: admin, sub-admin, teacher va studentlar o'z roliga mos panel ko'radi.
+- **Motivatsiya**: o'quvchi faqat ball emas, XP, streak, star, league va profil yutuqlarini ham ko'radi.
 
-## 🛰 Core Architecture
+## Ecosystem Repository'lar
+
+Knowza ikki katta qismdan iborat:
+
+| Qism | Repository | Vazifa |
+|---|---|---|
+| Frontend | [Test-App](https://github.com/Jonizz14/Test-App) | React/Vite SPA, sahifalar, dashboardlar, UI, test ishlash oynasi |
+| Backend | [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend) | Django REST API, auth, test session, role permission, analytics, billing, AI endpointlar |
+| Overview | Bu repository | GitHub uchun xavfsiz loyiha ta'rifi, changelog, demo flow va pitch materiallar |
+
+## Texnologiyalar
+
+| Layer | Ishlatilgan texnologiyalar |
+|---|---|
+| Frontend | React 19, Vite, React Router, TanStack Query, Axios |
+| UI | Ant Design, MUI, Radix UI, Tailwind CSS, custom CSS |
+| Animation | Framer Motion, GSAP, AnimeJS, AOS, Lottie |
+| Charts | ECharts, Chart.js |
+| Math | KaTeX |
+| Localization | i18next: UZ, RU, EN |
+| Backend | Django 5, Django REST Framework, SimpleJWT |
+| DB | PostgreSQL yoki SQLite local/dev uchun |
+| API docs | Swagger va ReDoc |
+| Ops | Docker, Gunicorn, media/static yo'llari, cache yo'llari |
+
+## Public-Safe Architecture
 
 ```text
-       ┌────────────────────────┐
-       │   Browser / React SPA  │
-       └───────────┬────────────┘
-                   │
-                   │ REST API (JSON / JWT Auth)
-                   ▼
-       ┌────────────────────────┐
-       │ Django REST Framework  │ (Tenant-based scoping & role logic)
-       └───────────┬────────────┘
-                   │
-                   ├───────────────────────┐
-                   ▼                       ▼
-         ┌──────────────────┐    ┌──────────────────┐
-         │ PostgreSQL DB    │    │ Redis-compatible │
-         │ & Media Storage  │    │ Caching / Worker │
-         └──────────────────┘    └──────────────────┘
+Foydalanuvchi browserda ishlaydi
+        |
+        v
+React / Vite frontend
+        |
+        | REST API + JWT token
+        v
+Django REST Framework backend
+        |
+        | role check + service logic + audit log
+        v
+Database + media storage + optional cache
 ```
 
-The system isolates permissions and data queries at the database query level (tenant and role scoping) to ensure high security and isolation between different learning centers (tenants).
+Bu GitHub overview faqat yuqori darajadagi arxitekturani aytadi. Quyidagi narsalar ochilmaydi:
 
----
+- real `.env` qiymatlari;
+- secret key va tokenlar;
+- real admin login/parollari;
+- production server ichki sozlamalari;
+- anti-cheat'ni aylanib o'tishga yordam beradigan exact detal;
+- private deployment yoki database credential'lari.
 
-## ⚡ Main Capabilities
+To'liq public-safe texnik izoh: [`docs/SAFE_ARCHITECTURE_UZ.md`](docs/SAFE_ARCHITECTURE_UZ.md).
 
-### 🛡 1. Test Integrity & Anti-Cheat (Knowza Sentinel)
-*   **Server-Authoritative Sessions:** Test sessions are initialized and managed on the server. Time limits, question order, score calculations, and daily limits are strictly enforced backend-side.
-*   **Active Violation Detection:** Tracks focus loss, tab switching, and abnormal input speed in real-time.
-*   **Progressive Bans:** Suspicious behaviors record `TestViolation` logs. Exceeding thresholds automatically triggers a `TestBan`, immediately invalidating active test sessions with a score of 0.
+## Asosiy Modullar
 
-### 🎮 2. Gamification & Retention
-*   **Streaks & XP:** Rewards consistent daily learning.
-*   **Star Economy:** Virtual stars earned from scoring high on tests can be used to unlock premium courses, custom profile designs, or participate in special challenges.
-*   **Leagues & Rankings:** Weekly promotions and competitive divisions keep students actively engaged.
+### 1. Multi-role platforma
 
-### 💼 3. SaaS Monetization (B2B & B2C)
-*   **B2B Admin Tariffs:** Learning center owners subscribe to tiers that enforce limits on students, teachers, classrooms, and subjects.
-*   **B2C Student Premium:** In-app purchases for premium features, profile customizations (likes, gifts, status), and AI helper usage.
+Knowza har bir odamga o'z roli bo'yicha panel beradi:
 
-### 🤖 4. AI Helper Layer
-*   **AI Test Builder:** Helps teachers generate questions automatically from topics, files, or custom prompts.
-*   **AI Student Coach:** Analyzes student results, explains mistakes, suggests review modules, and acts as a personal tutor.
-*   **Operational Analytics:** Provides admins and teachers with student grouping suggestions and risk reports.
+- **Head Admin**: butun platforma, adminlar, tariflar, support, business analytics.
+- **Admin**: o'z o'quv markazi yoki maktabi ichidagi teacher, student, group, subject, schedule.
+- **Sub-admin**: admin bergan filial yoki bo'lim ichida ishlaydi.
+- **Teacher**: test, module, savol, homework, class analytics va o'quvchi natijalari.
+- **Student**: testlar, natijalar, homework, profile, league, stars, support va AI yordam.
+- **Seller / Content Manager**: platformaning monetizatsiya va kontent tomoni uchun yordamchi rollar.
 
----
+### 2. Test va session engine
 
-## 📈 Recent System Evolution (Changelog)
+Knowza'da test oddiy form emas. Test jarayoni backend session bilan boshqariladi:
 
-Below is the changelog documenting recent features, refactorings, and cleanup tasks implemented across the ecosystem:
+- test boshlanganda session yaratiladi;
+- vaqt backendda nazorat qilinadi;
+- javoblar session davomida saqlanadi;
+- yakunda score backendda hisoblanadi;
+- attempt tarixi yoziladi;
+- XP, star, streak va boshqa effectlar yangilanadi.
 
-### 🎨 Frontend (`Test-App`)
+Bu model testni ishonchliroq qiladi, chunki browser bitta o'zi “haqiqat manbasi” bo'lib qolmaydi.
 
-*   **[ADDED]** **Session Expiry Handling:** Automatic relogin UI and state persistence when JWT tokens expire.
-*   **[ADDED]** **Tariff Limit UI:** Restricts dashboard navigation for free tier users and visualizes current resource usage limits.
-*   **[ADDED]** **Schedule & Classroom Forms:** Integrated new UI components for managing schedule slots, classrooms, and teacher assignments.
-*   **[ADDED]** **Reveal Animations:** Standardized global entry animations across all pages using a custom reveal utility.
-*   **[DELETED]** **Onboarding Tour:** Removed legacy onboarding tour components to simplify layout rendering.
-*   **[DELETED]** **Legacy Utilities:** Cleaned up unused `ScrollToTop` components, redundant size props, and old server test context documentation.
-*   **[REFACTORED]** **Toast Notification System:** Replaced local page-level alerts with a unified, slick toast notification system.
-*   **[REFACTORED]** **Rebranding:** Renamed the application name across all translation files (`uz`, `ru`, `en`) to **Knowza**.
+### 3. Anti-cheat va ban nazorati
 
-### ⚙️ Backend (`Django-Test-App-Backend`)
+Platforma test vaqtida shubhali holatlarni yozib boradi. Masalan, test oynasidan chiqish yoki focus yo'qolishi kabi holatlar. Bu ma'lumotlar backendga yuboriladi va audit qilinadi.
 
-*   **[ADDED]** **Profile Endpoint (`/api/users/me`):** Secure endpoint for authenticated profile retrieval and inline updates.
-*   **[ADDED]** **Bulk Import Action:** Created high-speed bulk import endpoint for classrooms with tariff limit enforcement.
-*   **[ADDED]** **Threaded Email System:** Implemented chunked email distribution queue for user registration, support tickets, and tariff updates.
-*   **[ADDED]** **Activity status:** Introduced an `is_online` status attribute to track active users.
-*   **[DELETED]** **Quota Restrictions:** Lifted hard limitations on subjects, rooms, and groups while adjusting SaaS prices.
-*   **[REFACTORED]** **SQL Optimization:** Fixed N+1 query bottlenecks in analytics and modules using `select_related` and optimized queryset prefetching.
-*   **[REFACTORED]** **Tenant Scoping:** Enhanced security isolation filters, hidden student profiles from admin searches, and masked sensitive identifiers.
+Public hujjatda aniq ichki threshold va bypass detallar aytilmaydi. Maqsad — tizim qanday himoya yo'nalishida ishlashini tushuntirish, xavfsizlikni zaiflashtirish emas.
 
----
+### 4. Academic operations
 
-## 🚀 Quick Start Guide
+Knowza o'quv markazining kundalik ishlarini ham qamrab oladi:
 
-To run the full ecosystem locally:
+- institution group / class group;
+- subject;
+- classroom;
+- teacher-class assignment;
+- class schedule slot;
+- homework;
+- homework attachment;
+- extra lessons.
 
-### 1. Backend Setup
-```bash
-git clone https://github.com/Jonizz14/Django-Test-App-Backend.git
-cd Django-Test-App-Backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
-The backend API documentation will be available at `http://localhost:8000/swagger/` or `http://localhost:8000/redoc/`.
+Bu sababli loyiha faqat test platforma emas, balki LMS/CRM yo'nalishiga yaqin to'liq tizimdir.
 
-### 2. Frontend Setup
-```bash
-git clone https://github.com/Jonizz14/Test-App.git
-cd Test-App
-npm install
-npm run dev
-```
-Open `http://localhost:5173` to access the application.
+### 5. Analytics va activity logs
 
----
+Knowza turli rollar uchun dashboardlar beradi:
 
-## 🗺 Roadmap
+- student progress;
+- teacher rating;
+- class rating;
+- test analytics;
+- head admin business analytics;
+- activity logs;
+- AI usage logs;
+- daily analytics aggregate.
 
-*   [ ] **Mobile Application:** Native React Native/Flutter client for students and parents.
-*   [ ] **Parent Dashboard:** Interface to track payments, attendance, test scores, and homework progress.
-*   [ ] **Live Proctoring:** Secure video, microphone, and browser-lock integrations for official tests.
-*   [ ] **Built-in Payment Gateway:** Direct billing for tariff purchases, premium stars, and course marketplace.
+Analytics rahbar va ustozga “kim orqada qolyapti?”, “qaysi guruh sust?”, “qaysi test ko'p ishlanyapti?” kabi savollarga tezroq javob beradi.
 
----
+### 6. Gamification
 
-© 2026 Knowza Educational Platform. All rights reserved.
+Student uchun motivatsiya modullari bor:
+
+- XP;
+- streak;
+- stars;
+- premium profile;
+- profile likes/gifts;
+- league va ranking;
+- classmate/teacher profile sahifalari.
+
+Bu o'quvchini platformaga qayta kirishga va testni oxirigacha ishlashga undaydi.
+
+### 7. Monetizatsiya
+
+Knowza'da monetizatsiya ikki yo'nalishda qurilgan:
+
+- **B2B**: admin tariflari, markaz/maktab uchun planlar, limitlar va tariff requestlar.
+- **B2C**: student premium, star package, premium test, profile customization.
+
+Monetizatsiya operatsiyalari alohida history/audit bilan kuzatiladi.
+
+### 8. AI yordamchi layer
+
+Knowza ichida AI bilan bog'liq yo'nalishlar ham bor:
+
+- teacher uchun test generation;
+- student consult;
+- teacher assistant;
+- student/group analysis;
+- file processing;
+- AI usage limit va usage stats;
+- knowledge qo'shish va query qilish yo'llari.
+
+AI qismi public overview'da faqat product darajasida aytiladi. API key, provider secret va private prompt detallar berilmaydi.
+
+## Eng Muhim Feature'lar
+
+- JWT login, register, token refresh, email verification, password reset.
+- Knowza ID / display ID bilan user topish va login flow.
+- Role-based route guard va dashboardlar.
+- Admin/sub-admin/teacher/student boshqaruvi.
+- Bulk import: student, teacher, subject, group, classroom, schedule uchun qulay import yo'llari.
+- Test builder: draft, publish, savol, option image, question image, module, class group, premium/star price.
+- Server-side test session: start, get, update answers, complete, auto-expire.
+- Anti-cheat monitoring: violation log, test ban, student ban status.
+- Homework calendar va attachmentlar.
+- Schedule calendar, classroom va teacher assignment.
+- Tariff system: planlar, limitlar, admin request, approval/rejection.
+- Student economy: stars, premium, purchase, refund/reverse operation.
+- Profile likes/gifts, pinned likes, premium profile sozlamalari.
+- League: auto assign, start, stop, clear, group va participant tracking.
+- Support ticket va contact message reply flow.
+- Site updates/news, public update list.
+- Analytics event tracking va dashboard statistikalar.
+- AI generate test, consult, assistant, analysis, stream chat.
+- UZ/RU/EN localization va public legal pages.
+- Performance optimizations: lazy routes, image optimization, caching, N+1 query kamaytirish.
+
+Batafsil feature ro'yxati: [`docs/FEATURES_UZ.md`](docs/FEATURES_UZ.md).
+
+## Changelog
+
+Oxirgi katta ishlar ikki repo tarixidan yig'ildi:
+
+- Frontend: Knowza rebrand, yangi home content, localization kengayishi, session expiry UI, tariff limit UI, schedule/classroom UI, toast system, panel refresh, loading states, business analytics, homework calendar.
+- Backend: `/users/me/`, tenant scoping, identifier masking, classroom bulk import, tariff limit logic, threaded email, email notificationlar, performance optimization, cache invalidation, analytics event, classroom/schedule/homework, AI guard va JSON response yaxshilanishlari.
+
+To'liq public changelog: [`docs/CHANGELOG_UZ.md`](docs/CHANGELOG_UZ.md).
+
+## Demo Qanday Ko'rsatiladi
+
+Demo odatda shu tartibda yaxshi chiqadi:
+
+1. Landing page va public sahifalar.
+2. Head Admin analytics va tariff control.
+3. Admin panel: user, group, subject, classroom, schedule.
+4. Teacher panel: test builder, homework, class stats.
+5. Student panel: test session, result, profile, league.
+6. Swagger/ReDoc orqali API mavjudligini ko'rsatish.
+
+Demo script: [`presentation/DEMO_FLOW.md`](presentation/DEMO_FLOW.md).
+
+## Roadmap
+
+Kelajakda qo'shilishi mumkin bo'lgan yo'nalishlar:
+
+- mobile app;
+- parent dashboard;
+- attendance va classroom journal;
+- payment gateway;
+- marketplace;
+- certificate generator;
+- advanced AI tutor;
+- stronger proctoring;
+- branch management;
+- Telegram/SMS/email notification center.
+
+## Hujjatlar Xarita
+
+| Fayl | Nima uchun kerak |
+|---|---|
+| [`docs/FEATURES_UZ.md`](docs/FEATURES_UZ.md) | Modul va role bo'yicha katta feature izohi |
+| [`docs/CHANGELOG_UZ.md`](docs/CHANGELOG_UZ.md) | Frontend/backend yangiliklari va refactorlar |
+| [`docs/SAFE_ARCHITECTURE_UZ.md`](docs/SAFE_ARCHITECTURE_UZ.md) | Xavfsiz, public arxitektura izohi |
+| [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) | Endpoint guruhlari va API map |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Diagramma va tizim qatlamlari |
+| [`presentation/DEMO_FLOW.md`](presentation/DEMO_FLOW.md) | Demo ko'rsatish tartibi |
+| [`presentation/PITCH_DECK.md`](presentation/PITCH_DECK.md) | Pitch deck matni va story |
+
+## License
+
+Bu overview repository MIT license ostida. Real product deployment, private config va server credential'lar bu public repo ichiga kiritilmaydi.

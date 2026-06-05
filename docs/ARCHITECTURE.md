@@ -54,7 +54,7 @@ The frontend monitors student behavior using browser API listeners:
 *   `visibilitychange`: Fires when the student switches tabs or minimizes the browser.
 *   `blur`: Fires when the student clicks outside the test window.
 *   **Action:** When a violation is triggered, the frontend increments the violation count and syncs it with the backend via `POST /api/test-violations/`.
-*   **Progressive Bans:** The backend registers violations. If a student exceeds the allowed limit of violations, the system creates a `TestBan` records:
+*   **Progressive Bans:** The backend registers violations. If a student exceeds the allowed limit of violations, the system creates a `TestBan` record:
     *   Fills active session scores with `0`.
     *   Bans the student from taking any tests for a set duration (e.g., 24 hours, custom configurations).
 
