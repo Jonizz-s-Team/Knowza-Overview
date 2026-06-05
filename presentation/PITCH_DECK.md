@@ -22,7 +22,7 @@ This document outlines the strategic slide deck structure, business model analys
     *   **Secure assessment engine** driven by backend sessions and anti-cheat guards.
     *   **Unified CRM & LMS** for scheduling, classes, and homework.
     *   **Gamified incentive loop** (Streaks, XP, Stars, and Leagues) keeping students engaged.
-    *   **Role-tailored interfaces** for Head Admins, Admins, Sub-Admins, Teachers, Students, Sellers, and Content Managers.
+    *   **Role-tailored interfaces** for Admins, Sub-Admins, Teachers, Students, Sellers, and Content Managers.
 
 ### Slide 4: Tech Stack Highlights
 *   **Robust Backend:** Built on Python (Django 5 & REST Framework) utilizing a multi-tenant DB structure, optimized SQL transactions, and token-based authentication.

@@ -23,21 +23,15 @@ Focal access points are protected by robust authorization policies, automaticall
 
 ## 3. Dedicated Role Workspaces
 
-### Head Admin (Platform Owner)
-*   Manage institutional tenant registrations and local administrators.
-*   Review global platform metrics and business analytics.
-*   Manage B2B Admin Tariffs and accept/reject change requests.
-*   Track B2C Premium Purchases and transaction history.
-*   Moderate support tickets, public contact messages, and site-wide news.
-*   Adjust student currencies (stars, premium access status) manually when requested.
-
 ### Admin (Institution Owner)
-*   Manage local accounts for Teachers, Sub-Admins, and Students.
-*   Configure classes, classrooms, subjects, and schedule slots.
+The Admin represents the school owner and manages the entire local school workspace:
+*   Configure local accounts for Teachers, Sub-Admins, and Students.
+*   Configure classrooms, subjects, and student class groups.
 *   Assign teachers to specific groups and subjects.
 *   Monitor student grades, exam attempts, and system activity logs.
-*   View B2B tariff limits (student and teacher quotas) in real-time.
+*   View B2B tariff limits (student and teacher quotas) and request plan upgrades.
 *   Perform high-speed batch actions via bulk CSV user importing.
+*   Moderate support tickets, check contact messages, and review premium purchases.
 
 ### Sub-Admin (Branch Manager)
 *   Manage assigned teachers and students within specific branch scopes.

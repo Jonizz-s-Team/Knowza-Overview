@@ -19,19 +19,19 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 *   **Narrative:** *"This is the public experience of Knowza. We present ourselves as a modern, unified SaaS platform. Unlike a simple quiz site, we handle institutional management, billing, scheduling, and analytics under one ecosystem."*
 *   **Showcase:** Point out the translation picker (UZ, RU, EN) and show the beautiful micro-animations and typography.
 
-### Phase 2: Head Admin Control Panel (2 Mins)
-*   **Action:** Log in as Head Admin (`/login` with head admin credentials). Go to the dashboard.
-*   **Narrative:** *"The system begins at the top tier. The Head Admin manages global metrics, reviews platform-wide support tickets, approves admin tariff requests, and sets configurations like currency pricing or default league divisions."*
-*   **Showcase:** Point out the Business Analytics graphs and the list of active institutional tenants.
-
-### Phase 3: Admin & Operations Dashboard (3 Mins)
+### Phase 2: Admin Dashboard & School Setup (3 Mins)
 *   **Action:** Log in as an Institution Admin (`/knowza/test-platform/admin`).
-*   **Narrative:** *"The Admin represents the school owner. Here, they oversee the local tenant. They can manage classrooms, configure schedule slots, monitor teachers, and add students in bulk using CSV files."*
-*   **Showcase:** Show the `My Limits` indicator showing current student and teacher quotas based on the school's premium tariff tier.
+*   **Narrative:** *"The Admin represents the school owner. Here, they manage teachers, sub-admins, and students. They can perform high-speed batch actions via bulk CSV user importing."*
+*   **Showcase:** Show the student list table, showing online status indicators (`is_online`) and filtering utilities.
+
+### Phase 3: Schedule & Classrooms Layout (3 Mins)
+*   **Action:** Go to the Schedule and Classrooms tabs in the Admin Panel.
+*   **Narrative:** *"Admin configures the physical and digital infrastructure of the school. They define classrooms, subject fields, and map out the weekly Schedule Slots linking times, subjects, rooms, and teachers."*
+*   **Showcase:** Point out the `My Limits` resource indicator, displaying real-time student/teacher quota usages against active tariff boundaries.
 
 ### Phase 4: Teacher & Test Builder (3 Mins)
 *   **Action:** Switch to a Teacher account (`/knowza/test-platform/teacher`).
-*   **Narrative:** *"The Teacher manages learning content. They build tests, add questions (supporting formulas and images), assign homework files, and review class performance trends."*
+*   **Narrative:** *"Teachers log in to manage learning content. They build tests, configure question cards (supporting image uploads and formulas), publish homework files, and review class performance metrics."*
 *   **Showcase:** Use the Test Builder to create a draft, modify questions, and show the KaTeX math formula rendering capabilities.
 
 ### Phase 5: Student Testing & Anti-Cheat (5 Mins)

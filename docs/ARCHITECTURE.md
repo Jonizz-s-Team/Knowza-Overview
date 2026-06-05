@@ -88,7 +88,7 @@ The backend organizes data around several core model clusters:
 ```
 
 ### Key Models & Fields
-1.  **User Model:** Custom User model extending Django's `AbstractUser`, tracking `role` (head_admin, admin, sub_admin, teacher, student, seller, content_manager), `organization`, and `is_online`.
+1.  **User Model:** Custom User model extending Django's `AbstractUser`, tracking `role` (admin, sub_admin, teacher, student, seller, content_manager), `organization`, and `is_online`.
 2.  **Test & Question Models:** Multi-choice, short-answer, and true/false question banks. Supports images, options structures, and KaTeX formatting.
 3.  **Monetization Models:**
     *   `AdminTariff`: SaaS tiers governing administrative limits (e.g., max students/teachers).

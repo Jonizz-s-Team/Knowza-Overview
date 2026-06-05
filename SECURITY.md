@@ -34,4 +34,4 @@ If you discover a security vulnerability within the Knowza ecosystem, please **d
 1.  **Server-Authoritative Control:** The browser is never trusted for test duration, question scoring, limit verification, or cheat bans.
 2.  **Strict Isolation (Multi-Tenancy):** Institution data filters must be enforced in the queryset selector layer to prevent horizontal cross-school leaks.
 3.  **Encrypted Configurations:** Secret keys, database passwords, Appwrite client configurations, and SMTP email credentials must reside strictly in `.env` configurations and never be committed to repository logs.
-4.  **Role Enforcement:** Head Admins, Admins, Teachers, and Students must be authenticated using secure JWT access tokens and validated via role mixins at the view level.
+4.  **Role Enforcement:** Platform Owners, Admins, Teachers, and Students must be authenticated using secure JWT access tokens and validated via role mixins at the view level.
