@@ -13,7 +13,7 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Test-App`)
+### Frontend (`Knowza`)
 
 - **Knowza ID Authentication:** Implemented custom ID-based login alongside traditional credentials. Users receive a unique Knowza ID for seamless cross-device access (`aa76201`–`71729ed`, Apr 1). Includes staged loading animations during ID verification (`0daf8d1`, Apr 2).
 - **Sub-Admin Statistics Dashboard:** Added a statistics table to the sub-admin dashboard with property naming standardization (`8c87dbd`, Apr 2).
@@ -33,7 +33,7 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **AI Notch Button:** Extracted the `AINotchButton` component with integration into statistics pages (`b7690f8`, Apr 25).
 - **Student Dashboard Enhancements:** Added collapsible sections, optimized API polling intervals, student detail pages, and group list views (`d7533a4`–`b2e7315`, Apr 26).
 
-### Backend (`Django-Test-App-Backend`)
+### Backend (`Knowza-Backend`)
 
 - **Knowza ID System:** Implemented universal access control with `knowza_custom_id` field, case-insensitive login, JWT claim updates, and service entitlement models (`7a2f4d0`–`cda07a6`, Apr 1).
 - **Strict Security Isolation:** Enforced mandatory password verification for all content management views (`df4bede`, Apr 2).

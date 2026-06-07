@@ -1,6 +1,6 @@
 # 🛰 API Reference
 
-This document highlights the key API endpoints exposed by the Knowza Django REST Framework backend (`Django-Test-App-Backend`).
+This document highlights the key API endpoints exposed by the Knowza Django REST Framework backend (`Knowza-Backend`).
 
 All requests must contain an `Authorization` header with a valid JWT token:
 ```text

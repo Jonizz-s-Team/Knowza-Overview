@@ -4,7 +4,7 @@
 [![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite-orange.svg)]()
 [![Backend](https://img.shields.io/badge/backend-Django%205%20%7C%20DRF-blue.svg)]()
 [![Docs](https://img.shields.io/badge/docs-public%20overview-purple.svg)]()
-[![Releases](https://img.shields.io/badge/releases-v2.5.0-blue.svg)](https://github.com/Jonizz14/Knowza-Overview/releases)
+[![Releases](https://img.shields.io/badge/releases-v2.5.0-blue.svg)]()
 
 **Knowza** is a unified multi-role educational SaaS platform designed for private schools and learning centers. It integrates secure online testing, academic scheduling, classroom management, student homework tracking, league gamification, and AI-assisted educational tools under a single ecosystem.
 
@@ -112,9 +112,9 @@ The operational pipeline follows a sequential workflow from registration to eval
 
 ## 🛠 Technology Stack
 
-*   **Frontend SPA:** [Test-App](https://github.com/Jonizz14/Test-App)
+*   **Frontend SPA:** `Knowza`
     *   *Stack:* React 19, Vite, React Router 7, TanStack Query, Axios, Tailwind CSS 4, Ant Design, GSAP, ECharts.
-*   **Backend REST API:** [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend)
+*   **Backend REST API:** `Knowza-Backend`
     *   *Stack:* Django 5, Django REST Framework, SimpleJWT, PostgreSQL, Redis.
 
 ---
@@ -123,9 +123,9 @@ The operational pipeline follows a sequential workflow from registration to eval
 
 | Repository | Description | Tech |
 |---|---|---|
-| [Test-App](https://github.com/Jonizz14/Test-App) | Frontend SPA — Student, Teacher, Admin dashboards | React 19, Vite, Ant Design |
-| [Django-Test-App-Backend](https://github.com/Jonizz14/Django-Test-App-Backend) | REST API — Auth, Tests, Anti-Cheat, SaaS Engine | Django 5, DRF, JWT, PostgreSQL |
-| [Knowza-Overview](https://github.com/Knowza/Knowza-Overview) | Documentation hub — Architecture, API docs, Releases | Markdown |
+| Knowza | Frontend SPA — Student, Teacher, Admin dashboards | React 19, Vite, Ant Design |
+| Knowza-Backend | REST API — Auth, Tests, Anti-Cheat, SaaS Engine | Django 5, DRF, JWT, PostgreSQL |
+| Knowza-Overview | Documentation hub — Architecture, API docs, Releases | Markdown |
 
 ---
 

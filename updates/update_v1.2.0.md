@@ -13,7 +13,7 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Test-App`)
+### Frontend (`Knowza`)
 
 - **Dynamic Island Header:** Designed and implemented a floating Dynamic Island-style header with real-time clock, weather display, and smooth morphing transitions. Inspired by Apple's iOS interface pattern (`604a7b6`–`a06d99d`, Jan 11 – Feb 4).
 - **AI Chat with Gemini:** Integrated a text-based AI assistant powered by Google Gemini API. Includes text selection saving and conversation persistence (`52a517c`–`a136b64`, Jan 11–12).
@@ -28,7 +28,7 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 - **Notes Sidebar:** Added a text selection saving feature with a dedicated notes sidebar, morphing UI, and premium flyer animations (`3d86381`–`773309b`, Jan 30).
 - **3D Model Asset:** Added a MacBook Pro M3 16-inch 2024 3D model (`935fcda`, Jan 25) for use in presentation pages.
 
-### Backend (`Django-Test-App-Backend`)
+### Backend (`Knowza-Backend`)
 
 - No significant backend changes in this period — focus was exclusively on frontend UX.
 

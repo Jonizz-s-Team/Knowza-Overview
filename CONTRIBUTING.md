@@ -9,8 +9,8 @@ As a multi-role EdTech ecosystem, keeping code modular, secure, and clean is cri
 ## 🛠 Codebase Architecture & Standards
 
 Knowza is split into two main systems:
-1.  **Frontend SPA (`Test-App`):** React 19, Vite, Tailwind CSS, TanStack React Query, Ant Design.
-2.  **Backend REST API (`Django-Test-App-Backend`):** Django 5, Django REST Framework, JWT, PostgreSQL.
+1.  **Frontend SPA (`Knowza`):** React 19, Vite, Tailwind CSS, TanStack React Query, Ant Design.
+2.  **Backend REST API (`Knowza-Backend`):** Django 5, Django REST Framework, JWT, PostgreSQL.
 
 ### Frontend Development Guidelines
 

@@ -13,7 +13,7 @@ Introduce panel live refresh functionality, expand the home page with new locali
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Test-App`)
+### Frontend (`Knowza`)
 
 - **Panel Live Refresh:** Implemented a real-time data refresh mechanism with refresh buttons across dashboard panels (`f93c96b`, Jun 3). Later removed the refresh UI element in favor of automatic background polling (`c78595e`, Jun 4).
 - **CSS Input Cleanup:** Cleaned up global CSS input style overrides and removed redundant `size` prop from UpdatesPage search input (`9b9864f`, Jun 3).
@@ -25,7 +25,7 @@ Introduce panel live refresh functionality, expand the home page with new locali
 - **Scaling Section Content:** Updated the scaling/growth section content in translation files with more descriptive text (`5285504`, Jun 5).
 - **Scratch File Cleanup:** Removed all temporary scratch scripts and documentation files from the repository (`94c092d`, Jun 4).
 
-### Backend (`Django-Test-App-Backend`)
+### Backend (`Knowza-Backend`)
 
 - **Identifier Masking:** Custom identifiers (Knowza IDs) are now masked for non-admin users to prevent exposure of internal IDs (`33b6656`, Jun 3).
 - **Tenant Scoping Refinement:** Refined tenant-based scoping logic for more precise data isolation across multi-school environments (`33b6656`, Jun 3).
