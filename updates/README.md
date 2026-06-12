@@ -8,6 +8,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 
 | Version | Period | Title | Key Milestones |
 | --- | --- | --- | --- |
+| **[v2.7.0](./update_v2.7.0.md)** | Jun 6–12, 2026 | Gamified Leagues, Test Complaints & Calendar Migration | Duolingo-style season leagues, test complaints system, homework calendar migration to CalendarJS, draft protection, TanStack Query v5 migration, security scoping. |
 | **[v2.6.0](./update_v2.6.0.md)** | Jun 5, 2026 | Sub-Admin Scope Isolation & Teacher Tests | Full branch isolation, classroom reassignment, teacher test CRUD, Monday calendar, direction system. |
 | **[v2.5.0](./update_v2.5.0.md)** | Jun 3–5, 2026 | Live Refresh & Security Refinements | Panel live refresh, home page expansion, identifier masking, codebase cleanup. |
 | **[v2.4.0](./update_v2.4.0.md)** | Jun 1–2, 2026 | Schedule System & Pricing Overhaul | ScheduleForm, ClassroomForm, unlimited resources, `/me/` profile endpoint. |
@@ -30,7 +31,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 | **Development Span** | 7+ months (Nov 2025 – Jun 2026) |
 | **Frontend Commits** | 500+ |
 | **Backend Commits** | 150+ |
-| **Major Versions** | 12 releases |
+| **Major Versions** | 13 releases |
 | **Active Development Days** | 130+ |
 
 ---
