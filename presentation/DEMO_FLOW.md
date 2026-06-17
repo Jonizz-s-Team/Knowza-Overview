@@ -7,20 +7,20 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 ## ⏱ Demo Preparation Checklist
 
 1.  **Run Services:** Ensure the Django backend (`python manage.py runserver`) and Vite frontend (`npm run dev`) are running locally.
-2.  **Open API Docs:** Keep `http://localhost:8000/swagger/` open in a browser tab to demonstrate back-end integrity.
-3.  **Use Split View:** Arrange browser tabs to show the different user roles (e.g., Chrome Guest window for Student, main window for Admin/Teacher).
+2.  **Open API Docs:** Keep the configured API documentation route open in a browser tab to demonstrate back-end integrity.
+3.  **Use Sanitized Demo Accounts:** Arrange browser tabs to show different user roles with demo-only credentials and non-private account data.
 
 ---
 
 ## 📽 Walkthrough Steps
 
 ### Phase 1: Landing Page & Positioning (2 Mins)
-*   **Action:** Show `http://localhost:5173`. Scroll through the landing page.
+*   **Action:** Open the configured frontend URL. Scroll through the landing page.
 *   **Narrative:** *"This is the public experience of Knowza. We present ourselves as a modern, unified SaaS platform. Unlike a simple quiz site, we handle institutional management, billing, scheduling, and analytics under one ecosystem."*
 *   **Showcase:** Point out the translation picker (UZ, RU, EN) and show the beautiful micro-animations and typography.
 
 ### Phase 2: Admin Dashboard & School Setup (3 Mins)
-*   **Action:** Log in as an Institution Admin (`/knowza/test-platform/admin`).
+*   **Action:** Log in as an Institution Admin using a sanitized demo account.
 *   **Narrative:** *"The Admin represents the school owner. Here, they manage teachers, sub-admins, and students. They can perform high-speed batch actions via bulk CSV user importing."*
 *   **Showcase:** Show the student list table, showing online status indicators (`is_online`) and filtering utilities.
 
@@ -30,12 +30,12 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 *   **Showcase:** Point out the `My Limits` resource indicator, displaying real-time student/teacher quota usages against active tariff boundaries.
 
 ### Phase 4: Teacher & Test Builder (3 Mins)
-*   **Action:** Switch to a Teacher account (`/knowza/test-platform/teacher`).
+*   **Action:** Switch to a Teacher demo account.
 *   **Narrative:** *"Teachers log in to manage learning content. They build tests, configure question cards (supporting image uploads and formulas), publish homework files, and review class performance metrics."*
 *   **Showcase:** Use the Test Builder to create a draft, modify questions, and show the KaTeX math formula rendering capabilities.
 
 ### Phase 5: Student Testing & Anti-Cheat (5 Mins)
-*   **Action:** Switch to a Student account (`/knowza/test-platform/student`).
+*   **Action:** Switch to a Student demo account.
     1.  Start a test session.
     2.  Show the countdown timer syncing.
     3.  **Simulate Cheating:** Alt-Tab out of the browser or click another window. Show the warning toast popup: *"Warning: tab switching detected."*
@@ -49,6 +49,6 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 *   **Showcase:** Show the streak tracker and user ratings dashboard.
 
 ### Phase 7: Tech & DB Audit Proof (2 Mins)
-*   **Action:** Go to the Swagger documentation at `http://localhost:8000/swagger/`.
+*   **Action:** Go to the configured Swagger/OpenAPI documentation route.
 *   **Narrative:** *"Under the hood, all inputs are validated at the database level. Permissions, tenant isolation, and analytics events are strictly audited. Query execution is optimized using select_related to resolve N+1 bottlenecks."*
 *   **Showcase:** Perform a quick GET request to `/api/users/me/` from Swagger UI to demonstrate API responsiveness.

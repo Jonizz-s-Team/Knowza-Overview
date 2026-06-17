@@ -43,3 +43,14 @@ Each markdown file inside this directory outlines:
 2.  **Core Additions:** New capabilities introduced in both frontend and backend, with exact commit references.
 3.  **Deletions & Cleanups:** What was removed to maintain clean architecture and reduce tech debt.
 4.  **Stats:** Commit counts, new models, and development intensity per release cycle.
+
+---
+
+## 🔒 Public Update Safety Checklist
+
+Before publishing a release note, keep the update focused on product and architecture outcomes:
+
+*   Do not include local folder paths, machine usernames, private repository URLs, `.env` values, database dumps, logs, or screenshots with real people/account data.
+*   Use demo names, masked identifiers, and generalized metrics when exact tenant data is not required for the public story.
+*   Mention security fixes by impact and scope, but avoid exposing exploit steps, private endpoints, or implementation details that could help attackers.
+*   Keep commit references only when they are safe to disclose and already part of the public repository history.

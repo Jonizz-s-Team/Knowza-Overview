@@ -9,7 +9,7 @@ This document outlines the strategic slide deck structure, business model analys
 ### Slide 1: The Title
 *   **Headline:** Knowza: The Operating System for Modern Educational Institutions.
 *   **Subtitle:** Secure Assessment, School CRM, and Student Motivation Unified.
-*   **Presenter:** Jakhongir Tukhtaev (Jonizz14)
+*   **Presenter:** Knowza Product Team
 
 ### Slide 2: The Core Problem
 *   **The Dilemma of Modern EdTech:**
@@ -26,7 +26,7 @@ This document outlines the strategic slide deck structure, business model analys
 
 ### Slide 4: Tech Stack Highlights
 *   **Robust Backend:** Built on Python (Django 5 & REST Framework) utilizing a multi-tenant DB structure, optimized SQL transactions, and token-based authentication.
-*   **Premium Frontend:** React 19 SPA running on Vite, Tailwind CSS 4, styled with clean layouts (Radix, MUI), and dynamic micro-animations (GSAP/Framer Motion).
+*   **Premium Frontend:** React 19 SPA running on Vite, Tailwind CSS 4, Ant Design, and dynamic micro-animations (GSAP/Framer Motion).
 *   **Performance Metrics:** Optimizations like N+1 query elimination and version-controlled cache invalidation to support high concurrent testing loads.
 
 ### Slide 5: The Assessment Integrity Model (Knowza Sentinel)
@@ -53,12 +53,11 @@ This document outlines the strategic slide deck structure, business model analys
     *   **Students:** Instantly get feedback and study plans based on test performance.
     *   **Admins:** Review institution progress metrics and weak student projections.
 
-### Slide 9: Local Demo Traction & Statistics
-*   **Active Local Database Footprint:**
-    *   **Users:** 599 (538 Students, 57 Teachers)
-    *   **Active Classes/Groups:** 48
-    *   **Active Subjects:** 39
-    *   **Tariff structures in database:** 47
+### Slide 9: Demo Coverage & Product Depth
+*   **Sanitized Demo Dataset:**
+    *   Hundreds of role-based demo users across student, teacher, and admin workflows.
+    *   Dozens of configured classes, subjects, schedules, tests, and tariff scenarios.
+    *   Representative data only; no private tenant records or production credentials are used in public materials.
 
 ### Slide 10: Future Roadmap
 *   **Phase 1:** Mobile Application (React Native/Flutter client) & parent tracking portal.

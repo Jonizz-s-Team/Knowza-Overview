@@ -17,6 +17,29 @@ ehthumbs.db
 *.tmp
 *.bak
 *.swp
+*.backup
+*.dump
+*.sql
+*.sqlite
+*.sqlite3
 
 # Local logs
 *.log
+
+# Local environment and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials/
+secrets/
+private/
+
+# Local runtime output
+media/
+staticfiles/
+coverage/
+dist/
+build/
