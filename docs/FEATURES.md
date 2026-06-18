@@ -1,88 +1,183 @@
-# Knowza Feature Overview
+# ✨ Knowza Feature Ecosystem
 
-This document provides a high-level summary of the features implemented within the Knowza educational platform.
-
----
-
-## 1. Public Experience & Marketing
-Knowza is designed as a premium SaaS product with a public-facing website to introduce the system to prospective schools, centers, and students.
-*   **Main Navigation:** Home, About, Pricing, FAQ, Contact, Updates (News), and Docs.
-*   **Legal Transparency:** Fully integrated pages for Privacy Policy, Terms of Service, Cookie Policy, Refund Policy, and Disclaimer.
-*   **Localization:** Complete language options for English (EN), Russian (RU), and Uzbek (UZ) using localized JSON translation files.
-*   **UX Design:** Responsive, dark-themed, glassmorphic layouts with smooth entry and hover animations.
+Knowza is an educational operating system designed for schools, learning centers, teachers, and students. The platform combines academic management, assessment infrastructure, AI-powered learning tools, and engagement systems into a unified ecosystem.
 
 ---
 
-## 2. Multi-Role Authentication & Identity
-Focal access points are protected by robust authorization policies, automatically routing users to their designated panels.
-*   **Sign-in Options:** Username/Email + password, unique Knowza ID, or display ID login routes.
-*   **Session Guarding:** Automatic relogin UI triggers upon JWT session expiry, preventing user state loss.
-*   **Account Controls:** Email verification flows, password resets, and Google Sign-In integration pathways.
+## 🌍 Platform Experience
+
+Knowza delivers a modern SaaS experience for educational institutions through a responsive multilingual interface and centralized workspace architecture.
+
+### Public Platform
+
+- Marketing website
+- Pricing and subscription pages
+- FAQ and support resources
+- Product documentation
+- News and platform updates
+- Contact and inquiry channels
+
+### Localization
+
+The platform is fully localized for:
+
+- 🇺🇸 English
+- 🇷🇺 Russian
+- 🇺🇿 Uzbek
+
+### User Experience
+
+- Responsive design across devices
+- Dark-mode optimized interface
+- Smooth page transitions and animations
+- Accessibility-focused navigation
+- Consistent design system
+
+```mermaid
+flowchart LR
+    A[Website] --> B[Authentication]
+    B --> C[Role Workspace]
+    C --> D[Academic Services]
+````
 
 ---
 
-## 3. Dedicated Role Workspaces
+## 🏫 Academic Management System
 
-### Admin (Institution Owner)
-The Admin represents the school owner and manages the entire local school workspace:
-*   Configure local accounts for Teachers, Sub-Admins, and Students.
-*   Configure classrooms, subjects, and student class groups.
-*   Assign teachers to specific groups and subjects.
-*   Monitor student grades, exam attempts, and system activity logs.
-*   View B2B tariff limits (student and teacher quotas) and request plan upgrades.
-*   Perform high-speed batch actions via bulk CSV user importing.
-*   Moderate support tickets, check contact messages, and review premium purchases.
+Knowza provides educational institutions with centralized management tools for organizing students, teachers, classrooms, and academic operations.
 
-### Sub-Admin (Branch Manager)
-*   Manage assigned teachers and students within specific branch scopes.
-*   Oversee class lists, schedules, and subject allocations.
-*   Review branch-level performance statistics.
+### Organization Management
 
-### Teacher (Content Creator & Educator)
-*   Design custom tests and questions (multiple-choice, short-answer, true/false) with KaTeX math rendering and image uploads.
-*   Monitor assigned class performance trends and individual student test history.
-*   Publish homework assignments with file attachments.
-*   Generate mock tests or lesson outlines using AI assistant integrations.
+* School administration
+* Branch administration
+* Teacher assignment
+* Student enrollment
+* Subject management
+* Classroom management
+* Group organization
 
-### Student (Learner)
-*   Browse allowed test listings, module topics, and homework calendars.
-*   Take exams within server-controlled test sessions.
-*   Track academic growth, streaks, levels (XP), and virtual stars.
-*   Interact with peers via profile ratings, likes, and pinned gifts.
-*   Acquire premium access or custom profile colors using star balances.
-*   Query the AI Tutor to review mistake history or generate personal practice guides.
+### Academic Operations
 
----
+* Lesson scheduling
+* Homework management
+* Attendance tracking
+* Grade monitoring
+* Academic analytics
+* Activity reporting
 
-## 4. Server-Authoritative Test Session Engine
-*   **Server control:** Start times, session duration, and answer calculations are managed entirely on the backend database.
-*   **Real-time sync:** Answers are progressively saved during the exam session, ensuring data recovery if a student refreshes their browser.
-*   **Anti-Cheat (Knowza Sentinel):** Tracks browser tab changes and window blur events. Accumulating violations automatically flags the session, aborting the attempt and lodging a 0-score record on the database.
+```mermaid
+flowchart TD
+    A[Institution]
+    A --> B[Teachers]
+    A --> C[Students]
+    A --> D[Subjects]
+    A --> E[Classrooms]
+    A --> F[Schedules]
+```
 
 ---
 
-## 5. Academic Operations & LMS
-*   **Scheduling Calendar:** Daily lesson grid matching rooms, subjects, and teachers to prevent double-bookings.
-*   **Classrooms & Groups:** Standardized groups and subjects to keep students organized.
-*   **Homework Workspace:** Teachers upload assignments, write instructions, and link reference files; students download them and track completed tasks.
+## 📝 Assessment & Integrity Infrastructure
+
+The assessment engine operates using a server-authoritative architecture designed to ensure fairness, reliability, and examination integrity.
+
+### Assessment Services
+
+* Custom test creation
+* Multiple question types
+* Image-based questions
+* Mathematical notation support
+* Assignment publishing
+* Progressive answer synchronization
+
+### Knowza Sentinel
+
+* Browser focus monitoring
+* Tab switching detection
+* Session violation tracking
+* Automated enforcement rules
+* Integrity auditing
+
+### Session Protection
+
+* Automatic recovery after refresh
+* Server-side answer validation
+* Controlled session expiration
+* Real-time synchronization
+
+```mermaid
+flowchart TD
+    A[Test Session]
+    B[Answer Sync]
+    C[Integrity Monitor]
+    D[Backend Validation]
+    E[Database]
+
+    A --> B
+    B --> D
+    D --> E
+    C --> D
+```
 
 ---
 
-## 6. Gamification & Retention Economy
-*   **XP Progression:** Points awarded from tests increase student levels and determine weekly League brackets.
-*   **Streak Tracker:** Tracks daily learning consistency.
-*   **Stars Currency:** Earned via high test performance or awarded by admins. Students spend stars on profile decorations (likes, custom labels, premium tags).
-*   **Weekly Leagues:** Encourages peer competition with automated weekly promotion and demotion calculations.
+## 🤖 AI & Student Growth Systems
+
+Knowza integrates artificial intelligence and gamification systems to improve learning outcomes and long-term engagement.
+
+### AI Services
+
+* AI Test Generation
+* AI Learning Assistant
+* AI Study Planning
+* AI Performance Analytics
+* Personalized Recommendations
+
+### Student Progression
+
+* Experience Points (XP)
+* Learning Streaks
+* Weekly Leagues
+* Achievement Systems
+* Virtual Currency
+
+### Premium Ecosystem
+
+* Premium assessments
+* Profile customization
+* Star marketplace
+* Reward systems
+
+```mermaid
+flowchart LR
+    A[Student Activity]
+    B[XP System]
+    C[AI Analytics]
+    D[Recommendations]
+    E[Growth Tracking]
+
+    A --> B
+    A --> C
+    C --> D
+    B --> E
+```
 
 ---
 
-## 7. SaaS Billing & Monetization
-*   **B2B Licensing:** Admins request tariff upgrades based on school needs. Tiers control user limits, subject capacities, and AI quotas.
-*   **B2C Micro-Transactions:** Students purchase star packs to unlock specialized premium tests or customized profiles.
+## 🚀 Unified Educational Ecosystem
 
----
+Knowza brings together administration, learning management, assessment infrastructure, artificial intelligence, and student engagement into a single integrated platform.
 
-## 8. AI Assistance Layer
-*   **AI Test Gen:** Creates fully structured exams from teacher outlines or uploaded files.
-*   **AI Coach:** Explains incorrect answers, provides reference tutorials, and compiles study schedules.
-*   **AI Analytics:** Groups students by strength and highlights academic risks.
+```mermaid
+flowchart TD
+    A[Knowza]
+
+    A --> B[Academic Management]
+    A --> C[Assessment Engine]
+    A --> D[AI Systems]
+    A --> E[Gamification]
+    A --> F[SaaS Administration]
+```
+
+```
+```
