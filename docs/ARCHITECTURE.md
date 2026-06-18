@@ -1,110 +1,118 @@
-# 🏗 System Architecture & Security Isolation
+# Knowza Public Architecture Overview
 
-This document outlines the high-level architecture, database schemas, and data security models implemented across the Knowza educational platform.
-
----
-
-## 🏛 1. Multi-Tenant Isolation Model
-
-Knowza is a multi-tenant SaaS application where multiple schools or learning centers (tenants) share the same application instance and database. Maintaining absolute isolation between these tenants is critical.
-
-### Data Scoping
-Each model containing tenant-specific records (e.g., `Student`, `Teacher`, `Group`, `Subject`, `Classroom`, `Test`) is associated with an `Organization` (tenant ID).
-*   **Queryset Scoping:** Instead of filtering by organization manually in every Django view, data access is handled via **Selectors** and **Mixins** that automatically apply tenant-based scoping filters.
-*   **Administrative Scope:** An `Admin` user can only search, import, or modify users belonging to their own `Organization`.
-*   **Isolation Level:** Students and teachers from School A cannot view classes, test materials, or profiles from School B.
+This document provides a public-safe architectural blueprint of the Knowza Educational Platform, outlining the frontend and backend systems, data layers, and overall security isolation patterns.
 
 ---
 
-## 🛡 2. Server-Authoritative Test Session & Anti-Cheat
-
-One of Knowza's biggest technical advantages is its backend-driven assessment system. Client-side variables (such as client time or browser state) are never trusted for test calculations.
-
-### Test Session Lifecycle
-
-```mermaid
-sequenceDiagram
-    participant Student as Student (React App)
-    participant API as REST API (Django)
-    participant DB as PostgreSQL DB
-
-    Student->>API: POST /api/sessions/ (Start Test)
-    API->>DB: Check Daily Quota & Active Session
-    API->>DB: Create TestSession (started_at, expires_at)
-    API-->>Student: Return TestSession Metadata (No answers!)
-    
-    loop During Test
-        Student->>API: PATCH /api/sessions/{id}/ (Sync answers in real-time)
-        API->>DB: Update Session Answers
-    end
-
-    alt Time expires or Manual Submit
-        Student->>API: POST /api/sessions/{id}/submit/ (Complete)
-    else Tab switching or Focus loss limit exceeded
-        Student->>API: System trigger (Cheating detected)
-        API->>DB: Record TestViolation, force-close session (Score = 0)
-    end
-    
-    API->>DB: Calculate score, award XP/Stars, log Attempt
-    API-->>Student: Return final Score & Attempt Results
-```
-
-### Knowza Sentinel (Anti-Cheat Engine)
-The frontend monitors student behavior using browser API listeners:
-*   `visibilitychange`: Fires when the student switches tabs or minimizes the browser.
-*   `blur`: Fires when the student clicks outside the test window.
-*   **Action:** When a violation is triggered, the frontend increments the violation count and syncs it with the backend via `POST /api/test-violations/`.
-*   **Progressive Bans:** The backend registers violations. If a student exceeds the allowed limit of violations, the system creates a `TestBan` record:
-    *   Fills active session scores with `0`.
-    *   Bans the student from taking any tests for a set duration (e.g., 24 hours, custom configurations).
-
----
-
-## ⚡ 3. Database ERD Overview (Key Models)
-
-The backend organizes data around several core model clusters:
+## 1. High-Level Blueprint
 
 ```text
-                  ┌───────────────────┐
-                  │    Organization   │ (Tenant)
-                  └─────────┬─────────┘
-                            │
-        ┌───────────────────┼───────────────────┐
-        ▼                   ▼                   ▼
-┌──────────────┐    ┌──────────────┐    ┌──────────────┐
-│  User (Auth) │    │  Classroom   │    │   Subject    │
-└───────┬──────┘    └──────────────┘    └──────────────┘
-        │
-        ├───────────────┬───────────────────────┐
-        ▼               ▼                       ▼
-┌──────────────┐┌──────────────┐        ┌──────────────┐
-│ AdminTariff  ││ TestAttempt  │        │    Group     │
-└──────────────┘└───────┬──────┘        └───────┬──────┘
-                        │                       │
-                        ▼                       ▼
-                ┌──────────────┐        ┌──────────────┐
-                │ TestSession  │        │   Homework   │
-                └──────────────┘        └──────────────┘
+  ┌────────────────────────────────────────────────────────┐
+  │                        Browser                         │
+  └───────────────────────────┬────────────────────────────┘
+                              │ HTTP / JSON / JWT
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │                    React/Vite SPA                      │ (Client Side)
+  └───────────────────────────┬────────────────────────────┘
+                              │ REST API
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │                 Django REST API Backend                │ (Server Side)
+  │                                                        │
+  │  * Authentication & Custom User Model                  │
+  │  * Tenant Scoping Selector Layers                      │
+  │  * Server-Side Test Session Lifecycle                  │
+  │  * Anti-Cheat Sentinel Logs & Bans                     │
+  │  * Automated Threaded Email Engine                     │
+  │  * AI Integration Endpoints & Limit Controls           │
+  └───────────────────────────┬────────────────────────────┘
+                              │ ORM Queries
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │       PostgreSQL DB / Cache Cache / Media Storage      │ (Data Layer)
+  └────────────────────────────────────────────────────────┘
 ```
-
-### Key Models & Fields
-1.  **User Model:** Custom User model extending Django's `AbstractUser`, tracking `role` (admin, sub_admin, teacher, student, seller, content_manager), `organization`, and `is_online`.
-2.  **Test & Question Models:** Multi-choice, short-answer, and true/false question banks. Supports images, options structures, and KaTeX formatting.
-3.  **Monetization Models:**
-    *   `AdminTariff`: SaaS tiers governing administrative limits (e.g., max students/teachers).
-    *   `PremiumPurchase` & `StarPackage`: Audit ledger for purchases, stars, and reward refund transactions.
 
 ---
 
-## 🚀 4. Performance Optimization Architecture
+## 2. Frontend Layer (React SPA)
+The client application is built as a single-page React 19 web app compiled with Vite.
 
-To handle hundreds of concurrent test takers without backend lag, we implemented several performance-oriented optimizations:
+### Core Modules
+*   **State & Sync:** Employs TanStack React Query to synchronise server state with local memory, managing updates, caching, and fetch retries.
+*   **Routing:** React Router governs role-specific dashboard views (`/knowza/test-platform/admin/*`, `/teacher/*`, `/student/*`), checking permissions dynamically.
+*   **Themes & Styling:** Standardised using Tailwind CSS 4, styled layouts (MUI, Radix, Ant Design), and sleek entry animations.
+*   **Localisation:** Manages translations across three languages (`en`, `ru`, `uz`) using `i18next`.
 
-### N+1 Query Resolution
-In legacy code, rendering dashboard lists triggered separate database queries for every user, test, and group.
-*   **Fix:** Integrated `select_related` for foreign key relationships (e.g., user profiles, test sessions) and `prefetch_related` for many-to-many relationships (e.g., classrooms, subjects).
-*   **Result:** Reduced query counts by up to **80%** on complex list views.
+---
 
-### Caching Architecture
-*   **Analytical Cache:** Analytics calculations (e.g., student ranking, class progress averages) are cached.
-*   **Version-Based Invalidation:** Caches expire dynamically. When modifications occur (e.g., a test is completed), a cache version key is updated, forcing cache refreshes only when data changes.
+## 3. Backend Layer (Django REST Framework)
+The server coordinates the business logic, tenant separations, and database records.
+
+### Core Architecture
+*   **Identity Models:** Custom User model extending standard Django `AbstractUser`, tracking roles, organizations, and user online status.
+*   **Tenant Filtering:** Ensures security by filtering queryset outputs. Custom serializers and selectors verify that an institution admin cannot fetch, alter, or search users outside their own school ID scope.
+*   **Optimization Layer:** Eliminates N+1 database bottlenecks inside serializers using pre-optimized `select_related` and `prefetch_related` queries.
+*   **Queue Operations:** Leverages threaded execution queues to handle bulk email updates, registration codes, support notifications, and tariff requests.
+
+---
+
+## 4. Integrity Systems (Sessions & Anti-Cheat)
+To maintain academic credibility, the testing module runs under a backend-authoritative architecture.
+*   **TestSession:** When a student begins a test, the server writes a `TestSession` containing absolute duration constraints and daily quotas.
+*   **Answer Syncing:** Standard PATCH endpoints sync answers continuously. If a browser crashes, session data is restored directly from the server.
+*   **Knowza Sentinel:** Monitors window focus changes. Browser warnings notify students, and repeated tab shifts register `TestViolation` database records, triggering an automatic `TestBan` that terminates the session with a 0-score.
+
+---
+
+## 5. Monetization & SaaS Framework
+*   **B2B Quota Controls:** An `AdminTariff` enforces limits on local users, classrooms, and subjects.
+*   **B2C Micro-Transactions:** A dynamic star-ledger ledger logs student premium updates, star purchases, and course unlocks, with built-in refund audits.
+
+---
+
+## 6. Formal Mathematical & Algorithmic Data Exchange Model
+
+For academic and formal system audits, the data exchange pipeline between the client SPA ($C$) and backend services ($S$) can be modeled as a **Server-Authoritative Finite State Machine (FSM)** with monotonic integrity checks and strict relational database partitioning.
+
+### 6.1 State Synchronization & Temporal Monotonicity
+Let the state of an active testing session at time step $t$ be defined as a tuple:
+$$\mathcal{S}_t = \langle \mathcal{Q}, \mathcal{A}_t, \mathcal{T}_{expire}, \mathcal{V}_t \rangle$$
+Where:
+*   $\mathcal{Q}$ is the immutable question space.
+*   $\mathcal{A}_t = \{ (q_i, a_i) \mid q_i \in \mathcal{Q} \}$ is the set of registered student answers synchronized at step $t$.
+*   $\mathcal{T}_{expire} \in \mathbb{R}^+$ is the absolute UTC epoch boundary after which state changes are rejected.
+*   $\mathcal{V}_t \in \mathbb{N}$ is the monotonic count of integrity violations.
+
+The client state update function $\Phi$ is client-initiated but server-evaluated. Given a client mutation vector $\delta_t = \langle q_k, a'_k \rangle$ sent via `PUT /api/v1/exams/sessions/sync` at epoch $\tau$, the server applies the transition function:
+$$\Gamma(\mathcal{S}_t, \delta_t, \tau) \to \mathcal{S}_{t+1}$$
+
+Defined as:
+$$\mathcal{S}_{t+1} = \begin{cases}
+\text{TerminalState}(\mathcal{S}_{ban}), & \text{if } \mathcal{V}_t \ge \theta_{\text{max}} \text{ or } \tau > \mathcal{T}_{expire} \\
+\langle \mathcal{Q}, \mathcal{A}_t \setminus \{(q_k, a_k)\} \cup \{(q_k, a'_k)\}, \mathcal{T}_{expire}, \mathcal{V}_t \rangle, & \text{otherwise}
+\end{cases}$$
+
+This ensures that the client cannot write state updates after $\mathcal{T}_{expire}$ or once the integrity violation limit $\theta_{\text{max}}$ is exceeded.
+
+### 6.2 Relational Tenant Partitioning Predicate
+Database isolation is enforced at the database projection layer. Let $U$ be the authenticated user context, and let $D$ be a relational tuple in any database table. The security guard verifies accessibility using a boolean validation predicate $\Psi(U, D)$:
+$$\Psi(U, D) := \big( \text{Org}(U) = \text{Org}(D) \big) \land \big( \text{Role}(U) \succeq \text{RoleReq}(D) \big)$$
+
+Where:
+*   $\text{Org}(x)$ maps entity $x$ to its unique SaaS tenant identifier.
+*   $\succeq$ represents a partial ordering over the user role hierarchy:
+$$\text{Student} \prec \text{Teacher} \prec \text{BranchManager} \prec \text{Admin}$$
+
+If $\Psi(U, D) = 0$, the server returns a HTTP $403 \text{ Forbidden}$ payload and drops the database socket connection to prevent blind-injection profiling.
+
+### 6.3 Real-time Telemetry Processing (Knowza Sentinel)
+The anti-cheat module models user focus telemetry as a discrete time series of focus state transitions $E = \{e_1, e_2, \dots, e_n\}$, where each event $e_i = \langle \Delta t_i, \text{type}_i \rangle$ indicates a transition out of the active browser viewport:
+$$\text{type}_i \in \{ \text{VisibilityHidden}, \text{WindowBlur} \}$$
+
+A continuous audit algorithm aggregates this sequence on the backend. When a client reports an event $e_k$ via `POST /api/v1/exams/violations/report`, the server computes the update:
+$$\mathcal{V}_{t+1} = \mathcal{V}_t + \mathbb{I}\left(\text{type}_k \in \{\text{VisibilityHidden}, \text{WindowBlur}\} \land \Delta t_k > \epsilon\right)$$
+
+Where $\mathbb{I}$ is the indicator function, and $\epsilon$ is a configuration-defined tolerance threshold (e.g., $150\text{ ms}$) to filter out OS-level render lags and browser frame shifts.
+

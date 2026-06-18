@@ -17,7 +17,7 @@ Knowza is designed as a premium SaaS product with a public-facing website to int
 Focal access points are protected by robust authorization policies, automatically routing users to their designated panels.
 *   **Sign-in Options:** Username/Email + password, unique Knowza ID, or display ID login routes.
 *   **Session Guarding:** Automatic relogin UI triggers upon JWT session expiry, preventing user state loss.
-*   **Account Controls:** Email verification flows, password resets, and Appwrite Google Sign-In helper pathways.
+*   **Account Controls:** Email verification flows, password resets, and Google Sign-In integration pathways.
 
 ---
 

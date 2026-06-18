@@ -40,7 +40,7 @@ This document details the optimal step-by-step walkthrough to present the Knowza
     2.  Show the countdown timer syncing.
     3.  **Simulate Cheating:** Alt-Tab out of the browser or click another window. Show the warning toast popup: *"Warning: tab switching detected."*
     4.  Repeat the tab switches until the warning threshold is reached. Show how the session is forced-closed and banned.
-*   **Narrative:** *"When a student starts an exam, a server session is created. If the student attempts to cheat by leaving the page, Knowza Sentinel catches the window blur events in real-time. Exceeding thresholds triggers an automatic backend ban, score invalidation, and logs a TestViolation record."*
+*   **Narrative:** *"When a student starts an exam, a server session is created. If the student attempts to cheat by leaving the page, Knowza Sentinel catches the window blur events in real-time. Exceeding thresholds triggers an automatic backend ban, score invalidation, and logs a security violation."*
 *   **Showcase:** Show the results screen (0 points due to cheating) or a successfully completed test displaying XP and Stars distribution.
 
 ### Phase 6: Gamification Profile (2 Mins)
@@ -48,7 +48,7 @@ This document details the optimal step-by-step walkthrough to present the Knowza
 *   **Narrative:** *"To encourage students, we leverage gamification. Scoring high yields stars and XP. Stars can be used to customize profiles (e.g., buying badges or custom theme colors), while XP ranks them in Weekly Leagues."*
 *   **Showcase:** Show the streak tracker and user ratings dashboard.
 
-### Phase 7: Tech & DB Audit Proof (2 Mins)
-*   **Action:** Go to the configured Swagger/OpenAPI documentation route.
-*   **Narrative:** *"Under the hood, all inputs are validated at the database level. Permissions, tenant isolation, and analytics events are strictly audited. Query execution is optimized using select_related to resolve N+1 bottlenecks."*
-*   **Showcase:** Perform a quick GET request to `/api/users/me/` from Swagger UI to demonstrate API responsiveness.
+### Phase 7: API Standards & Performance (2 Mins)
+*   **Action:** Open the API schema or interactive documentation sandbox.
+*   **Narrative:** *"Under the hood, all user operations are secured through standard API controls. Permissions and tenant boundaries are strictly validated on the server. The backend is designed for high concurrency with automated query optimization and database query caching."*
+*   **Showcase:** Query a profile or health endpoint from the API documentation interface to demonstrate sub-second response times.

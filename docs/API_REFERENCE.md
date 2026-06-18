@@ -1,102 +1,108 @@
-# 🛰 API Reference
+# 🛰 API Reference (Conceptual Overview)
 
-This document highlights the key API endpoints exposed by the Knowza Django REST Framework backend (`Knowza-Backend`).
+This document highlights the core REST API paradigms and conceptual endpoints exposed by the Knowza backend services. 
 
-All requests must contain an `Authorization` header with a valid JWT token:
+> [!NOTE]
+> To protect production security, all endpoints, parameters, and payloads shown here are generalized abstractions and do not represent the exact URL structures or field schemas implemented in the live production system.
+
+All API requests are authenticated using token-based authentication via the `Authorization` header:
 ```text
-Authorization: Bearer <your_jwt_access_token>
+Authorization: Bearer <auth_token>
 ```
 
 ---
 
-## 🔑 1. Authentication Endpoints
+## 🔑 1. Authentication & Identity
 
-### User Login
-Authenticate credentials and return JWT session tokens.
+### User Authentication
+Verifies credentials and returns session tokens along with high-level user context.
 
-*   **Endpoint:** `POST /api/users/login/`
+*   **Endpoint:** `POST /api/v1/auth/login`
 *   **Request Body:**
     ```json
     {
-      "username_or_email": "student@knowza.com",
-      "password": "securepassword123"
+      "username": "user@example.com",
+      "password": "user_password_hash"
     }
     ```
 *   **Response (200 OK):**
     ```json
     {
-      "access": "access_token_jwt_hash",
-      "refresh": "refresh_token_jwt_hash",
+      "token_access": "jwt_access_token_example",
+      "token_refresh": "jwt_refresh_token_example",
       "user": {
-        "id": "KNZ-982736",
-        "username": "student_johndoe",
-        "email": "student@knowza.com",
+        "id": 1001,
+        "username": "student_demo",
+        "email": "user@example.com",
         "role": "student",
-        "first_name": "John",
-        "last_name": "Doe",
-        "organization_id": 4,
-        "is_online": true
+        "first_name": "Demo",
+        "last_name": "Student",
+        "organization_id": 42
       }
     }
     ```
 
-### Retrieve Profile Info
-Retrieve or update the active user's profile details.
+### Retrieve Profile Details
+Fetches profile context, active streaks, and gamification balances for the authenticated user.
 
-*   **Endpoint:** `GET /api/users/me/`
+*   **Endpoint:** `GET /api/v1/auth/profile`
 *   **Response (200 OK):**
     ```json
     {
-      "id": "KNZ-982736",
-      "first_name": "John",
-      "last_name": "Doe",
-      "email": "student@knowza.com",
+      "id": 1001,
+      "first_name": "Demo",
+      "last_name": "Student",
+      "email": "user@example.com",
       "role": "student",
-      "stars_count": 120,
-      "xp_count": 4500,
-      "streak_count": 5,
-      "premium_status": "premium_tier_1",
-      "is_online": true
+      "gamification": {
+        "balance_stars": 120,
+        "experience_points": 4500,
+        "active_streak_days": 5
+      },
+      "settings": {
+        "theme": "dark",
+        "notifications_enabled": true
+      }
     }
     ```
 
 ---
 
-## 📝 2. Test Sessions & Integrity
+## 📝 2. Assessment Sessions & Integrity
 
-### Start Test Session
-Initialize a server-authoritative session for taking a test.
+### Initialize Assessment Session
+Creates a server-authoritative session tracking duration limits and start constraints.
 
-*   **Endpoint:** `POST /api/sessions/start_session/`
+*   **Endpoint:** `POST /api/v1/exams/sessions/start`
 *   **Request Body:**
     ```json
     {
-      "test_id": 12
+      "exam_id": 12
     }
     ```
 *   **Response (201 Created):**
     ```json
     {
-      "session_id": "ses-abc123xyz",
-      "test_title": "Algebra Math Exam",
+      "session_id": "session_uuid_token",
+      "exam_title": "Mathematics Assessment",
       "started_at": "2026-06-05T12:00:00Z",
       "expires_at": "2026-06-05T12:45:00Z",
-      "allowed_violations": 3,
-      "questions_count": 20
+      "integrity_threshold": 3,
+      "total_questions": 20
     }
     ```
 
-### Sync Answers (Progressive Save)
-Save selections/answers progressively during an active session.
+### Sync Answer Progress (Progressive Save)
+Progressively synchronizes active choices during an exam session to protect against data loss.
 
-*   **Endpoint:** `PUT /api/sessions/update_answers/`
+*   **Endpoint:** `PUT /api/v1/exams/sessions/sync`
 *   **Request Body:**
     ```json
     {
-      "session_id": "ses-abc123xyz",
-      "answers": {
-        "question_101": "A",
-        "question_102": "C"
+      "session_id": "session_uuid_token",
+      "responses": {
+        "question_id_101": "answer_choice_A",
+        "question_id_102": "answer_choice_C"
       }
     }
     ```
@@ -104,53 +110,53 @@ Save selections/answers progressively during an active session.
     ```json
     {
       "status": "synchronized",
-      "saved_answers_count": 2
+      "saved_items": 2
     }
     ```
 
-### Log Cheat Violation
-Notify backend of focus loss, blur, or tab-switch violations.
+### Log Session Security Event
+Reports interface focus events or potential anti-cheat alerts to the backend security auditor.
 
-*   **Endpoint:** `POST /api/test-violations/report/`
+*   **Endpoint:** `POST /api/v1/exams/violations/report`
 *   **Request Body:**
     ```json
     {
-      "session_id": "ses-abc123xyz",
-      "violation_type": "tab_switch",
-      "details": "User shifted focus from testing page"
+      "session_id": "session_uuid_token",
+      "event_type": "focus_loss",
+      "details": "Client shifted focus from active viewport"
     }
     ```
 *   **Response (201 Created):**
     ```json
     {
-      "violation_id": 451,
-      "current_violations_count": 2,
-      "status": "warning",
-      "message": "Tab switching detected. Warning 2 of 3."
+      "event_id": 98451,
+      "accumulated_events": 2,
+      "action": "warn",
+      "message": "Focus loss detected. Session will terminate if threshold is exceeded."
     }
     ```
 
 ---
 
-## 📊 3. Admin & Tariffs
+## 📊 3. Organization Administration & Limits
 
-### My Limits
-Retrieve current SaaS quotas and resource usage details for the active institution admin.
+### Retrieve Resource Quotas
+Queries current tenant limits, subscription tier details, and seat usage stats.
 
-*   **Endpoint:** `GET /api/admin-tariffs/my_limits/`
+*   **Endpoint:** `GET /api/v1/organizations/limits`
 *   **Response (200 OK):**
     ```json
     {
-      "tariff_name": "Premium School Plan",
-      "limits": {
-        "max_students": 500,
-        "max_teachers": 30,
-        "max_sub_admins": 3
+      "tier_name": "Premium License",
+      "quotas": {
+        "max_student_accounts": 500,
+        "max_teacher_accounts": 30,
+        "max_branch_managers": 3
       },
       "usage": {
-        "current_students": 438,
-        "current_teachers": 21,
-        "current_sub_admins": 2
+        "active_students": 438,
+        "active_teachers": 21,
+        "active_branch_managers": 2
       }
     }
     ```

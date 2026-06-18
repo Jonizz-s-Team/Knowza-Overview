@@ -62,7 +62,7 @@ All screenshots in this public overview use sanitized demo data. Personal names,
 
 To understand different layers of Knowza, explore the links below:
 
-*   **System Architecture Details:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — Database models, tenant query filtering, and server-side lifecycle sequence diagrams.
+*   **System Architecture Details:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — High-level system structure, frontend/backend layers, and integrity mechanisms.
 *   **Public API Structure:** [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) — Secure REST endpoints for login, test sessions, anti-cheat reports, and limit checks.
 *   **Feature Inventory:** [`docs/FEATURES.md`](docs/FEATURES.md) — Detailed breakdown of features per role and component.
 *   **Pitch & Product Strategy:** [`presentation/PITCH_DECK.md`](presentation/PITCH_DECK.md) — Slide outline, market positioning, and SaaS monetization model.
