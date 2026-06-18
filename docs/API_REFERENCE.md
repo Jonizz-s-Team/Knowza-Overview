@@ -1,4 +1,3 @@
-````md
 # 🛰 API Reference (Conceptual Overview)
 
 This section presents a high-level overview of the primary API domains powering the Knowza educational ecosystem.
