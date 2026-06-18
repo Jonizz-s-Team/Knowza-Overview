@@ -154,43 +154,107 @@ To maintain academic credibility, the testing module runs under a backend-author
 
 For academic and formal system audits, the data exchange pipeline between the client SPA ($C$) and backend services ($S$) can be modeled as a **Server-Authoritative Finite State Machine (FSM)** with monotonic integrity checks and strict relational database partitioning.
 
-### 6.1 State Synchronization & Temporal Monotonicity
-Let the state of an active testing session at time step $t$ be defined as a tuple:
-$$\mathcal{S}_t = \langle \mathcal{Q}, \mathcal{A}_t, \mathcal{T}_{expire}, \mathcal{V}_t \rangle$$
-Where:
-*   $\mathcal{Q}$ is the immutable question space.
-*   $\mathcal{A}_t = \{ (q_i, a_i) \mid q_i \in \mathcal{Q} \}$ is the set of registered student answers synchronized at step $t$.
-*   $\mathcal{T}_{expire} \in \mathbb{R}^+$ is the absolute UTC epoch boundary after which state changes are rejected.
-*   $\mathcal{V}_t \in \mathbb{N}$ is the monotonic count of integrity violations.
+````md
+### 6.1 State Synchronization & Session Lifecycle
 
-The client state update function $\Phi$ is client-initiated but server-evaluated. Given a client mutation vector $\delta_t = \langle q_k, a'_k \rangle$ sent via `PUT /api/v1/exams/sessions/sync` at epoch $\tau$, the server applies the transition function:
-$$\Gamma(\mathcal{S}_t, \delta_t, \tau) \to \mathcal{S}_{t+1}$$
+The examination system follows a server-authoritative session model. All answer submissions, session validations, and integrity checks are processed by the backend before being persisted.
 
-Defined as:
-$$\mathcal{S}_{t+1} = \begin{cases}
-\text{TerminalState}(\mathcal{S}_{ban}), & \text{if } \mathcal{V}_t \ge \theta_{\text{max}} \text{ or } \tau > \mathcal{T}_{expire} \\
-\langle \mathcal{Q}, \mathcal{A}_t \setminus \{(q_k, a_k)\} \cup \{(q_k, a'_k)\}, \mathcal{T}_{expire}, \mathcal{V}_t \rangle, & \text{otherwise}
-\end{cases}$$
+```mermaid
+flowchart TD
+    A[Student Starts Test] --> B[Session Created]
+    B --> C[Submit Answer]
+    C --> D[Backend Validation]
 
-This ensures that the client cannot write state updates after $\mathcal{T}_{expire}$ or once the integrity violation limit $\theta_{\text{max}}$ is exceeded.
+    D --> E{Session Valid?}
 
-### 6.2 Relational Tenant Partitioning Predicate
-Database isolation is enforced at the database projection layer. Let $U$ be the authenticated user context, and let $D$ be a relational tuple in any database table. The security guard verifies accessibility using a boolean validation predicate $\Psi(U, D)$:
-$$\Psi(U, D) := \big( \text{Org}(U) = \text{Org}(D) \big) \land \big( \text{Role}(U) \succeq \text{RoleReq}(D) \big)$$
+    E -->|Yes| F[Store Answer]
+    F --> G[Sync Updated State]
+    G --> C
 
-Where:
-*   $\text{Org}(x)$ maps entity $x$ to its unique SaaS tenant identifier.
-*   $\succeq$ represents a partial ordering over the user role hierarchy:
-$$\text{Student} \prec \text{Teacher} \prec \text{BranchManager} \prec \text{Admin}$$
+    E -->|No| H[Reject Update]
+    H --> I[Terminate Session]
+````
 
-If $\Psi(U, D) = 0$, the server returns a HTTP $403 \text{ Forbidden}$ payload and drops the database socket connection to prevent blind-injection profiling.
+The server automatically rejects updates if:
 
-### 6.3 Real-time Telemetry Processing (Knowza Sentinel)
-The anti-cheat module models user focus telemetry as a discrete time series of focus state transitions $E = \{e_1, e_2, \dots, e_n\}$, where each event $e_i = \langle \Delta t_i, \text{type}_i \rangle$ indicates a transition out of the active browser viewport:
-$$\text{type}_i \in \{ \text{VisibilityHidden}, \text{WindowBlur} \}$$
+* The session expiration time has been reached.
+* The integrity violation threshold has been exceeded.
+* The session has already been terminated.
 
-A continuous audit algorithm aggregates this sequence on the backend. When a client reports an event $e_k$ via `POST /api/v1/exams/violations/report`, the server computes the update:
-$$\mathcal{V}_{t+1} = \mathcal{V}_t + \mathbb{I}\left(\text{type}_k \in \{\text{VisibilityHidden}, \text{WindowBlur}\} \land \Delta t_k > \epsilon\right)$$
+This architecture guarantees that examination state cannot be manipulated directly from the client.
 
-Where $\mathbb{I}$ is the indicator function, and $\epsilon$ is a configuration-defined tolerance threshold (e.g., $150\text{ ms}$) to filter out OS-level render lags and browser frame shifts.
+---
 
+### 6.2 Multi-Tenant Security & Access Control
+
+Knowza enforces strict tenant isolation and role-based authorization for every request.
+
+```mermaid
+flowchart LR
+    A[User Request] --> B[Authentication]
+    B --> C[Organization Check]
+    C --> D[Role Validation]
+
+    D --> E{Authorized?}
+
+    E -->|Yes| F[Access Resource]
+    E -->|No| G[403 Forbidden]
+```
+
+#### Role Hierarchy
+
+```text
+Student
+   │
+   ▼
+Teacher
+   │
+   ▼
+Branch Manager
+   │
+   ▼
+Administrator
+```
+
+Security principles:
+
+* Users can access only data belonging to their organization.
+* Role permissions are enforced on every endpoint.
+* Unauthorized requests are rejected and logged.
+* Cross-tenant access is blocked by default.
+
+---
+
+### 6.3 Real-Time Integrity Monitoring (Knowza Sentinel)
+
+Knowza Sentinel continuously monitors examination activity and records integrity-related events.
+
+```mermaid
+flowchart TD
+    A[Student Activity] --> B[Focus Monitoring]
+
+    B --> C{Violation Detected?}
+
+    C -->|No| D[Continue Test]
+
+    C -->|Yes| E[Create Violation Record]
+    E --> F[Increase Violation Count]
+
+    F --> G{Limit Reached?}
+
+    G -->|No| D
+    G -->|Yes| H[Automatic Test Ban]
+    H --> I[Session Terminated]
+```
+
+Monitored events include:
+
+* Browser tab switching
+* Window focus loss
+* Visibility changes
+* Suspicious navigation behavior
+
+To reduce false positives, the system applies configurable tolerance thresholds before recording violations.
+
+```
+```
