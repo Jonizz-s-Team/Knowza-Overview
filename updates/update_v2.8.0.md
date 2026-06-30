@@ -1,14 +1,14 @@
-# 🚀 Update v2.8.0 — Legal Documentation Overhaul, Backend Data Audit & B2B/B2C Model Clarification
+# 🚀 Update v2.8.0 — Branch Admin Migration, Profile Extension, Billing Upgrades & Legal Documentation Overhaul
 
-**Release Period:** June 29 – June 30, 2026  
-**Commits:** ~8 (Frontend) · ~0 (Backend)  
-**Lines Changed:** +620 / −85  
+**Release Period:** June 21 – June 30, 2026  
+**Commits:** ~19 (Frontend) · ~13 (Backend)  
+**Lines Changed:** +12,844 / −18,429  
 
 ---
 
 ## 🎯 Release Goal
 
-Conduct a full backend data audit to map exactly what information is collected per user role, rewrite all five legal pages (Privacy Policy, Terms of Service, Cookie Policy, Refund Policy, Disclaimer) to reflect the actual platform data model, introduce a formal B2B/B2C payment model separation clause, synchronize all "Last Updated" dates across the platform, and add a dedicated data isolation section documenting the multi-tenant access control architecture.
+Consolidate a major platform migration renaming all Sub-Admin references to Branch Admin, expand Teacher and Student profiles with comprehensive administrative and academic fields, integrate secure document storage paths, rebuild the subscription management and B2B invoice generation engine with JWT validation, synchronize all platform-wide legal policies (Privacy, Terms, Cookies, Refund, Disclaimer) to June 30, 2026, and officially codify B2B/B2C payment isolation and multi-tenant data access control rules.
 
 ---
 
@@ -16,68 +16,41 @@ Conduct a full backend data audit to map exactly what information is collected p
 
 ### Frontend (`Knowza`)
 
-- **Privacy Policy — Role-Based Data Collection (Section 2 Rewrite):** Completely rewrote Section 2 of `PrivacyPage.jsx` across all three languages (UZ/EN/RU) to document data collection by user role. Each role now has a dedicated subsection:
-  - **Admin:** Organization name, institution type (school/learning center/private tutor), country, full name, primary and additional phone numbers, tariff plan, payment history, and access isolation note.
-  - **Teacher:** Full name, email, Display ID, subject specialization, position (Teacher/Senior Teacher/Lead Teacher), experience years, qualification level, hire date, assigned classes, social links, and official documents (passport copy, diploma, certificates, employment contract — all optional, uploaded by admin).
-  - **Student:** Full name, middle name, last name, email, Display ID, date of birth, gender, home address, enrollment date, parent/guardian names and phone numbers (separate fields for father, mother, guardian), relationship type, group, study direction, study status, test results, average score, XP points, daily streak, premium status, star balance, profile photo, and student notes.
-  - **All roles:** Technical logs (IP, browser, OS, device) for Knowza Sentinel Anti-Cheat, payment transaction history, and last activity timestamps.
+- **Branch Admin Role Migration:** Fully migrated the user role checks, path names, and terminology from `sub_admin` to `branch_admin` across the entire React codebase, including updating `SubAdminSelector` to fetch via the branch admin endpoint (`be4a07f`, `d749965`, Jun 24).
+- **Branch Admin Management UI:** Added `BranchAdminDetails` and enhanced `BranchAdminForm` to collect phone numbers and support automatic username generation (`a6791d6`, Jun 24).
+- **Admin Profile & Tariffs Tab Redesign:** Consolidated subscription plan details, countdowns, and resource limits into a single styled card in `AdminProfile.jsx` without heavy shadows, using a standard `1.5px solid #94a3b8` border (`086fd32`, Jun 29).
+- **Resource Limits & Stats Grid:** Redesigned limit displays with icons, hover transitions, and a modal showing progress meters for resource usage (`7ec856e`, `e74846b`, Jun 30).
+- **Invoice Management and History:** Added bulk invoice downloading and limited payment history lists to prevent visual clutter in the profile view (`aa8eb41`, Jun 30).
+- **I18n Translation System Enhancements:** Overhauled the Excel import/export modals and standardized teacher profile forms with full multi-language translations (UZ/RU/EN) (`cb98fe1`, `d5bcfbf`, Jun 23-24).
+- **Legal Document Overhaul & Sync:** Synchronized "Last Updated" dates to **June 30, 2026** across all five legal policies, rewriting data collection sections to detail exactly what fields are gathered per user role (`4b74ec4`, `a7dba33`, `2ed01a8`, Jun 30):
+  - **Privacy Policy Role-Based Disclosures:** Formally documented that we collect organization details for Admins, professional records and uploaded documents (passport, diploma, certificates, contracts) for Teachers, and demographic fields (DOB, address, parents' contacts) for Students.
+  - **Data Access Control (Section 9):** Documented tenant-level logical data isolation (Admin/Branch Admin/Teacher/Student scoping).
+  - **B2B/B2C Payment Split (Section 14):** Formally clarified that B2B learning center tariffs are completely independent of direct student payments (Premium/Stars), protecting Knowza from center-level claims.
 
-- **Privacy Policy — Data Isolation Section (Section 9, new):** Added a new Section 9 across all three languages formally documenting the multi-tenant data access architecture:
-  - Admin → sees only their own branch admins, teachers, and students
-  - Branch Admin → sees only their assigned branch
-  - Teacher → sees only their assigned students' test results
-  - Student → sees only their own results and group ranking (name + score)
+### Backend (`Knowza-Backend`)
 
-- **Terms of Service — B2B/B2C Payment Model Separation (Section 14, new):** Added Section 14 to `TermsPage.jsx` across all three languages formally separating the two independent payment streams:
-  - **B2B:** Admin pays Knowza a monthly/annual CRM+LMS tariff. This payment has no relation to student purchases.
-  - **B2C:** Student purchases Premium subscriptions or Stars directly with Knowza. The learning center or admin receives no share of these transactions and has no right to claim them.
-  - Includes explicit clause: *"The center cannot make any claim over such payments."*
-
-- **Date Synchronization — All Legal Pages:** Audited and synchronized the "Last Updated" date across all five legal documents. Four pages had outdated dates (June 21, 2026); all updated to **June 30, 2026**:
-  - `CookiePolicy.jsx` — UZ/EN/RU ✅
-  - `RefundPolicy.jsx` — UZ/EN/RU ✅
-  - `DisclaimerPage.jsx` — UZ/EN/RU ✅
-  - `TermsPage.jsx` — UZ/EN/RU ✅
-  - `PrivacyPage.jsx` — already up to date ✅
-
-- **Section Numbering Update:** Renumbered the final "Policy Updates" section from 9 to 10 in `PrivacyPage.jsx` across all three languages to accommodate the new data isolation section.
-
----
-
-## 🔍 Backend Data Audit
-
-Conducted a systematic review of `api/models.py` (2,117 lines) and `api/serializers.py` (1,717 lines) to identify every data field collected per user role. Key findings that were previously undocumented in the Privacy Policy:
-
-| Field | Model Field | Previously Documented |
-|---|---|---|
-| Teacher passport document | `passport_document` | ❌ No |
-| Teacher diploma document | `diploma_document` | ❌ No |
-| Teacher certificates | `certificates_document` | ❌ No |
-| Teacher employment contract | `employment_contract_document` | ❌ No |
-| Student parent name/phone (3 roles) | `parent_name`, `parent_phone`, `parents_extra_phones` | ❌ No |
-| Student date of birth | `birth_date` | ❌ No |
-| Student gender | `gender` | ❌ No |
-| Student home address | `address` | ❌ No |
-| Student XP and streak data | `total_xp`, `current_streak` | ❌ No |
-| Admin access isolation rule | `IsolatedManager` | ❌ No |
-| Admin additional phone | `additional_phones` | ❌ No |
-
-All above fields have been added to the Privacy Policy in all three languages.
+- **Sub-Admin to Branch Admin DB Migration:** Renamed Django DB roles, choices, and filters from `sub_admin` to `branch_admin`, modified the tariff limits field (`max_sub_admins` -> `max_branch_admins`), and generated migration `0124_change_sub_admin_to_branch_admin.py` while ensuring all 55 unit tests pass (`e073fe2`, Jun 24).
+- **Branch Admin View Filters:** Added `branch_admin_id` filter to content manager and test endpoints, and included cached statistics in resource serializers (`7339017`, Jun 24).
+- **Extended Profile Serializers:** Added DB storage fields for Teacher document uploads (passport, diploma, certificates, contract) and Student details (birth date, gender, address, parent contact details, XP, and streak scores) (`fa259b0`, `3e7fda6`, `55edd8e`, Jun 23).
+- **B2B Invoice Generation Engine:** Built a JWT-authenticated endpoint to dynamically generate billing invoices, including custom tariff prices and customer billing details (`ae10b0a`, Jun 30).
+- **Tariff Limit Enforcement:** Added backend checks enforcing resource limits per tariff tier for core assets (students, teachers, groups, branches) (`f3b3511`, Jun 30).
+- **Persistent Docker Media Storage:** Refactored media configurations to use configurable environment variables and secure persistent Docker volumes (`3a5c41f`, Jun 23).
+- **Star Package Expansion:** Expanded role permissions in `OpsMixin` to grant branch admins capability to award stars to students (`8f655ed`, Jun 21).
 
 ---
 
 ## 📐 Architecture Notes
 
-- **Multi-Tenant Isolation:** The platform uses a custom `IsolatedManager` Django model manager that enforces per-admin data scoping at the ORM level. This is now formally documented in the Privacy Policy under Section 9.
-- **Document Storage:** Teacher documents (passport, diploma, certificates, contract) are stored in separate subdirectories under `teacher_docs/` with distinct upload paths per document type.
-- **B2B/B2C Separation:** The legal boundary between admin tariff payments (B2B) and student Premium/Stars purchases (B2C) is now formally codified in Terms of Service Section 14, protecting Knowza from potential third-party claims by learning centers over student payments.
+- **Tariff & Subscription Rules:** Enforced core CRM constraints on the backend, checking usage counts against plan thresholds before allowing resource creations.
+- **Tenant Isolation Security:** Hardened backend managers and serializers to prevent access cross-talk, ensuring branch admins and teachers only query records from their own tenants.
+- **Persistent Storage Layout:** Formally separated document uploads and static media into specialized subfolders (`teacher_docs/`, `student_photos/`) mapped to host volumes.
 
 ---
 
 ## 🗑 Cleanups
 
-- Removed outdated June 21, 2026 dates from 4 legal page files (12 instances total — 3 languages × 4 pages).
-- Replaced generic single-list data collection section in Privacy Policy with structured role-based breakdown.
+- Cleared out obsolete source code files, legacy endpoint routing files, and unused CSS selectors (`071703a`, `1268817`, `fe08459`, Jun 24-30).
+- Cleaned up database models by removing redundant comments and draft models in `ops_mixin.py` (`174508d`, Jun 24).
 
 ---
 
@@ -85,12 +58,10 @@ All above fields have been added to the Privacy Policy in all three languages.
 
 | Metric | Count |
 | --- | --- |
-| Frontend Commits | ~8 |
-| Backend Commits | 0 |
-| Legal Pages Updated | 5 |
-| Languages Per Page | 3 (UZ / EN / RU) |
-| New Privacy Policy Sections | 2 (Role-Based Data §2, Isolation §9) |
-| New Terms of Service Sections | 1 (B2B/B2C Model §14) |
-| Previously Undocumented Fields Added | 11 |
-| Date Instances Corrected | 12 |
-| Active Development Days | 2 |
+| Frontend Commits | ~19 |
+| Backend Commits | ~13 |
+| Total Files Changed | 188 |
+| Lines Added | 12,844 |
+| Lines Removed | 18,429 |
+| Updated Legal Policies | 5 |
+| Active Development Days | 10 |
