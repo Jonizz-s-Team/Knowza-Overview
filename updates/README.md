@@ -8,6 +8,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 
 | Version | Period | Title | Key Milestones |
 | --- | --- | --- | --- |
+| **[v2.8.0](./update_v2.8.0.md)** | Jun 29–30, 2026 | Legal Documentation Overhaul, Backend Data Audit & B2B/B2C Model Clarification | Comprehensive backend data fields audit, role-based Privacy Policy overhaul (UZ/EN/RU), data isolation documentation, B2B/B2C payment model separation in Terms, legal dates synchronization. |
 | **[v2.7.5](./update_v2.7.5.md)** | Jun 12–19, 2026 | Full i18n Overhaul, Profile Redesign & Email Infrastructure | Platform-wide multi-language system (226 files), CommandPalette search rebuild, activity log translation, SMTP diagnostics, analytics fixes, tenant scoping. |
 | **[v2.7.0](./update_v2.7.0.md)** | Jun 6–12, 2026 | Gamified Leagues, Test Complaints & Calendar Migration | Duolingo-style season leagues, test complaints system, homework calendar migration to CalendarJS, draft protection, TanStack Query v5 migration, security scoping. |
 | **[v2.6.0](./update_v2.6.0.md)** | Jun 5, 2026 | Sub-Admin Scope Isolation & Teacher Tests | Full branch isolation, classroom reassignment, teacher test CRUD, Monday calendar, direction system. |
@@ -32,7 +33,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 | **Development Span** | 7+ months (Nov 2025 – Jun 2026) |
 | **Frontend Commits** | 500+ |
 | **Backend Commits** | 150+ |
-| **Major Versions** | 14 releases |
+| **Major Versions** | 15 releases |
 | **Active Development Days** | 130+ |
 
 ---

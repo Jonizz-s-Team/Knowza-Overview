@@ -4,7 +4,7 @@
 [![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite-orange.svg)]()
 [![Backend](https://img.shields.io/badge/backend-Django%205%20%7C%20DRF-blue.svg)]()
 [![Docs](https://img.shields.io/badge/docs-public%20overview-purple.svg)]()
-[![Releases](https://img.shields.io/badge/releases-v2.7.0-blue.svg)]()
+[![Releases](https://img.shields.io/badge/releases-v2.8.0-blue.svg)]()
 
 **Knowza** is a unified multi-role educational SaaS platform designed for private schools and learning centers. It integrates secure online testing, academic scheduling, classroom management, student homework tracking, league gamification, and AI-assisted educational tools under a single ecosystem.
 
@@ -67,7 +67,7 @@ To understand different layers of Knowza, explore the links below:
 *   **Feature Inventory:** [`docs/FEATURES.md`](docs/FEATURES.md) — Detailed breakdown of features per role and component.
 *   **Pitch & Product Strategy:** [`presentation/PITCH_DECK.md`](presentation/PITCH_DECK.md) — Slide outline, market positioning, and SaaS monetization model.
 *   **Presentation Script:** [`presentation/DEMO_FLOW.md`](presentation/DEMO_FLOW.md) — Step-by-step instructions to demonstrate the system live.
-*   **Evolution Timeline:** [`updates/README.md`](updates/README.md) — Chronological releases tracker (v1.0.0 → v2.7.0).
+*   **Evolution Timeline:** [`updates/README.md`](updates/README.md) — Chronological releases tracker (v1.0.0 → v2.8.0).
 
 ---
 
