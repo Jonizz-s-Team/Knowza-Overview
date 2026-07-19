@@ -23,8 +23,13 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 - **Profile Edit Redesign:** Redesigned profile edit layouts for Student and Teacher panels with enhanced field grouping, translated badge labels, and updated legal policy sections (`a5425b7`, Jun 15).
 - **Toast Notifications for Updates:** Added real-time toast notifications for platform updates and account verification status changes on the student dashboard (`4f76d0a`, Jun 13).
 - **Loading Hang Fix:** Resolved a critical loading hang caused by missing AbortController timeout in data fetching, and fixed analytics column sorting with improved refetch logic (`c00f074`, Jun 13).
-- **AI Branding Cleanup:** Removed AI-branded UI components and analytics features from dashboard and statistics pages to streamline the interface (`5e533ea`, Jun 13).
 - **Test ID Standardization:** Standardized test ID handling across pages and enhanced homework calendar detail views with consistent data formatting (`f83c9d7`, Jun 13).
+
+### 🤖 Knowza AI
+
+- **AI UI Consolidation:** Removed early experimental AI-branded UI analytics widgets (`AIAnalysisCard`, dashboard AI overlays) from student statistics pages. The Knowza AI interface was refactored into a dedicated, focused AI chat experience rather than scattered analytics overlays (`5e533ea`, Jun 13).
+- **Backend AI Engine Stability:** The server-side `KnowzaAIEngine` continued operating unaffected — only the frontend display layer was reorganized. All intents (explain, test_gen, socratic, article_gen, etc.) remained fully functional.
+- **AI Session Continuity:** Backend `AIChatHistory` model persisted all session data through the UI consolidation, ensuring no conversation history was lost for users during the transition.
 - **Notification Preferences Utility:** Added a `notificationPreferences.js` utility module to manage and persist user notification settings (`dec25c7`, Jun 19).
 - **Student & Teacher Docs Data:** Created dedicated `StudentDocsData.js` and `TeacherDocsData.js` files to externalize documentation content with full translation support (`dec25c7`, Jun 19).
 

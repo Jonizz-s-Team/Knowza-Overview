@@ -22,6 +22,12 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **TanStack Query Migration:** Migrated all form management and data fetching to TanStack Query with CRUD functionality across entity forms (`12a368b`, Apr 11).
 - **Sentinel Anti-Cheat Frontend:** Implemented the Sentinel monitoring hook and security utilities for client-side exam surveillance (`fa82cfe`, Apr 11).
 - **AI Usage Badge:** Designed the AI usage indicator badge with a modern dropdown menu and pulse animation (`a3ba32d`–`0368ca6`, Apr 11–12).
+
+### 🤖 Knowza AI
+
+- **KnowzaShield AI Firewall (Frontend):** Built the client-side firewall integration displaying blocked request warnings and enforcement feedback to users (`a3ba32d`, Apr 12).
+- **AI Notch Button:** Extracted the `AINotchButton` component — a floating AI access entry point integrated into statistics pages (`b7690f8`, Apr 25).
+- **AI Usage Tracking UI:** Implemented visible quota displays and animated AI usage indicators for students to monitor their remaining AI call budget.
 - **Comprehensive Dashboard Modules:** Built out all admin and sub-admin dashboard modules including routing, management pages, and data tables (`28300ee`, Apr 11).
 - **Bulk Import System v2:** Rebuilt the teacher import with preview step, validation, and backend integration (`d913cd5`, Apr 15). Added batch delete for subjects with Excel support (`a79c805`, Apr 17).
 - **Rendering Performance:** Memoized table columns, data, and filtering logic across all list components to prevent unnecessary re-renders (`6842b56`, Apr 15).
@@ -43,8 +49,9 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **Multi-Tenant Data Isolation:** Restricted admin-created student visibility to teachers within the same branch only (`e4949c5`–`10b3203`, Apr 9–10). Centralized user queryset isolation into `get_user_queryset_for_role` selector (`249899e`, Apr 15).
 - **Swagger Schema Safety:** Applied universal safety guards to prevent 500 errors during API schema generation (`10d72ad`, Apr 15).
 - **Analytics Expansion:** Added summary statistics, class/global rankings, and recent activity history to analytics responses (`e226369`, Apr 15). Enforced strict hierarchical data siloing (`30f6e95`, Apr 16).
-- **KnowzaShield AI Firewall:** Integrated Groq API support and implemented a security firewall for auditing all AI requests and responses (`d76079b`, Apr 18).
-- **Structured JSON for AI:** Enforced structured JSON schema output from AI responses with additional metadata fields (`7d982ca`–`f26c5e5`, Apr 19).
+- **KnowzaShield AI Firewall (Backend):** Integrated Groq API support and implemented a server-side security firewall for auditing all AI requests and responses — blocking prompt injection and jailbreak attempts in English, Russian, and Uzbek (`d76079b`, Apr 18).
+- **Structured JSON for AI:** Enforced structured JSON schema output from the AI engine with metadata fields (intent, language, token usage) for reliable frontend parsing (`7d982ca`–`f26c5e5`, Apr 19).
+- **Groq Multi-Provider Foundation:** Added Groq as the first alternative LLM provider alongside the existing primary model, establishing the multi-provider gateway architecture that would later expand to 4 providers.
 - **Bulk Group Import:** Added bulk import for institution groups with email verification rate limiting (`0548fa6`, Apr 18).
 - **Atomic Teacher Statistics:** Implemented atomic statistics sync with `LiteTestAttemptSerializer` and model isolation managers (`db1dd3c`, Apr 21).
 - **30-Day Account Cleanup:** Implemented automatic cleanup for expired admin accounts with deletion countdown exposure (`c20243a`, Apr 25).

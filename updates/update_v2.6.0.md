@@ -101,6 +101,14 @@ Over the course of Knowza's 7-month development, several major components, pages
 
 ---
 
+## 🤖 Knowza AI
+
+- **Client-Side Gemini Chat Archived:** `AIChat.jsx` — the original Gemini-powered client-side chat from v1.2.0 — was permanently removed (`9b43f3f`, Feb 28). The transition is complete: Knowza AI now runs entirely server-side via the `KnowzaAIEngine` built in v2.0.0.
+- **Notes Sidebar Archived:** `NotesSidebar.jsx` and `TextSelectionHandler.jsx` — the text-selection memory features that accompanied the original Gemini chat — were also removed (`9b43f3f`, Feb 28). This functionality will return in a more integrated form within the dedicated Knowza AI interface.
+- **No new AI endpoints** shipped in this release. The server-side AI engine was stable and unchanged.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

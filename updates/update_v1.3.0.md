@@ -52,6 +52,13 @@ Perform a complete structural rebuild of the frontend application — correct an
 
 ---
 
+## 🤖 Knowza AI
+
+- **Redis Caching for AI Responses:** Redis was configured in this version with explicit mention of AI response storage (`541cb64`, Mar 27) — laying the infrastructure groundwork for the server-side Knowza AI engine built later in v2.0.0.
+- **No end-user AI features** were shipped in this version. The AI chat introduced in v1.2.0 (client-side Gemini) was still active but not developed further in this cycle.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

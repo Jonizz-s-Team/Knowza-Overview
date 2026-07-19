@@ -51,6 +51,13 @@ Launch the B2B subscription monetization engine with five-tier tariff plans, imp
 
 ---
 
+## 🤖 Knowza AI
+
+- **AI Quota in Tariff Packs:** Updated tariff feature packs explicitly include **AI analysis quotas** as a configurable feature per subscription tier (`ca2c437`, May 29). This formally ties Knowza AI access to the institutional tariff system — a school's plan determines how many AI calls its students get.
+- **Background Worker for AI:** The background worker added this release (`d61b226`, May 30) underpins async AI tasks such as the long-term memory update (`async_update_user_summary`) that runs after every 10 messages.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

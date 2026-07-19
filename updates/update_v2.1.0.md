@@ -50,6 +50,12 @@ Expand Knowza from a pure assessment platform into a full Learning Management Sy
 
 ---
 
+## 🤖 Knowza AI
+
+No Knowza AI features in this release. The full KnowzaShield firewall, multi-provider LLM gateway, and server-side AI engine were shipped in v2.0.0 (previous cycle). This release focused on LMS academic operations (homework, schedules, classrooms, Docker).
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

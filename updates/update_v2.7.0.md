@@ -53,6 +53,12 @@ Introduce gamified Duolingo-style season leagues with percentile brackets, imple
 
 ---
 
+## 🤖 Knowza AI
+
+No new Knowza AI features in this release. This cycle was focused entirely on LMS gamification (season leagues), test complaints, and TanStack Query migration. The Knowza AI engine ran stable in the background with no changes to the `KnowzaAIEngine`, intent router, or LLM gateway.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

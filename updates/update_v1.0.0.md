@@ -44,6 +44,12 @@ Build the initial working web application from scratch — a functional test pla
 
 ---
 
+## 🤖 Knowza AI
+
+No Knowza AI features in this version. The platform launched as a pure test and assessment platform. Knowza AI did not exist at this stage.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

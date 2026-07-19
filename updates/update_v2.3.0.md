@@ -52,6 +52,12 @@ Complete the global platform rebranding to "Knowza" across all translation local
 
 ---
 
+## 🤖 Knowza AI
+
+No new Knowza AI features in this release. Focus was on LMS email automation, platform rebranding to "Knowza", and the unified notification system. The Knowza AI engine (KnowzaShield, LLM gateway, intent routing) remained stable from v2.0.0.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

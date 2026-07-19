@@ -40,6 +40,12 @@ Launch the classroom and schedule management system with form-based CRUD interfa
 
 ---
 
+## 🤖 Knowza AI
+
+No new Knowza AI features in this release. The `/me/` profile endpoint added this version is used by Knowza AI to read student profile fields (`ai_persona`, `ai_memory_summary`, `is_ai_personalized`) — it is foundational infrastructure shared between LMS and AI.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

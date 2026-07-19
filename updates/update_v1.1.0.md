@@ -46,6 +46,12 @@ Migrate the entire UI component library from raw CSS and Material UI to **Ant De
 
 ---
 
+## 🤖 Knowza AI
+
+No Knowza AI features in this version. Focus was entirely on the Ant Design UI migration and public-facing pages. Knowza AI was first introduced in v1.2.0.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

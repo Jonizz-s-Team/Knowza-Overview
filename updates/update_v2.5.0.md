@@ -42,6 +42,12 @@ Introduce panel live refresh functionality, expand the home page with new locali
 
 ---
 
+## 🤖 Knowza AI
+
+No new Knowza AI features in this release. Security refinements and tenant scoping improvements in this cycle (`33b6656`) also harden the data boundary that Knowza AI respects when reading per-user profiles and chat histories.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |

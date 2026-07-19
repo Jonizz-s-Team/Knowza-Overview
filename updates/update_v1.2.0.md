@@ -28,6 +28,14 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 - **Notes Sidebar:** Added a text selection saving feature with a dedicated notes sidebar, morphing UI, and premium flyer animations (`3d86381`–`773309b`, Jan 30).
 - **3D Model Asset:** Added a MacBook Pro M3 16-inch 2024 3D model (`935fcda`, Jan 25) for use in presentation pages.
 
+### 🤖 Knowza AI (First Integration)
+
+- **AI Chat — Google Gemini:** Integrated the first AI-powered learning assistant using the Google Gemini API. Students could ask questions and receive educational answers directly within the platform (`52a517c`–`a136b64`, Jan 11–12).
+- **Text Selection Memory:** Implemented a "Notes Sidebar" that lets students save selected text from AI responses and study materials for later review (`3d86381`, Jan 30).
+- **AI Infrastructure Foundation:** Established the basic client-side AI request pipeline that would later evolve into the full server-side `KnowzaAIEngine`.
+
+> **Milestone:** First AI feature in the Knowza ecosystem. At this stage, AI ran on the client side via direct Gemini API calls. The server-side engine was built in a later version.
+
 ### Backend (`Knowza-Backend`)
 
 - No significant backend changes in this period — focus was exclusively on frontend UX.

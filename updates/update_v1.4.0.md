@@ -56,6 +56,14 @@ Rebrand the platform from "Examify/Test-App" to **Knowza**, implement the second
 
 ---
 
+## 🤖 Knowza AI
+
+- **First Server-Side AI Utilities:** Backend AI-powered content generation utilities were added with Groq API support (`9499e6e`, Mar 27). This is the earliest instance of server-side AI integration — the direct predecessor of the full `KnowzaAIEngine` built in v2.0.0.
+- **Redis Throttling for AI:** Redis-backed caching and rate throttling was applied to AI response endpoints (`541cb64`, Mar 27), establishing quota enforcement patterns used in the final AI system.
+- **Client-Side Gemini Chat:** The original Gemini-powered chat from v1.2.0 was still present but scheduled for architectural replacement. It was archived in v2.6.0 (`9b43f3f`, Feb 28) once the server-side engine matured.
+
+---
+
 ## 📊 Stats
 
 | Metric | Count |
