@@ -41,7 +41,7 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **AI Usage Badge & Quota Display:** Designed an animated AI usage indicator badge with a dropdown showing remaining daily call budget. Pulses when quota is running low (`0368ca6`, Apr 12).
 
 ### 🏫 Backend
-- **Knowza ID System:** Implemented universal access control with `knowza_custom_id` field, case-insensitive login, JWT claim updates, and service entitlement models (`7a2f4d0`–`cda07a6`, Apr 1).
+- **Knowza ID System:** Implemented core identity management with `knowza_custom_id` field, case-insensitive login, and updated JWT claims (`7a2f4d0`–`cda07a6`, Apr 1).
 - **Strict Security Isolation:** Enforced mandatory password verification for all content management views (`df4bede`, Apr 2).
 - **User Selector Improvements:** Enforced role filtering before search with class group filter support (`57cb2c5`, Apr 4).
 - **Sub-Admin Statistics Caching:** Implemented 5-minute response caching for sub-admin statistics serializers (`54213fd`, Apr 5).

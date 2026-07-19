@@ -13,7 +13,7 @@ For the full platform changelog: [`updates/README.md`](README.md)
 | Version | Period | AI Milestone |
 |---|---|---|
 | **v2.8.5** | Jul 1–19, 2026 | Multi-Provider key rotation · Uzbek electronic invoice PDF · Academic exam sandbox tests |
-| **v2.8.0** | Jun 21–30, 2026 | Universal Access · Full personalization fields exposed in API |
+| **v2.8.0** | Jun 21–30, 2026 | Full personalization fields exposed in API |
 | **v2.7.5** | Jun 12–19, 2026 | AI UI consolidated into dedicated chat interface |
 | **v2.0.0** | Apr 1–27, 2026 | **🔴 Major:** KnowzaShield · Groq gateway · Structured JSON · Quota UI |
 | **v1.2.0** | Jan 11–31, 2026 | **⭐ First AI:** Google Gemini chat · Notes sidebar · Client-side pipeline |
@@ -46,19 +46,10 @@ For the full platform changelog: [`updates/README.md`](README.md)
 
 ---
 
-## v2.8.0 — Universal Access & Full Personalization Profile
+## v2.8.0 — Full Personalization Profile Exposed via API
 **June 21 – June 30, 2026**
 
 ### What changed
-
-**Universal Access System (Knowza ID Premium)**
-
-A unified premium tier was introduced allowing a single subscription to unlock all Knowza services including Knowza AI:
-
-- `has_universal_access` — boolean flag on the `User` model: grants unrestricted Knowza AI access
-- `universal_access_expiry` — expiry datetime for the universal access period
-
-This is the **only case** where one subscription gives access to both products (LMS + AI). In all other cases, subscriptions are separate and independent.
 
 **Full AI Personalization Fields Exposed via API**
 
