@@ -11,10 +11,8 @@ Build the initial working web application from scratch — a functional test pla
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Initial Application Scaffold:** Created the React SPA with Vite, established project structure, routing, and core page shells (`697d3a8`, Nov 22).
 - **Anti-Cheat System v1:** Built the first client-side exam monitoring system to detect tab switching (`a476657`, Nov 22). Later removed and rebuilt in a future version (`8d6cd64`–`6a119b0`, Dec 14).
 - **Admin Panel:** Designed the Admin Dashboard with styled navigation, student/teacher management tables, and route guards (`b6171b4`, Nov 29).
@@ -27,8 +25,7 @@ Build the initial working web application from scratch — a functional test pla
 - **Statistics & Sorting:** Built statistics pages with date-based sorting, result filtering, and profile customizations (`c35f828`–`b184189`, Dec 14).
 - **Event System v1:** Built and tested a dashboard event notification system. Later removed to simplify the architecture (`b3e94e2`–`95bfe18`, Dec 15).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **First Commit:** Initialized the Django REST Framework project with custom User model, basic serializers, and URL routing (`bede2a5`, Dec 11).
 - **Core Models:** Defined `Test`, `Question`, `TestAttempt`, `Organization`, and role-based User model with `admin`, `sub_admin`, `teacher`, `student` roles.
 - **API Foundation:** Established ViewSets for user CRUD, test management, and basic JWT authentication endpoints.

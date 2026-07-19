@@ -12,10 +12,8 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Branch Admin Role Migration:** Fully migrated the user role checks, path names, and terminology from `sub_admin` to `branch_admin` across the entire React codebase, including updating `SubAdminSelector` to fetch via the branch admin endpoint (`be4a07f`, `d749965`, Jun 24).
 - **Branch Admin Management UI:** Added `BranchAdminDetails` and enhanced `BranchAdminForm` to collect phone numbers and support automatic username generation (`a6791d6`, Jun 24).
 - **Admin Profile & Tariffs Tab Redesign:** Consolidated subscription plan details, countdowns, and resource limits into a single styled card in `AdminProfile.jsx` without heavy shadows, using a standard `1.5px solid #94a3b8` border (`086fd32`, Jun 29).
@@ -27,8 +25,7 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
   - **Data Access Control (Section 9):** Documented tenant-level logical data isolation (Admin/Branch Admin/Teacher/Student scoping).
   - **B2B/B2C Payment Split (Section 14):** Formally clarified that B2B learning center tariffs are completely independent of direct student payments (Premium/Stars), protecting Knowza from center-level claims.
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Sub-Admin to Branch Admin DB Migration:** Renamed Django DB roles, choices, and filters from `sub_admin` to `branch_admin`, modified the tariff limits field (`max_sub_admins` -> `max_branch_admins`), and generated migration `0124_change_sub_admin_to_branch_admin.py` while ensuring all 55 unit tests pass (`e073fe2`, Jun 24).
 - **Branch Admin View Filters:** Added `branch_admin_id` filter to content manager and test endpoints, and included cached statistics in resource serializers (`7339017`, Jun 24).
 - **Extended Profile Serializers:** Added DB storage fields for Teacher document uploads (passport, diploma, certificates, contract) and Student details (birth date, gender, address, parent contact details, XP, and streak scores) (`fa259b0`, `3e7fda6`, `55edd8e`, Jun 23).
@@ -37,7 +34,9 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
 - **Persistent Docker Media Storage:** Refactored media configurations to use configurable environment variables and secure persistent Docker volumes (`3a5c41f`, Jun 23).
 - **Star Package Expansion:** Expanded role permissions in `OpsMixin` to grant branch admins capability to award stars to students (`8f655ed`, Jun 21).
 
-### 🤖 Knowza AI
+---
+
+## 🤖 Knowza AI
 
 > Knowza AI is a **completely separate product** from Knowza LMS. The items below are exclusive to the Knowza AI environment (dedicated student AI tutor platform) and share no UI, onboarding, or subscription with the LMS.
 

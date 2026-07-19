@@ -11,10 +11,8 @@ Launch the B2B subscription monetization engine with five-tier tariff plans, imp
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Reveal Animations:** Implemented scroll-triggered reveal animations across all landing page components and public pages with a new styling utility class (`1abb17d`, May 29).
 - **Tariff Limit Visualization:** Built a visual quota display showing resource usage vs. plan limits, restricting dashboard navigation for free-tier users (`4544e00`, May 29).
 - **PhoneInput Component:** Created a dedicated phone number input component with country code selection and localization updates (`89c7842`, May 29).
@@ -26,8 +24,7 @@ Launch the B2B subscription monetization engine with five-tier tariff plans, imp
 - **Class Group Details Refactor:** Improved UI interaction patterns and data handling in ClassGroupDetails and ModuleAnalyticsPage (`a1d3e24`, May 26).
 - **Animation & Loader Fixes:** Optimized reveal animation timing, fixed loader transition glitches, updated contact email and social links, and added missing news translations (`9daacfe`, May 29).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Five-Tier Tariff Plans:** Introduced `Free`, `Starter`, `Professional`, `Business`, and `Enterprise` subscription tiers with configurable resource limits and database seeding support (`e641a18`–`68c3b0e`, May 28–29).
 - **Dynamic Pricing Engine:** Implemented a billing service for calculating subscription costs based on usage volume and tier features (`68c3b0e`, May 29).
 - **Tariff Feature Packs:** Updated pricing packs with AI analysis quotas, CSV import limits, and gamification toggle options (`ca2c437`, May 29).

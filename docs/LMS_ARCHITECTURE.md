@@ -6,35 +6,27 @@ This document describes the technical architecture of **Knowza LMS** — the ins
 
 ## 1. High-Level Blueprint
 
-```text
-  ┌────────────────────────────────────────────────────────┐
-  │                        Browser                         │
-  └───────────────────────────┬────────────────────────────┘
-                              │ HTTP / JSON / JWT
-                              ▼
-  ┌────────────────────────────────────────────────────────┐
-  │                    React/Vite SPA                      │   (Client Side)
-  │   Admin · Branch Admin · Teacher · Student dashboards  │
-  └───────────────────────────┬────────────────────────────┘
-                              │ REST API
-                              ▼
-  ┌────────────────────────────────────────────────────────┐
-  │                 Django REST API Backend                │   (Server Side)
-  │                                                        │
-  │  * Custom Multi-Role User Model (7 roles)              │
-  │  * Multi-Tenant Scoping & Isolation Layer              │
-  │  * Server-Authoritative Test Session Lifecycle         │
-  │  * Knowza Sentinel — Anti-Cheat Engine                 │
-  │  * Automated Threaded Email Engine                     │
-  │  * SaaS Tariff & B2B Billing Engine                    │
-  │  * Gamification Engine (XP, Stars, Streaks, Leagues)   │
-  └───────────────────────────┬────────────────────────────┘
-                              │ ORM Queries
-                              ▼
-  ┌────────────────────────────────────────────────────────┐
-  │         PostgreSQL · Redis Cache · Media Storage       │   (Data Layer)
-  └────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    BROWSER["🌐 Browser\nHTTP · JSON · JWT"]
+
+    SPA["⚛️ React 19 / Vite SPA\nAdmin · Branch Admin\nTeacher · Student dashboards"]
+
+    API["🐍 Django REST API Backend\n────────────────────────\nCustom Multi-Role User Model (7 roles)\nMulti-Tenant Scoping & Isolation Layer\nServer-Authoritative Test Session\nKnowza Sentinel — Anti-Cheat Engine\nAutomated Threaded Email Engine\nSaaS Tariff & B2B Billing Engine\nGamification Engine (XP · Stars · Leagues)"]
+
+    DB["🗄️ PostgreSQL · Redis Cache · Media Storage"]
+
+    BROWSER --> SPA
+    SPA -->|REST API| API
+    API -->|ORM Queries| DB
+
+    style BROWSER fill:#1a2744,stroke:#60a5fa,color:#fff
+    style SPA fill:#1e3a5f,stroke:#38bdf8,color:#fff
+    style API fill:#1a2e1a,stroke:#4ade80,color:#fff
+    style DB fill:#2d1f3d,stroke:#a78bfa,color:#fff
 ```
+
+
 
 ---
 
@@ -156,21 +148,24 @@ flowchart LR
 
 ### Role Hierarchy
 
-```text
-Student
-   │
-   ▼
-Teacher
-   │
-   ▼
-Branch Admin
-   │
-   ▼
-Admin
-   │
-   ▼
-Head Admin
+```mermaid
+graph TD
+    HA["👑 Head Admin\nPlatform Superuser\nSees all data globally"]
+    AD["🏢 Admin\nSchool / Center Owner\nScoped to own org tree"]
+    BA["🏗️ Branch Admin\nBranch-level Manager\nScoped to own branch"]
+    TE["📚 Teacher\nEducator\nScoped to own students"]
+    ST["🎓 Student\nLearner\nScoped to own data + classmates"]
+
+    HA --> AD --> BA --> TE --> ST
+
+    style HA fill:#7c2d12,stroke:#fb923c,color:#fff
+    style AD fill:#1e3a5f,stroke:#60a5fa,color:#fff
+    style BA fill:#1a3a2a,stroke:#4ade80,color:#fff
+    style TE fill:#2d2a1e,stroke:#fbbf24,color:#fff
+    style ST fill:#2d1f3d,stroke:#c084fc,color:#fff
 ```
+
+
 
 ---
 

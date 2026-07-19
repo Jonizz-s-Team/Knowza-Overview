@@ -11,10 +11,8 @@ Migrate the entire UI component library from raw CSS and Material UI to **Ant De
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Home Page Redesign:** Built a new landing page with a modern timeline layout, scroll animations, and promotional content sections (`09a6fb6`–`8365282`, Dec 20).
 - **Contact Page:** Implemented a fully functional contact form with validation, backend integration, and styled layout (`19d9cd5`–`59bb684`, Dec 20).
 - **Ant Design Full Migration:** Converted every dashboard component — Admin, Teacher, Student, and Seller panels — from MUI/custom CSS to Ant Design components. Tables, forms, modals, drawers, and cards were all rebuilt (`558255e`–`c3b6955`, Dec 20–21).
@@ -30,8 +28,7 @@ Migrate the entire UI component library from raw CSS and Material UI to **Ant De
 - **Gradient Profile Picker:** Added a visual gradient color picker for student profile customization (`592e34e`, Jan 9).
 - **NotFound Page:** Created a 404 error page for invalid routes (`d26a045`, Jan 10).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Admin Isolation:** Strengthened organization-scoped query filtering (`1322720`, Dec 29).
 - **Contact Message System:** Added backend endpoints for handling contact form submissions.
 

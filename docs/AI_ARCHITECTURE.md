@@ -19,74 +19,56 @@ Knowza AI is a **completely separate platform** from Knowza LMS. It is a persona
 
 ## 🏗 Knowza AI Architecture
 
-Knowza AI operates as a dedicated **service** within the shared Knowza Backend infrastructure. Access is controlled through the `ExtensionService` and `ServiceEntitlement` models.
+```mermaid
+flowchart TD
+    STUDENT["🎓 LEARNER — Student\nPersonal Knowza AI account"]
 
-```text
-  ┌──────────────────────────────────────────────────────────────┐
-  │                    LEARNER (Student)                         │
-  │              Personal Knowza AI account                      │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │ JWT Auth
-                              ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │              ServiceEntitlement Check                        │
-  │   Verifies: does this user have access to service='ai'?     │
-  │   and has expiry_date not passed?                            │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │
-                              ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │                 KnowzaShield Firewall                        │
-  │   Prompt injection / jailbreak detection in 3 languages     │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │
-                              ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │              Intent Profiling Engine                         │
-  │   Classifies the student request into:                      │
-  │   EXPLAIN_SIMPLE · EXPLAIN_DEEP · TEST_GEN                  │
-  │   SOCRATIC_COACH · SIMPLIFY · DEEPEN                        │
-  │   ARTICLE_GEN · TEST_HELP · TEST_FEEDBACK                   │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │
-          ┌────────────────────┼────────────────────┐
-          ▼                    ▼                    ▼
-  ┌──────────────┐   ┌────────────────┐   ┌──────────────────┐
-  │ Token Budget │   │  RAG — Internal│   │  Web Search      │
-  │  Allocator   │   │  Knowledge DB  │   │  (ARTICLE_GEN    │
-  │              │   │  (PostgreSQL)  │   │   intent only)   │
-  └──────┬───────┘   └───────┬────────┘   └──────┬───────────┘
-         └──────────────────┬┘──────────────────┘
-                            ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │           Prompt Builder                                     │
-  │   Assembles: system prompt + student AIProfile +            │
-  │   session history + RAG context + ai_memory_summary         │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │
-                              ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │         Multi-Provider LLM Gateway                          │
-  │   OpenAI GPT-4o  ·  Anthropic Claude                        │
-  │   Google Gemini 2.5 Flash  ·  Groq                          │
-  │   (up to 10 API keys per provider, round-robin balancing)   │
-  └───────────────────────────┬──────────────────────────────────┘
-                              │
-          ┌────────────────────┼────────────────────┐
-          ▼                    ▼                    ▼
-  ┌──────────────┐   ┌────────────────┐   ┌──────────────────┐
-  │  Reflection  │   │  Redis Cache   │   │  Semantic Cache  │
-  │  & Refine    │   │  (per-intent)  │   │ GlobalResearch   │
-  │  (article)   │   │                │   │   Cache (VDB)    │
-  └──────────────┘   └────────────────┘   └──────────────────┘
-                              │
-                              ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │         AIChatHistory + Memory Update                       │
-  │   Saves history · every 10 messages updates                 │
-  │   ai_memory_summary via async_update_user_summary           │
-  └──────────────────────────────────────────────────────────────┘
+    JWT["🔐 JWT Authentication\nBearer token validation"]
+
+    ENTITLEMENT["🎫 ServiceEntitlement Check\nservice = 'ai' · expiry_date not passed"]
+
+    SHIELD["🛡️ KnowzaShield Firewall\nPrompt injection · jailbreak detection\nEN · RU · UZ"]
+
+    INTENT["🧠 Intent Profiling Engine\nEXPLAIN_SIMPLE · EXPLAIN_DEEP · TEST_GEN\nSOCRATIC_COACH · SIMPLIFY · DEEPEN\nARTICLE_GEN · TEST_HELP · TEST_FEEDBACK"]
+
+    BUDGET["💰 Token Budget\nAllocator"]
+    RAG["📚 RAG — Internal\nKnowledge DB\nPostgreSQL"]
+    WEBSEARCH["🌐 Web Search\nARTICLE_GEN\nintent only"]
+
+    PROMPT["📝 Prompt Builder\nsystem prompt + AIProfile\n+ session history + RAG + memory"]
+
+    LLM["⚡ Multi-Provider LLM Gateway\nOpenAI GPT-4o · Anthropic Claude\nGoogle Gemini 2.5 Flash · Groq\n10 API keys per provider · round-robin"]
+
+    REFLECT["🔄 Reflection\n& Refine\narticle only"]
+    REDIS["⚡ Redis Cache\nper-intent"]
+    SEMCACHE["🗄️ Semantic Cache\nGlobalResearch\nCache VDB"]
+
+    HISTORY["💾 AIChatHistory + Memory Update\nSaves history · every 10 msgs\nasync_update_user_summary"]
+
+    STUDENT --> JWT --> ENTITLEMENT --> SHIELD --> INTENT
+    INTENT --> BUDGET
+    INTENT --> RAG
+    INTENT --> WEBSEARCH
+    BUDGET --> PROMPT
+    RAG --> PROMPT
+    WEBSEARCH --> PROMPT
+    PROMPT --> LLM
+    LLM --> REFLECT
+    LLM --> REDIS
+    LLM --> SEMCACHE
+    REFLECT --> HISTORY
+    REDIS --> HISTORY
+    SEMCACHE --> HISTORY
+
+    style STUDENT fill:#1e3a5f,stroke:#4a9eff,color:#fff
+    style SHIELD fill:#4a1942,stroke:#c084fc,color:#fff
+    style LLM fill:#1a3a2a,stroke:#4ade80,color:#fff
+    style ENTITLEMENT fill:#2d2a1e,stroke:#fbbf24,color:#fff
+    style INTENT fill:#1e2d3a,stroke:#38bdf8,color:#fff
+    style HISTORY fill:#1a2a1a,stroke:#86efac,color:#fff
 ```
+
+
 
 ---
 
@@ -149,6 +131,22 @@ class ServiceEntitlement:
 | **Knowza ID Universal** | `has_universal_access = True` | Full access to all Knowza services (LMS + AI) |
 
 > **Important:** A student enrolled at a school on Knowza LMS does **NOT** automatically get Knowza AI access. These are separate purchases.
+
+```mermaid
+graph LR
+    FREE["🆓 Free Tier\n────────────\nLimited daily AI requests\nRate-throttled\nNo memory\nNo personalization"]
+    PREMIUM["⭐ Knowza AI Premium\n────────────\nUnlimited requests\nPriority LLM routing\nLong-term memory\nFull personalization\nPDF export"]
+    UNIVERSAL["👑 Knowza ID Universal\n────────────\nEverything in Premium\n+ Full LMS access\nhas_universal_access = True\nSingle subscription"]
+
+    FREE -->|Upgrade B2C| PREMIUM
+    PREMIUM -->|Bundle upgrade| UNIVERSAL
+
+    style FREE fill:#1a1a2e,stroke:#6366f1,color:#fff
+    style PREMIUM fill:#1a2e1a,stroke:#4ade80,color:#fff
+    style UNIVERSAL fill:#2d1f3d,stroke:#f59e0b,color:#fff
+```
+
+
 
 ---
 
@@ -213,8 +211,23 @@ After a wrong answer the AI does **not** give the answer immediately — it asks
 AI builds a full study roadmap based on the student's `AIProfile`:
 - Analyzes: `global_goal`, `current_level`, `target_score`, `time_commitment`, `target_deadline`
 - Creates a `LearningPath` with sequential `LearningNode` entries
-- Each node: topic, description, estimated time, status (`locked` → `available` → `in_progress` → `completed`)
+- Each node: topic, description, estimated time, status
 - `prerequisites` enforced — cannot advance to next topic without completing current
+
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> Locked
+    Locked --> Available : prerequisites met
+    Available --> InProgress : student starts
+    InProgress --> Completed : task finished
+    Completed --> [*]
+
+    Locked: 🔒 Locked
+    Available: ✅ Available
+    InProgress: ▶️ In Progress
+    Completed: 🏆 Completed
+```
 
 ### 5. Daily Missions Queue — Daily Task List
 
@@ -277,13 +290,28 @@ Students can export any AI response or article to a downloadable PDF file.
 
 Knowza AI **remembers** each student across sessions:
 
-```
-Step 1: Student chats with AI (AIChatHistory saves every message)
-Step 2: Every 10 messages → async_update_user_summary() runs in background
-Step 3: AI reads the full user history and generates a compressed summary
-Step 4: Summary stored in User.ai_memory_summary
-Step 5: On next request, summary is injected into the system prompt
-→ AI knows: what the student studied, where they struggled, what they aim for
+```mermaid
+sequenceDiagram
+    participant S as 🎓 Student
+    participant AI as 🤖 Knowza AI Engine
+    participant DB as 🗄️ AIChatHistory
+    participant MEM as 🧠 ai_memory_summary
+
+    S->>AI: Send message (msg #1)
+    AI->>DB: Save to AIChatHistory
+    AI-->>S: Response (streaming)
+
+    Note over AI,DB: Every 10 messages...
+    S->>AI: Send message (msg #10)
+    AI->>DB: Save message #10
+    AI->>DB: Read full session history
+    AI->>MEM: async_update_user_summary()
+    MEM-->>AI: Summary stored
+
+    Note over AI,MEM: Next request
+    S->>AI: New question
+    AI->>MEM: Inject summary into system prompt
+    AI-->>S: Personalized response based on history
 ```
 
 Memory controls (managed by the student):

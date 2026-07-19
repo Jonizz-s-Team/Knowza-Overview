@@ -11,10 +11,8 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Knowza ID Authentication:** Implemented custom ID-based login alongside traditional credentials. Users receive a unique Knowza ID for seamless cross-device access (`aa76201`–`71729ed`, Apr 1). Includes staged loading animations during ID verification (`0daf8d1`, Apr 2).
 - **Sub-Admin Statistics Dashboard:** Added a statistics table to the sub-admin dashboard with property naming standardization (`8c87dbd`, Apr 2).
 - **Legal Pages:** Created Terms of Service, Privacy Policy, and Cookie Policy pages with localization (`24ecf8c`, Apr 2).
@@ -31,14 +29,18 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **Sub-Admin Access Control:** Implemented creation access controls and group renaming with category management (`96bf1be`, Apr 25).
 - **Student Dashboard Enhancements:** Added collapsible sections, optimized API polling intervals, student detail pages, and group list views (`d7533a4`–`b2e7315`, Apr 26).
 
-### 🤖 Knowza AI (Frontend)
+
+---
+
+## 🤖 Knowza AI
+
+### 🤖 Frontend
 
 - **KnowzaShield Firewall UI:** Built the client-side firewall integration — displays blocked request warnings and enforcement feedback to students when a prompt injection is detected by the backend (`a3ba32d`, Apr 12).
 - **AI Notch Button:** Extracted the `AINotchButton` component — a floating Knowza AI entry point that lets students open the AI interface from any page (`b7690f8`, Apr 25).
 - **AI Usage Badge & Quota Display:** Designed an animated AI usage indicator badge with a dropdown showing remaining daily call budget. Pulses when quota is running low (`0368ca6`, Apr 12).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Knowza ID System:** Implemented universal access control with `knowza_custom_id` field, case-insensitive login, JWT claim updates, and service entitlement models (`7a2f4d0`–`cda07a6`, Apr 1).
 - **Strict Security Isolation:** Enforced mandatory password verification for all content management views (`df4bede`, Apr 2).
 - **User Selector Improvements:** Enforced role filtering before search with class group filter support (`57cb2c5`, Apr 4).
@@ -53,7 +55,7 @@ Launch enterprise-grade security features — the Knowza ID universal authentica
 - **User Services Layer:** Added dedicated user services and serializers module (`90ebe41`, Apr 26).
 - **Cache Invalidation:** Fixed streak and dashboard cache invalidation after data updates (`7c7193b`, Apr 26).
 
-### 🤖 Knowza AI (Backend)
+### 🤖 Backend
 
 > **🔴 Major AI Release** — This is the most significant Knowza AI engineering milestone. The entire AI engine moved from a client-side Gemini call to a server-authoritative, secured, multi-provider AI infrastructure.
 

@@ -12,10 +12,8 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Complete i18n Overhaul:** Implemented a platform-wide multi-language translation system using `react-i18next` with JSON translation files, covering all 4 dashboard panels (Student, Teacher, Sub-Admin, Head Admin) and public-facing pages — 226 files refactored with translation keys (`7f35719`, `dec25c7`, Jun 15-19).
 - **CommandPalette Search Engine Rebuild:** Redesigned the `CommandPalette` search engine to work with translated navigation labels, enabling multi-language search across all panel routes (`dec25c7`, Jun 19).
 - **Activity Log Translation:** Added a dedicated `activityTranslator.js` utility to dynamically translate system activity log entries across all panels, ensuring activity feeds render correctly in any selected language (`dec25c7`, Jun 19).
@@ -27,7 +25,9 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 - **Notification Preferences Utility:** Added a `notificationPreferences.js` utility module to manage and persist LMS user notification settings (`dec25c7`, Jun 19).
 - **Student & Teacher Docs Data:** Created dedicated `StudentDocsData.js` and `TeacherDocsData.js` files to externalize LMS documentation content with full translation support (`dec25c7`, Jun 19).
 
-### 🤖 Knowza AI
+---
+
+## 🤖 Knowza AI
 
 > Knowza AI is a **separate product** from the LMS. No new AI capabilities shipped in this release. Changes here were structural — separating the AI interface from LMS analytics widgets where it had been mixed in earlier.
 
@@ -35,8 +35,7 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 - **Backend AI Engine: No Changes.** The server-side `KnowzaAIEngine` ran stably and unaffected. All intents (`explain`, `test_gen`, `socratic`, `article_gen`, etc.) remained fully functional.
 - **AI Session Continuity Preserved:** The `AIChatHistory` model retained all student conversation data through the interface reorganization. Zero conversation data was lost.
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **SMTP Diagnostics Endpoint:** Built a `check_smtp` endpoint to diagnose email configuration and connectivity issues in real-time, with delivery validation and detailed error reporting (`76de601`, `daf8b14`, Jun 13).
 - **Email Infrastructure Hardening:** Migrated SMTP configuration to environment variables, switched to Brevo SMTP relay, removed promotional links from templates, and enabled synchronous email sending with explicit error handling (`d14e73a`, `08e9ec3`, `9b68fdf`, `c91be72`, Jun 14).
 - **Automated Student Activity Logging:** Implemented automated activity log entries for schedule changes and new homework assignments so students receive timely notifications (`416b88c`, Jun 13).

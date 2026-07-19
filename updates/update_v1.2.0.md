@@ -11,10 +11,8 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Dynamic Island Header:** Designed and implemented a floating Dynamic Island-style header with real-time clock, weather display, and smooth morphing transitions. Inspired by Apple's iOS interface pattern (`604a7b6`–`a06d99d`, Jan 11 – Feb 4).
 - **Onboarding Flow:** Built a multi-step onboarding overlay with slide animations, HelpButton integration, and scroll locks for first-time users (`a136b64`–`c05e6a7`, Jan 12–23).
 - **Brutalist Design System:** Overhauled the visual aesthetic with a brutalist design language — bold typography, raw borders, centered forms, and high-contrast layouts (`c74097a`–`bf2fb1e`, Jan 12).
@@ -27,7 +25,12 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 - **Notes Sidebar:** Added a text selection saving feature with a dedicated notes sidebar, morphing UI, and premium flyer animations (`3d86381`–`773309b`, Jan 30).
 - **3D Model Asset:** Added a MacBook Pro M3 16-inch 2024 3D model (`935fcda`, Jan 25) for use in presentation pages.
 
-### 🤖 Knowza AI — First Integration
+
+---
+
+## 🤖 Knowza AI
+
+### 🤖 First AI Integration
 
 > **⭐ Milestone:** This is the **first AI feature** in the Knowza ecosystem. Knowza AI at this stage ran entirely on the client side via direct Gemini API calls — before the server-side engine was built. It is a completely separate product from the LMS used by students independently.
 
@@ -37,8 +40,7 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 
 > **What this evolved into:** The move to server-side in v2.0.0 was driven by 3 core needs: (1) Security — API keys cannot be on the client, (2) Memory — session history must live on the server, (3) Intent routing — different questions require different LLM configurations.
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - No significant backend changes in this period — focus was exclusively on frontend UX.
 
 ---

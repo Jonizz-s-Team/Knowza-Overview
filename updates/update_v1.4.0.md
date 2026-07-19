@@ -11,10 +11,8 @@ Rebrand the platform from "Examify/Test-App" to **Knowza**, implement the second
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Platform Rebranding:** Renamed the platform from "Examify" to "Knowza" across all components, translations, titles, and branding assets (`255dab1`–`a31aa4a`, Mar 8–9). Later refined to "Knowza Test Platform" (`634700b`, Mar 22).
 - **Anti-Cheat System v2:** Built a new progressive ban system with timezone support, centralized ban management, timed penalties, and UI ban status indicators (`df9a321`–`5f4de00`, Mar 7–8).
 - **Admin Tariff & Subscription:** Implemented the admin registration flow with email verification, trial plan assignment, and subscription tier selection (`30058e9`, Mar 9).
@@ -31,8 +29,7 @@ Rebrand the platform from "Examify/Test-App" to **Knowza**, implement the second
 - **Teacher Profile Pages:** Added clickable teacher names linking to dedicated teacher profile and editing pages (`d1bfc26`–`0a60290`, Apr 1).
 - **Seller/Content Manager Consolidation:** Merged the Seller and Content Manager panels under the unified "Head Admin" namespace (`6b1654d`–`cfcc8dd`, Mar 4–18).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **AI Utility Functions:** Added AI-powered content generation utilities with Groq API support (`9499e6e`, Mar 27).
 - **Module Model:** Introduced the `Module` model for organizing tests into subject-based collections.
 - **Redis Caching & Throttling:** Implemented Redis-backed caching for AI responses and API views, added request rate throttling (`541cb64`, Mar 27).

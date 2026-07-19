@@ -13,10 +13,8 @@ Expand Knowza from a pure assessment platform into a full Learning Management Sy
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Homework Management:** Added homework calendar pages with file attachment support, email verification methods, and API service integration for homework CRUD (`585948e`, May 23).
 - **Toast Notification Migration:** Replaced all `antd message` popups with `sonner` toast notifications across every platform page for a cleaner, more modern notification UX (`8d39873`, May 23).
 - **Public Identifier Navigation:** Migrated student profile navigation to use public identifiers via a shared utility helper, removing internal IDs from URLs (`1f58f6e`, May 23).
@@ -25,8 +23,7 @@ Expand Knowza from a pure assessment platform into a full Learning Management Sy
 - **Student Operations Page:** Created a Student Operations management page with localization and UI improvements (`48a4d7d`, May 24).
 - **Presentation Package:** Added a comprehensive presentation package including demo screenshots checklist, API docs screenshot plan, architecture details, 7-month development narrative, and pilot roadmap (`971ac10`, May 25).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Async Styled Email System:** Implemented a fully styled, asynchronous email delivery pipeline using Django's email backend. Emails feature modern HTML templates with responsive layouts (`928434e`, May 23).
 - **Teacher Permission Restrictions:** Tightened teacher management permissions with scoped access controls (`928434e`, May 23).
 - **Homework ViewSet:** Created a dedicated ViewSet for homework CRUD operations with file attachment support.

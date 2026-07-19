@@ -12,10 +12,8 @@ Implement full sub-admin data scope isolation across all platform modules, enabl
 
 ---
 
-## 🛠 Features & Capabilities Introduced
-
-### Frontend — Knowza LMS
-
+## 🏫 Knowza LMS
+### 🏫 Frontend
 - **Sub-Admin Branch Isolation:** Implemented complete data scope isolation for sub-admins — groups, teachers, classrooms, and student lists are now automatically filtered by the sub-admin's assigned branch (`c896c6a`, Jun 5).
 - **Classroom Sub-Admin Assignment:** Added the ability to assign specific sub-admins to classrooms with a dedicated selector, supporting bulk reassignment of existing classrooms between branches (`c896c6a`, Jun 5).
 - **Monday-Starting Calendar Grid:** Patched the `calendarjs` weekly calendar component so that columns start from Monday instead of Sunday, matching the standard academic week layout used in Uzbekistan (`c896c6a`, Jun 5).
@@ -27,8 +25,7 @@ Implement full sub-admin data scope isolation across all platform modules, enabl
 - **Excel Export for Groups:** Added a new "Excel Export" button to export the current groups list with group name, direction, student count, and average score to a dated `.xlsx` file (`c896c6a`, Jun 5).
 - **Schedule Slot Fix:** Fixed schedule loading where slot count was being truncated by disabling the default backend viewset pagination for schedule endpoints (`c896c6a`, Jun 5).
 
-### Backend — Knowza LMS (`Knowza-Backend`)
-
+### 🏫 Backend
 - **Teacher Test Creation Bug Fix:** Fixed a critical permission error where teachers were unable to create tests from the Teacher Dashboard. The backend `_ensure_test_db_manage_allowed` guard was incorrectly restricting test creation to admins and sub-admins only — teachers are now properly authorized (`abc1022`, Jun 5).
 - **Sub-Admin Filtering for Classrooms & Schedules:** Added `sub_admin` query parameter filtering to classroom and schedule viewsets, allowing the frontend to scope data by branch (`fc6ffde`, Jun 5).
 - **Bulk Reassign Classrooms:** New `bulk_reassign` action on the Classroom viewset lets admins reassign all classrooms from one sub-admin to another in a single API call (`fc6ffde`, Jun 5).
