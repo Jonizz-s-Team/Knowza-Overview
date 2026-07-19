@@ -40,7 +40,6 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
 
 > Knowza AI is a **completely separate product** from Knowza LMS. The items below are exclusive to the Knowza AI environment (dedicated student AI tutor platform) and share no UI, onboarding, or subscription with the LMS.
 
-- **Universal Access System:** Implemented the `has_universal_access` and `universal_access_expiry` fields on the User model — enabling a unified premium tier that grants full access to all Knowza services including both LMS and AI features under a single subscription (Knowza ID Premium) (`fa259b0`, Jun 23).
 - **AI Personalization Profile Extension:** Extended student profile fields that feed directly into AI personalization: `age`, `current_level`, `target_goals`, `study_days`, `study_hours_per_day`, `interests`, `ai_persona`, `ai_memory_summary`, `is_ai_personalized`, and `is_memory_enabled` — now fully exposed in serializers with read/write support (`3e7fda6`, Jun 23).
 - **AI Access via Tariff:** The new tariff enforcement engine (`f3b3511`, Jun 30) integrates with AI quota checks, ensuring institution-level subscriptions correctly gate AI feature access for teachers and sub-admins.
 

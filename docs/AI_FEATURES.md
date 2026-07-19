@@ -180,15 +180,14 @@ Students can save AI-generated materials:
 
 ## 🔐 Knowza AI Subscription
 
-Knowza AI has its **own separate access system**, independent from school tariffs.
+Knowza AI has its **own separate access system**, completely independent from any school or LMS subscription.
 
 | Tier | What it includes |
 |---|---|
 | **Free** | Limited AI requests per day |
-| **Knowza AI Premium** | Unlimited access, priority LLM routing |
-| **Knowza ID Universal** | Access to all Knowza services (LMS + AI) under one account |
+| **Knowza AI Premium** | Unlimited access, priority LLM routing, long-term memory, full personalization, PDF export |
 
-> If a student is enrolled at a school using Knowza LMS — that does **NOT** grant them Knowza AI access automatically. These are two different products with separate subscriptions.
+> **Knowza AI and Knowza LMS are two completely separate products with separate subscriptions.** Being enrolled at a school on Knowza LMS does **NOT** grant Knowza AI access — and a Knowza AI Premium subscription does not include LMS access. There is no shared subscription between them.
 
 ---
 

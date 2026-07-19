@@ -99,7 +99,7 @@ Knowza AI is a **standalone personal learning platform for students only**. It i
 - **AI Articles** — writes in-depth educational articles enriched with live web search and YouTube references
 - **Long-Term Memory** — remembers each student's history, struggles, and goals across sessions
 - **KnowzaShield Firewall** — prompt injection and jailbreak detection in 3 languages
-- **Personal B2C Subscription** — independent from any school tariff (Free / Premium / Knowza ID Universal)
+- **Personal B2C Subscription** — independent from any school tariff (Free / Knowza AI Premium)
 
 > 📄 See [`docs/AI_ARCHITECTURE.md`](docs/AI_ARCHITECTURE.md) for the full technical blueprint.
 > 📋 See [`docs/AI_FEATURES.md`](docs/AI_FEATURES.md) for the complete feature inventory.

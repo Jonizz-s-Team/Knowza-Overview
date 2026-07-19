@@ -127,25 +127,20 @@ class ServiceEntitlement:
 | Tier | How to get | What it includes |
 |---|---|---|
 | **Free** | Sign up for Knowza AI | Limited AI requests (rate-throttled) |
-| **Knowza AI Premium** | Personal student subscription (B2C) | Full access, expanded quotas |
-| **Knowza ID Universal** | `has_universal_access = True` | Full access to all Knowza services (LMS + AI) |
+| **Knowza AI Premium** | Personal student subscription (B2C) | Unlimited requests, priority LLM routing, long-term memory, full personalization, PDF export |
 
-> **Important:** A student enrolled at a school on Knowza LMS does **NOT** automatically get Knowza AI access. These are separate purchases.
+> **Important:** Knowza AI and Knowza LMS are **completely separate products with separate subscriptions**. There is no shared/bundle subscription. A student enrolled at a school on Knowza LMS does **NOT** automatically get Knowza AI access — these are two independent purchases.
 
 ```mermaid
 graph LR
     FREE["🆓 Free Tier\n────────────\nLimited daily AI requests\nRate-throttled\nNo memory\nNo personalization"]
-    PREMIUM["⭐ Knowza AI Premium\n────────────\nUnlimited requests\nPriority LLM routing\nLong-term memory\nFull personalization\nPDF export"]
-    UNIVERSAL["👑 Knowza ID Universal\n────────────\nEverything in Premium\n+ Full LMS access\nhas_universal_access = True\nSingle subscription"]
+    PREMIUM["⭐ Knowza AI Premium\n────────────\nUnlimited requests\nPriority LLM routing\nLong-term memory\nFull AI personalization\nPDF export · Research"]
 
-    FREE -->|Upgrade B2C| PREMIUM
-    PREMIUM -->|Bundle upgrade| UNIVERSAL
+    FREE -->|Personal B2C upgrade| PREMIUM
 
     style FREE fill:#1a1a2e,stroke:#6366f1,color:#fff
     style PREMIUM fill:#1a2e1a,stroke:#4ade80,color:#fff
-    style UNIVERSAL fill:#2d1f3d,stroke:#f59e0b,color:#fff
 ```
-
 
 
 ---
