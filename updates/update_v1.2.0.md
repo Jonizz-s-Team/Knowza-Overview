@@ -13,10 +13,9 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Dynamic Island Header:** Designed and implemented a floating Dynamic Island-style header with real-time clock, weather display, and smooth morphing transitions. Inspired by Apple's iOS interface pattern (`604a7b6`–`a06d99d`, Jan 11 – Feb 4).
-- **AI Chat with Gemini:** Integrated a text-based AI assistant powered by Google Gemini API. Includes text selection saving and conversation persistence (`52a517c`–`a136b64`, Jan 11–12).
 - **Onboarding Flow:** Built a multi-step onboarding overlay with slide animations, HelpButton integration, and scroll locks for first-time users (`a136b64`–`c05e6a7`, Jan 12–23).
 - **Brutalist Design System:** Overhauled the visual aesthetic with a brutalist design language — bold typography, raw borders, centered forms, and high-contrast layouts (`c74097a`–`bf2fb1e`, Jan 12).
 - **Enhanced Search:** Implemented animated global search in the header with expanded content results, keyboard shortcuts, and full localization (`933ec64`, Jan 14).
@@ -28,15 +27,17 @@ Introduce cutting-edge UX elements inspired by Apple's Dynamic Island, integrate
 - **Notes Sidebar:** Added a text selection saving feature with a dedicated notes sidebar, morphing UI, and premium flyer animations (`3d86381`–`773309b`, Jan 30).
 - **3D Model Asset:** Added a MacBook Pro M3 16-inch 2024 3D model (`935fcda`, Jan 25) for use in presentation pages.
 
-### 🤖 Knowza AI (First Integration)
+### 🤖 Knowza AI — First Integration
 
-- **AI Chat — Google Gemini:** Integrated the first AI-powered learning assistant using the Google Gemini API. Students could ask questions and receive educational answers directly within the platform (`52a517c`–`a136b64`, Jan 11–12).
-- **Text Selection Memory:** Implemented a "Notes Sidebar" that lets students save selected text from AI responses and study materials for later review (`3d86381`, Jan 30).
-- **AI Infrastructure Foundation:** Established the basic client-side AI request pipeline that would later evolve into the full server-side `KnowzaAIEngine`.
+> **⭐ Milestone:** This is the **first AI feature** in the Knowza ecosystem. Knowza AI at this stage ran entirely on the client side via direct Gemini API calls — before the server-side engine was built. It is a completely separate product from the LMS used by students independently.
 
-> **Milestone:** First AI feature in the Knowza ecosystem. At this stage, AI ran on the client side via direct Gemini API calls. The server-side engine was built in a later version.
+- **AI Chat — Google Gemini:** Integrated the first AI-powered personal learning assistant using the Google Gemini API. Students could ask educational questions and receive AI answers directly (`52a517c`–`a136b64`, Jan 11–12).
+- **Text Selection Memory (Notes Sidebar):** Students could select text from AI responses and save it to a personal notes sidebar for later review (`3d86381`, Jan 30).
+- **AI Infrastructure Foundation:** Established the basic client-side AI request pipeline that would later evolve into the full server-side `KnowzaAIEngine` built in v2.0.0.
 
-### Backend (`Knowza-Backend`)
+> **What this evolved into:** The move to server-side in v2.0.0 was driven by 3 core needs: (1) Security — API keys cannot be on the client, (2) Memory — session history must live on the server, (3) Intent routing — different questions require different LLM configurations.
+
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - No significant backend changes in this period — focus was exclusively on frontend UX.
 

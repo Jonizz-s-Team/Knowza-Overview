@@ -14,7 +14,23 @@ Introduce student-facing B2C payment history and printable Electronic Invoice Re
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+---
+
+### 🏫 Knowza LMS — Frontend
+
+> No new LMS-specific features shipped in this release. This cycle was focused entirely on the Knowza AI product environment.
+
+---
+
+### 🏫 Knowza LMS — Backend (`Knowza-Backend`)
+
+> No new LMS-specific backend changes in this release.
+
+---
+
+### 🤖 Knowza AI (Frontend)
+
+> All frontend changes below are **exclusive to the Knowza AI product** — the standalone personal AI tutor environment for students. These pages live in a completely separate route space from the LMS.
 
 - **Electronic Invoice Receipting (`ReceiptModal.jsx`):** Developed a brand-new component rendering a professional, printable electronic invoice in Uzbek.
   - Features a decorative green "To'langan" (Paid) stamp overlay.
@@ -33,7 +49,11 @@ Introduce student-facing B2C payment history and printable Electronic Invoice Re
   - **Interface Controls:** Integrated a full-screen reader view, a deletion confirmation modal, and a list-spacing markdown helper.
 - **Revamped Pro Pricing Layout (`Pro.jsx`):** Replaced static tables with glassmorphic cards featuring floating animated color orbs and quick-connect triggers to the Telegram billing desk.
 
-### Backend (`Knowza-Backend`)
+---
+
+### 🤖 Knowza AI (Backend)
+
+> All backend changes below are **exclusive to the Knowza AI engine** within the shared backend infrastructure. None of these changes affect LMS functionality (tests, schedules, classrooms, anti-cheat, gamification).
 
 - **Multi-Provider LLM Load Balancer (`utils.py`):** Built a load balancer with automatic round-robin fallback.
   - Supports up to 10 API keys per provider across OpenAI, Anthropic, Gemini, and Groq.

@@ -13,7 +13,7 @@ Launch the classroom and schedule management system with form-based CRUD interfa
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **ScheduleForm & ClassroomForm:** Built dedicated form components with full navigation, API integration, and validation for managing schedule time slots and classroom records (`f661da2`, Jun 1).
 - **Tariff Feature List Redesign:** Updated the pricing plan feature list UI with real-time data by disabling pricing cache (`24f69e2`, Jun 1).
@@ -21,7 +21,7 @@ Launch the classroom and schedule management system with form-based CRUD interfa
 - **Delete Loading States:** Added loading indicators for delete operations to prevent double-clicks and improve UX feedback (`229997c`, Jun 2).
 - **Classroom List Filtering:** Implemented client-side search and filtering for the classroom list view (`229997c`, Jun 2).
 
-### Backend (`Knowza-Backend`)
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **Bulk Classroom Import:** Added a `bulk_import` action to the Classroom ViewSet with tariff quota enforcement (`ce8e55f`, Jun 1).
 - **Pricing Model Overhaul:** Removed all resource limits on subjects, rooms, and groups. Significantly reduced dynamic pricing and tariff costs to accelerate adoption (`ed563b1`, Jun 1).

@@ -13,7 +13,7 @@ Complete the global platform rebranding to "Knowza" across all translation local
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Global Rebranding to Knowza:** Updated the application name across all translation locale files (EN, UZ, RU) to consistently display "Knowza" (`5dd5af5`, May 31).
 - **Unified Toast Notifications:** Replaced all remaining local state alerts (`useState`-based success/error messages) with centralized `sonner` toast notifications across every admin module (`d43ed21`–`e21077d`, May 31).
@@ -23,7 +23,7 @@ Complete the global platform rebranding to "Knowza" across all translation local
 - **Roadmap Documentation:** Updated the project roadmap with detailed product features and system module descriptions (`dd05f40`, May 31).
 - **Legacy Docs Cleanup:** Removed outdated server test context documentation and added the project presentation report (`fa4a604`, May 31).
 
-### Backend (`Knowza-Backend`)
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **Production Deployment Guide:** Completely rewrote the production deployment documentation with comprehensive maintenance procedures, troubleshooting sections, and operational playbooks (`5e4f3af`, May 31).
 - **BCC Email Support:** Added BCC recipient support to the email utility for admin notification copies (`d7a7bae`, May 31).

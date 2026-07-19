@@ -14,7 +14,7 @@ Implement full sub-admin data scope isolation across all platform modules, enabl
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Sub-Admin Branch Isolation:** Implemented complete data scope isolation for sub-admins — groups, teachers, classrooms, and student lists are now automatically filtered by the sub-admin's assigned branch (`c896c6a`, Jun 5).
 - **Classroom Sub-Admin Assignment:** Added the ability to assign specific sub-admins to classrooms with a dedicated selector, supporting bulk reassignment of existing classrooms between branches (`c896c6a`, Jun 5).
@@ -27,7 +27,7 @@ Implement full sub-admin data scope isolation across all platform modules, enabl
 - **Excel Export for Groups:** Added a new "Excel Export" button to export the current groups list with group name, direction, student count, and average score to a dated `.xlsx` file (`c896c6a`, Jun 5).
 - **Schedule Slot Fix:** Fixed schedule loading where slot count was being truncated by disabling the default backend viewset pagination for schedule endpoints (`c896c6a`, Jun 5).
 
-### Backend (`Knowza-Backend`)
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **Teacher Test Creation Bug Fix:** Fixed a critical permission error where teachers were unable to create tests from the Teacher Dashboard. The backend `_ensure_test_db_manage_allowed` guard was incorrectly restricting test creation to admins and sub-admins only — teachers are now properly authorized (`abc1022`, Jun 5).
 - **Sub-Admin Filtering for Classrooms & Schedules:** Added `sub_admin` query parameter filtering to classroom and schedule viewsets, allowing the frontend to scope data by branch (`fc6ffde`, Jun 5).
@@ -102,6 +102,8 @@ Over the course of Knowza's 7-month development, several major components, pages
 ---
 
 ## 🤖 Knowza AI
+
+> Knowza AI is a **separate product** from the LMS. The items below reflect permanent archival of the old client-side Gemini integration.
 
 - **Client-Side Gemini Chat Archived:** `AIChat.jsx` — the original Gemini-powered client-side chat from v1.2.0 — was permanently removed (`9b43f3f`, Feb 28). The transition is complete: Knowza AI now runs entirely server-side via the `KnowzaAIEngine` built in v2.0.0.
 - **Notes Sidebar Archived:** `NotesSidebar.jsx` and `TextSelectionHandler.jsx` — the text-selection memory features that accompanied the original Gemini chat — were also removed (`9b43f3f`, Feb 28). This functionality will return in a more integrated form within the dedicated Knowza AI interface.

@@ -14,7 +14,7 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Branch Admin Role Migration:** Fully migrated the user role checks, path names, and terminology from `sub_admin` to `branch_admin` across the entire React codebase, including updating `SubAdminSelector` to fetch via the branch admin endpoint (`be4a07f`, `d749965`, Jun 24).
 - **Branch Admin Management UI:** Added `BranchAdminDetails` and enhanced `BranchAdminForm` to collect phone numbers and support automatic username generation (`a6791d6`, Jun 24).
@@ -27,7 +27,7 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
   - **Data Access Control (Section 9):** Documented tenant-level logical data isolation (Admin/Branch Admin/Teacher/Student scoping).
   - **B2B/B2C Payment Split (Section 14):** Formally clarified that B2B learning center tariffs are completely independent of direct student payments (Premium/Stars), protecting Knowza from center-level claims.
 
-### Backend (`Knowza-Backend`)
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **Sub-Admin to Branch Admin DB Migration:** Renamed Django DB roles, choices, and filters from `sub_admin` to `branch_admin`, modified the tariff limits field (`max_sub_admins` -> `max_branch_admins`), and generated migration `0124_change_sub_admin_to_branch_admin.py` while ensuring all 55 unit tests pass (`e073fe2`, Jun 24).
 - **Branch Admin View Filters:** Added `branch_admin_id` filter to content manager and test endpoints, and included cached statistics in resource serializers (`7339017`, Jun 24).
@@ -38,6 +38,8 @@ Consolidate a major platform migration renaming all Sub-Admin references to Bran
 - **Star Package Expansion:** Expanded role permissions in `OpsMixin` to grant branch admins capability to award stars to students (`8f655ed`, Jun 21).
 
 ### 🤖 Knowza AI
+
+> Knowza AI is a **completely separate product** from Knowza LMS. The items below are exclusive to the Knowza AI environment (dedicated student AI tutor platform) and share no UI, onboarding, or subscription with the LMS.
 
 - **Universal Access System:** Implemented the `has_universal_access` and `universal_access_expiry` fields on the User model — enabling a unified premium tier that grants full access to all Knowza services including both LMS and AI features under a single subscription (Knowza ID Premium) (`fa259b0`, Jun 23).
 - **AI Personalization Profile Extension:** Extended student profile fields that feed directly into AI personalization: `age`, `current_level`, `target_goals`, `study_days`, `study_hours_per_day`, `interests`, `ai_persona`, `ai_memory_summary`, `is_ai_personalized`, and `is_memory_enabled` — now fully exposed in serializers with read/write support (`3e7fda6`, Jun 23).

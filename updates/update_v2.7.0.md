@@ -14,7 +14,7 @@ Introduce gamified Duolingo-style season leagues with percentile brackets, imple
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Gamified Student Leagues UI:** Fully redesigned the `StudentLeaguePage` with styled percentile zones (promotion/demotion areas), current streak multipliers, motivational user prompts, and an interactive dashboard for league rankings (`5ec8961`, `420b4c1`, Jun 9-10).
 - **Test Complaint Submission:** Enabled students to submit complaints and report issues on specific test questions directly from the exam page, feeding into the admin notification system (`ac1093a`, Jun 9).
@@ -26,7 +26,7 @@ Introduce gamified Duolingo-style season leagues with percentile brackets, imple
 - **Support Badge & Ticket Filtering:** Integrated a floating platform support badge and enhanced support tickets to filter incoming requests by sender roles (`73275b3`, `63e2b82`, Jun 8-12).
 - **Explicit Size Cleanups:** Standardized layouts by removing redundant size props from search fields, sorting selects, and input fields across all modules (`7c7c8f1`, `6adb8a1`, Jun 6-9).
 
-### Backend (`Knowza-Backend`)
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **Season Leagues Engine:** Implemented Duolingo-style leagues, configurable cohorts, streak multipliers, and percentile-based closing algorithms (`6428552`, `3044fa2`, Jun 8-9).
 - **Automated League Expire Runner:** Added an automated league expiration command (`expire_leagues`) and cron-like runner (`auto_expire_runner.py`) to periodically compute rankings and advance/demote students (`6428552`, Jun 9).
@@ -55,7 +55,7 @@ Introduce gamified Duolingo-style season leagues with percentile brackets, imple
 
 ## 🤖 Knowza AI
 
-No new Knowza AI features in this release. This cycle was focused entirely on LMS gamification (season leagues), test complaints, and TanStack Query migration. The Knowza AI engine ran stable in the background with no changes to the `KnowzaAIEngine`, intent router, or LLM gateway.
+> Knowza AI is a **separate product** from the LMS. No new AI features shipped in this release. This cycle was focused entirely on LMS gamification (season leagues), test complaints, and TanStack Query migration. The Knowza AI engine ran stable in the background with no changes to the `KnowzaAIEngine`, intent router, or LLM gateway.
 
 ---
 

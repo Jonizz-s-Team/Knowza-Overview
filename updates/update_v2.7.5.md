@@ -14,7 +14,7 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 
 ## 🛠 Features & Capabilities Introduced
 
-### Frontend (`Knowza`)
+### Frontend — Knowza LMS
 
 - **Complete i18n Overhaul:** Implemented a platform-wide multi-language translation system using `react-i18next` with JSON translation files, covering all 4 dashboard panels (Student, Teacher, Sub-Admin, Head Admin) and public-facing pages — 226 files refactored with translation keys (`7f35719`, `dec25c7`, Jun 15-19).
 - **CommandPalette Search Engine Rebuild:** Redesigned the `CommandPalette` search engine to work with translated navigation labels, enabling multi-language search across all panel routes (`dec25c7`, Jun 19).
@@ -24,16 +24,18 @@ Deliver a complete multi-language internationalization (i18n) system across all 
 - **Toast Notifications for Updates:** Added real-time toast notifications for platform updates and account verification status changes on the student dashboard (`4f76d0a`, Jun 13).
 - **Loading Hang Fix:** Resolved a critical loading hang caused by missing AbortController timeout in data fetching, and fixed analytics column sorting with improved refetch logic (`c00f074`, Jun 13).
 - **Test ID Standardization:** Standardized test ID handling across pages and enhanced homework calendar detail views with consistent data formatting (`f83c9d7`, Jun 13).
+- **Notification Preferences Utility:** Added a `notificationPreferences.js` utility module to manage and persist LMS user notification settings (`dec25c7`, Jun 19).
+- **Student & Teacher Docs Data:** Created dedicated `StudentDocsData.js` and `TeacherDocsData.js` files to externalize LMS documentation content with full translation support (`dec25c7`, Jun 19).
 
 ### 🤖 Knowza AI
 
-- **AI UI Consolidation:** Removed early experimental AI-branded UI analytics widgets (`AIAnalysisCard`, dashboard AI overlays) from student statistics pages. The Knowza AI interface was refactored into a dedicated, focused AI chat experience rather than scattered analytics overlays (`5e533ea`, Jun 13).
-- **Backend AI Engine Stability:** The server-side `KnowzaAIEngine` continued operating unaffected — only the frontend display layer was reorganized. All intents (explain, test_gen, socratic, article_gen, etc.) remained fully functional.
-- **AI Session Continuity:** Backend `AIChatHistory` model persisted all session data through the UI consolidation, ensuring no conversation history was lost for users during the transition.
-- **Notification Preferences Utility:** Added a `notificationPreferences.js` utility module to manage and persist user notification settings (`dec25c7`, Jun 19).
-- **Student & Teacher Docs Data:** Created dedicated `StudentDocsData.js` and `TeacherDocsData.js` files to externalize documentation content with full translation support (`dec25c7`, Jun 19).
+> Knowza AI is a **separate product** from the LMS. No new AI capabilities shipped in this release. Changes here were structural — separating the AI interface from LMS analytics widgets where it had been mixed in earlier.
 
-### Backend (`Knowza-Backend`)
+- **AI Interface Consolidation (LMS → Dedicated AI Environment):** Removed experimental `AIAnalysisCard` analytics overlays that had been embedded inside the LMS student statistics dashboard. Knowza AI now lives exclusively in its own dedicated environment — not as scattered widgets inside the LMS (`5e533ea`, Jun 13).
+- **Backend AI Engine: No Changes.** The server-side `KnowzaAIEngine` ran stably and unaffected. All intents (`explain`, `test_gen`, `socratic`, `article_gen`, etc.) remained fully functional.
+- **AI Session Continuity Preserved:** The `AIChatHistory` model retained all student conversation data through the interface reorganization. Zero conversation data was lost.
+
+### Backend — Knowza LMS (`Knowza-Backend`)
 
 - **SMTP Diagnostics Endpoint:** Built a `check_smtp` endpoint to diagnose email configuration and connectivity issues in real-time, with delivery validation and detailed error reporting (`76de601`, `daf8b14`, Jun 13).
 - **Email Infrastructure Hardening:** Migrated SMTP configuration to environment variables, switched to Brevo SMTP relay, removed promotional links from templates, and enabled synchronous email sending with explicit error handling (`d14e73a`, `08e9ec3`, `9b68fdf`, `c91be72`, Jun 14).
