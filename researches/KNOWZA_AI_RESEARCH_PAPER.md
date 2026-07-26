@@ -43,35 +43,35 @@ The architecture of Knowza AI is designed on the principle of Defense in Depth a
 
 ```mermaid
 flowchart TD
-    subgraph Client [Public Zone]
-        U[Student / User]
+    subgraph Client ["Public Zone"]
+        U["Student / User"]
     end
 
-    subgraph Auth [Authentication Layer]
-        JWT[JWT & Role Validation]
-        SE[ServiceEntitlement Check]
+    subgraph Auth ["Authentication Layer"]
+        JWT["JWT & Role Validation"]
+        SE["ServiceEntitlement Check"]
     end
 
-    subgraph Security [Security Layer (KnowzaShield)]
-        H_FILTER[Heuristic Regex Filter]
-        S_FILTER[Semantic Vector Filter]
+    subgraph Security ["Security Layer (KnowzaShield)"]
+        H_FILTER["Heuristic Regex Filter"]
+        S_FILTER["Semantic Vector Filter"]
     end
 
-    subgraph Core [Knowza AI Application Core]
-        PROFILER[Intent Profiling Engine]
-        BUDGET[Dynamic Prompt Budgeting]
-        RAG[RAG & HNSW Vector DB]
-        REFLECT[Self-Reflection Loop]
+    subgraph Core ["Knowza AI Application Core"]
+        PROFILER["Intent Profiling Engine"]
+        BUDGET["Dynamic Prompt Budgeting"]
+        RAG["RAG & HNSW Vector DB"]
+        REFLECT["Self-Reflection Loop"]
     end
 
-    subgraph LLM_Gateway [Multi-Provider Gateway]
-        OAI[OpenAI gpt-4o]
-        ANTH[Anthropic Claude 3.5]
-        GEM[Google Gemini 3.5]
-        GROQ[Groq Llama-3.3]
+    subgraph LLM_Gateway ["Multi-Provider Gateway"]
+        OAI["OpenAI gpt-4o"]
+        ANTH["Anthropic Claude 3.5"]
+        GEM["Google Gemini 3.5"]
+        GROQ["Groq Llama-3.3"]
     end
 
-    U -->|Request (WebSocket / HTTPS)| JWT
+    U -->|"Request (WebSocket / HTTPS)"| JWT
     JWT --> SE
     SE --> H_FILTER
     H_FILTER -->|Passed| S_FILTER
@@ -82,8 +82,8 @@ flowchart TD
     BUDGET --> LLM_Gateway
     RAG --> BUDGET
     
-    LLM_Gateway -->|Draft Response| REFLECT
-    REFLECT -->|Verified Response| U
+    LLM_Gateway -->|"Draft Response"| REFLECT
+    REFLECT -->|"Verified Response"| U
 ```
 
 ### 2.1. Separation of Implementations (Implemented vs Proposed)
