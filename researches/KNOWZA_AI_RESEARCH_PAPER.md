@@ -6,6 +6,11 @@
 **Статус:** Черновик для публикации (Pre-print)
 **Ташкент — 2026**
 
+> [!NOTE]
+> **Language Notice:** Данный документ (MD-файл) и само исследование в настоящее время представлены на **русском языке**. Полный перевод исследования на **английский язык (English version)** будет доступен в ближайшее время!
+> 
+> *This markdown file and the research paper are currently in **Russian**. An **English version** of the full research paper will be available soon!*
+
 ---
 
 ## Аннотация
