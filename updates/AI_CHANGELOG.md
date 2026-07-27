@@ -12,11 +12,36 @@ For the full platform changelog: [`updates/README.md`](README.md)
 
 | Version | Period | AI Milestone |
 |---|---|---|
+| **v2.9.0** | Jul 20–27, 2026 | **⚡ Major:** Hybrid Deterministic Engine · 0-Token Free Tier · Granular Tiering |
 | **v2.8.5** | Jul 1–19, 2026 | Multi-Provider key rotation · Uzbek electronic invoice PDF · Academic exam sandbox tests |
 | **v2.8.0** | Jun 21–30, 2026 | Full personalization fields exposed in API |
 | **v2.7.5** | Jun 12–19, 2026 | AI UI consolidated into dedicated chat interface |
 | **v2.0.0** | Apr 1–27, 2026 | **🔴 Major:** KnowzaShield · Groq gateway · Structured JSON · Quota UI |
 | **v1.2.0** | Jan 11–31, 2026 | **⭐ First AI:** Google Gemini chat · Notes sidebar · Client-side pipeline |
+
+---
+
+## v2.9.0 — Deterministic Hybrid Study Planner & Granular Tier Engine
+**July 20 – July 27, 2026**
+
+### What changed
+
+**Deterministic Hybrid Study Planner Engine (`api/ai_engine/study_plan/`)**
+- Replaced hallucination-prone AI prompt generation with a 7-module Python engine (`exam_knowledge`, `difficulty_engine`, `section_allocator`, `phase_builder`, `tier_differentiator`, `curriculum_bank`, `plan_assembler`).
+- **IELTS**: Band scores 0.0–9.0 (0.5 steps), 4 sections, 17 sub-skills, Cambridge-based hours matrix.
+- **SAT**: Digital SAT scale 400–1600 (10pt steps), 2 sections (Reading & Writing, Math), Desmos integration techniques.
+- **Milliy Sertifikat (MS/DTM)**: 0–100 Rash model scale ($C, C+, B, B+, A, A+$), subject-specific section ratios across 7 core subjects.
+
+**0-Token Free Tier & Ultra-Low Token Pro Tier**
+- **Free Tier**: 0 AI tokens. Full study map, milestones, daily missions, and markdown lesson nodes computed deterministically.
+- **Pro Tier**: LLM receives a compressed skeleton summary (only 4 weeks outline) to write high-touch Markdown tutor strategies, reducing token usage by 80%+.
+
+**Fair & Impactful Tier Differentiation**
+- Free Tier: 2-phase arc, capped at 8 weeks, 2 topics/day, 10 AI requests/day.
+- Pro Tier: 4-phase deep arc, up to 52 weeks, 3 topics/day, weekly Mini Mock Exams on Day 7, gap-based allocation targeting 70% of time to weakest diagnostic skills, 150 AI requests/day.
+
+**KnowzaShield & Groq Sub-Second Router**
+- Router prioritizes **Groq (`llama-3.3-70b-versatile`)** and **Gemini 2.0 Flash**, delivering ~300-600ms latency with strict Pydantic JSON validation.
 
 ---
 
