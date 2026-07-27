@@ -1,49 +1,87 @@
-# Knowza AI Release v2.9.0 — Deterministic Hybrid Study Planner & Tier Engine
+# 🚀 Update v2.9.0 — Deterministic Hybrid AI Study Planner, Zero-Token Free Tier, Granular Tier Engine & Sub-Second Groq Gateway
 
-> **Release Date:** July 27, 2026  
-> **Target Products:** Knowza AI (B2C) & Core Platform Backend  
-> **Architecture Focus:** Hybrid Deterministic Engine, Zero-Token Free Tier, Sub-second Latency, Granular Pedagogical Tiering  
-
----
-
-## 🚀 Key Highlights & Architectural Overhaul
-
-### 1. Deterministic Hybrid Study Planner Engine (`api/ai_engine/study_plan/`)
-- **Zero AI Hallucination & Exact Math**: Replaced heavy LLM generation with a 7-module Python engine that calculates exact timeline milestones, daily study minute budgets, non-linear progress curves, and burnout multipliers.
-- **80-100% Token Cost Reduction**:
-  - **Free Tier**: 0 AI tokens consumed. Pre-computes full schedules, milestones, daily missions, and templated markdown lessons deterministically.
-  - **Pro Tier**: LLM receives a highly compressed 4-week skeleton summary to generate deep tutor-style lesson strategies and personalized greetings, slashing input token costs by 80%+.
-
-### 2. Comprehensive Exam Knowledge Base (`exam_knowledge.py`)
-- **IELTS**: Score range 0.0–9.0 (0.5 steps), 4 sections (Listening, Reading, Writing, Speaking), 17 sub-skills, Cambridge-based hours matrix.
-- **SAT**: Digital SAT scale 400–1600 (10pt steps), 2 sections (Reading & Writing, Math), Desmos integration techniques, domain skill mapping.
-- **Milliy Sertifikat (MS/DTM)**: 0–100 Rash model scale ($C, C+, B, B+, A, A+$), subject-specific section ratios (Closed vs. Open short vs. Open detailed) across 7 subjects (*Matematika, Biologiya, Kimyo, Fizika, Tarix, Geografiya, Ona tili va adabiyot*).
-
-### 3. Fair & Impactful Tier Differentiation
-- **Free Tier**:
-  - 2-Phase Arc (*Foundation & Practice → Exam Preparation*).
-  - Capped at 8 weeks maximum.
-  - 2 lesson modules per day.
-  - 10 AI Requests/day (Chat + Practice Test Generation).
-  - 3 Roadmap Refreshes per profile.
-- **Pro Tier**:
-  - 4-Phase Deep Pedagogical Arc (*Diagnostic & Foundation → Skills Development → Exam Simulation → Final Review*).
-  - Up to 52 weeks planning.
-  - 3 lesson modules per day + **Weekly Mini Mock Exams** on Day 7.
-  - **Gap-Based Allocation**: 70% study time targeted dynamically at weakest diagnostic skills.
-  - 150 AI Requests/day + Pro Socratic Coach + Unlimited PDF Export & Node Regenerations.
-
-### 4. KnowzaShield Security & Lightning Provider Router
-- **Security Audit**: All incoming prompts audited by `KnowzaShield` for jailbreaks and prompt injections. Outputs validated against strict Pydantic schemas.
-- **Ultra-Fast Fallback Router**: Prioritizes **Groq (`llama-3.3-70b-versatile`)** and **Gemini 2.0 Flash**, delivering sub-second response times (~300-600ms).
+**Release Period:** July 20 – July 27, 2026  
+**Commits:** ~6 (Frontend) · ~8 (Backend)  
+**Lines Changed:** +2,397 / −106  
 
 ---
 
-## 📊 Technical Test Metrics
-- **128 Unit and Integration Tests**: All 128 tests passing (`128/128 OK`).
-- **Response Latency**: Free tier < 5ms, Pro tier ~500ms.
-- **Code Coverage**: 100% core coverage for `study_plan` modules.
+## 🎯 Release Goal
+
+Replace hallucination-prone AI study plan generation with a high-precision, 7-module deterministic Python engine (`study_plan/`). Eliminate AI token expenditure entirely for Free-tier users while delivering instant sub-5ms roadmap generation. Differentiate Free vs. Pro plans with crystal-clear pedagogical value: 2-phase capped roadmaps for Free vs. 4-phase deep arcs with weekly Mini Mock Exams, gap-based diagnostic skill targeting, and Pro-exclusive tutor strategies for Pro users. Prioritize ultra-fast Groq (`llama-3.3-70b-versatile`) routing with KnowzaShield firewall security.
 
 ---
 
-*Knowza AI Team — Elevating Education Through Reliable Intelligence.*
+## 🏫 Knowza LMS
+
+### 🏫 Frontend
+> No new LMS-specific features shipped in this release. This cycle was focused entirely on the Knowza AI product environment.
+
+---
+
+### 🏫 Backend
+
+> No new LMS-specific backend changes in this release.
+
+---
+
+## 🤖 Knowza AI
+
+### 🤖 Frontend
+
+> All frontend changes below are **exclusive to the Knowza AI product** — the standalone personal AI tutor environment for students.
+
+- **Plan Tier Badging & Upgrade Triggers (`Planner.jsx`):** Integrated live tier badges (`Knowza AI Standard Plan` vs. `Knowza AI Pro Plan`) and upgrade info banners explaining Pro features.
+- **Interactive Phase Progress Bar (`Planner.jsx`):** Developed a dynamic phase indicator component rendering the 4-phase pedagogical arc (*Diagnostic & Foundation*, *Skills Development*, *Exam Simulation*, *Final Review*).
+- **Milestone & Today's Mission Cards (`Planner.jsx`):** Enhanced hero section with non-linear predicted score milestones and structured daily mission checklists.
+- **Exam Structure & Skill Guidance (`Planner.jsx`):** Detailed exam section breakdown cards for Digital SAT (RW + Math Desmos specs), IELTS (Listening, Reading, Writing, Speaking), and Milliy Sertifikat.
+
+---
+
+### 🤖 Backend
+
+> All backend changes below are **exclusive to the Knowza AI engine** within the shared backend infrastructure.
+
+- **Deterministic Hybrid Study Planner Engine (`api/ai_engine/study_plan/`):** Replaced legacy AI-heavy generation with a modular 7-component engine:
+  - `exam_knowledge.py`: Domain knowledge base for IELTS (0.0-9.0), SAT (400-1600), and Milliy Sertifikat (0-100 Rash model scale across 7 core subjects).
+  - `difficulty_engine.py`: Mathematical modeling of progress curves and burnout-adjusted study hours.
+  - `section_allocator.py`: Allocates study time across exam sections based on sub-skill diagnostic gaps (70% weight to weak skills).
+  - `phase_builder.py`: Builds 4-phase arcs for Pro users and 2-phase simplified arcs for Free users.
+  - `tier_differentiator.py`: Enforces zero-AI Free plans and token-compressed Pro plan prompt constraints.
+  - `curriculum_bank.py`: Hierarchical bilingual (UZ/EN) topic map.
+  - `plan_assembler.py`: Central orchestration engine assembling the complete roadmap object.
+- **Zero-Token Free Tier & Token-Compressed Pro Tier:** Free plans cost 0 AI tokens. Pro plans send only a 4-week skeleton summary to the LLM, reducing input token consumption by >80%.
+- **Adjusted AI Daily Limits (`ai_limits.py`):** Increased daily AI quota for Free students to 10 requests/day (ideal for daily AI chat & practice test generation), and Pro students to 150 requests/day.
+- **Sub-Second Provider Router (`utils.py`):** Prioritized **Groq (`llama-3.3-70b-versatile`)** and **Gemini 2.0 Flash** for `roadmap_gen`, `article_gen`, and `test_gen` to deliver ~300-600ms latency.
+- **128 Unit and Integration Tests (`study_plan/tests/`):** Created a comprehensive test suite covering edge cases, scoring logic, and tier integrity. All 128 tests passing (`128/128 OK`).
+
+---
+
+## 📐 Architecture Notes
+
+- **Swiss-Watch Reliability:** Structural validity (daily minutes, phase order, sequential topic progression, mock test placement) is guaranteed mathematically by Python; the LLM is restricted strictly to generating Markdown lesson descriptions for Pro users.
+- **Zero-Latency Free Tier:** Free roadmaps generate deterministically in < 5ms without external API dependencies or network overhead.
+- **KnowzaShield Firewall Protection:** All incoming prompts pass through KnowzaShield for injection and jailbreak prevention, and outputs are strictly validated via Pydantic schemas.
+
+---
+
+## 🗑 Cleanups
+
+- **Legacy AI Roadmap Prompts:** Replaced massive, hallucination-prone system prompts with focused skeleton constraints (`roadmap_engine.py`).
+- **Unused AI Timeline Predictor:** Replaced legacy timeline predictor with the mathematical `DifficultyEngine`.
+
+---
+
+## 📊 Stats
+
+| Metric | Count |
+| --- | --- |
+| Frontend Commits | ~6 |
+| Backend Commits | ~8 |
+| Total Files Changed | 18 |
+| Lines Added | +2,397 |
+| Lines Removed | -106 |
+| Unit & Integration Tests | 128 (100% Pass) |
+| Free Plan Latency | < 5 ms |
+| Pro Plan Latency | ~500 ms |
+| Token Cost Savings | 80-100% |
