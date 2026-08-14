@@ -1,198 +1,197 @@
-# 🎓 Knowza — Unified EdTech Ecosystem
+# 🧠 Knowza AI — Source Code Overview
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
-[![Frontend](https://img.shields.io/badge/frontend-React%2019%20%7C%20Vite-orange.svg)]()
-[![Backend](https://img.shields.io/badge/backend-Django%205%20%7C%20DRF-blue.svg)]()
-[![Docs](https://img.shields.io/badge/docs-public%20overview-purple.svg)]()
-[![Releases](https://img.shields.io/badge/releases-v2.8.5-blue.svg)]()
+> **Production-grade AI-powered adaptive learning platform** built for Uzbekistan's top exam preparation (IELTS, SAT, Milliy Sertifikat).
 
-Knowza is an ecosystem of **two completely separate products**, each with its own environment, audience, and subscription:
-
-> ⚠️ **Important:** Knowza AI and Knowza LMS are **different products with different subscriptions**. A student enrolled at a school on Knowza LMS does **NOT** automatically get Knowza AI access. These are separate purchases.
+[![Live Platform](https://img.shields.io/badge/Live%20Platform-knowza.uz-blue?style=for-the-badge)](https://knowza.uz)
+[![Backend](https://img.shields.io/badge/Backend-Django%205.x-green?style=for-the-badge&logo=django)](./backend)
+[![Frontend](https://img.shields.io/badge/Frontend-React%2018-61DAFB?style=for-the-badge&logo=react)](./frontend)
+[![AI](https://img.shields.io/badge/AI-Gemini%20%7C%20Groq%20%7C%20Llama-orange?style=for-the-badge)](./backend/ai_engine)
 
 ---
 
-## 🏫 Knowza LMS — For Schools and Learning Centers
+## 🎯 What is Knowza AI?
 
-**Audience:** School administrators, teachers, and enrolled students  
-**Model:** B2B SaaS — the **institution** purchases the subscription  
-**What it does:** Full school management — schedules, classrooms, anti-cheat exams, homework, gamification, and multi-role dashboards
+Knowza AI is a **full-stack adaptive learning engine** that combines cognitive science with large language models to deliver personalized exam preparation. Every component is built from scratch — no third-party learning systems, no templates.
+
+### Core Capabilities
+
+| Feature | Description | Technology |
+|---------|-------------|------------|
+| 🧪 **Adaptive Diagnostic** | IRT-based 20-question test converges on exact student ability | Item Response Theory (Rasch Model) |
+| 🗺️ **AI Study Roadmap** | Personalized week-by-week plan generated from diagnostic results | Gemini / Llama 3.3 70B |
+| 🃏 **Spaced Repetition** | SM-2 algorithm with daily AI-generated vocabulary decks | Custom SRS Engine |
+| 🔬 **Research Mode** | AI generates full academic-style research articles on any topic | Streaming LLM pipeline |
+| 📊 **Cognitive Tracking** | Tracks weak topics, mastery %, streak, and knowledge gaps | PostgreSQL + Django ORM |
+| 🛡️ **AI Firewall** | Educational content guard to prevent misuse | Custom `KnowzaShield` |
+| ⚡ **Multi-Provider Router** | Auto-failover between Groq → Gemini → OpenAI | Round-robin with retry |
 
 ---
 
-## 🤖 Knowza AI — Personal AI Tutor for Students
+## 📁 Repository Structure
 
-**Audience:** Students / independent learners **only**  
-**Model:** B2C — the **student** purchases a personal subscription  
-**What it does:** AI-powered personal learning — adaptive tutor, test generation, study roadmap, long-term memory, and error analysis
+```
+Knowza-Overview/
+│
+├── backend/                        # Django REST Framework backend
+│   ├── ai_engine/
+│   │   ├── srs_engine.py           # ★ SM-2 Spaced Repetition System
+│   │   ├── diagnostic_engine.py    # ★ IRT-based adaptive diagnostic test
+│   │   ├── roadmap_engine.py       # ★ AI study plan generator
+│   │   ├── cognitive_pedagogy.py   # ★ SpacedRepetitionScheduler class
+│   │   ├── utils.py                # ★ Multi-provider AI router (Groq/Gemini/OpenAI)
+│   │   ├── memory_engine.py        # Knowledge gap tracking
+│   │   ├── test_coach.py           # Real-time AI tutoring during tests
+│   │   ├── knowza_bridge.py        # Central AI orchestration layer
+│   │   └── queue_engine.py         # Background AI task queue
+│   └── api/
+│       └── ai_knowza_views.py      # REST API endpoints (ViewSet)
+│
+└── frontend/                       # React 18 + Vite frontend
+    └── src/
+        ├── pages/
+        │   ├── FlashCards.jsx      # ★ Flashcard review UI with SRS integration
+        │   ├── Dashboard.jsx       # ★ Personal AI dashboard
+        │   ├── Planner.jsx         # ★ Study roadmap UI
+        │   ├── Research.jsx        # ★ AI research article generator
+        │   └── Diagnostic.jsx      # ★ Adaptive diagnostic test UI
+        └── context/
+            └── FlashCardsContext.jsx  # Global flashcard generation state
+```
 
 ---
 
-## 📐 Ecosystem Map
+## 🏗️ System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  🏫 Knowza LMS                │  🤖 Knowza AI               │
-│  For schools & centers        │  For students only          │
-│  Subscription: B2B            │  Subscription: B2C          │
-│                               │                             │
-│  Roles: Admin · BranchAdmin   │  Role: Learner only         │
-│         Teacher · Student     │                             │
-│                               │                             │
-│  Features:                    │  Features:                  │
-│  • School management          │  • AI Tutor (chat)          │
-│  • Schedules & classrooms     │  • Learning roadmap         │
-│  • Anti-cheat exams           │  • Sandbox tests            │
-│  • Homework system            │  • Daily missions           │
-│  • Leagues & gamification     │  • Socratic Coach           │
-│  • School analytics           │  • AI Articles + Web Search │
-│  • B2B tariff plans           │  • Personal subscription    │
-└───────────────────┬───────────┴──────────────┬──────────────┘
-                    └─────────────┬────────────┘
-                                  │
-                    ┌─────────────▼────────────┐
-                    │  Knowza Backend (Django)  │
-                    │  Shared infrastructure:   │
-                    │  Auth · DB · AI Engine    │
-                    └─────────────┬────────────┘
-                                  │
-                    ┌─────────────▼────────────┐
-                    │  PostgreSQL · Redis       │
-                    └──────────────────────────┘
+│                    KNOWZA AI PLATFORM                        │
+│                                                             │
+│  ┌──────────────┐     ┌───────────────────────────────┐    │
+│  │   React 18   │────▶│     Django REST Framework      │    │
+│  │  Frontend    │     │         API Layer              │    │
+│  │              │     └────────────┬──────────────────┘    │
+│  │ • FlashCards │                  │                        │
+│  │ • Dashboard  │     ┌────────────▼──────────────────┐    │
+│  │ • Planner    │     │      AI ENGINE LAYER           │    │
+│  │ • Diagnostic │     │                                │    │
+│  │ • Research   │     │  ┌─────────┐  ┌────────────┐  │    │
+│  └──────────────┘     │  │  Groq   │  │  Gemini    │  │    │
+│                        │  │ Llama3  │  │ 1.5 Flash  │  │    │
+│  ┌──────────────┐     │  └────┬────┘  └─────┬──────┘  │    │
+│  │  PostgreSQL  │     │       └──────┬───────┘         │    │
+│  │  Database    │◀────│             ▼                  │    │
+│  │              │     │   KnowzaShield (Firewall)      │    │
+│  │ • Users      │     │   call_ai() Router              │    │
+│  │ • FlashCards │     │   Pydantic Validation           │    │
+│  │ • Decks      │     │   Semantic Cache                │    │
+│  │ • Roadmaps   │     └────────────────────────────────┘    │
+│  │ • Diagnostics│                                           │
+│  └──────────────┘                                           │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-This repository is the centralized documentation hub for the entire Knowza ecosystem.
+---
+
+## ⭐ Key Technical Highlights
+
+### 1. SM-2 Spaced Repetition Engine (`srs_engine.py`)
+```python
+# Cards are scheduled using the SM-2 algorithm adapted from SuperMemo
+# Quality 0-2 = fail (reset to day 1), 3-5 = success (advance interval)
+interval, ef = SpacedRepetitionScheduler.calculate_next_review(
+    failure_count=failure_count,
+    success_count=card.repetition_count + 1,
+    last_ease_factor=card.easiness_factor
+)
+# Result: next review in interval days, mastered if interval > 21 AND ef > 2.3
+```
+
+### 2. Item Response Theory — Adaptive Diagnostic (`diagnostic_engine.py`)
+```python
+def _irt_probability(theta: float, difficulty: float) -> float:
+    """IRT 1-Parameter Logistic (Rasch) model.
+    P(correct) = 1 / (1 + e^(-a*(theta - difficulty)))
+    """
+    a = 1.7  # discrimination parameter
+    return 1.0 / (1.0 + math.exp(-a * (theta - difficulty)))
+```
+- Starts at medium difficulty, adapts each question based on correctness
+- Converges to ±0.05 accuracy in 20 questions (vs 50+ for traditional tests)
+
+### 3. Multi-Provider AI Router with Auto-Failover (`utils.py`)
+```python
+# Tries Groq (fast/cheap) → Gemini → OpenAI in priority order
+# Round-robin across multiple API keys per provider
+# Auto-retries with prompt repair on Pydantic validation failure
+for provider in ['groq', 'gemini', 'openai']:
+    for key in available_keys[provider]:
+        result = _execute_provider(provider, prompt, key, ...)
+        if not error: return result  # First success wins
+```
+
+### 4. Daily AI Vocabulary Generation (Frontend)
+```javascript
+// Picks a different topic from 15-topic pool each day
+const dayOfYear = Math.floor((Date.now() - new Date(year, 0, 0)) / 86400000);
+const autoTopic = topicsList[dayOfYear % topicsList.length];
+// Topics: 'Academic Vocabulary Band 7+', 'Environment & Ecology', ...
+```
 
 ---
 
-## 🏫 Knowza LMS
+## 📊 Technical Stats
 
-Knowza LMS is a **B2B SaaS platform** designed for private schools, learning centers, and educational institutions. It provides a complete institutional management system with role-tailored workspaces for Admins, Teachers, and Students.
-
-### What Knowza LMS covers:
-
-- **Multi-role Dashboards** — separate workspaces for School Admins, Branch Admins, Teachers, and Students
-- **Academic Management** — classrooms, subjects, groups, lesson scheduling, and student enrollment
-- **Test & Exam Engine** — teacher-built quizzes and exams with configurable settings
-- **Knowza Sentinel** — server-authoritative anti-cheat system with real-time tab monitoring and auto-bans
-- **Homework System** — assignment publishing with file attachments and tracking
-- **Gamification & Leagues** — XP, Stars, daily streaks, weekly leagues, and milestone rewards
-- **SaaS Subscriptions** — multi-tier B2B tariff engine per institution size
-- **Multi-tenant Isolation** — strict organization-scoped data separation at every layer
-
-> 📄 See [`docs/LMS_ARCHITECTURE.md`](docs/LMS_ARCHITECTURE.md) for the full technical blueprint.
-> 📋 See [`docs/LMS_FEATURES.md`](docs/LMS_FEATURES.md) for the complete feature inventory.
+| Metric | Value |
+|--------|-------|
+| Total backend Python files | 23+ |
+| Total frontend JSX components | 18+ |
+| AI engine modules | 12 |
+| Supported exam types | IELTS, SAT, Milliy Sertifikat |
+| Supported languages | Uzbek 🇺🇿, Russian 🇷🇺, English 🇬🇧 |
+| AI providers integrated | 3 (Groq, Gemini, OpenAI) |
+| SRS algorithm | SM-2 (SuperMemo) |
+| Diagnostic algorithm | IRT Rasch Model |
+| Database | PostgreSQL |
+| API style | REST (DRF ViewSets) |
 
 ---
 
-## 🤖 Knowza AI
+## 🔐 Security & Reliability
 
-Knowza AI is a **standalone personal learning platform for students only**. It is completely separate from Knowza LMS — different environment, different subscription, different audience. Students access Knowza AI with a personal account and personal subscription to get an AI tutor that learns from them.
-
-### What Knowza AI covers:
-
-- **Personal AI Tutor** — conversational AI that adapts to each student's level, goals, and language (EN/RU/UZ)
-- **AI Test Generation** — generates sandbox tests on any topic, calibrated to the student's level
-- **Learning Roadmap** — builds a personalized sequential study plan with locked/available/completed nodes
-- **Daily Missions** — auto-generated task queue (lesson / test / review / practice) prioritized by skill gaps
-- **Socratic Coach** — asks guiding questions after wrong answers to build critical thinking
-- **AI Articles** — writes in-depth educational articles enriched with live web search and YouTube references
-- **Long-Term Memory** — remembers each student's history, struggles, and goals across sessions
-- **KnowzaShield Firewall** — prompt injection and jailbreak detection in 3 languages
-- **Personal B2C Subscription** — independent from any school tariff (Free / Knowza AI Premium)
-
-> 📄 See [`docs/AI_ARCHITECTURE.md`](docs/AI_ARCHITECTURE.md) for the full technical blueprint.
-> 📋 See [`docs/AI_FEATURES.md`](docs/AI_FEATURES.md) for the complete feature inventory.
+- **`KnowzaShield`** — AI firewall that sanitizes all prompts and responses
+- **Pydantic validation** — All AI responses are validated and auto-repaired on failure  
+- **Semantic cache** — Identical queries return cached results (no redundant API calls)
+- **Model tiering** — Cheap fast models for routine tasks, large models for complex generation
+- **Round-robin keys** — Multiple API keys per provider prevent rate limiting
 
 ---
 
-## 📸 Platform Preview
+## 🚀 Tech Stack
 
-All screenshots use sanitized demo data. Personal names, credentials, and tenant-specific identifiers are intentionally hidden.
+**Backend:**
+- Django 5.x + Django REST Framework
+- PostgreSQL (production) / SQLite (development)
+- Gunicorn + Nginx (production)
+- Pydantic v2 for AI response validation
+- Custom SM-2 SRS algorithm
+- Custom IRT Rasch diagnostic engine
 
-### Admin Dashboard — Analytics & School Management
-> The admin overview provides real-time statistics on students, teachers, active groups, and system activity with interactive charts.
+**Frontend:**
+- React 18 + Vite
+- TanStack Query (React Query) for server state
+- React Router v6
+- i18next (Uzbek/Russian/English)
+- Custom CSS (no UI framework)
 
-![Admin Dashboard](docs/images/Overview.png)
-
-### Class Scheduling System
-> A full weekly/daily schedule grid linking classrooms, subjects, teachers, and time slots.
-
-![Schedule System](docs/images/Schedule.png)
-
-### Teacher Test Builder
-> Teachers create quizzes and exams with configurable time limits, question pools, anti-cheat settings, and optional star-pricing.
-
-![Test Builder](docs/images/TeacherTest.png)
-
-### Sentinel Anti-Cheat & Exam Results
-> Real-time violation tracking and detailed exam result analytics.
-
-![Anti-Cheat & Results](docs/images/TeacherExamResult.png)
-
-### Student Dashboard — Daily Overview
-> Students see their daily schedule, active assignments, Dynamic Island notifications, and gamification stats.
-
-![Student Dashboard](docs/images/StudentOverview.png)
-
-### League & Gamification System
-> A competitive leaderboard with XP-based rankings, levels, daily streaks, and Stars currency.
-
-![League System](docs/images/StudentLeague.png)
-
-### Live Exam Session
-> The exam interface with real-time countdown, question navigation, and answer syncing — all protected by Sentinel.
-
-![Exam Session](docs/images/ExamSession.png)
-
-### SaaS Pricing Plans
-> Five-tier subscription model with feature differentiation for institutions of different sizes.
-
-![Pricing Page](docs/images/PricingPage.png)
+**AI/ML:**
+- Groq API (Llama 3.1 8B, Llama 3.3 70B)
+- Google Gemini 1.5 Flash
+- OpenAI GPT-4o (fallback)
+- Custom multi-provider router with auto-failover
 
 ---
 
-## 🏛 Documentation Map
+> This repository contains selected source files from the Knowza AI platform.
+> The complete production codebase includes additional proprietary modules.
 
-| Document | Description |
-|---|---|
-| [`docs/LMS_ARCHITECTURE.md`](docs/LMS_ARCHITECTURE.md) | Knowza LMS — system structure, frontend/backend layers, anti-cheat & session model |
-| [`docs/LMS_FEATURES.md`](docs/LMS_FEATURES.md) | Knowza LMS — complete feature inventory per role |
-| [`docs/AI_ARCHITECTURE.md`](docs/AI_ARCHITECTURE.md) | Knowza AI — LLM engine design, memory system, intent routing, RAG pipeline |
-| [`docs/AI_FEATURES.md`](docs/AI_FEATURES.md) | Knowza AI — full AI feature set and personalization capabilities |
-| [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) | Public REST API structure for auth, tests, anti-cheat, and AI endpoints |
-| [`presentation/PITCH_DECK.md`](presentation/PITCH_DECK.md) | Pitch deck, market positioning, and SaaS monetization model |
-| [`presentation/DEMO_FLOW.md`](presentation/DEMO_FLOW.md) | Step-by-step live demo walkthrough |
-| [`updates/README.md`](updates/README.md) | Chronological release tracker (v1.0.0 → v2.8.5) |
-
----
-
-## 🛠 Technology Stack
-
-### Knowza LMS + Knowza AI — Shared Frontend
-- **Stack:** React 19, Vite, React Router 7, TanStack Query v5, Axios, Tailwind CSS 4, Ant Design, GSAP, ECharts, i18next (EN/RU/UZ)
-
-### Knowza Backend (Shared API)
-- **Stack:** Django 5, Django REST Framework, SimpleJWT, PostgreSQL, Redis, Gunicorn, WhiteNoise
-
-### Knowza AI Engine (within the backend)
-- **LLM Providers:** OpenAI (GPT-4o), Anthropic Claude, Google Gemini, Groq — with multi-key load balancing
-- **Memory:** PostgreSQL-based long-term user summaries + thread-local context
-- **RAG:** Internal knowledge base with PostgreSQL full-text search
-- **Semantic Cache:** Vector-based deduplication for article responses
-
----
-
-## 📦 Repositories
-
-| Repository | Description | Tech |
-|---|---|---|
-| `Knowza` | Frontend SPA — Student, Teacher, Admin dashboards + AI Chat UI | React 19, Vite, Ant Design |
-| `Knowza-Backend` | REST API — LMS Engine + Knowza AI Engine, Auth, Anti-Cheat | Django 5, DRF, JWT, PostgreSQL |
-| `Knowza-Overview` | Documentation hub — Architecture, API docs, Releases | Markdown |
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+**Contact:** Built by [Jonizz14](https://github.com/Jonizz14)
