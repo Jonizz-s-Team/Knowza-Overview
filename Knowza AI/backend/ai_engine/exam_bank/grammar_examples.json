@@ -1,0 +1,6652 @@
+[
+  {
+    "id": "grammar_0001",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "is going",
+        "went",
+        "goes",
+        "go"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0002",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "were playing",
+        "are playing",
+        "played",
+        "play"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0003",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "are watching",
+        "watched",
+        "have watched",
+        "watch"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0004",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "rings",
+        "has rung",
+        "rang",
+        "was ringing"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0005",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "lived",
+        "have lived",
+        "are living",
+        "live"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0006",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "finish",
+        "had finished",
+        "have finished",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0007",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "were escaping",
+        "have escaped",
+        "escaped",
+        "had escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0008",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will be having",
+        "will have",
+        "am having",
+        "have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0009",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "will have completed",
+        "is completing",
+        "will complete",
+        "completes"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0010",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "in",
+        "at",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0011",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0012",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "—"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0013",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "An",
+        "The",
+        "A",
+        "—"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0014",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melted",
+        "melts",
+        "would melt",
+        "will melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0015",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "will cancel",
+        "cancel",
+        "canceled",
+        "would cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0016",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "will have",
+        "had",
+        "would have",
+        "have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0017",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would have helped",
+        "will help",
+        "helped",
+        "would help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0018",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "will have",
+        "had had",
+        "would have had",
+        "would have"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0019",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "may"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0020",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "would",
+        "might",
+        "must",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0021",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "must",
+        "shall",
+        "can't",
+        "should"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0022",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "review",
+        "are reviewed",
+        "is reviewed",
+        "were reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0023",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "is painted",
+        "has painted",
+        "was painted",
+        "painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0024",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "is being",
+        "was being",
+        "is",
+        "has been"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0025",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "lived",
+        "had lived",
+        "was living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0026",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0027",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "who"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0028",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "have I seen",
+        "did I saw",
+        "I have seen",
+        "I saw"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0029",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "to talk",
+        "talked",
+        "talk",
+        "talking"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0030",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "had been",
+        "have been",
+        "was",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0031",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has been"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0032",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "paint",
+        "painted",
+        "painting",
+        "to paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0033",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Thorough",
+        "Rapid",
+        "Clumsy",
+        "Careless"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0034",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Abundance",
+        "Lack",
+        "Shortage",
+        "Deficit"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0035",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put off",
+        "put out",
+        "put on",
+        "put up"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0036",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called in",
+        "called off",
+        "called out",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0037",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "reached",
+        "did",
+        "got",
+        "created"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0038",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "go",
+        "went",
+        "is going",
+        "goes"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0039",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "are playing",
+        "played",
+        "play",
+        "were playing"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0040",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watched",
+        "have watched",
+        "are watching",
+        "watch"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0041",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "has rung",
+        "was ringing",
+        "rang",
+        "rings"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0042",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "are living"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0043",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "finished",
+        "have finished",
+        "finish",
+        "had finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0044",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "escaped",
+        "had escaped",
+        "were escaping",
+        "have escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0045",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will have",
+        "have",
+        "am having",
+        "will be having"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0046",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "will complete",
+        "will have completed",
+        "is completing",
+        "completes"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0047",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "at",
+        "in",
+        "by",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0048",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0049",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "—"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0050",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "A",
+        "—",
+        "The",
+        "An"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0051",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melted",
+        "will melt",
+        "melts",
+        "would melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0052",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "cancel",
+        "will cancel",
+        "would cancel",
+        "canceled"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0053",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0054",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would help",
+        "helped",
+        "would have helped",
+        "will help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0055",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "would have",
+        "had had",
+        "would have had",
+        "will have"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0056",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "can",
+        "may",
+        "must",
+        "could"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0057",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "might",
+        "would",
+        "must",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0058",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "can't",
+        "shall",
+        "should",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0059",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "are reviewed",
+        "is reviewed",
+        "were reviewed",
+        "review"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0060",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "is painted",
+        "painted",
+        "has painted",
+        "was painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0061",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "has been",
+        "is being",
+        "was being",
+        "is"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0062",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "lived",
+        "was living",
+        "had lived"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0063",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0064",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "which",
+        "whom",
+        "who",
+        "whose"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0065",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "did I saw",
+        "I have seen",
+        "I saw",
+        "have I seen"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0066",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talked",
+        "to talk",
+        "talking",
+        "talk"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0067",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "had been",
+        "have been",
+        "was",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0068",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "is",
+        "has been",
+        "were",
+        "was"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0069",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "to paint",
+        "paint",
+        "painting",
+        "painted"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0070",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Careless",
+        "Thorough",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0071",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Shortage",
+        "Deficit",
+        "Abundance",
+        "Lack"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0072",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put off",
+        "put out",
+        "put on",
+        "put up"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0073",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called in",
+        "called up",
+        "called out",
+        "called off"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0074",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "reached",
+        "got",
+        "created",
+        "did"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0075",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "goes",
+        "went",
+        "go",
+        "is going"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0076",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "are playing",
+        "played",
+        "play",
+        "were playing"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0077",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watched",
+        "have watched",
+        "watch",
+        "are watching"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0078",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "was ringing",
+        "rings",
+        "has rung",
+        "rang"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0079",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "are living"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0080",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "finish",
+        "finished",
+        "had finished",
+        "have finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0081",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "were escaping",
+        "escaped",
+        "had escaped",
+        "have escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0082",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will have",
+        "am having",
+        "will be having",
+        "have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0083",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "completes",
+        "is completing",
+        "will complete",
+        "will have completed"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0084",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "in",
+        "at",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0085",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0086",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0087",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "—"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0088",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melted",
+        "would melt",
+        "melts",
+        "will melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0089",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "cancel",
+        "canceled",
+        "will cancel",
+        "would cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0090",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0091",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would help",
+        "helped",
+        "will help",
+        "would have helped"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0092",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "had had",
+        "will have",
+        "would have",
+        "would have had"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0093",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "must",
+        "can",
+        "may",
+        "could"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0094",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "would",
+        "could",
+        "must",
+        "might"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0095",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "shall",
+        "should",
+        "can't",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0096",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "is reviewed",
+        "were reviewed",
+        "review",
+        "are reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0097",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "is painted",
+        "painted",
+        "was painted",
+        "has painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0098",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "is",
+        "was being",
+        "is being",
+        "has been"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0099",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "was living",
+        "lived",
+        "had lived",
+        "is living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0100",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0101",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0102",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "I have seen",
+        "I saw",
+        "did I saw",
+        "have I seen"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0103",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talked",
+        "talking",
+        "talk",
+        "to talk"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0104",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "have been",
+        "am",
+        "was",
+        "had been"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0105",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "is",
+        "were",
+        "was",
+        "has been"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0106",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "painting",
+        "paint",
+        "to paint",
+        "painted"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0107",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Thorough",
+        "Careless",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0108",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Deficit",
+        "Abundance",
+        "Lack",
+        "Shortage"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0109",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put out",
+        "put off",
+        "put on",
+        "put up"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0110",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called in",
+        "called off",
+        "called out",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0111",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "reached",
+        "created",
+        "got",
+        "did"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0112",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "go",
+        "went",
+        "is going",
+        "goes"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0113",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "were playing",
+        "play",
+        "are playing",
+        "played"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0114",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watched",
+        "are watching",
+        "have watched",
+        "watch"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0115",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "was ringing",
+        "rang",
+        "rings",
+        "has rung"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0116",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "live",
+        "are living",
+        "have lived",
+        "lived"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0117",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "had finished",
+        "finish",
+        "have finished",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0118",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "have escaped",
+        "escaped",
+        "were escaping",
+        "had escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0119",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will have",
+        "will be having",
+        "have",
+        "am having"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0120",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "will complete",
+        "will have completed",
+        "completes",
+        "is completing"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0121",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "at",
+        "by",
+        "in",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0122",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "at",
+        "in",
+        "above",
+        "on"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0123",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "—",
+        "a",
+        "the",
+        "an"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0124",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "An",
+        "—",
+        "The",
+        "A"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0125",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melts",
+        "melted",
+        "will melt",
+        "would melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0126",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "would cancel",
+        "will cancel",
+        "canceled",
+        "cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0127",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "would have",
+        "have",
+        "will have",
+        "had"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0128",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would have helped",
+        "would help",
+        "helped",
+        "will help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0129",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "would have had",
+        "will have",
+        "would have",
+        "had had"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0130",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "could",
+        "can",
+        "must",
+        "may"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0131",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "would",
+        "could",
+        "might",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0132",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "should",
+        "must",
+        "can't",
+        "shall"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0133",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "were reviewed",
+        "is reviewed",
+        "review",
+        "are reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0134",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "was painted",
+        "painted",
+        "is painted",
+        "has painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0135",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "is",
+        "has been",
+        "was being",
+        "is being"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0136",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "was living",
+        "had lived",
+        "lived"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0137",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whose",
+        "whom",
+        "which",
+        "who"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0138",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0139",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "did I saw",
+        "have I seen",
+        "I have seen",
+        "I saw"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0140",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talking",
+        "talk",
+        "to talk",
+        "talked"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0141",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "have been",
+        "had been",
+        "was",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0142",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "is",
+        "were",
+        "was",
+        "has been"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0143",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "paint",
+        "painting",
+        "painted",
+        "to paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0144",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Clumsy",
+        "Rapid",
+        "Thorough",
+        "Careless"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0145",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Lack",
+        "Deficit",
+        "Shortage",
+        "Abundance"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0146",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put on",
+        "put up",
+        "put off",
+        "put out"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0147",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called in",
+        "called off",
+        "called up",
+        "called out"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0148",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "created",
+        "reached",
+        "did",
+        "got"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0149",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "is going",
+        "goes",
+        "go",
+        "went"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0150",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "played",
+        "were playing",
+        "play",
+        "are playing"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0151",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "have watched",
+        "watched",
+        "are watching",
+        "watch"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0152",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "was ringing",
+        "rang",
+        "has rung",
+        "rings"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0153",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "live",
+        "lived",
+        "are living",
+        "have lived"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0154",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "have finished",
+        "finish",
+        "had finished",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0155",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "were escaping",
+        "had escaped",
+        "escaped",
+        "have escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0156",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will be having",
+        "am having",
+        "will have",
+        "have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0157",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "completes",
+        "will have completed",
+        "will complete",
+        "is completing"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0158",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0159",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0160",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "an",
+        "—",
+        "a",
+        "the"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0161",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "The",
+        "A",
+        "—",
+        "An"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0162",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melts",
+        "will melt",
+        "would melt",
+        "melted"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0163",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "cancel",
+        "canceled",
+        "will cancel",
+        "would cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0164",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "would have",
+        "have",
+        "had",
+        "will have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0165",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would help",
+        "helped",
+        "would have helped",
+        "will help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0166",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "had had",
+        "would have had",
+        "will have",
+        "would have"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0167",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "may"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0168",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "might",
+        "could",
+        "must",
+        "would"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0169",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "can't",
+        "shall",
+        "should",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0170",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "review",
+        "were reviewed",
+        "are reviewed",
+        "is reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0171",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "has painted",
+        "painted",
+        "was painted",
+        "is painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0172",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "was being",
+        "is being",
+        "has been",
+        "is"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0173",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "was living",
+        "had lived",
+        "lived"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0174",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "whose"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0175",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0176",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "have I seen",
+        "I saw",
+        "did I saw",
+        "I have seen"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0177",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "to talk",
+        "talked",
+        "talking",
+        "talk"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0178",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "was",
+        "am",
+        "have been",
+        "had been"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0179",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "has been",
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0180",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "paint",
+        "to paint",
+        "painted",
+        "painting"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0181",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Thorough",
+        "Careless",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0182",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Deficit",
+        "Abundance",
+        "Shortage",
+        "Lack"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0183",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put off",
+        "put up",
+        "put out",
+        "put on"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0184",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called out",
+        "called in",
+        "called off",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0185",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "got",
+        "reached",
+        "did",
+        "created"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0186",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "went",
+        "is going",
+        "goes",
+        "go"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0187",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "are playing",
+        "play",
+        "were playing",
+        "played"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0188",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "have watched",
+        "are watching",
+        "watch",
+        "watched"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0189",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "rang",
+        "was ringing",
+        "has rung",
+        "rings"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0190",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "have lived",
+        "live",
+        "lived",
+        "are living"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0191",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "had finished",
+        "have finished",
+        "finish",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0192",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "had escaped",
+        "were escaping",
+        "have escaped",
+        "escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0193",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will have",
+        "am having",
+        "have",
+        "will be having"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0194",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "is completing",
+        "completes",
+        "will complete",
+        "will have completed"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0195",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "in",
+        "at",
+        "by",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0196",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0197",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "the",
+        "—",
+        "an",
+        "a"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0198",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "—",
+        "A",
+        "An",
+        "The"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0199",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "will melt",
+        "melts",
+        "would melt",
+        "melted"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0200",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "would cancel",
+        "canceled",
+        "cancel",
+        "will cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0201",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "have",
+        "would have",
+        "had",
+        "will have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0202",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would have helped",
+        "helped",
+        "would help",
+        "will help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0203",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "would have",
+        "had had",
+        "will have",
+        "would have had"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0204",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "may",
+        "must",
+        "can",
+        "could"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0205",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "could",
+        "must",
+        "would",
+        "might"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0206",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "shall",
+        "should",
+        "must",
+        "can't"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0207",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "review",
+        "is reviewed",
+        "are reviewed",
+        "were reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0208",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "has painted",
+        "painted",
+        "is painted",
+        "was painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0209",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "has been",
+        "is",
+        "is being",
+        "was being"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0210",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "lived",
+        "had lived",
+        "was living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0211",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whose",
+        "which",
+        "whom",
+        "who"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0212",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0213",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "did I saw",
+        "have I seen",
+        "I saw",
+        "I have seen"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0214",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talking",
+        "talk",
+        "to talk",
+        "talked"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0215",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "had been",
+        "have been",
+        "am",
+        "was"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0216",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "has been",
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0217",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "paint",
+        "painting",
+        "painted",
+        "to paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0218",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Thorough",
+        "Careless",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0219",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Abundance",
+        "Shortage",
+        "Lack",
+        "Deficit"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0220",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put on",
+        "put up",
+        "put out",
+        "put off"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0221",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called out",
+        "called off",
+        "called in",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0222",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "did",
+        "got",
+        "reached",
+        "created"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0223",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "goes",
+        "went",
+        "go",
+        "is going"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0224",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "played",
+        "play",
+        "were playing",
+        "are playing"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0225",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "are watching",
+        "watched",
+        "watch",
+        "have watched"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0226",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "rings",
+        "has rung",
+        "rang",
+        "was ringing"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0227",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "have lived",
+        "lived",
+        "are living",
+        "live"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0228",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "finished",
+        "have finished",
+        "had finished",
+        "finish"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0229",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "have escaped",
+        "had escaped",
+        "escaped",
+        "were escaping"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0230",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "have",
+        "am having",
+        "will be having",
+        "will have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0231",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "completes",
+        "is completing",
+        "will complete",
+        "will have completed"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0232",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "in",
+        "at",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0233",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "at",
+        "above",
+        "in",
+        "on"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0234",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "a",
+        "—",
+        "an",
+        "the"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0235",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "An",
+        "—",
+        "A",
+        "The"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0236",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melts",
+        "would melt",
+        "melted",
+        "will melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0237",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "canceled",
+        "cancel",
+        "would cancel",
+        "will cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0238",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0239",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "will help",
+        "would help",
+        "helped",
+        "would have helped"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0240",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "will have",
+        "had had",
+        "would have had",
+        "would have"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0241",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "may",
+        "could",
+        "must",
+        "can"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0242",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "might",
+        "could",
+        "would",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0243",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "should",
+        "can't",
+        "must",
+        "shall"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0244",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "is reviewed",
+        "were reviewed",
+        "review",
+        "are reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0245",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "was painted",
+        "has painted",
+        "is painted",
+        "painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0246",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "has been",
+        "was being",
+        "is being",
+        "is"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0247",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "lived",
+        "had lived",
+        "was living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0248",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whose",
+        "which",
+        "whom",
+        "who"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0249",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whose",
+        "whom",
+        "which",
+        "who"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0250",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "I have seen",
+        "did I saw",
+        "have I seen",
+        "I saw"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0251",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talked",
+        "to talk",
+        "talk",
+        "talking"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0252",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "was",
+        "am",
+        "have been",
+        "had been"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0253",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "was",
+        "were",
+        "has been",
+        "is"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0254",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "painting",
+        "to paint",
+        "painted",
+        "paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0255",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Thorough",
+        "Careless",
+        "Clumsy",
+        "Rapid"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0256",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Shortage",
+        "Deficit",
+        "Abundance",
+        "Lack"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0257",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put on",
+        "put off",
+        "put up",
+        "put out"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0258",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called off",
+        "called out",
+        "called in",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0259",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "got",
+        "did",
+        "reached",
+        "created"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0260",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "go",
+        "goes",
+        "is going",
+        "went"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0261",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "play",
+        "played",
+        "are playing",
+        "were playing"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0262",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watched",
+        "are watching",
+        "watch",
+        "have watched"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0263",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "rings",
+        "rang",
+        "was ringing",
+        "has rung"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0264",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "have lived",
+        "lived",
+        "live",
+        "are living"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0265",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "had finished",
+        "finished",
+        "have finished",
+        "finish"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0266",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "escaped",
+        "had escaped",
+        "were escaping",
+        "have escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0267",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "will be having",
+        "am having",
+        "will have",
+        "have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0268",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "will have completed",
+        "will complete",
+        "is completing",
+        "completes"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0269",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "in",
+        "on",
+        "at"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0270",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "in",
+        "above",
+        "on",
+        "at"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0271",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0272",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "—",
+        "An",
+        "A",
+        "The"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0273",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "would melt",
+        "melts",
+        "melted",
+        "will melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0274",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "will cancel",
+        "canceled",
+        "cancel",
+        "would cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0275",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "had",
+        "would have",
+        "have",
+        "will have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0276",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would have helped",
+        "would help",
+        "will help",
+        "helped"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0277",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "would have had",
+        "will have",
+        "had had",
+        "would have"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0278",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "must",
+        "can",
+        "may",
+        "could"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0279",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "would",
+        "might",
+        "must",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0280",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "must",
+        "can't",
+        "shall",
+        "should"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0281",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "were reviewed",
+        "are reviewed",
+        "review",
+        "is reviewed"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0282",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "has painted",
+        "is painted",
+        "was painted",
+        "painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0283",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "is being",
+        "was being",
+        "is",
+        "has been"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0284",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "lived",
+        "had lived",
+        "was living",
+        "is living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0285",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0286",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "which",
+        "whom",
+        "who",
+        "whose"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0287",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "I saw",
+        "have I seen",
+        "did I saw",
+        "I have seen"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0288",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "to talk",
+        "talked",
+        "talking",
+        "talk"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0289",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "am",
+        "was",
+        "had been",
+        "have been"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0290",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "has been",
+        "were",
+        "was",
+        "is"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0291",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "painted",
+        "painting",
+        "to paint",
+        "paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0292",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Careless",
+        "Thorough",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0293",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Abundance",
+        "Deficit",
+        "Lack",
+        "Shortage"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0294",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put on",
+        "put out",
+        "put off",
+        "put up"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0295",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called off",
+        "called out",
+        "called in",
+        "called up"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0296",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "got",
+        "reached",
+        "did",
+        "created"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0297",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "is going",
+        "go",
+        "goes",
+        "went"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0298",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "played",
+        "are playing",
+        "were playing",
+        "play"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0299",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watch",
+        "have watched",
+        "are watching",
+        "watched"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0300",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "rang",
+        "was ringing",
+        "rings",
+        "has rung"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0301",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "have lived",
+        "live",
+        "lived",
+        "are living"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0302",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "have finished",
+        "finish",
+        "had finished",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0303",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "were escaping",
+        "have escaped",
+        "escaped",
+        "had escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0304",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "have",
+        "am having",
+        "will be having",
+        "will have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0305",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "completes",
+        "will have completed",
+        "will complete",
+        "is completing"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0306",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "by",
+        "on",
+        "at",
+        "in"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0307",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "in",
+        "at",
+        "above",
+        "on"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0308",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "—",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0309",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "A",
+        "—",
+        "An",
+        "The"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0310",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melted",
+        "will melt",
+        "melts",
+        "would melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0311",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "canceled",
+        "cancel",
+        "would cancel",
+        "will cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0312",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "had",
+        "will have",
+        "would have",
+        "have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0313",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "would have helped",
+        "will help",
+        "helped",
+        "would help"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  },
+  {
+    "id": "grammar_0314",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If I had worked harder at school, I ___ a better job now.",
+      "options": [
+        "would have",
+        "will have",
+        "would have had",
+        "had had"
+      ],
+      "correct_answer": "would have",
+      "explanation": "Past cause with present result uses Mixed Conditional.",
+      "topic_tag": "grammar_mixed_conditional"
+    }
+  },
+  {
+    "id": "grammar_0315",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Easy",
+    "question": {
+      "question": "When he was six, he ___ already swim very fast.",
+      "options": [
+        "must",
+        "could",
+        "can",
+        "may"
+      ],
+      "correct_answer": "could",
+      "explanation": "Past ability uses 'could'.",
+      "topic_tag": "grammar_modal_-_ability"
+    }
+  },
+  {
+    "id": "grammar_0316",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "All passengers ___ wear seatbelts during flight.",
+      "options": [
+        "could",
+        "would",
+        "must",
+        "might"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strict rule/obligation uses 'must'.",
+      "topic_tag": "grammar_modal_-_obligation"
+    }
+  },
+  {
+    "id": "grammar_0317",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "She isn't answering her phone; she ___ be sleeping.",
+      "options": [
+        "shall",
+        "can't",
+        "should",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "Strong positive deduction uses 'must'.",
+      "topic_tag": "grammar_modal_-_deduction"
+    }
+  },
+  {
+    "id": "grammar_0318",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The reports ___ by the manager every Friday.",
+      "options": [
+        "is reviewed",
+        "are reviewed",
+        "were reviewed",
+        "review"
+      ],
+      "correct_answer": "are reviewed",
+      "explanation": "Present Simple Passive plural uses 'are + V3'.",
+      "topic_tag": "grammar_present_passive"
+    }
+  },
+  {
+    "id": "grammar_0319",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The famous Mona Lisa ___ by Leonardo da Vinci.",
+      "options": [
+        "is painted",
+        "painted",
+        "was painted",
+        "has painted"
+      ],
+      "correct_answer": "was painted",
+      "explanation": "Past Simple Passive singular uses 'was + V3'.",
+      "topic_tag": "grammar_past_passive"
+    }
+  },
+  {
+    "id": "grammar_0320",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "The old bridge ___ repaired right now.",
+      "options": [
+        "has been",
+        "is being",
+        "was being",
+        "is"
+      ],
+      "correct_answer": "is being",
+      "explanation": "Present Continuous Passive uses 'am/is/are + being + V3'.",
+      "topic_tag": "grammar_continuous_passive"
+    }
+  },
+  {
+    "id": "grammar_0321",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "He said, 'I am living in London.' -> He said he ___ in London.",
+      "options": [
+        "is living",
+        "had lived",
+        "lived",
+        "was living"
+      ],
+      "correct_answer": "was living",
+      "explanation": "Present continuous shifts to past continuous in reported speech.",
+      "topic_tag": "grammar_reported_speech_tense"
+    }
+  },
+  {
+    "id": "grammar_0322",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "The doctor ___ treated my father was very kind.",
+      "options": [
+        "whom",
+        "whose",
+        "which",
+        "who"
+      ],
+      "correct_answer": "who",
+      "explanation": "Relative pronoun for people acting as subject is 'who'.",
+      "topic_tag": "grammar_relative_clauses"
+    }
+  },
+  {
+    "id": "grammar_0323",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I met a writer ___ books have sold millions.",
+      "options": [
+        "whom",
+        "whose",
+        "which",
+        "who"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Relative pronoun indicating possession is 'whose'.",
+      "topic_tag": "grammar_possessive_relative_clause"
+    }
+  },
+  {
+    "id": "grammar_0324",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "C1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Rarely ___ such a brilliant performance.",
+      "options": [
+        "I have seen",
+        "have I seen",
+        "I saw",
+        "did I saw"
+      ],
+      "correct_answer": "have I seen",
+      "explanation": "Negative adverbial at sentence start triggers subject-auxiliary inversion.",
+      "topic_tag": "grammar_inversion"
+    }
+  },
+  {
+    "id": "grammar_0325",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "She avoided ___ about the painful topic.",
+      "options": [
+        "talk",
+        "to talk",
+        "talked",
+        "talking"
+      ],
+      "correct_answer": "talking",
+      "explanation": "The verb 'avoid' is followed by a gerund (-ing).",
+      "topic_tag": "grammar_gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "grammar_0326",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "I wish I ___ more attentive during the lecture.",
+      "options": [
+        "was",
+        "am",
+        "have been",
+        "had been"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Regret about past situation uses 'wish + Past Perfect'.",
+      "topic_tag": "grammar_wish_clause"
+    }
+  },
+  {
+    "id": "grammar_0327",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Neither the manager nor the employees ___ aware of the change.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has been"
+      ],
+      "correct_answer": "were",
+      "explanation": "With 'neither...nor', verb agrees with closest subject ('employees' -> plural).",
+      "topic_tag": "grammar_subject-verb_agreement"
+    }
+  },
+  {
+    "id": "grammar_0328",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "We had our house ___ last month.",
+      "options": [
+        "paint",
+        "painted",
+        "painting",
+        "to paint"
+      ],
+      "correct_answer": "painted",
+      "explanation": "Causative 'have something done' uses V3.",
+      "topic_tag": "grammar_causative_form"
+    }
+  },
+  {
+    "id": "grammar_0329",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is closest in meaning to 'Meticulous'?",
+      "options": [
+        "Rapid",
+        "Careless",
+        "Thorough",
+        "Clumsy"
+      ],
+      "correct_answer": "Thorough",
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "topic_tag": "grammar_synonym_-_meticulous"
+    }
+  },
+  {
+    "id": "grammar_0330",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "Which word is the opposite of 'Scarcity'?",
+      "options": [
+        "Abundance",
+        "Lack",
+        "Deficit",
+        "Shortage"
+      ],
+      "correct_answer": "Abundance",
+      "explanation": "'Scarcity' means state of being in short supply; 'Abundance' is plentifulness.",
+      "topic_tag": "grammar_antonym_-_scarcity"
+    }
+  },
+  {
+    "id": "grammar_0331",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "We had to ___ the meeting until next Tuesday.",
+      "options": [
+        "put out",
+        "put on",
+        "put up",
+        "put off"
+      ],
+      "correct_answer": "put off",
+      "explanation": "'Put off' means to postpone.",
+      "topic_tag": "grammar_phrasal_verb_-_put_off"
+    }
+  },
+  {
+    "id": "grammar_0332",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "Due to heavy thunderstorm, the match was ___.",
+      "options": [
+        "called in",
+        "called up",
+        "called out",
+        "called off"
+      ],
+      "correct_answer": "called off",
+      "explanation": "'Call off' means to cancel.",
+      "topic_tag": "grammar_phrasal_verb_-_call_off"
+    }
+  },
+  {
+    "id": "grammar_0333",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "After hours of deliberation, they finally ___ a decision.",
+      "options": [
+        "created",
+        "got",
+        "reached",
+        "did"
+      ],
+      "correct_answer": "reached",
+      "explanation": "The standard collocation is 'reach a decision' or 'make a decision'.",
+      "topic_tag": "grammar_collocation_-_decision"
+    }
+  },
+  {
+    "id": "grammar_0334",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She ___ to work by bus every morning.",
+      "options": [
+        "went",
+        "is going",
+        "goes",
+        "go"
+      ],
+      "correct_answer": "goes",
+      "explanation": "Subject 'She' requires third person singular '-es' in Present Simple.",
+      "topic_tag": "grammar_present_simple"
+    }
+  },
+  {
+    "id": "grammar_0335",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "Look! The children ___ in the garden right now.",
+      "options": [
+        "played",
+        "were playing",
+        "are playing",
+        "play"
+      ],
+      "correct_answer": "are playing",
+      "explanation": "'right now' signals Present Continuous (am/is/are + -ing).",
+      "topic_tag": "grammar_present_continuous"
+    }
+  },
+  {
+    "id": "grammar_0336",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "We ___ a fantastic movie last night.",
+      "options": [
+        "watched",
+        "watch",
+        "are watching",
+        "have watched"
+      ],
+      "correct_answer": "watched",
+      "explanation": "'last night' indicates Past Simple time.",
+      "topic_tag": "grammar_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0337",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "While I was studying, the phone suddenly ___.",
+      "options": [
+        "was ringing",
+        "has rung",
+        "rings",
+        "rang"
+      ],
+      "correct_answer": "rang",
+      "explanation": "Interrupted past action uses Past Simple.",
+      "topic_tag": "grammar_past_continuous"
+    }
+  },
+  {
+    "id": "grammar_0338",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "They ___ in Tashkent for more than ten years.",
+      "options": [
+        "lived",
+        "live",
+        "are living",
+        "have lived"
+      ],
+      "correct_answer": "have lived",
+      "explanation": "Action starting in past and continuing to present uses Present Perfect.",
+      "topic_tag": "grammar_present_perfect"
+    }
+  },
+  {
+    "id": "grammar_0339",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "I ___ my homework two hours ago.",
+      "options": [
+        "had finished",
+        "finish",
+        "have finished",
+        "finished"
+      ],
+      "correct_answer": "finished",
+      "explanation": "'two hours ago' requires Past Simple.",
+      "topic_tag": "grammar_present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "grammar_0340",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "were escaping",
+        "have escaped",
+        "had escaped",
+        "escaped"
+      ],
+      "correct_answer": "had escaped",
+      "explanation": "Action completed before another past event uses Past Perfect.",
+      "topic_tag": "grammar_past_perfect"
+    }
+  },
+  {
+    "id": "grammar_0341",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Hard",
+    "question": {
+      "question": "At 8 PM tomorrow, I ___ dinner with my family.",
+      "options": [
+        "am having",
+        "will have",
+        "will be having",
+        "have"
+      ],
+      "correct_answer": "will be having",
+      "explanation": "Action in progress at a specific future time uses Future Continuous.",
+      "topic_tag": "grammar_future_continuous"
+    }
+  },
+  {
+    "id": "grammar_0342",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "By next year, she ___ her university degree.",
+      "options": [
+        "will complete",
+        "completes",
+        "will have completed",
+        "is completing"
+      ],
+      "correct_answer": "will have completed",
+      "explanation": "Action completed before a future deadline uses Future Perfect.",
+      "topic_tag": "grammar_future_perfect"
+    }
+  },
+  {
+    "id": "grammar_0343",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "The conference will start ___ 9 AM on Monday.",
+      "options": [
+        "in",
+        "at",
+        "by",
+        "on"
+      ],
+      "correct_answer": "at",
+      "explanation": "Exact clock times take 'at'.",
+      "topic_tag": "grammar_prepositions_of_time"
+    }
+  },
+  {
+    "id": "grammar_0344",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "He left his keys ___ the kitchen table.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "above"
+      ],
+      "correct_answer": "on",
+      "explanation": "Surfaces take 'on'.",
+      "topic_tag": "grammar_prepositions_of_place"
+    }
+  },
+  {
+    "id": "grammar_0345",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "She wants to buy ___ new car next month.",
+      "options": [
+        "—",
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_answer": "a",
+      "explanation": "First mention of a singular countable noun starting with a consonant sound uses 'a'.",
+      "topic_tag": "grammar_articles_(a/an/the)"
+    }
+  },
+  {
+    "id": "grammar_0346",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "___ Nile is the longest river in the world.",
+      "options": [
+        "An",
+        "A",
+        "—",
+        "The"
+      ],
+      "correct_answer": "The",
+      "explanation": "Rivers take the definite article 'The'.",
+      "topic_tag": "grammar_definite_article"
+    }
+  },
+  {
+    "id": "grammar_0347",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A1",
+    "difficulty": "Easy",
+    "question": {
+      "question": "If you heat ice, it ___.",
+      "options": [
+        "melted",
+        "would melt",
+        "melts",
+        "will melt"
+      ],
+      "correct_answer": "melts",
+      "explanation": "General truths take Zero Conditional (If + Present Simple, Present Simple).",
+      "topic_tag": "grammar_zero_conditional"
+    }
+  },
+  {
+    "id": "grammar_0348",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "A2",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "cancel",
+        "canceled",
+        "will cancel",
+        "would cancel"
+      ],
+      "correct_answer": "will cancel",
+      "explanation": "Real future possibilities use First Conditional (If + Present, will + V1).",
+      "topic_tag": "grammar_first_conditional"
+    }
+  },
+  {
+    "id": "grammar_0349",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B1",
+    "difficulty": "Medium",
+    "question": {
+      "question": "If I ___ more free time, I would travel the world.",
+      "options": [
+        "had",
+        "will have",
+        "would have",
+        "have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Hypothetical present uses Second Conditional (If + Past Simple, would + V1).",
+      "topic_tag": "grammar_second_conditional"
+    }
+  },
+  {
+    "id": "grammar_0350",
+    "section": "Grammar",
+    "question_type": "multiple_choice",
+    "band_level": "B2",
+    "difficulty": "Hard",
+    "question": {
+      "question": "If you had informed me earlier, I ___ you.",
+      "options": [
+        "helped",
+        "would help",
+        "will help",
+        "would have helped"
+      ],
+      "correct_answer": "would have helped",
+      "explanation": "Unreal past situation uses Third Conditional (If + Past Perfect, would have + V3).",
+      "topic_tag": "grammar_third_conditional"
+    }
+  }
+]

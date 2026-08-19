@@ -236,8 +236,14 @@ def call_ai(prompt, system_instruction=None, temperature=0.7, user=None, feature
                     return result
                 else:
                     last_error = result
-                    logger.error(f"{provider.upper()} failed: {result.get('error')}")
-                    if "429" in str(result.get('error', '')):
+                    err_str = str(result.get('error', ''))
+                    logger.error(f"{provider.upper()} failed: {err_str}")
+                    
+                    if "insufficient_quota" in err_str or "credit_balance_exhausted" in err_str:
+                        # Fail fast if quota is exhausted, retrying won't help
+                        break
+                    
+                    if "429" in err_str:
                         time.sleep(2)
             except Exception as e:
                 last_error = {"error": str(e)}
@@ -326,7 +332,7 @@ def call_openai(prompt, api_key, system_instruction=None, temperature=0.7, user=
     cached = vdb.get_semantic_cache(full_prompt)
     if cached: return cached
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, max_retries=0)
     model_name = "gpt-4o-mini"
     
     messages = []

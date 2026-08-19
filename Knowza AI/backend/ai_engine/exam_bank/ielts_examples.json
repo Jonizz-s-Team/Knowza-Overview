@@ -1,0 +1,2349 @@
+[
+  {
+    "id": "ielts_reading_tfng_001",
+    "section": "Reading",
+    "question_type": "True/False/Not Given",
+    "band_level": "6.0-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The history of the bicycle is a fascinating study in technological evolution. Early velocipedes in the 19th century had wooden frames and iron-rimmed wheels, earning them the nickname 'boneshakers'. It wasn't until the invention of the pneumatic tyre by John Boyd Dunlop in 1888 that cycling became comfortable enough for mass appeal. Prior to this, cycling was largely restricted to young, fit men who could handle the jarring ride.",
+      "question": "The first bicycles were designed with pneumatic tyres.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "correct_answer": "False",
+      "explanation": "The passage states that early bicycles had iron-rimmed wheels and the pneumatic tyre was invented later in 1888.",
+      "topic_tag": "reading_tfng"
+    }
+  },
+  {
+    "id": "ielts_reading_tfng_002",
+    "section": "Reading",
+    "question_type": "True/False/Not Given",
+    "band_level": "6.0-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The history of the bicycle is a fascinating study in technological evolution. Early velocipedes in the 19th century had wooden frames and iron-rimmed wheels, earning them the nickname 'boneshakers'. It wasn't until the invention of the pneumatic tyre by John Boyd Dunlop in 1888 that cycling became comfortable enough for mass appeal. Prior to this, cycling was largely restricted to young, fit men who could handle the jarring ride.",
+      "question": "The term 'boneshaker' was applied to early bicycles due to their uncomfortable ride.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "correct_answer": "True",
+      "explanation": "The passage mentions they had wooden frames and iron rims, earning the nickname 'boneshakers', implying an uncomfortable ride.",
+      "topic_tag": "reading_tfng"
+    }
+  },
+  {
+    "id": "ielts_reading_tfng_003",
+    "section": "Reading",
+    "question_type": "True/False/Not Given",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Coral reefs are among the most diverse ecosystems on the planet. They support over 25% of all marine life, despite covering less than 1% of the ocean floor. However, they are increasingly threatened by ocean acidification and rising sea temperatures, which cause coral bleaching. If current trends continue, some scientists estimate that all coral reefs could disappear by the end of the century.",
+      "question": "Coral reefs are the largest ecosystem on the planet.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "correct_answer": "Not Given",
+      "explanation": "The passage says they are among the most diverse, but does not specify if they are the largest ecosystem.",
+      "topic_tag": "reading_tfng"
+    }
+  },
+  {
+    "id": "ielts_reading_tfng_004",
+    "section": "Reading",
+    "question_type": "True/False/Not Given",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "Coral reefs are among the most diverse ecosystems on the planet. They support over 25% of all marine life, despite covering less than 1% of the ocean floor. However, they are increasingly threatened by ocean acidification and rising sea temperatures, which cause coral bleaching. If current trends continue, some scientists estimate that all coral reefs could disappear by the end of the century.",
+      "question": "Over a quarter of marine species rely on coral reefs.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "correct_answer": "True",
+      "explanation": "The passage states they support over 25% of all marine life.",
+      "topic_tag": "reading_tfng"
+    }
+  },
+  {
+    "id": "ielts_reading_tfng_005",
+    "section": "Reading",
+    "question_type": "True/False/Not Given",
+    "band_level": "7.0-8.0",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Sleep is crucial for cognitive function. During the REM stage of sleep, the brain consolidates memories from the day and clears out neurotoxins. Studies have shown that students who sleep for at least 8 hours perform 20% better on memory retention tasks compared to those who sleep less than 6 hours. Interestingly, napping for 30 minutes in the afternoon can also significantly boost alertness.",
+      "question": "Students who sleep 7 hours perform the same as those who sleep 8 hours.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "correct_answer": "Not Given",
+      "explanation": "The passage compares 8+ hours with less than 6 hours. It gives no information about exactly 7 hours.",
+      "topic_tag": "reading_tfng"
+    }
+  },
+  {
+    "id": "ielts_reading_heading_001",
+    "section": "Reading",
+    "question_type": "Matching Headings",
+    "band_level": "7.0-8.0",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Paragraph A: The industrial revolution marked a major turning point in Earth's ecology and humans' relationship with their environment. Mechanisation replaced manual labour, drastically increasing production capabilities and leading to unprecedented population growth. However, this period also initiated the large-scale extraction and burning of fossil fuels, setting the stage for long-term climate change.",
+      "question": "Choose the correct heading for the paragraph.",
+      "options": [
+        "i. The impact of the industrial revolution",
+        "ii. Pre-industrial agriculture",
+        "iii. Changes in labour practices",
+        "iv. The decline of manual labour"
+      ],
+      "correct_answer": "i. The impact of the industrial revolution",
+      "explanation": "The paragraph focuses broadly on the major turning point caused by the industrial revolution, including both production and environmental impacts.",
+      "topic_tag": "reading_headings"
+    }
+  },
+  {
+    "id": "ielts_reading_heading_002",
+    "section": "Reading",
+    "question_type": "Matching Headings",
+    "band_level": "7.0-8.0",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Paragraph B: In the late 20th century, the shift towards a service-oriented economy changed the landscape of urban employment. Cities transformed from manufacturing hubs into centers of finance, technology, and administration. Consequently, industrial workers were forced to retrain, and many former factory districts were gentrified into residential or commercial spaces.",
+      "question": "Choose the correct heading for the paragraph.",
+      "options": [
+        "i. The rise of manufacturing",
+        "ii. Urban economic transformation",
+        "iii. The failure of service economies",
+        "iv. Technological advancements"
+      ],
+      "correct_answer": "ii. Urban economic transformation",
+      "explanation": "The paragraph describes how cities changed structurally and economically from manufacturing hubs to service-oriented centers.",
+      "topic_tag": "reading_headings"
+    }
+  },
+  {
+    "id": "ielts_reading_heading_003",
+    "section": "Reading",
+    "question_type": "Matching Headings",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Paragraph C: Today, the integration of artificial intelligence is creating what many call a fourth industrial revolution. Automation is no longer confined to physical, repetitive tasks but now extends to complex cognitive processes. As algorithms become capable of drafting legal documents and diagnosing diseases, the very nature of knowledge work is fundamentally altering.",
+      "question": "Choose the correct heading for the paragraph.",
+      "options": [
+        "i. The future of physical labour",
+        "ii. The limits of automation",
+        "iii. AI and the transformation of knowledge work",
+        "iv. Historical industrial revolutions"
+      ],
+      "correct_answer": "iii. AI and the transformation of knowledge work",
+      "explanation": "The paragraph explicitly discusses AI's impact on complex cognitive processes and how it is altering knowledge work.",
+      "topic_tag": "reading_headings"
+    }
+  },
+  {
+    "id": "ielts_reading_comp_001",
+    "section": "Reading",
+    "question_type": "Summary/Sentence Completion",
+    "band_level": "6.0-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The psychology of habit formation suggests that habits are created through a loop: cue, routine, and reward. When a behavior is repeated frequently in a consistent context, the brain automates the process to save cognitive energy. This automation occurs in the basal ganglia, a primitive part of the brain responsible for pattern recognition. According to researchers, it takes an average of 66 days for a new behavior to become fully automatic, though this can vary widely depending on the complexity of the habit.",
+      "question": "Habits form a loop consisting of a cue, a ________, and a reward.",
+      "options": [],
+      "correct_answer": "routine",
+      "explanation": "The passage explicitly states 'habit formation suggests that habits are created through a loop: cue, routine, and reward.'",
+      "topic_tag": "reading_completion"
+    }
+  },
+  {
+    "id": "ielts_reading_comp_002",
+    "section": "Reading",
+    "question_type": "Summary/Sentence Completion",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The psychology of habit formation suggests that habits are created through a loop: cue, routine, and reward. When a behavior is repeated frequently in a consistent context, the brain automates the process to save cognitive energy. This automation occurs in the basal ganglia, a primitive part of the brain responsible for pattern recognition. According to researchers, it takes an average of 66 days for a new behavior to become fully automatic, though this can vary widely depending on the complexity of the habit.",
+      "question": "To conserve ________, the brain automates frequently repeated behaviors.",
+      "options": [],
+      "correct_answer": "cognitive energy",
+      "explanation": "The passage mentions 'the brain automates the process to save cognitive energy.'",
+      "topic_tag": "reading_completion"
+    }
+  },
+  {
+    "id": "ielts_reading_comp_003",
+    "section": "Reading",
+    "question_type": "Summary/Sentence Completion",
+    "band_level": "6.5-7.5",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The psychology of habit formation suggests that habits are created through a loop: cue, routine, and reward. When a behavior is repeated frequently in a consistent context, the brain automates the process to save cognitive energy. This automation occurs in the basal ganglia, a primitive part of the brain responsible for pattern recognition. According to researchers, it takes an average of 66 days for a new behavior to become fully automatic, though this can vary widely depending on the complexity of the habit.",
+      "question": "The automation of habits takes place in the ________, a primitive brain area.",
+      "options": [],
+      "correct_answer": "basal ganglia",
+      "explanation": "The text specifies that 'automation occurs in the basal ganglia'.",
+      "topic_tag": "reading_completion"
+    }
+  },
+  {
+    "id": "ielts_reading_comp_004",
+    "section": "Reading",
+    "question_type": "Summary/Sentence Completion",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "The psychology of habit formation suggests that habits are created through a loop: cue, routine, and reward. When a behavior is repeated frequently in a consistent context, the brain automates the process to save cognitive energy. This automation occurs in the basal ganglia, a primitive part of the brain responsible for pattern recognition. According to researchers, it takes an average of 66 days for a new behavior to become fully automatic, though this can vary widely depending on the complexity of the habit.",
+      "question": "On average, it requires ________ for a behavior to become fully automatic.",
+      "options": [],
+      "correct_answer": "66 days",
+      "explanation": "The text states 'it takes an average of 66 days for a new behavior to become automatic'.",
+      "topic_tag": "reading_completion"
+    }
+  },
+  {
+    "id": "ielts_reading_mcq_001",
+    "section": "Reading",
+    "question_type": "Multiple Choice",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Antarctica's ice sheet holds about 61% of all fresh water on Earth. If all of this ice were to melt, global sea levels would rise by approximately 58 meters. Recent satellite data shows that the rate of ice loss from the continent has tripled over the last decade, primarily driven by warming ocean currents melting the ice shelves from below. This undermines the structural integrity of the glaciers behind them.",
+      "question": "What is the primary cause of ice loss in Antarctica according to recent data?",
+      "options": [
+        "Rising atmospheric temperatures",
+        "Increased volcanic activity under the ice",
+        "Warming ocean currents melting ice shelves",
+        "Reduced snowfall over the continent"
+      ],
+      "correct_answer": "Warming ocean currents melting ice shelves",
+      "explanation": "The passage specifically attributes the ice loss to 'warming ocean currents melting the ice shelves from below.'",
+      "topic_tag": "reading_mcq"
+    }
+  },
+  {
+    "id": "ielts_reading_mcq_002",
+    "section": "Reading",
+    "question_type": "Multiple Choice",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "Antarctica's ice sheet holds about 61% of all fresh water on Earth. If all of this ice were to melt, global sea levels would rise by approximately 58 meters. Recent satellite data shows that the rate of ice loss from the continent has tripled over the last decade, primarily driven by warming ocean currents melting the ice shelves from below. This undermines the structural integrity of the glaciers behind them.",
+      "question": "How much would global sea levels rise if all Antarctic ice melted?",
+      "options": [
+        "58 meters",
+        "61 meters",
+        "10 meters",
+        "100 meters"
+      ],
+      "correct_answer": "58 meters",
+      "explanation": "The passage states 'global sea levels would rise by approximately 58 meters.'",
+      "topic_tag": "reading_mcq"
+    }
+  },
+  {
+    "id": "ielts_reading_mcq_003",
+    "section": "Reading",
+    "question_type": "Multiple Choice",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "The Rosetta Stone, discovered in 1799, was instrumental in deciphering ancient Egyptian hieroglyphs. The stone features a decree issued at Memphis in 196 BC, inscribed in three scripts: Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Because scholars already understood Ancient Greek, they were able to use it as a linguistic key to translate the other two previously unreadable scripts.",
+      "question": "Why was the Rosetta Stone crucial for understanding hieroglyphs?",
+      "options": [
+        "It was the oldest Egyptian artifact ever found.",
+        "It contained a bilingual text that included a known language.",
+        "It provided instructions on how to read hieroglyphs.",
+        "It was discovered by renowned linguists."
+      ],
+      "correct_answer": "It contained a bilingual text that included a known language.",
+      "explanation": "Scholars understood Ancient Greek and used it to translate the other unknown scripts.",
+      "topic_tag": "reading_mcq"
+    }
+  },
+  {
+    "id": "ielts_reading_mcq_004",
+    "section": "Reading",
+    "question_type": "Multiple Choice",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "The Rosetta Stone, discovered in 1799, was instrumental in deciphering ancient Egyptian hieroglyphs. The stone features a decree issued at Memphis in 196 BC, inscribed in three scripts: Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Because scholars already understood Ancient Greek, they were able to use it as a linguistic key to translate the other two previously unreadable scripts.",
+      "question": "Which of the following scripts was NOT on the Rosetta Stone?",
+      "options": [
+        "Ancient Greek",
+        "Demotic script",
+        "Latin",
+        "Ancient Egyptian hieroglyphs"
+      ],
+      "correct_answer": "Latin",
+      "explanation": "The passage lists hieroglyphs, Demotic, and Ancient Greek. Latin is not mentioned.",
+      "topic_tag": "reading_mcq"
+    }
+  },
+  {
+    "id": "ielts_reading_match_001",
+    "section": "Reading",
+    "question_type": "Matching Information",
+    "band_level": "7.0-8.0",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A. The concept of emotional intelligence (EI) was popularized in the mid-1990s by Daniel Goleman. It refers to the ability to identify, assess, and control one's own emotions and those of others.\nB. Unlike traditional IQ, which is relatively stable throughout life and largely determined by genetics, emotional intelligence can be developed and improved over time through conscious practice and feedback.\nC. Studies in the workplace have consistently shown that leaders with high EI tend to foster better team collaboration, resolve conflicts more effectively, and exhibit lower staff turnover rates.\nD. Critics of the concept argue that EI is poorly defined and often overlaps with existing personality traits such as agreeableness and emotional stability, making it difficult to measure objectively.",
+      "question": "Which paragraph mentions the idea that EI can be trained and enhanced?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "explanation": "Paragraph B states 'emotional intelligence can be developed and improved over time'.",
+      "topic_tag": "reading_matching"
+    }
+  },
+  {
+    "id": "ielts_reading_match_002",
+    "section": "Reading",
+    "question_type": "Matching Information",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A. The concept of emotional intelligence (EI) was popularized in the mid-1990s by Daniel Goleman. It refers to the ability to identify, assess, and control one's own emotions and those of others.\nB. Unlike traditional IQ, which is relatively stable throughout life and largely determined by genetics, emotional intelligence can be developed and improved over time through conscious practice and feedback.\nC. Studies in the workplace have consistently shown that leaders with high EI tend to foster better team collaboration, resolve conflicts more effectively, and exhibit lower staff turnover rates.\nD. Critics of the concept argue that EI is poorly defined and often overlaps with existing personality traits such as agreeableness and emotional stability, making it difficult to measure objectively.",
+      "question": "Which paragraph discusses the impact of EI on employee retention?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "explanation": "Paragraph C mentions 'lower staff turnover rates'.",
+      "topic_tag": "reading_matching"
+    }
+  },
+  {
+    "id": "ielts_reading_match_003",
+    "section": "Reading",
+    "question_type": "Matching Information",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "A. The concept of emotional intelligence (EI) was popularized in the mid-1990s by Daniel Goleman. It refers to the ability to identify, assess, and control one's own emotions and those of others.\nB. Unlike traditional IQ, which is relatively stable throughout life and largely determined by genetics, emotional intelligence can be developed and improved over time through conscious practice and feedback.\nC. Studies in the workplace have consistently shown that leaders with high EI tend to foster better team collaboration, resolve conflicts more effectively, and exhibit lower staff turnover rates.\nD. Critics of the concept argue that EI is poorly defined and often overlaps with existing personality traits such as agreeableness and emotional stability, making it difficult to measure objectively.",
+      "question": "Which paragraph introduces the definition of emotional intelligence?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "explanation": "Paragraph A defines EI as 'the ability to identify, assess, and control one's own emotions...'.",
+      "topic_tag": "reading_matching"
+    }
+  },
+  {
+    "id": "ielts_reading_match_004",
+    "section": "Reading",
+    "question_type": "Matching Information",
+    "band_level": "8.0",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A. The concept of emotional intelligence (EI) was popularized in the mid-1990s by Daniel Goleman. It refers to the ability to identify, assess, and control one's own emotions and those of others.\nB. Unlike traditional IQ, which is relatively stable throughout life and largely determined by genetics, emotional intelligence can be developed and improved over time through conscious practice and feedback.\nC. Studies in the workplace have consistently shown that leaders with high EI tend to foster better team collaboration, resolve conflicts more effectively, and exhibit lower staff turnover rates.\nD. Critics of the concept argue that EI is poorly defined and often overlaps with existing personality traits such as agreeableness and emotional stability, making it difficult to measure objectively.",
+      "question": "Which paragraph outlines the skepticism surrounding the scientific validity of EI?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "D",
+      "explanation": "Paragraph D mentions 'Critics... argue that EI is poorly defined and often overlaps with existing personality traits'.",
+      "topic_tag": "reading_matching"
+    }
+  },
+  {
+    "id": "ielts_listening_form_001",
+    "section": "Listening",
+    "question_type": "Form/Note completion",
+    "band_level": "5.5-6.5",
+    "difficulty": "Easy",
+    "question": {
+      "audio_transcript": "Agent: Good morning, Star Travel, how can I help you?\nCustomer: Hi, I'd like to book a flight to Sydney.\nAgent: Certainly. What date were you looking to travel?\nCustomer: The 14th of November.\nAgent: Let me check... yes, there's a flight at 10:30 AM. Could I have your full name, please?\nCustomer: It's Jonathan Aris. That's A-R-I-S.\nAgent: And a contact number?\nCustomer: 07700 900 451.\nAgent: Thanks. Will you need airport transfer?\nCustomer: No, but I will need travel insurance.",
+      "question": "Date of departure: ________ of November",
+      "options": [],
+      "correct_answer": "14th",
+      "explanation": "The customer explicitly says 'The 14th of November'.",
+      "topic_tag": "listening_form"
+    }
+  },
+  {
+    "id": "ielts_listening_form_002",
+    "section": "Listening",
+    "question_type": "Form/Note completion",
+    "band_level": "5.5-6.5",
+    "difficulty": "Easy",
+    "question": {
+      "audio_transcript": "Agent: Good morning, Star Travel, how can I help you?\nCustomer: Hi, I'd like to book a flight to Sydney.\nAgent: Certainly. What date were you looking to travel?\nCustomer: The 14th of November.\nAgent: Let me check... yes, there's a flight at 10:30 AM. Could I have your full name, please?\nCustomer: It's Jonathan Aris. That's A-R-I-S.\nAgent: And a contact number?\nCustomer: 07700 900 451.\nAgent: Thanks. Will you need airport transfer?\nCustomer: No, but I will need travel insurance.",
+      "question": "Passenger's surname: ________",
+      "options": [],
+      "correct_answer": "Aris",
+      "explanation": "The customer spells his surname A-R-I-S.",
+      "topic_tag": "listening_form"
+    }
+  },
+  {
+    "id": "ielts_listening_form_003",
+    "section": "Listening",
+    "question_type": "Form/Note completion",
+    "band_level": "6.0-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Agent: Good morning, Star Travel, how can I help you?\nCustomer: Hi, I'd like to book a flight to Sydney.\nAgent: Certainly. What date were you looking to travel?\nCustomer: The 14th of November.\nAgent: Let me check... yes, there's a flight at 10:30 AM. Could I have your full name, please?\nCustomer: It's Jonathan Aris. That's A-R-I-S.\nAgent: And a contact number?\nCustomer: 07700 900 451.\nAgent: Thanks. Will you need airport transfer?\nCustomer: No, but I will need travel insurance.",
+      "question": "Contact number: ________",
+      "options": [],
+      "correct_answer": "07700 900 451",
+      "explanation": "The customer provides this exact number when asked.",
+      "topic_tag": "listening_form"
+    }
+  },
+  {
+    "id": "ielts_listening_form_004",
+    "section": "Listening",
+    "question_type": "Form/Note completion",
+    "band_level": "6.5-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Agent: Good morning, Star Travel, how can I help you?\nCustomer: Hi, I'd like to book a flight to Sydney.\nAgent: Certainly. What date were you looking to travel?\nCustomer: The 14th of November.\nAgent: Let me check... yes, there's a flight at 10:30 AM. Could I have your full name, please?\nCustomer: It's Jonathan Aris. That's A-R-I-S.\nAgent: And a contact number?\nCustomer: 07700 900 451.\nAgent: Thanks. Will you need airport transfer?\nCustomer: No, but I will need travel insurance.",
+      "question": "Additional service required: ________",
+      "options": [],
+      "correct_answer": "travel insurance",
+      "explanation": "The customer declines airport transfer but says 'I will need travel insurance'.",
+      "topic_tag": "listening_form"
+    }
+  },
+  {
+    "id": "ielts_listening_mcq_001",
+    "section": "Listening",
+    "question_type": "Multiple Choice",
+    "band_level": "6.0-7.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Welcome to the Riverside Leisure Centre. Before you begin using the facilities, I'd like to give you a quick orientation. The gymnasium is open from 6 AM to 10 PM on weekdays, but please note it closes at 8 PM on weekends. Most people ask about the swimming pool. Currently, the main pool is undergoing maintenance until next Tuesday, but the smaller heated pool is open for aqua-aerobics. Finally, for those interested in racket sports, squash courts must be booked at least 24 hours in advance at the reception desk.",
+      "question": "What time does the gymnasium close on Saturdays?",
+      "options": [
+        "6 PM",
+        "8 PM",
+        "10 PM"
+      ],
+      "correct_answer": "8 PM",
+      "explanation": "The speaker says 'closes at 8 PM on weekends'. Saturday is part of the weekend.",
+      "topic_tag": "listening_mcq"
+    }
+  },
+  {
+    "id": "ielts_listening_mcq_002",
+    "section": "Listening",
+    "question_type": "Multiple Choice",
+    "band_level": "7.0",
+    "difficulty": "Hard",
+    "question": {
+      "audio_transcript": "Welcome to the Riverside Leisure Centre. Before you begin using the facilities, I'd like to give you a quick orientation. The gymnasium is open from 6 AM to 10 PM on weekdays, but please note it closes at 8 PM on weekends. Most people ask about the swimming pool. Currently, the main pool is undergoing maintenance until next Tuesday, but the smaller heated pool is open for aqua-aerobics. Finally, for those interested in racket sports, squash courts must be booked at least 24 hours in advance at the reception desk.",
+      "question": "What is the current situation with the swimming pools?",
+      "options": [
+        "Both pools are closed.",
+        "Only the main pool is open.",
+        "Only the heated pool is open."
+      ],
+      "correct_answer": "Only the heated pool is open.",
+      "explanation": "The main pool is undergoing maintenance, but the smaller heated pool is open.",
+      "topic_tag": "listening_mcq"
+    }
+  },
+  {
+    "id": "ielts_listening_mcq_003",
+    "section": "Listening",
+    "question_type": "Multiple Choice",
+    "band_level": "6.5-7.5",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Welcome to the Riverside Leisure Centre. Before you begin using the facilities, I'd like to give you a quick orientation. The gymnasium is open from 6 AM to 10 PM on weekdays, but please note it closes at 8 PM on weekends. Most people ask about the swimming pool. Currently, the main pool is undergoing maintenance until next Tuesday, but the smaller heated pool is open for aqua-aerobics. Finally, for those interested in racket sports, squash courts must be booked at least 24 hours in advance at the reception desk.",
+      "question": "How should members reserve a squash court?",
+      "options": [
+        "Online",
+        "One day in advance at reception",
+        "By phone on the same day"
+      ],
+      "correct_answer": "One day in advance at reception",
+      "explanation": "The speaker specifies courts 'must be booked at least 24 hours in advance at the reception desk'.",
+      "topic_tag": "listening_mcq"
+    }
+  },
+  {
+    "id": "ielts_listening_match_001",
+    "section": "Listening",
+    "question_type": "Matching",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Tutor: So, for your group project on renewable energy, how are you dividing the tasks?\nStudent A (Sarah): Well, I thought I'd look into solar power, specifically the efficiency of new photovoltaic cells.\nTutor: Good. And Mark?\nStudent B (Mark): I'm taking on wind energy. I'll be analyzing the environmental impact of offshore wind farms.\nTutor: Excellent. What about the economic analysis?\nStudent C (Emma): That's my area. I'm focusing on the cost comparison between fossil fuels and renewables over a 20-year period.\nTutor: Right. And finally, David?\nStudent D (David): I'll be doing the conclusion and editing the final report to make sure it flows logically.",
+      "question": "Match the task to the student: Researching solar panel efficiency",
+      "options": [
+        "Sarah",
+        "Mark",
+        "Emma",
+        "David"
+      ],
+      "correct_answer": "Sarah",
+      "explanation": "Sarah says she will look into 'the efficiency of new photovoltaic cells'.",
+      "topic_tag": "listening_matching"
+    }
+  },
+  {
+    "id": "ielts_listening_match_002",
+    "section": "Listening",
+    "question_type": "Matching",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Tutor: So, for your group project on renewable energy, how are you dividing the tasks?\nStudent A (Sarah): Well, I thought I'd look into solar power, specifically the efficiency of new photovoltaic cells.\nTutor: Good. And Mark?\nStudent B (Mark): I'm taking on wind energy. I'll be analyzing the environmental impact of offshore wind farms.\nTutor: Excellent. What about the economic analysis?\nStudent C (Emma): That's my area. I'm focusing on the cost comparison between fossil fuels and renewables over a 20-year period.\nTutor: Right. And finally, David?\nStudent D (David): I'll be doing the conclusion and editing the final report to make sure it flows logically.",
+      "question": "Match the task to the student: Analyzing environmental impact of wind farms",
+      "options": [
+        "Sarah",
+        "Mark",
+        "Emma",
+        "David"
+      ],
+      "correct_answer": "Mark",
+      "explanation": "Mark states he's 'analyzing the environmental impact of offshore wind farms'.",
+      "topic_tag": "listening_matching"
+    }
+  },
+  {
+    "id": "ielts_listening_match_003",
+    "section": "Listening",
+    "question_type": "Matching",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Tutor: So, for your group project on renewable energy, how are you dividing the tasks?\nStudent A (Sarah): Well, I thought I'd look into solar power, specifically the efficiency of new photovoltaic cells.\nTutor: Good. And Mark?\nStudent B (Mark): I'm taking on wind energy. I'll be analyzing the environmental impact of offshore wind farms.\nTutor: Excellent. What about the economic analysis?\nStudent C (Emma): That's my area. I'm focusing on the cost comparison between fossil fuels and renewables over a 20-year period.\nTutor: Right. And finally, David?\nStudent D (David): I'll be doing the conclusion and editing the final report to make sure it flows logically.",
+      "question": "Match the task to the student: Cost comparison of energy sources",
+      "options": [
+        "Sarah",
+        "Mark",
+        "Emma",
+        "David"
+      ],
+      "correct_answer": "Emma",
+      "explanation": "Emma says she's 'focusing on the cost comparison between fossil fuels and renewables'.",
+      "topic_tag": "listening_matching"
+    }
+  },
+  {
+    "id": "ielts_listening_match_004",
+    "section": "Listening",
+    "question_type": "Matching",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "audio_transcript": "Tutor: So, for your group project on renewable energy, how are you dividing the tasks?\nStudent A (Sarah): Well, I thought I'd look into solar power, specifically the efficiency of new photovoltaic cells.\nTutor: Good. And Mark?\nStudent B (Mark): I'm taking on wind energy. I'll be analyzing the environmental impact of offshore wind farms.\nTutor: Excellent. What about the economic analysis?\nStudent C (Emma): That's my area. I'm focusing on the cost comparison between fossil fuels and renewables over a 20-year period.\nTutor: Right. And finally, David?\nStudent D (David): I'll be doing the conclusion and editing the final report to make sure it flows logically.",
+      "question": "Match the task to the student: Final editing and conclusion",
+      "options": [
+        "Sarah",
+        "Mark",
+        "Emma",
+        "David"
+      ],
+      "correct_answer": "David",
+      "explanation": "David says 'I'll be doing the conclusion and editing the final report'.",
+      "topic_tag": "listening_matching"
+    }
+  },
+  {
+    "id": "ielts_listening_comp_001",
+    "section": "Listening",
+    "question_type": "Sentence Completion",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "audio_transcript": "In today's lecture on urban planning, we will discuss the concept of the '15-minute city'. This model suggests that residents should be able to access all basic needs within a 15-minute walk or bike ride from their homes. The primary benefit of this design is a significant reduction in carbon emissions, as it decreases reliance on private vehicles. Furthermore, it promotes community engagement because people spend more time in their local neighborhoods. However, critics point out that retrofitting existing cities to fit this model requires massive financial investment in public infrastructure.",
+      "question": "The '15-minute city' model aims to provide access to ________ within a short walk or bike ride.",
+      "options": [],
+      "correct_answer": "basic needs",
+      "explanation": "The lecturer says residents should access 'all basic needs'.",
+      "topic_tag": "listening_completion"
+    }
+  },
+  {
+    "id": "ielts_listening_comp_002",
+    "section": "Listening",
+    "question_type": "Sentence Completion",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "audio_transcript": "In today's lecture on urban planning, we will discuss the concept of the '15-minute city'. This model suggests that residents should be able to access all basic needs within a 15-minute walk or bike ride from their homes. The primary benefit of this design is a significant reduction in carbon emissions, as it decreases reliance on private vehicles. Furthermore, it promotes community engagement because people spend more time in their local neighborhoods. However, critics point out that retrofitting existing cities to fit this model requires massive financial investment in public infrastructure.",
+      "question": "A major advantage of this model is the decrease in ________.",
+      "options": [],
+      "correct_answer": "carbon emissions",
+      "explanation": "The lecture notes a 'significant reduction in carbon emissions'.",
+      "topic_tag": "listening_completion"
+    }
+  },
+  {
+    "id": "ielts_listening_comp_003",
+    "section": "Listening",
+    "question_type": "Sentence Completion",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "audio_transcript": "In today's lecture on urban planning, we will discuss the concept of the '15-minute city'. This model suggests that residents should be able to access all basic needs within a 15-minute walk or bike ride from their homes. The primary benefit of this design is a significant reduction in carbon emissions, as it decreases reliance on private vehicles. Furthermore, it promotes community engagement because people spend more time in their local neighborhoods. However, critics point out that retrofitting existing cities to fit this model requires massive financial investment in public infrastructure.",
+      "question": "This urban design also encourages ________ among local residents.",
+      "options": [],
+      "correct_answer": "community engagement",
+      "explanation": "The speaker says 'it promotes community engagement'.",
+      "topic_tag": "listening_completion"
+    }
+  },
+  {
+    "id": "ielts_listening_comp_004",
+    "section": "Listening",
+    "question_type": "Sentence Completion",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "audio_transcript": "In today's lecture on urban planning, we will discuss the concept of the '15-minute city'. This model suggests that residents should be able to access all basic needs within a 15-minute walk or bike ride from their homes. The primary benefit of this design is a significant reduction in carbon emissions, as it decreases reliance on private vehicles. Furthermore, it promotes community engagement because people spend more time in their local neighborhoods. However, critics point out that retrofitting existing cities to fit this model requires massive financial investment in public infrastructure.",
+      "question": "A key challenge is the need for substantial ________ to update current city layouts.",
+      "options": [],
+      "correct_answer": "financial investment",
+      "explanation": "Critics point out it requires 'massive financial investment'.",
+      "topic_tag": "listening_completion"
+    }
+  },
+  {
+    "id": "ielts_writing_acad1_001",
+    "section": "Writing",
+    "question_type": "Task 1 Academic",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "prompt": "The chart below shows the percentage of households with different types of technology in the UK from 1997 to 2012. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "model_answer_outline": "1. Introduction: Paraphrase the prompt.\n2. Overview: Highlight the general upward trend for all technologies, noting DVD players as the fastest growing.\n3. Body Paragraph 1: Detail the steady growth of older tech (CD players, mobile phones).\n4. Body Paragraph 2: Discuss the rapid rise of newer tech (Internet access, DVD players).",
+      "band_criteria": {
+        "task_achievement": "Clear overview presented; key features accurately highlighted with data points.",
+        "coherence": "Logical paragraph structure grouping related trends.",
+        "lexical_resource": "Varied vocabulary for trends (e.g., surged, plateaued, exponential growth).",
+        "grammar": "Mix of complex sentences and accurate tense usage (past tense for historical data)."
+      },
+      "topic_tag": "writing_task1_academic"
+    }
+  },
+  {
+    "id": "ielts_writing_acad1_002",
+    "section": "Writing",
+    "question_type": "Task 1 Academic",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "prompt": "The diagrams below show the life cycle of a species of large fish called the salmon. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "model_answer_outline": "1. Introduction: Paraphrase the prompt stating what the diagram shows.\n2. Overview: Highlight the three main stages and locations (river, estuary, ocean).\n3. Body Paragraph 1: Detail the early stages (eggs in upper river, fry to smolt phase).\n4. Body Paragraph 2: Detail the mature stages (ocean life and return to river for spawning).",
+      "band_criteria": {
+        "task_achievement": "All stages covered accurately; key locations mentioned.",
+        "coherence": "Chronological progression through the life cycle.",
+        "lexical_resource": "Specific biological/process vocabulary (e.g., incubate, migrate, mature).",
+        "grammar": "Appropriate use of present simple tense and passive voice where applicable."
+      },
+      "topic_tag": "writing_task1_academic_process"
+    }
+  },
+  {
+    "id": "ielts_writing_acad1_003",
+    "section": "Writing",
+    "question_type": "Task 1 Academic",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "prompt": "The maps below show the center of a small town called Islip as it is now, and plans for its development. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "model_answer_outline": "1. Introduction: Paraphrase the prompt.\n2. Overview: Highlight the main changes (pedestrianization and new housing).\n3. Body Paragraph 1: Describe the current layout.\n4. Body Paragraph 2: Describe the proposed developments (ring road, new facilities).",
+      "band_criteria": {
+        "task_achievement": "Clear overview of the main planned changes.",
+        "coherence": "Logical comparison between 'now' and 'future'.",
+        "lexical_resource": "Vocabulary for location and change (e.g., relocated, constructed, pedestrianized).",
+        "grammar": "Accurate use of present tense for current state and future/passive for plans."
+      },
+      "topic_tag": "writing_task1_academic_map"
+    }
+  },
+  {
+    "id": "ielts_writing_gen1_001",
+    "section": "Writing",
+    "question_type": "Task 1 General",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "prompt": "You recently bought a piece of equipment for your kitchen but it did not work. You phoned the shop but no action was taken. Write a letter to the shop manager. In your letter:\n- describe the equipment\n- explain the problem\n- say what you want the manager to do.",
+      "model_answer_outline": "1. Greeting: Dear Sir/Madam,\n2. Purpose: Stating the reason for writing (complaint about faulty equipment).\n3. Detail 1: Description of the item (brand, model, date of purchase).\n4. Detail 2: Explanation of the fault and the previous unsuccessful phone call.\n5. Detail 3: Demand for action (refund or replacement).\n6. Sign-off: Yours faithfully, [Name].",
+      "band_criteria": {
+        "task_achievement": "All bullet points covered adequately with a clear purpose.",
+        "coherence": "Logical progression with appropriate linking words.",
+        "lexical_resource": "Formal tone maintained with appropriate vocabulary (e.g., defective, investigate).",
+        "grammar": "Error-free sentences with complex structures where appropriate."
+      },
+      "topic_tag": "writing_task1_general_formal"
+    }
+  },
+  {
+    "id": "ielts_writing_gen1_002",
+    "section": "Writing",
+    "question_type": "Task 1 General",
+    "band_level": "7.0-8.0",
+    "difficulty": "Easy",
+    "question": {
+      "prompt": "A friend who lives in another country has invited to you come and stay with them on your next holiday. You are too busy to go. Write a letter to your friend. In your letter:\n- thank them for the invitation\n- explain why you cannot come\n- give them your other news",
+      "model_answer_outline": "1. Greeting: Dear [Friend's Name],\n2. Purpose: Thanking them and declining.\n3. Detail 1: Expressing gratitude for the invite.\n4. Detail 2: Explaining the reason (e.g., new job, exams).\n5. Detail 3: Sharing some personal news to keep in touch.\n6. Sign-off: Best wishes, [Name].",
+      "band_criteria": {
+        "task_achievement": "All points covered; clear informal purpose.",
+        "coherence": "Smooth transitions between thanking, explaining, and sharing news.",
+        "lexical_resource": "Informal and warm vocabulary (e.g., thrilled, unfortunately, catch up).",
+        "grammar": "Natural use of colloquialisms and appropriate tense variety."
+      },
+      "topic_tag": "writing_task1_general_informal"
+    }
+  },
+  {
+    "id": "ielts_writing_task2_001",
+    "section": "Writing",
+    "question_type": "Task 2 - Opinion Essay",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "prompt": "Some people think that universities should provide graduates with the knowledge and skills needed in the workplace. Others think that the true function of a university should be to give access to knowledge for its own sake, regardless of whether the course is useful to an employer. What, in your opinion, should be the main function of a university?",
+      "model_answer_outline": "1. Introduction: Hook, paraphrase prompt, clear thesis statement favoring a balanced approach or one side.\n2. Body Paragraph 1: Arguments for vocational training (economic necessity, ROI for students).\n3. Body Paragraph 2: Arguments for pure academic knowledge (critical thinking, societal advancement).\n4. Conclusion: Summarize main points and restate opinion clearly.",
+      "band_criteria": {
+        "task_achievement": "Fully addresses all parts of the prompt with a clear, developed position.",
+        "coherence": "Logically organizes information; clear central topic within each paragraph.",
+        "lexical_resource": "Uses a wide range of vocabulary flexibly (e.g., vocational, pragmatic, intellectual pursuit).",
+        "grammar": "Uses a variety of complex structures with frequent error-free sentences."
+      },
+      "topic_tag": "writing_task2_opinion"
+    }
+  },
+  {
+    "id": "ielts_writing_task2_002",
+    "section": "Writing",
+    "question_type": "Task 2 - Discussion Essay",
+    "band_level": "7.5-8.5",
+    "difficulty": "Hard",
+    "question": {
+      "prompt": "Some people believe that unpaid community service should be a compulsory part of high school programmes. Others believe it should be voluntary. Discuss both views and give your own opinion.",
+      "model_answer_outline": "1. Introduction: Paraphrase the views and state your opinion.\n2. Body Paragraph 1: Discuss the benefits of making it compulsory (building character, civic duty).\n3. Body Paragraph 2: Discuss the drawbacks/reasons for voluntary service (resentment, lack of time).\n4. Conclusion: Summarize the discussion and reinforce your opinion.",
+      "band_criteria": {
+        "task_achievement": "Balanced discussion of both views before presenting a clear opinion.",
+        "coherence": "Clear paragraphing, effective use of cohesive devices (e.g., on the other hand).",
+        "lexical_resource": "Topic-specific vocabulary (e.g., civic responsibility, mandatory, resentment).",
+        "grammar": "Accurate use of conditionals and passive voice."
+      },
+      "topic_tag": "writing_task2_discussion"
+    }
+  },
+  {
+    "id": "ielts_writing_task2_003",
+    "section": "Writing",
+    "question_type": "Task 2 - Problem-Solution Essay",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "prompt": "In many cities, the use of private cars is causing severe traffic jams and pollution. What are the causes of this problem, and what measures could be taken to solve it?",
+      "model_answer_outline": "1. Introduction: Introduce the problem of urban congestion and pollution.\n2. Body Paragraph 1: Causes (population growth, inadequate public transport, convenience of cars).\n3. Body Paragraph 2: Solutions (improving public transit, implementing congestion charges, promoting cycling).\n4. Conclusion: Recap the main causes and reaffirm the importance of the solutions.",
+      "band_criteria": {
+        "task_achievement": "Identifies clear causes and provides realistic solutions.",
+        "coherence": "Logical flow from problems to solutions; effective linking.",
+        "lexical_resource": "Vocabulary related to urban issues (e.g., infrastructure, emissions, viable alternatives).",
+        "grammar": "Correct use of cause-and-effect structures (e.g., resulting in, consequently)."
+      },
+      "topic_tag": "writing_task2_problem_solution"
+    }
+  },
+  {
+    "id": "ielts_writing_task2_004",
+    "section": "Writing",
+    "question_type": "Task 2 - Advantages-Disadvantages",
+    "band_level": "7.5-8.5",
+    "difficulty": "Medium",
+    "question": {
+      "prompt": "In some countries, young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages for young people who decide to do this.",
+      "model_answer_outline": "1. Introduction: Paraphrase the trend of taking a gap year.\n2. Body Paragraph 1: Advantages (broadening horizons, gaining work experience, maturity).\n3. Body Paragraph 2: Disadvantages (loss of academic momentum, financial burden, delaying graduation).\n4. Conclusion: Summarize the pros and cons; optionally offer a brief concluding thought.",
+      "band_criteria": {
+        "task_achievement": "Fully explores both advantages and disadvantages with extended examples.",
+        "coherence": "Clear contrast between paragraphs.",
+        "lexical_resource": "Vocabulary for personal development and academic study (e.g., self-reliance, hinder, academic stride).",
+        "grammar": "Complex sentences comparing and contrasting ideas."
+      },
+      "topic_tag": "writing_task2_advantages_disadvantages"
+    }
+  },
+  {
+    "id": "ielts_writing_task2_005",
+    "section": "Writing",
+    "question_type": "Task 2 - Opinion Essay",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "prompt": "With the rise of artificial intelligence, many traditional jobs are at risk of disappearing. To what extent do you agree or disagree that the benefits of AI outweigh the potential job losses?",
+      "model_answer_outline": "1. Introduction: Hook regarding AI, paraphrase the prompt, state a clear position.\n2. Body Paragraph 1: Acknowledge the job losses (automation of routine tasks, economic displacement).\n3. Body Paragraph 2: Argue the benefits (creation of new industries, increased efficiency, medical advancements).\n4. Conclusion: Reiterate why the benefits (or drawbacks) ultimately carry more weight.",
+      "band_criteria": {
+        "task_achievement": "Thoroughly addresses the 'to what extent' aspect; well-supported arguments.",
+        "coherence": "Sophisticated paragraph transitions and internal cohesion.",
+        "lexical_resource": "Advanced vocabulary (e.g., paradigm shift, redundancy, exponential efficiency).",
+        "grammar": "Flawless complex structures; varied sentence openings."
+      },
+      "topic_tag": "writing_task2_opinion"
+    }
+  },
+  {
+    "id": "ielts_speaking_p1_001",
+    "section": "Speaking",
+    "question_type": "Part 1",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "topic": "Hometown",
+      "question": "Where is your hometown?",
+      "follow_ups": [
+        "What do you like about it?",
+        "Has it changed much recently?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "bustling",
+          "metropolitan",
+          "tranquil",
+          "picturesque"
+        ],
+        "structures": [
+          "I'd have to say...",
+          "What I particularly enjoy is..."
+        ],
+        "band_7_tips": "Extend answers naturally with examples and comparisons rather than one-word responses."
+      },
+      "topic_tag": "speaking_part1_hometown"
+    }
+  },
+  {
+    "id": "ielts_speaking_p1_002",
+    "section": "Speaking",
+    "question_type": "Part 1",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "topic": "Studies",
+      "question": "What are you studying at the moment?",
+      "follow_ups": [
+        "Why did you choose that subject?",
+        "What do you plan to do after you finish?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "major in",
+          "fascinating",
+          "career prospects",
+          "hands-on experience"
+        ],
+        "structures": [
+          "Currently, I'm enrolled in...",
+          "The main reason I opted for this is..."
+        ],
+        "band_7_tips": "Use a range of tenses appropriately (e.g., present continuous for current studies, future forms for plans)."
+      },
+      "topic_tag": "speaking_part1_studies"
+    }
+  },
+  {
+    "id": "ielts_speaking_p1_003",
+    "section": "Speaking",
+    "question_type": "Part 1",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "topic": "Hobbies",
+      "question": "What do you like to do in your free time?",
+      "follow_ups": [
+        "How long have you been doing this?",
+        "Do you prefer spending your free time alone or with others?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "unwind",
+          "passion",
+          "socialize",
+          "solitary"
+        ],
+        "structures": [
+          "Whenever I get some time off...",
+          "I've been quite keen on..."
+        ],
+        "band_7_tips": "Show enthusiasm and use idiomatic expressions naturally if possible."
+      },
+      "topic_tag": "speaking_part1_hobbies"
+    }
+  },
+  {
+    "id": "ielts_speaking_p1_004",
+    "section": "Speaking",
+    "question_type": "Part 1",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "topic": "Food",
+      "question": "What is your favorite type of food?",
+      "follow_ups": [
+        "Do you enjoy cooking?",
+        "What kinds of food are popular in your country?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "cuisine",
+          "flavorful",
+          "traditional dishes",
+          "ingredients"
+        ],
+        "structures": [
+          "I'm particularly fond of...",
+          "To be honest, I'm not much of a cook, but..."
+        ],
+        "band_7_tips": "Provide specific details (e.g., names of dishes, specific flavors) to expand the answer."
+      },
+      "topic_tag": "speaking_part1_food"
+    }
+  },
+  {
+    "id": "ielts_speaking_p1_005",
+    "section": "Speaking",
+    "question_type": "Part 1",
+    "band_level": "6.0-7.0",
+    "difficulty": "Easy",
+    "question": {
+      "topic": "Travel",
+      "question": "Do you enjoy traveling?",
+      "follow_ups": [
+        "What was the most interesting place you've visited?",
+        "Do you prefer traveling by car or by train?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "broaden my horizons",
+          "memorable",
+          "scenic route",
+          "convenience"
+        ],
+        "structures": [
+          "Absolutely, I love...",
+          "One of the most remarkable places was..."
+        ],
+        "band_7_tips": "Link ideas logically using connectors like 'because', 'however', and 'even though'."
+      },
+      "topic_tag": "speaking_part1_travel"
+    }
+  },
+  {
+    "id": "ielts_speaking_p2_001",
+    "section": "Speaking",
+    "question_type": "Part 2 Cue Card",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "topic": "A memorable journey",
+      "question": "Describe a memorable journey you have made.\nYou should say:\n- where you went\n- how you traveled\n- why you went there\nand explain why this journey was so memorable for you.",
+      "follow_ups": [
+        "Would you like to go back there?",
+        "Who did you travel with?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "breathtaking scenery",
+          "unforgettable",
+          "exhilarating",
+          "exhausting but worthwhile"
+        ],
+        "structures": [
+          "I'd like to tell you about a trip to...",
+          "What made it particularly special was..."
+        ],
+        "band_7_tips": "Use the 1 minute preparation time effectively. Speak smoothly for the full 2 minutes without hesitation."
+      },
+      "topic_tag": "speaking_part2_journey"
+    }
+  },
+  {
+    "id": "ielts_speaking_p2_002",
+    "section": "Speaking",
+    "question_type": "Part 2 Cue Card",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "topic": "An important decision",
+      "question": "Describe an important decision you made.\nYou should say:\n- what the decision was\n- when you made it\n- how you made the decision\nand explain why it was important to you.",
+      "follow_ups": [
+        "Was it a difficult decision to make?",
+        "Did anyone help you make it?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "crossroads",
+          "weigh the pros and cons",
+          "pivotal moment",
+          "gut feeling"
+        ],
+        "structures": [
+          "A major turning point for me was when...",
+          "Looking back, I realize that..."
+        ],
+        "band_7_tips": "Structure the narrative chronologically and explicitly address all bullet points."
+      },
+      "topic_tag": "speaking_part2_decision"
+    }
+  },
+  {
+    "id": "ielts_speaking_p2_003",
+    "section": "Speaking",
+    "question_type": "Part 2 Cue Card",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "topic": "A person who inspired you",
+      "question": "Describe a person who has inspired you.\nYou should say:\n- who this person is\n- how you know them\n- what they have done\nand explain why they inspire you.",
+      "follow_ups": [
+        "Do you want to be like them?",
+        "Have you told them that they inspire you?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "role model",
+          "resilience",
+          "dedication",
+          "look up to"
+        ],
+        "structures": [
+          "The person I admire most is...",
+          "What I find most inspiring about them is..."
+        ],
+        "band_7_tips": "Use descriptive language and adjectives to paint a clear picture of the person's character."
+      },
+      "topic_tag": "speaking_part2_person"
+    }
+  },
+  {
+    "id": "ielts_speaking_p2_004",
+    "section": "Speaking",
+    "question_type": "Part 2 Cue Card",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "topic": "A book you recently read",
+      "question": "Describe a book you have recently read.\nYou should say:\n- what kind of book it is\n- what it is about\n- why you decided to read it\nand explain what you liked or disliked about it.",
+      "follow_ups": [
+        "Would you recommend it to others?",
+        "Do you prefer physical books or e-books?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "gripping narrative",
+          "thought-provoking",
+          "protagonist",
+          "page-turner"
+        ],
+        "structures": [
+          "I recently finished reading...",
+          "The overarching theme was..."
+        ],
+        "band_7_tips": "Summarize the plot briefly without getting bogged down in too many details; focus more on your reaction to it."
+      },
+      "topic_tag": "speaking_part2_book"
+    }
+  },
+  {
+    "id": "ielts_speaking_p2_005",
+    "section": "Speaking",
+    "question_type": "Part 2 Cue Card",
+    "band_level": "7.0-8.0",
+    "difficulty": "Medium",
+    "question": {
+      "topic": "A historic place",
+      "question": "Describe a historic place you have visited.\nYou should say:\n- where it is\n- what it looks like\n- what you learned there\nand explain how you felt about this place.",
+      "follow_ups": [
+        "Why is history important?",
+        "Do you think historic places should be preserved?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "ancient ruins",
+          "well-preserved",
+          "heritage",
+          "awe-inspiring"
+        ],
+        "structures": [
+          "One place that left a lasting impression on me is...",
+          "Walking through the site, I felt..."
+        ],
+        "band_7_tips": "Use sensory language to describe the place and convey the atmosphere."
+      },
+      "topic_tag": "speaking_part2_historic_place"
+    }
+  },
+  {
+    "id": "ielts_speaking_p3_001",
+    "section": "Speaking",
+    "question_type": "Part 3 Discussion",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "topic": "Tourism",
+      "question": "How do you think tourism will evolve in the next 20 years?",
+      "follow_ups": [
+        "What are the negative impacts of mass tourism?",
+        "Should the government regulate tourism more strictly?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "eco-tourism",
+          "sustainable",
+          "carbon footprint",
+          "overcrowding"
+        ],
+        "structures": [
+          "It's highly likely that...",
+          "On the one hand, tourism brings economic benefits, but on the other..."
+        ],
+        "band_7_tips": "Discuss ideas in the abstract rather than giving personal anecdotes. Use speculative language (might, could, is likely to)."
+      },
+      "topic_tag": "speaking_part3_tourism"
+    }
+  },
+  {
+    "id": "ielts_speaking_p3_002",
+    "section": "Speaking",
+    "question_type": "Part 3 Discussion",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "topic": "Education Systems",
+      "question": "In what ways has technology changed the way children are educated?",
+      "follow_ups": [
+        "Do you think traditional classrooms will disappear?",
+        "What are the drawbacks of online learning?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "interactive",
+          "accessibility",
+          "digital divide",
+          "paradigm shift"
+        ],
+        "structures": [
+          "There has been a profound shift in...",
+          "While technology offers undeniable advantages, it also..."
+        ],
+        "band_7_tips": "Explore multiple perspectives and acknowledge counter-arguments to show depth of thought."
+      },
+      "topic_tag": "speaking_part3_education"
+    }
+  },
+  {
+    "id": "ielts_speaking_p3_003",
+    "section": "Speaking",
+    "question_type": "Part 3 Discussion",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "topic": "Technology and Society",
+      "question": "How does the constant use of smartphones affect social interactions?",
+      "follow_ups": [
+        "Are people becoming more isolated despite being connected?",
+        "Should there be limits on screen time for adults?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "superficial connections",
+          "detrimental",
+          "ubiquitous",
+          "attention span"
+        ],
+        "structures": [
+          "A major concern is that...",
+          "It can be argued that..."
+        ],
+        "band_7_tips": "Provide generalized examples rather than just talking about yourself or specific friends."
+      },
+      "topic_tag": "speaking_part3_technology"
+    }
+  },
+  {
+    "id": "ielts_speaking_p3_004",
+    "section": "Speaking",
+    "question_type": "Part 3 Discussion",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "topic": "Environmental Protection",
+      "question": "Who should be responsible for protecting the environment: individuals, corporations, or the government?",
+      "follow_ups": [
+        "Are international agreements effective in tackling climate change?",
+        "What more can individuals do?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "collective responsibility",
+          "legislation",
+          "corporate accountability",
+          "sustainable practices"
+        ],
+        "structures": [
+          "Ultimately, it requires a concerted effort from...",
+          "While individuals can make a difference, systemic change must..."
+        ],
+        "band_7_tips": "Use precise vocabulary to discuss complex global issues and clearly articulate your reasoning."
+      },
+      "topic_tag": "speaking_part3_environment"
+    }
+  },
+  {
+    "id": "ielts_speaking_p3_005",
+    "section": "Speaking",
+    "question_type": "Part 3 Discussion",
+    "band_level": "8.0-9.0",
+    "difficulty": "Hard",
+    "question": {
+      "topic": "Cultural Heritage",
+      "question": "Why is it important for a country to preserve its cultural heritage?",
+      "follow_ups": [
+        "Does globalization threaten traditional cultures?",
+        "How can museums attract more young people?"
+      ],
+      "model_elements": {
+        "vocabulary": [
+          "sense of identity",
+          "homogenization",
+          "tangible and intangible heritage",
+          "legacy"
+        ],
+        "structures": [
+          "Preserving heritage is vital because...",
+          "One of the main threats posed by globalization is..."
+        ],
+        "band_7_tips": "Demonstrate a wide range of vocabulary and grammatical structures, speaking at length with minimal hesitation."
+      },
+      "topic_tag": "speaking_part3_culture"
+    }
+  },
+  {
+    "id": "ielts_g_added_001",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Present Perfect vs Past Simple",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Present Perfect vs Past Simple] Choose the correct form: She ___ in Tashkent since 2018.",
+      "options": [
+        "has lived",
+        "lived",
+        "is living",
+        "was living"
+      ],
+      "correct_answer": "has lived",
+      "explanation": "Since + point in time requires Present Perfect.",
+      "topic_tag": "present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "ielts_g_added_002",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 2",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 2] Choose the correct form: If I ___ more time, I would learn a third language.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Unreal present condition uses past simple in if-clause.",
+      "topic_tag": "conditionals_type_2"
+    }
+  },
+  {
+    "id": "ielts_g_added_003",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 3",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 3] Choose the correct form: If they ___ earlier, they would not have missed the flight.",
+      "options": [
+        "had left",
+        "left",
+        "have left",
+        "were leaving"
+      ],
+      "correct_answer": "had left",
+      "explanation": "Unreal past condition uses past perfect in if-clause.",
+      "topic_tag": "conditionals_type_3"
+    }
+  },
+  {
+    "id": "ielts_g_added_004",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Passive Voice",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Passive Voice] Choose the correct form: A new highway ___ between the two major cities right now.",
+      "options": [
+        "is being built",
+        "is built",
+        "was built",
+        "has built"
+      ],
+      "correct_answer": "is being built",
+      "explanation": "Action in progress at present requires Present Continuous Passive.",
+      "topic_tag": "passive_voice"
+    }
+  },
+  {
+    "id": "ielts_g_added_005",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Reported Speech",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Reported Speech] Choose the correct form: He asked me where I ___ the previous evening.",
+      "options": [
+        "had been",
+        "was",
+        "have been",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Past continuous/past simple shifts to past perfect in reported speech.",
+      "topic_tag": "reported_speech"
+    }
+  },
+  {
+    "id": "ielts_g_added_006",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Modal Verbs",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Modal Verbs] Choose the correct form: You ___ bring your passport to the examination hall; it is mandatory.",
+      "options": [
+        "must",
+        "might",
+        "should",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Mandatory rule requires modal of obligation must.",
+      "topic_tag": "modal_verbs"
+    }
+  },
+  {
+    "id": "ielts_g_added_007",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Relative Clauses",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Relative Clauses] Choose the correct form: The scientist ___ research led to the breakthrough was awarded a medal.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Possessive relative pronoun is whose.",
+      "topic_tag": "relative_clauses"
+    }
+  },
+  {
+    "id": "ielts_g_added_008",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Inversion",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Inversion] Choose the correct form: Hardly ___ entered the room when the lights went out.",
+      "options": [
+        "had he",
+        "he had",
+        "did he",
+        "he did"
+      ],
+      "correct_answer": "had he",
+      "explanation": "Hardly at beginning of sentence causes past perfect inversion.",
+      "topic_tag": "inversion"
+    }
+  },
+  {
+    "id": "ielts_g_added_009",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Articles",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Articles] Choose the correct form: Mount Everest is ___ highest peak in the world.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correct_answer": "the",
+      "explanation": "Superlative adjectives require definite article the.",
+      "topic_tag": "articles"
+    }
+  },
+  {
+    "id": "ielts_g_added_010",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Gerund vs Infinitive",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Gerund vs Infinitive] Choose the correct form: She decided ___ abroad for her postgraduate master degree.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "correct_answer": "to study",
+      "explanation": "The verb decide is followed by to-infinitive.",
+      "topic_tag": "gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "ielts_g_added_011",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Present Perfect vs Past Simple",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Present Perfect vs Past Simple] Choose the correct form: She ___ in Tashkent since 2018.",
+      "options": [
+        "has lived",
+        "lived",
+        "is living",
+        "was living"
+      ],
+      "correct_answer": "has lived",
+      "explanation": "Since + point in time requires Present Perfect.",
+      "topic_tag": "present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "ielts_g_added_012",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 2",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 2] Choose the correct form: If I ___ more time, I would learn a third language.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Unreal present condition uses past simple in if-clause.",
+      "topic_tag": "conditionals_type_2"
+    }
+  },
+  {
+    "id": "ielts_g_added_013",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 3",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 3] Choose the correct form: If they ___ earlier, they would not have missed the flight.",
+      "options": [
+        "had left",
+        "left",
+        "have left",
+        "were leaving"
+      ],
+      "correct_answer": "had left",
+      "explanation": "Unreal past condition uses past perfect in if-clause.",
+      "topic_tag": "conditionals_type_3"
+    }
+  },
+  {
+    "id": "ielts_g_added_014",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Passive Voice",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Passive Voice] Choose the correct form: A new highway ___ between the two major cities right now.",
+      "options": [
+        "is being built",
+        "is built",
+        "was built",
+        "has built"
+      ],
+      "correct_answer": "is being built",
+      "explanation": "Action in progress at present requires Present Continuous Passive.",
+      "topic_tag": "passive_voice"
+    }
+  },
+  {
+    "id": "ielts_g_added_015",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Reported Speech",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Reported Speech] Choose the correct form: He asked me where I ___ the previous evening.",
+      "options": [
+        "had been",
+        "was",
+        "have been",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Past continuous/past simple shifts to past perfect in reported speech.",
+      "topic_tag": "reported_speech"
+    }
+  },
+  {
+    "id": "ielts_g_added_016",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Modal Verbs",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Modal Verbs] Choose the correct form: You ___ bring your passport to the examination hall; it is mandatory.",
+      "options": [
+        "must",
+        "might",
+        "should",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Mandatory rule requires modal of obligation must.",
+      "topic_tag": "modal_verbs"
+    }
+  },
+  {
+    "id": "ielts_g_added_017",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Relative Clauses",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Relative Clauses] Choose the correct form: The scientist ___ research led to the breakthrough was awarded a medal.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Possessive relative pronoun is whose.",
+      "topic_tag": "relative_clauses"
+    }
+  },
+  {
+    "id": "ielts_g_added_018",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Inversion",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Inversion] Choose the correct form: Hardly ___ entered the room when the lights went out.",
+      "options": [
+        "had he",
+        "he had",
+        "did he",
+        "he did"
+      ],
+      "correct_answer": "had he",
+      "explanation": "Hardly at beginning of sentence causes past perfect inversion.",
+      "topic_tag": "inversion"
+    }
+  },
+  {
+    "id": "ielts_g_added_019",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Articles",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Articles] Choose the correct form: Mount Everest is ___ highest peak in the world.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correct_answer": "the",
+      "explanation": "Superlative adjectives require definite article the.",
+      "topic_tag": "articles"
+    }
+  },
+  {
+    "id": "ielts_g_added_020",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Gerund vs Infinitive",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Gerund vs Infinitive] Choose the correct form: She decided ___ abroad for her postgraduate master degree.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "correct_answer": "to study",
+      "explanation": "The verb decide is followed by to-infinitive.",
+      "topic_tag": "gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "ielts_g_added_021",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Present Perfect vs Past Simple",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Present Perfect vs Past Simple] Choose the correct form: She ___ in Tashkent since 2018.",
+      "options": [
+        "has lived",
+        "lived",
+        "is living",
+        "was living"
+      ],
+      "correct_answer": "has lived",
+      "explanation": "Since + point in time requires Present Perfect.",
+      "topic_tag": "present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "ielts_g_added_022",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 2",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 2] Choose the correct form: If I ___ more time, I would learn a third language.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Unreal present condition uses past simple in if-clause.",
+      "topic_tag": "conditionals_type_2"
+    }
+  },
+  {
+    "id": "ielts_g_added_023",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 3",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 3] Choose the correct form: If they ___ earlier, they would not have missed the flight.",
+      "options": [
+        "had left",
+        "left",
+        "have left",
+        "were leaving"
+      ],
+      "correct_answer": "had left",
+      "explanation": "Unreal past condition uses past perfect in if-clause.",
+      "topic_tag": "conditionals_type_3"
+    }
+  },
+  {
+    "id": "ielts_g_added_024",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Passive Voice",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Passive Voice] Choose the correct form: A new highway ___ between the two major cities right now.",
+      "options": [
+        "is being built",
+        "is built",
+        "was built",
+        "has built"
+      ],
+      "correct_answer": "is being built",
+      "explanation": "Action in progress at present requires Present Continuous Passive.",
+      "topic_tag": "passive_voice"
+    }
+  },
+  {
+    "id": "ielts_g_added_025",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Reported Speech",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Reported Speech] Choose the correct form: He asked me where I ___ the previous evening.",
+      "options": [
+        "had been",
+        "was",
+        "have been",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Past continuous/past simple shifts to past perfect in reported speech.",
+      "topic_tag": "reported_speech"
+    }
+  },
+  {
+    "id": "ielts_g_added_026",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Modal Verbs",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Modal Verbs] Choose the correct form: You ___ bring your passport to the examination hall; it is mandatory.",
+      "options": [
+        "must",
+        "might",
+        "should",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Mandatory rule requires modal of obligation must.",
+      "topic_tag": "modal_verbs"
+    }
+  },
+  {
+    "id": "ielts_g_added_027",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Relative Clauses",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Relative Clauses] Choose the correct form: The scientist ___ research led to the breakthrough was awarded a medal.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Possessive relative pronoun is whose.",
+      "topic_tag": "relative_clauses"
+    }
+  },
+  {
+    "id": "ielts_g_added_028",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Inversion",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Inversion] Choose the correct form: Hardly ___ entered the room when the lights went out.",
+      "options": [
+        "had he",
+        "he had",
+        "did he",
+        "he did"
+      ],
+      "correct_answer": "had he",
+      "explanation": "Hardly at beginning of sentence causes past perfect inversion.",
+      "topic_tag": "inversion"
+    }
+  },
+  {
+    "id": "ielts_g_added_029",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Articles",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Articles] Choose the correct form: Mount Everest is ___ highest peak in the world.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correct_answer": "the",
+      "explanation": "Superlative adjectives require definite article the.",
+      "topic_tag": "articles"
+    }
+  },
+  {
+    "id": "ielts_g_added_030",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Gerund vs Infinitive",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Gerund vs Infinitive] Choose the correct form: She decided ___ abroad for her postgraduate master degree.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "correct_answer": "to study",
+      "explanation": "The verb decide is followed by to-infinitive.",
+      "topic_tag": "gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "ielts_g_added_031",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Present Perfect vs Past Simple",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Present Perfect vs Past Simple] Choose the correct form: She ___ in Tashkent since 2018.",
+      "options": [
+        "has lived",
+        "lived",
+        "is living",
+        "was living"
+      ],
+      "correct_answer": "has lived",
+      "explanation": "Since + point in time requires Present Perfect.",
+      "topic_tag": "present_perfect_vs_past_simple"
+    }
+  },
+  {
+    "id": "ielts_g_added_032",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 2",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 2] Choose the correct form: If I ___ more time, I would learn a third language.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correct_answer": "had",
+      "explanation": "Unreal present condition uses past simple in if-clause.",
+      "topic_tag": "conditionals_type_2"
+    }
+  },
+  {
+    "id": "ielts_g_added_033",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Conditionals Type 3",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Conditionals Type 3] Choose the correct form: If they ___ earlier, they would not have missed the flight.",
+      "options": [
+        "had left",
+        "left",
+        "have left",
+        "were leaving"
+      ],
+      "correct_answer": "had left",
+      "explanation": "Unreal past condition uses past perfect in if-clause.",
+      "topic_tag": "conditionals_type_3"
+    }
+  },
+  {
+    "id": "ielts_g_added_034",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Passive Voice",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Passive Voice] Choose the correct form: A new highway ___ between the two major cities right now.",
+      "options": [
+        "is being built",
+        "is built",
+        "was built",
+        "has built"
+      ],
+      "correct_answer": "is being built",
+      "explanation": "Action in progress at present requires Present Continuous Passive.",
+      "topic_tag": "passive_voice"
+    }
+  },
+  {
+    "id": "ielts_g_added_035",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Reported Speech",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Reported Speech] Choose the correct form: He asked me where I ___ the previous evening.",
+      "options": [
+        "had been",
+        "was",
+        "have been",
+        "am"
+      ],
+      "correct_answer": "had been",
+      "explanation": "Past continuous/past simple shifts to past perfect in reported speech.",
+      "topic_tag": "reported_speech"
+    }
+  },
+  {
+    "id": "ielts_g_added_036",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Modal Verbs",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Modal Verbs] Choose the correct form: You ___ bring your passport to the examination hall; it is mandatory.",
+      "options": [
+        "must",
+        "might",
+        "should",
+        "could"
+      ],
+      "correct_answer": "must",
+      "explanation": "Mandatory rule requires modal of obligation must.",
+      "topic_tag": "modal_verbs"
+    }
+  },
+  {
+    "id": "ielts_g_added_037",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Relative Clauses",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Relative Clauses] Choose the correct form: The scientist ___ research led to the breakthrough was awarded a medal.",
+      "options": [
+        "whose",
+        "who",
+        "whom",
+        "which"
+      ],
+      "correct_answer": "whose",
+      "explanation": "Possessive relative pronoun is whose.",
+      "topic_tag": "relative_clauses"
+    }
+  },
+  {
+    "id": "ielts_g_added_038",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Inversion",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Inversion] Choose the correct form: Hardly ___ entered the room when the lights went out.",
+      "options": [
+        "had he",
+        "he had",
+        "did he",
+        "he did"
+      ],
+      "correct_answer": "had he",
+      "explanation": "Hardly at beginning of sentence causes past perfect inversion.",
+      "topic_tag": "inversion"
+    }
+  },
+  {
+    "id": "ielts_g_added_039",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Articles",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "",
+      "question": "[Articles] Choose the correct form: Mount Everest is ___ highest peak in the world.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correct_answer": "the",
+      "explanation": "Superlative adjectives require definite article the.",
+      "topic_tag": "articles"
+    }
+  },
+  {
+    "id": "ielts_g_added_040",
+    "type": "Grammar",
+    "domain": "Grammatical Range and Accuracy",
+    "skill": "Gerund vs Infinitive",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "",
+      "question": "[Gerund vs Infinitive] Choose the correct form: She decided ___ abroad for her postgraduate master degree.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "correct_answer": "to study",
+      "explanation": "The verb decide is followed by to-infinitive.",
+      "topic_tag": "gerund_vs_infinitive"
+    }
+  },
+  {
+    "id": "ielts_r_added_001",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "The History of Silk Production",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### The History of Silk Production\n\nSilk is a natural protein fiber, some forms of which can be woven into textiles. The protein fiber of silk is composed mainly of fibroin and is produced by certain insect larvae to form cocoons. The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori reared in captivity. The shimmering appearance of silk is due to the triangular prism-like structure of the silk fiber, which allows silk cloth to refract incoming light at different angles, thus producing different colors.",
+      "question": "According to the passage, what gives silk its shimmering appearance?",
+      "options": [
+        "Its triangular prism-like fiber structure",
+        "The mulberry leaves eaten by larvae",
+        "The high heat used during weaving",
+        "The synthetic dyes applied to cloth"
+      ],
+      "correct_answer": "Its triangular prism-like fiber structure",
+      "explanation": "The passage explicitly states: The shimmering appearance of silk is due to the triangular prism-like structure.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_002",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Renewable Energy Advances",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Renewable Energy Advances\n\nSolar power utilization has grown exponentially over the past decade due to falling photovoltaic cell costs and increasing efficiency. Modern silicon panels can convert over 22 percent of incident sunlight into usable electricity. Furthermore, energy storage systems such as lithium-iron-phosphate batteries have solved the intermittency issue by storing excess power generated during peak daytime hours for evening consumption.",
+      "question": "What main factor solved the intermittency issue of solar energy?",
+      "options": [
+        "Lithium-iron-phosphate battery storage systems",
+        "Higher sunlight concentration during winter",
+        "Nuclear fusion grid backups",
+        "Decreasing daytime power demand"
+      ],
+      "correct_answer": "Lithium-iron-phosphate battery storage systems",
+      "explanation": "The passage states: battery systems have solved the intermittency issue by storing excess power.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_003",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Urban Transport Infrastructure",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Urban Transport Infrastructure\n\nRapid urban migration has placed unprecedented strain on urban transport networks worldwide. Metro expansion projects offer a sustainable high-capacity alternative to private vehicular transport, significantly reducing urban carbon emissions and traffic congestion. However, initial capital expenditure remains high, necessitating public-private partnerships for long-term financing.",
+      "question": "Why do metro expansion projects require public-private partnerships?",
+      "options": [
+        "High initial capital expenditure",
+        "Lack of passenger demand",
+        "Low construction standards",
+        "Decreasing urban population"
+      ],
+      "correct_answer": "High initial capital expenditure",
+      "explanation": "The text mentions: initial capital expenditure remains high, necessitating public-private partnerships.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_004",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "The History of Silk Production",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### The History of Silk Production\n\nSilk is a natural protein fiber, some forms of which can be woven into textiles. The protein fiber of silk is composed mainly of fibroin and is produced by certain insect larvae to form cocoons. The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori reared in captivity. The shimmering appearance of silk is due to the triangular prism-like structure of the silk fiber, which allows silk cloth to refract incoming light at different angles, thus producing different colors.",
+      "question": "According to the passage, what gives silk its shimmering appearance?",
+      "options": [
+        "Its triangular prism-like fiber structure",
+        "The mulberry leaves eaten by larvae",
+        "The high heat used during weaving",
+        "The synthetic dyes applied to cloth"
+      ],
+      "correct_answer": "Its triangular prism-like fiber structure",
+      "explanation": "The passage explicitly states: The shimmering appearance of silk is due to the triangular prism-like structure.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_005",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Renewable Energy Advances",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Renewable Energy Advances\n\nSolar power utilization has grown exponentially over the past decade due to falling photovoltaic cell costs and increasing efficiency. Modern silicon panels can convert over 22 percent of incident sunlight into usable electricity. Furthermore, energy storage systems such as lithium-iron-phosphate batteries have solved the intermittency issue by storing excess power generated during peak daytime hours for evening consumption.",
+      "question": "What main factor solved the intermittency issue of solar energy?",
+      "options": [
+        "Lithium-iron-phosphate battery storage systems",
+        "Higher sunlight concentration during winter",
+        "Nuclear fusion grid backups",
+        "Decreasing daytime power demand"
+      ],
+      "correct_answer": "Lithium-iron-phosphate battery storage systems",
+      "explanation": "The passage states: battery systems have solved the intermittency issue by storing excess power.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_006",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Urban Transport Infrastructure",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Urban Transport Infrastructure\n\nRapid urban migration has placed unprecedented strain on urban transport networks worldwide. Metro expansion projects offer a sustainable high-capacity alternative to private vehicular transport, significantly reducing urban carbon emissions and traffic congestion. However, initial capital expenditure remains high, necessitating public-private partnerships for long-term financing.",
+      "question": "Why do metro expansion projects require public-private partnerships?",
+      "options": [
+        "High initial capital expenditure",
+        "Lack of passenger demand",
+        "Low construction standards",
+        "Decreasing urban population"
+      ],
+      "correct_answer": "High initial capital expenditure",
+      "explanation": "The text mentions: initial capital expenditure remains high, necessitating public-private partnerships.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_007",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "The History of Silk Production",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### The History of Silk Production\n\nSilk is a natural protein fiber, some forms of which can be woven into textiles. The protein fiber of silk is composed mainly of fibroin and is produced by certain insect larvae to form cocoons. The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori reared in captivity. The shimmering appearance of silk is due to the triangular prism-like structure of the silk fiber, which allows silk cloth to refract incoming light at different angles, thus producing different colors.",
+      "question": "According to the passage, what gives silk its shimmering appearance?",
+      "options": [
+        "Its triangular prism-like fiber structure",
+        "The mulberry leaves eaten by larvae",
+        "The high heat used during weaving",
+        "The synthetic dyes applied to cloth"
+      ],
+      "correct_answer": "Its triangular prism-like fiber structure",
+      "explanation": "The passage explicitly states: The shimmering appearance of silk is due to the triangular prism-like structure.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_008",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Renewable Energy Advances",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Renewable Energy Advances\n\nSolar power utilization has grown exponentially over the past decade due to falling photovoltaic cell costs and increasing efficiency. Modern silicon panels can convert over 22 percent of incident sunlight into usable electricity. Furthermore, energy storage systems such as lithium-iron-phosphate batteries have solved the intermittency issue by storing excess power generated during peak daytime hours for evening consumption.",
+      "question": "What main factor solved the intermittency issue of solar energy?",
+      "options": [
+        "Lithium-iron-phosphate battery storage systems",
+        "Higher sunlight concentration during winter",
+        "Nuclear fusion grid backups",
+        "Decreasing daytime power demand"
+      ],
+      "correct_answer": "Lithium-iron-phosphate battery storage systems",
+      "explanation": "The passage states: battery systems have solved the intermittency issue by storing excess power.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_009",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Urban Transport Infrastructure",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Urban Transport Infrastructure\n\nRapid urban migration has placed unprecedented strain on urban transport networks worldwide. Metro expansion projects offer a sustainable high-capacity alternative to private vehicular transport, significantly reducing urban carbon emissions and traffic congestion. However, initial capital expenditure remains high, necessitating public-private partnerships for long-term financing.",
+      "question": "Why do metro expansion projects require public-private partnerships?",
+      "options": [
+        "High initial capital expenditure",
+        "Lack of passenger demand",
+        "Low construction standards",
+        "Decreasing urban population"
+      ],
+      "correct_answer": "High initial capital expenditure",
+      "explanation": "The text mentions: initial capital expenditure remains high, necessitating public-private partnerships.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_010",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "The History of Silk Production",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### The History of Silk Production\n\nSilk is a natural protein fiber, some forms of which can be woven into textiles. The protein fiber of silk is composed mainly of fibroin and is produced by certain insect larvae to form cocoons. The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori reared in captivity. The shimmering appearance of silk is due to the triangular prism-like structure of the silk fiber, which allows silk cloth to refract incoming light at different angles, thus producing different colors.",
+      "question": "According to the passage, what gives silk its shimmering appearance?",
+      "options": [
+        "Its triangular prism-like fiber structure",
+        "The mulberry leaves eaten by larvae",
+        "The high heat used during weaving",
+        "The synthetic dyes applied to cloth"
+      ],
+      "correct_answer": "Its triangular prism-like fiber structure",
+      "explanation": "The passage explicitly states: The shimmering appearance of silk is due to the triangular prism-like structure.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_011",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Renewable Energy Advances",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Renewable Energy Advances\n\nSolar power utilization has grown exponentially over the past decade due to falling photovoltaic cell costs and increasing efficiency. Modern silicon panels can convert over 22 percent of incident sunlight into usable electricity. Furthermore, energy storage systems such as lithium-iron-phosphate batteries have solved the intermittency issue by storing excess power generated during peak daytime hours for evening consumption.",
+      "question": "What main factor solved the intermittency issue of solar energy?",
+      "options": [
+        "Lithium-iron-phosphate battery storage systems",
+        "Higher sunlight concentration during winter",
+        "Nuclear fusion grid backups",
+        "Decreasing daytime power demand"
+      ],
+      "correct_answer": "Lithium-iron-phosphate battery storage systems",
+      "explanation": "The passage states: battery systems have solved the intermittency issue by storing excess power.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_012",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Urban Transport Infrastructure",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Urban Transport Infrastructure\n\nRapid urban migration has placed unprecedented strain on urban transport networks worldwide. Metro expansion projects offer a sustainable high-capacity alternative to private vehicular transport, significantly reducing urban carbon emissions and traffic congestion. However, initial capital expenditure remains high, necessitating public-private partnerships for long-term financing.",
+      "question": "Why do metro expansion projects require public-private partnerships?",
+      "options": [
+        "High initial capital expenditure",
+        "Lack of passenger demand",
+        "Low construction standards",
+        "Decreasing urban population"
+      ],
+      "correct_answer": "High initial capital expenditure",
+      "explanation": "The text mentions: initial capital expenditure remains high, necessitating public-private partnerships.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_013",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "The History of Silk Production",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### The History of Silk Production\n\nSilk is a natural protein fiber, some forms of which can be woven into textiles. The protein fiber of silk is composed mainly of fibroin and is produced by certain insect larvae to form cocoons. The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori reared in captivity. The shimmering appearance of silk is due to the triangular prism-like structure of the silk fiber, which allows silk cloth to refract incoming light at different angles, thus producing different colors.",
+      "question": "According to the passage, what gives silk its shimmering appearance?",
+      "options": [
+        "Its triangular prism-like fiber structure",
+        "The mulberry leaves eaten by larvae",
+        "The high heat used during weaving",
+        "The synthetic dyes applied to cloth"
+      ],
+      "correct_answer": "Its triangular prism-like fiber structure",
+      "explanation": "The passage explicitly states: The shimmering appearance of silk is due to the triangular prism-like structure.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_014",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Renewable Energy Advances",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Renewable Energy Advances\n\nSolar power utilization has grown exponentially over the past decade due to falling photovoltaic cell costs and increasing efficiency. Modern silicon panels can convert over 22 percent of incident sunlight into usable electricity. Furthermore, energy storage systems such as lithium-iron-phosphate batteries have solved the intermittency issue by storing excess power generated during peak daytime hours for evening consumption.",
+      "question": "What main factor solved the intermittency issue of solar energy?",
+      "options": [
+        "Lithium-iron-phosphate battery storage systems",
+        "Higher sunlight concentration during winter",
+        "Nuclear fusion grid backups",
+        "Decreasing daytime power demand"
+      ],
+      "correct_answer": "Lithium-iron-phosphate battery storage systems",
+      "explanation": "The passage states: battery systems have solved the intermittency issue by storing excess power.",
+      "topic_tag": "reading_comprehension"
+    }
+  },
+  {
+    "id": "ielts_r_added_015",
+    "type": "Reading",
+    "domain": "Reading Comprehension",
+    "skill": "Urban Transport Infrastructure",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "### Urban Transport Infrastructure\n\nRapid urban migration has placed unprecedented strain on urban transport networks worldwide. Metro expansion projects offer a sustainable high-capacity alternative to private vehicular transport, significantly reducing urban carbon emissions and traffic congestion. However, initial capital expenditure remains high, necessitating public-private partnerships for long-term financing.",
+      "question": "Why do metro expansion projects require public-private partnerships?",
+      "options": [
+        "High initial capital expenditure",
+        "Lack of passenger demand",
+        "Low construction standards",
+        "Decreasing urban population"
+      ],
+      "correct_answer": "High initial capital expenditure",
+      "explanation": "The text mentions: initial capital expenditure remains high, necessitating public-private partnerships.",
+      "topic_tag": "reading_comprehension"
+    }
+  }
+]

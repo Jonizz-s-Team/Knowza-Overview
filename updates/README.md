@@ -10,6 +10,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 
 | Version | Period | Title | Key Milestones | 🤖 Knowza AI |
 | --- | --- | --- | --- | --- |
+| **[v3.0.0](./update_v3.0.0.md)** | Aug 19, 2026 | Knowza 3.0: Full-Spectrum CEFR AI Foundation & Adaptive IELTS Suite | Complete A0 to Strong B2 mastery engine (90% threshold), IELTS Adaptive Reading & Writing, Socratic Coach, Mock Exam Simulator, full 20-module frontend ecosystem. | 🚀 **Major (KNOWZA 3.0):** Full English Foundation, IELTS Adaptive Reading/Writing, Mock Simulator, Vector semantic caching, 20 dedicated AI pages |
 | **[v2.9.0](./update_v2.9.0.md)** | Jul 20–27, 2026 | Deterministic Hybrid Study Planner, Zero-Token Free Tier & Sub-Second Groq Gateway | 7-module Python study plan engine, 128 tests passing, tier badging & visual phase progress bars in frontend, Gap-Based diagnostic allocation. | ⚡ **Major:** 0-Token Free Tier, 80%+ Pro token reduction, Groq sub-second router, 10 daily AI calls for Free / 150 for Pro |
 | **[v2.8.5](./update_v2.8.5.md)** | Jul 1–19, 2026 | B2C Payment History, Socratic PDF/Article Exports & Multi-Provider AI Load Balancer | Dynamic Uzbek electronic receipts & payment history table in profile, glassmorphic pricing layout, Table of Contents, contextual editing & PDF export in Research. | Multi-Provider key rotation gateway, academic sandbox standards (IELTS, SAT, MS), strict backend PRO gating |
 | **[v2.8.0](./update_v2.8.0.md)** | Jun 21–30, 2026 | Branch Admin Migration, Profile Extension, Billing Upgrades & Legal Documentation Overhaul | Centralized rename of Sub-Admin to Branch Admin, extended Student/Teacher profiles, Docker volume and media storage setups, dynamic B2B invoice generation with JWT, role-based legal privacy/terms updates. | Full AI personalization fields in serializers, tariff-gated AI access |
@@ -37,7 +38,7 @@ Welcome to the central timeline of Knowza's development and release history. Thi
 | **Development Span** | 7+ months (Nov 2025 – Jun 2026) |
 | **Frontend Commits** | 500+ |
 | **Backend Commits** | 150+ |
-| **Major Versions** | 15 releases |
+| **Major Versions** | 16 releases |
 | **Active Development Days** | 130+ |
 
 ---

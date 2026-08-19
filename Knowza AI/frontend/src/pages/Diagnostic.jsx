@@ -22,15 +22,25 @@ const KnowzaAIDiagnostic = () => {
   const changeScreen = (newScreen) => {
     setScreen(newScreen);
     if (newScreen === 'test') {
-      navigate('/knowza-ai/diagnostic/test');
+      navigate('/knowza-ai/diagnostic/test', { replace: true });
     } else if (newScreen === 'result') {
-      navigate('/knowza-ai/diagnostic/result');
+      navigate('/knowza-ai/diagnostic/result', { replace: true });
     } else if (newScreen === 'wizard') {
-      navigate('/knowza-ai/diagnostic/wizard');
+      navigate('/knowza-ai/diagnostic/wizard', { replace: true });
     } else {
-      navigate('/knowza-ai/diagnostic/select');
+      navigate('/knowza-ai/diagnostic/select', { replace: true });
     }
   };
+
+  // Block browser back button on diagnostic screens
+  useEffect(() => {
+    const blockBack = (e) => {
+      window.history.pushState(null, '', window.location.href);
+    };
+    window.history.pushState(null, '', window.location.href);
+    window.addEventListener('popstate', blockBack);
+    return () => window.removeEventListener('popstate', blockBack);
+  }, [screen]);
 
   useEffect(() => {
     const path = location.pathname;
@@ -136,6 +146,10 @@ const KnowzaAIDiagnostic = () => {
         if (res?.success) {
           if (res.completed && res.data) {
             setResults(res.data);
+            
+            // Critical fix: ensure layout doesn't redirect them back here
+            localStorage.setItem('knowza_diagnostic_completed', 'true');
+            sessionStorage.setItem('knowza_diagnostic_completed', 'true');
             
             const currentPath = location.pathname;
             if (currentPath.includes('/wizard')) {
@@ -296,6 +310,7 @@ const KnowzaAIDiagnostic = () => {
   };
 
   const handleNextQuestion = () => {
+    if (!selectedAnswer && selectedAnswer !== 0 && (typeof selectedAnswer !== 'string' || selectedAnswer.trim() === '')) return; // Block if no answer
     if (currentIdx >= totalQuestions) {
       handleFinish();
       return;
@@ -313,8 +328,6 @@ const KnowzaAIDiagnostic = () => {
     try {
       const res = await apiService.completeDiagnostic(diagnosticId);
       localStorage.removeItem('knowza_active_diagnostic_id');
-      sessionStorage.setItem('knowza_diagnostic_completed', 'true');
-      localStorage.setItem('knowza_diagnostic_completed', 'true');
       if (res?.result) {
         setResults(res.result);
         changeScreen('result');
@@ -385,18 +398,11 @@ const KnowzaAIDiagnostic = () => {
 
         {/* Card 2: Digital SAT */}
         <div 
-          onClick={() => setExamType('SAT')}
-          className={`cursor-pointer rounded-2xl p-6 border-2 relative flex flex-col justify-between w-full min-w-0 transition-none shadow-none ${
-            examType === 'SAT'
-              ? 'border-[#274ed5] bg-[#274ed5]/5'
-              : 'border-[#e5e2e1] bg-white'
-          }`}
+          className="rounded-2xl p-6 border-2 relative flex flex-col justify-between w-full min-w-0 transition-none shadow-none border-[#e5e2e1] bg-white opacity-50 cursor-not-allowed"
         >
-          {examType === 'SAT' && (
-            <span className="absolute top-4 right-4 bg-[#274ed5] text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full shadow-none">
-              Tanlandi
-            </span>
-          )}
+          <span className="absolute top-4 right-4 bg-gray-500 text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full shadow-none">
+            Tez kunda
+          </span>
           <div>
             <div className="w-12 h-12 rounded-2xl bg-[#e8edff] text-[#274ed5] flex items-center justify-center text-2xl font-bold mb-4">
               🇺🇸
@@ -414,18 +420,11 @@ const KnowzaAIDiagnostic = () => {
 
         {/* Card 3: Milliy Sertifikat / DTM */}
         <div 
-          onClick={() => setExamType('MS')}
-          className={`cursor-pointer rounded-2xl p-6 border-2 relative flex flex-col justify-between w-full min-w-0 transition-none shadow-none ${
-            examType === 'MS'
-              ? 'border-[#274ed5] bg-[#274ed5]/5'
-              : 'border-[#e5e2e1] bg-white'
-          }`}
+          className="rounded-2xl p-6 border-2 relative flex flex-col justify-between w-full min-w-0 transition-none shadow-none border-[#e5e2e1] bg-white opacity-50 cursor-not-allowed"
         >
-          {examType === 'MS' && (
-            <span className="absolute top-4 right-4 bg-[#274ed5] text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full shadow-none">
-              Tanlandi
-            </span>
-          )}
+          <span className="absolute top-4 right-4 bg-gray-500 text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full shadow-none">
+            Tez kunda
+          </span>
           <div>
             <div className="w-12 h-12 rounded-2xl bg-[#e8edff] text-[#274ed5] flex items-center justify-center text-2xl font-bold mb-4">
               🇺🇿
@@ -442,25 +441,6 @@ const KnowzaAIDiagnostic = () => {
         </div>
       </div>
 
-      {/* Subject Selector for Milliy Sertifikat */}
-      {examType === 'MS' && (
-        <div className="max-w-md mx-auto mb-8 bg-[#f5f8ff] border border-[#274ed5]/30 p-5 rounded-2xl shadow-none">
-          <label className="block text-xs font-extrabold text-[#274ed5] uppercase tracking-wider mb-2">
-            Fanni tanlang:
-          </label>
-          <select
-            value={subject}
-            onChange={(e) => setSubject(e.target.value)}
-            className="w-full p-3.5 bg-white border border-[#c4c5d7] rounded-xl text-sm font-bold text-[#1c1b1b] focus:ring-2 focus:ring-[#274ed5] outline-none shadow-none"
-          >
-            <option value="English Foundation">Ingliz tili (C1 / B2)</option>
-            <option value="Ona tili va Adabiyot">Ona tili va Adabiyot</option>
-            <option value="Matematika">Matematika</option>
-            <option value="Fizika">Fizika</option>
-            <option value="Tarix">Tarix</option>
-          </select>
-        </div>
-      )}
 
       {/* Action CTA Button (Knowza AI Home page button style: flat #274ed5, no shadow, no hover) */}
       <div className="text-center pt-2">
@@ -509,297 +489,138 @@ const KnowzaAIDiagnostic = () => {
     const optionLabels = ['A', 'B', 'C', 'D'];
     const options = Array.isArray(question.options) ? question.options : [];
     const activeSection = question.section || (currentIdx <= 45 ? 'Grammar' : currentIdx <= 57 ? 'Reading' : 'Writing');
-    const answeredCount = Object.keys(userAnswers).filter(k => userAnswers[k] !== undefined && userAnswers[k] !== null && String(userAnswers[k]).trim() !== '').length;
     const isEssayQuestion = activeSection === 'Writing' || question.is_essay || options.length === 0;
 
-    // Filter question index range per section
-
-    let startQuestionIdx = 1;
-    let endQuestionIdx = totalQuestions;
-    if (examType === 'SAT') {
-      if (currentIdx <= 15) { startQuestionIdx = 1; endQuestionIdx = 15; }
-      else { startQuestionIdx = 16; endQuestionIdx = 30; }
-    } else if (examType === 'MS') {
-      startQuestionIdx = 1; endQuestionIdx = 25;
-    } else { // IELTS
-      if (activeSection === 'Grammar') { startQuestionIdx = 1; endQuestionIdx = 45; }
-      else if (activeSection === 'Reading') { startQuestionIdx = 46; endQuestionIdx = 57; }
-      else { startQuestionIdx = 58; endQuestionIdx = 58; }
-    }
-
-    // Count section answered questions
-    const sectionAnsweredCount = Array.from(
-      { length: endQuestionIdx - startQuestionIdx + 1 },
-      (_, i) => startQuestionIdx + i - 1
-    ).filter(idx0 => {
-      const val = userAnswers[String(idx0)] || userAnswers[idx0];
-      return val !== undefined && val !== null && String(val).trim() !== '';
-    }).length;
-
     return (
-      <div className="w-full max-w-6xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-        {/* 2-Column Balanced Centered Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start justify-center">
-          {/* Left Sidebar */}
-          <div className="lg:col-span-3 bg-white rounded-2xl border border-gray-200 p-5 shadow-sm sticky top-2">
-            <div className="flex items-center justify-between mb-3">
-              <span className="text-xs font-extrabold uppercase tracking-wider text-gray-700">
-                {activeSection}
+      <div className="w-full max-w-3xl mx-auto py-6 px-4 sm:px-6">
+        {/* Top Sticky Bar */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-4 mb-6 sticky top-2 z-10 shadow-xs">
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-500 font-medium uppercase tracking-wider mb-0.5">
+                Knowza AI Diagnostik Test • {activeSection}
               </span>
-              <span className="text-xs font-black text-[#274ed5] bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-100">
-                {sectionAnsweredCount} / {endQuestionIdx - startQuestionIdx + 1}
+              <span className="text-sm font-bold text-gray-900">
+                Savol {currentIdx} / {totalQuestions}
               </span>
             </div>
+            <span className="text-xs font-bold px-3 py-1 bg-indigo-50 text-[#274ed5] rounded-lg border border-indigo-100">
+              {activeSection}
+            </span>
+          </div>
 
-            {/* Legend */}
-            <div className="flex flex-wrap gap-2 text-[11px] font-medium text-gray-600 mb-4 pb-3 border-b border-gray-100">
-              <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> Ishlangan</span>
-              <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[#274ed5]"></span> Joriy</span>
-              <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-gray-200"></span> Ishlanmagan</span>
-            </div>
+          <div className="w-full bg-gray-100 rounded-full h-2">
+            <div 
+              className="bg-[#274ed5] h-2 rounded-full transition-all duration-500 ease-out" 
+              style={{ width: `${Math.min(progressPercent, 100)}%` }}
+            ></div>
+          </div>
+        </div>
 
-            {/* Section Badges Grid */}
-            <div className="grid grid-cols-5 sm:grid-cols-6 lg:grid-cols-4 xl:grid-cols-5 gap-2 max-h-[50vh] overflow-y-auto pr-1">
-              {Array.from({ length: endQuestionIdx - startQuestionIdx + 1 }, (_, i) => {
-                const qNum = startQuestionIdx + i;
-                const isCurrent = qNum === currentIdx;
-                const ansVal = userAnswers[String(qNum - 1)] || userAnswers[qNum - 1];
-                const isAnswered = ansVal !== undefined && ansVal !== null && String(ansVal).trim() !== '';
+        {/* Question Area */}
+        <div className={`transition-all duration-500 transform ${animateQuestion ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'}`}>
+          <div className="bg-white rounded-3xl border border-gray-200 overflow-hidden mb-6 shadow-sm">
+            <div className="p-6 sm:p-8">
+              {(() => {
+                let displayQuestion = question.text || question.question || '';
+                let displayPassage = question.passage || '';
 
-                let badgeStyle = 'bg-gray-100 text-gray-700 hover:bg-gray-200 border-gray-200';
-                if (isCurrent) {
-                  badgeStyle = 'bg-[#274ed5] text-white font-extrabold border-[#274ed5] shadow-xs';
-                } else if (isAnswered) {
-                  badgeStyle = 'bg-emerald-500 text-white font-bold border-emerald-600';
+                if (isEssayQuestion) {
+                  if (!displayQuestion || displayQuestion.includes('___') || displayQuestion.toLowerCase().includes('choose the correct form') || displayQuestion.includes('[Inversion]')) {
+                    displayQuestion = "Writing Task 2 Essay: Some people believe that university education should be free for everyone. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.";
+                  }
+                  if (!displayPassage || displayPassage.includes('Read the text')) {
+                    displayPassage = "Write your essay response in English in the text box below (minimum 150-250 words).";
+                  }
                 }
 
                 return (
-                  <button
-                    key={qNum}
-                    onClick={() => jumpToQuestion(qNum)}
-                    className={`h-9 w-full rounded-xl text-xs font-bold flex items-center justify-center transition-colors border ${badgeStyle}`}
-                  >
-                    {qNum}
-                  </button>
+                  <>
+                    {displayPassage && activeSection !== 'Grammar' && (
+                      <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 mb-6 text-slate-800 text-sm sm:text-base leading-relaxed">
+                        <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-2">Matn / Essay Guidance</span>
+                        <div dangerouslySetInnerHTML={{ __html: displayPassage }} />
+                      </div>
+                    )}
+
+                    <div className="prose prose-blue max-w-none mb-8">
+                      <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed" 
+                         dangerouslySetInnerHTML={{ __html: displayQuestion }} />
+                    </div>
+                  </>
                 );
-              })}
-            </div>
+              })()}
 
-            {/* Section Navigation Tabs at Bottom of Sidebar */}
-            <div className="mt-5 pt-4 border-t border-gray-100 flex flex-col gap-2">
-              <span className="text-[11px] font-extrabold uppercase tracking-wider text-gray-500 mb-1">
-                Bo'limlarga O'tish
-              </span>
+              {isEssayQuestion ? (
+                <div className="mt-4">
+                  <div className="relative rounded-2xl overflow-hidden border-2 border-slate-200 bg-white shadow-xs">
+                    <textarea
+                      rows={13}
+                      value={selectedAnswer || ''}
+                      onChange={(e) => handleSelectAnswer(e.target.value)}
+                      placeholder="Write your essay response in English starting from line 1... (Minimum 150-250 words)"
+                      style={{
+                        backgroundImage: 'repeating-linear-gradient(white, white 31px, #cbd5e1 31px, #cbd5e1 32px)',
+                        lineHeight: '32px',
+                        backgroundAttachment: 'local'
+                      }}
+                      className="w-full border-l-4 border-l-rose-400 pl-6 pr-4 py-2 text-slate-800 text-base font-normal tracking-wide focus:outline-none focus:ring-0 focus:border-l-rose-600 resize-y"
+                    />
+                  </div>
 
-              {examType === 'SAT' ? (
-                <>
-                  <button
-                    onClick={() => jumpToQuestion(1)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      currentIdx <= 15 ? 'bg-[#274ed5] text-white shadow-xs' : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    <span>📖 Reading & Writing</span>
-                    <span className="text-[10px] opacity-75 font-normal">1–15</span>
-                  </button>
-                  <button
-                    onClick={() => jumpToQuestion(16)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      currentIdx >= 16 ? 'bg-[#274ed5] text-white shadow-xs' : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    <span>🔢 Math</span>
-                    <span className="text-[10px] opacity-75 font-normal">16–30</span>
-                  </button>
-                </>
-              ) : examType === 'MS' ? (
-                <button
-                  onClick={() => jumpToQuestion(1)}
-                  className="w-full text-left px-3.5 py-2.5 bg-[#274ed5] text-white font-bold rounded-xl text-xs shadow-xs"
-                >
-                  🎓 Fan Diagnostikasi (1–25)
-                </button>
-              ) : (
-                <>
-                  <button
-                    onClick={() => jumpToQuestion(1)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      activeSection === 'Grammar' ? 'bg-[#274ed5] text-white shadow-xs' : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    <span>📝 Grammar</span>
-                    <span className="text-[10px] opacity-75 font-normal">1–45</span>
-                  </button>
-                  <button
-                    onClick={() => jumpToQuestion(46)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      activeSection === 'Reading' ? 'bg-[#274ed5] text-white shadow-xs' : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    <span>📖 Reading</span>
-                    <span className="text-[10px] opacity-75 font-normal">46–57</span>
-                  </button>
-                  <button
-                    onClick={() => jumpToQuestion(58)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-between ${
-                      activeSection === 'Writing' ? 'bg-[#274ed5] text-white shadow-xs' : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    <span>✍️ Writing</span>
-                    <span className="text-[10px] opacity-75 font-normal">58</span>
-                  </button>
-                </>
-              )}
-            </div>
-          </div>
-
-          {/* Right Column: Main Question Card & Progress Bar */}
-          <div className="lg:col-span-9">
-            {/* Top Sticky Bar - Moved Higher Up */}
-            <div className="bg-white rounded-2xl border border-gray-100 p-3.5 mb-4 sticky top-2 z-10 shadow-xs">
-              <div className="flex items-center justify-between mb-2.5">
-                <div className="flex flex-col">
-                  <span className="text-xs text-gray-500 font-medium uppercase tracking-wider mb-0.5">
-                    Knowza AI Diagnostik Test • {activeSection}
-                  </span>
-                  <span className="text-sm font-bold text-gray-900">
-                    Savol {currentIdx} / {totalQuestions}
-                  </span>
+                  <div className="flex justify-between items-center text-xs font-bold text-slate-600 mt-3 px-1">
+                    <span>So'zlar soni: {(selectedAnswer || '').trim().split(/\s+/).filter(Boolean).length} ta</span>
+                    <span>Belgilar soni: {(selectedAnswer || '').length} ta</span>
+                  </div>
                 </div>
-                <span className="text-xs font-bold px-3 py-1 bg-indigo-50 text-[#274ed5] rounded-lg border border-indigo-100">
-                  {activeSection}
-                </span>
-              </div>
-
-              <div className="w-full bg-gray-100 rounded-full h-2">
-                <div 
-                  className="bg-[#274ed5] h-2 rounded-full transition-all duration-500 ease-out" 
-                  style={{ width: `${Math.min(progressPercent, 100)}%` }}
-                ></div>
-              </div>
-            </div>
-
-            {/* Question Area */}
-            <div className={`transition-all duration-500 transform ${animateQuestion ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'}`}>
-              <div className="bg-white rounded-3xl border border-gray-200 overflow-hidden mb-6 shadow-sm">
-                <div className="p-6 sm:p-8">
-                  {(() => {
-                    let displayQuestion = question.text || question.question || '';
-                    let displayPassage = question.passage || '';
-
-                    if (isEssayQuestion) {
-                      if (!displayQuestion || displayQuestion.includes('___') || displayQuestion.toLowerCase().includes('choose the correct form') || displayQuestion.includes('[Inversion]')) {
-                        displayQuestion = "Writing Task 2 Essay: Some people believe that university education should be free for everyone. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.";
-                      }
-                      if (!displayPassage || displayPassage.includes('Read the text')) {
-                        displayPassage = "Write your essay response in English in the text box below (minimum 150-250 words).";
-                      }
+              ) : (
+                <div className="space-y-3">
+                  {options.map((opt, idx) => {
+                    const optId = typeof opt === 'object' ? (opt.id || String(idx)) : String(opt);
+                    const optText = typeof opt === 'object' ? opt.text : opt;
+                    const label = optionLabels[idx] || String(idx + 1);
+                    
+                    let optionStateClass = 'border-gray-200 hover:border-gray-300';
+                    let radioVisual = (
+                      <div className="w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center shrink-0"></div>
+                    );
+                    
+                    if (selectedAnswer === optId || selectedAnswer === String(optText)) {
+                      optionStateClass = 'border-[#274ed5] bg-[#274ed5]/5 z-10 shadow-xs';
+                      radioVisual = (
+                        <div className="w-5 h-5 rounded-full border-2 border-[#274ed5] bg-[#274ed5] flex items-center justify-center shrink-0">
+                          <div className="w-2 h-2 rounded-full bg-white"></div>
+                        </div>
+                      );
                     }
 
                     return (
-                      <>
-                        {/* Only show passage if passage exists AND section is Reading/Writing */}
-                        {displayPassage && activeSection !== 'Grammar' && (
-                          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 mb-6 text-slate-800 text-sm sm:text-base leading-relaxed">
-                            <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-2">Matn / Essay Guidance</span>
-                            <div dangerouslySetInnerHTML={{ __html: displayPassage }} />
-                          </div>
-                        )}
-
-                        <div className="prose prose-blue max-w-none mb-8">
-                          <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed" 
-                             dangerouslySetInnerHTML={{ __html: displayQuestion }} />
+                      <button
+                        key={optId}
+                        disabled={loading}
+                        onClick={() => handleSelectAnswer(optId)}
+                        className={`w-full flex items-start text-left p-4 rounded-xl border-2 group transition-all ${optionStateClass}`}
+                      >
+                        <div className="flex-shrink-0 flex items-center mr-4 mt-0.5">
+                          {radioVisual}
                         </div>
-                      </>
+                        <div className="flex-grow">
+                          <span className="font-bold mr-3 text-gray-700">{label}.</span>
+                          <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: optText }} />
+                        </div>
+                      </button>
                     );
-                  })()}
-
-                  {/* If Writing section -> Clean Lined Essay Paper Sheet */}
-                  {isEssayQuestion ? (
-                    <div className="mt-4">
-                      <div className="relative rounded-2xl overflow-hidden border-2 border-slate-200 bg-white shadow-xs">
-                        <textarea
-                          rows={13}
-                          value={selectedAnswer || ''}
-                          onChange={(e) => handleSelectAnswer(e.target.value)}
-                          placeholder="Write your essay response in English starting from line 1... (Minimum 150-250 words)"
-                          style={{
-                            backgroundImage: 'repeating-linear-gradient(white, white 31px, #cbd5e1 31px, #cbd5e1 32px)',
-                            lineHeight: '32px',
-                            backgroundAttachment: 'local'
-                          }}
-                          className="w-full border-l-4 border-l-rose-400 pl-6 pr-4 py-2 text-slate-800 text-base font-normal tracking-wide focus:outline-none focus:ring-0 focus:border-l-rose-600 resize-y"
-                        />
-                      </div>
-
-                      <div className="flex justify-between items-center text-xs font-bold text-slate-600 mt-3 px-1">
-                        <span>So'zlar soni: {(selectedAnswer || '').trim().split(/\s+/).filter(Boolean).length} ta</span>
-                        <span>Belgilar soni: {(selectedAnswer || '').length} ta</span>
-                      </div>
-                    </div>
-                  ) : (
-
-
-
-                    /* Multiple Choice Options */
-                    <div className="space-y-3">
-                      {options.map((opt, idx) => {
-                        const optId = typeof opt === 'object' ? (opt.id || String(idx)) : String(opt);
-                        const optText = typeof opt === 'object' ? opt.text : opt;
-                        const label = optionLabels[idx] || String(idx + 1);
-                        
-                        let optionStateClass = 'border-gray-200 hover:border-gray-300';
-                        let radioVisual = (
-                          <div className="w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center shrink-0"></div>
-                        );
-                        
-                        if (selectedAnswer === optId || selectedAnswer === String(optText)) {
-                          optionStateClass = 'border-[#274ed5] bg-[#274ed5]/5 z-10 shadow-xs';
-                          radioVisual = (
-                            <div className="w-5 h-5 rounded-full border-2 border-[#274ed5] bg-[#274ed5] flex items-center justify-center shrink-0">
-                              <div className="w-2 h-2 rounded-full bg-white"></div>
-                            </div>
-                          );
-                        }
-
-                        return (
-                          <button
-                            key={optId}
-                            disabled={loading}
-                            onClick={() => handleSelectAnswer(optId)}
-                            className={`w-full flex items-start text-left p-4 rounded-xl border-2 group transition-all ${optionStateClass}`}
-                          >
-                            <div className="flex-shrink-0 flex items-center mr-4 mt-0.5">
-                              {radioVisual}
-                            </div>
-                            <div className="flex-grow">
-                              <span className="font-bold mr-3 text-gray-700">{label}.</span>
-                              <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: optText }} />
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  )}
+                  })}
                 </div>
-
+              )}
+            </div>
             
-            {/* Action Bar with Back & Next buttons */}
-            <div className="bg-gray-50 p-6 sm:px-8 border-t border-gray-100 flex flex-row items-center justify-between gap-4">
-              <button
-                onClick={handlePrevQuestion}
-                disabled={currentIdx <= 1 || loading}
-                className="inline-flex items-center justify-center px-5 py-3 border border-gray-300 text-sm font-bold rounded-xl text-gray-700 bg-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-100"
-              >
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
-                </svg>
-                Orqaga
-              </button>
-
+            {/* Action Bar */}
+            <div className="bg-gray-50 p-6 sm:px-8 border-t border-gray-100 flex flex-row items-center justify-end gap-4">
               <button
                 onClick={handleNextQuestion}
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-bold rounded-xl text-white bg-[#274ed5] hover:bg-[#1f3fb3]"
+                disabled={loading || (!selectedAnswer && selectedAnswer !== 0 && (typeof selectedAnswer !== 'string' || selectedAnswer.trim() === ''))}
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-bold rounded-xl text-white bg-[#274ed5] hover:bg-[#1f3fb3] disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <span>{currentIdx >= totalQuestions ? 'Testni yakunlash ✨' : 'Keyingi savol'}</span>
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -810,10 +631,8 @@ const KnowzaAIDiagnostic = () => {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-);
-};
+    );
+  };
 
 
   const cleanTopicName = (topic) => {
@@ -1059,7 +878,7 @@ const KnowzaAIDiagnostic = () => {
         setBuildProgress(100);
 
         setTimeout(() => {
-          window.location.href = '/knowza-ai/planner';
+          navigate('/knowza-ai/dashboard', { replace: true });
         }, 400);
       } catch (e) {
         console.error("Error finalizing plan", e);
@@ -1069,7 +888,7 @@ const KnowzaAIDiagnostic = () => {
         clearInterval(interval);
         setBuildProgress(100);
         setTimeout(() => {
-          window.location.href = '/knowza-ai/planner';
+          navigate('/knowza-ai/dashboard', { replace: true });
         }, 400);
       }
     };
@@ -1172,13 +991,7 @@ const KnowzaAIDiagnostic = () => {
               </div>
             </div>
 
-            <div className="flex justify-between items-center pt-4 border-t border-slate-100">
-              <button
-                onClick={() => changeScreen('result')}
-                className="px-5 py-2.5 text-sm font-bold text-slate-600 hover:text-slate-900"
-              >
-                Orqaga
-              </button>
+            <div className="flex justify-end items-center pt-4 border-t border-slate-100">
               <button
                 onClick={() => setWizardStep(2)}
                 className="px-7 py-3 bg-[#274ed5] text-white font-bold text-sm rounded-xl inline-flex items-center gap-2 hover:bg-[#1f3fb3] shadow-xs"

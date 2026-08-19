@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "sat_rw_cs_001",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "In the 19th century, the prevailing belief among physicists was that light required a medium, termed the 'luminiferous aether,' through which to travel. However, the Michelson-Morley experiment of 1887 yielded results that were entirely _______ with this widely held theory, showing no evidence of such a medium.",
+      "question": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": [
+        "inconsistent",
+        "commensurate",
+        "analogous",
+        "symmetrical"
+      ],
+      "correct_answer": "inconsistent",
+      "explanation": "The text states the experiment showed 'no evidence of such a medium' which contradicts the 'prevailing belief.' Therefore, the results were 'inconsistent' with the theory. 'Commensurate' means corresponding in size or degree, which doesn't fit the contradiction context.",
+      "topic_tag": "vocabulary_in_context"
+    }
+  },
+  {
+    "id": "sat_rw_cs_002",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Despite the team's initial setbacks and the widespread skepticism of their peers, the lead scientist remained _______, continuing to secure funding and drive the project forward with an unwavering conviction in their ultimate success.",
+      "question": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": [
+        "resolute",
+        "diffident",
+        "capricious",
+        "obsequious"
+      ],
+      "correct_answer": "resolute",
+      "explanation": "The text describes the lead scientist as having an 'unwavering conviction' despite 'setbacks' and 'skepticism.' 'Resolute' means admirably purposeful, determined, and unwavering. 'Diffident' means shy or lacking self-confidence.",
+      "topic_tag": "vocabulary_in_context"
+    }
+  },
+  {
+    "id": "sat_rw_cs_003",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The critic\u2019s review of the novel was surprisingly _______; rather than offering a straightforward evaluation of the plot and characters, she wove a complex, almost poetic commentary that left readers unsure of her actual opinion.",
+      "question": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": [
+        "oblique",
+        "lucid",
+        "trenchant",
+        "didactic"
+      ],
+      "correct_answer": "oblique",
+      "explanation": "The review is described as 'not a straightforward evaluation' and leaves readers 'unsure of her actual opinion.' 'Oblique' means not explicit or direct. 'Lucid' is the opposite (clear).",
+      "topic_tag": "vocabulary_in_context"
+    }
+  },
+  {
+    "id": "sat_rw_cs_004",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "While the mayor\u2019s speech was full of grand promises regarding city infrastructure, the actual budget allocated to these projects was entirely _______, rendering the ambitious plans virtually impossible to execute.",
+      "question": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": [
+        "illusory",
+        "inadequate",
+        "superfluous",
+        "prodigious"
+      ],
+      "correct_answer": "inadequate",
+      "explanation": "The budget rendered the 'ambitious plans virtually impossible to execute.' Therefore, the budget must be 'inadequate' (insufficient). 'Illusory' implies the budget wasn't real, but 'inadequate' precisely fits a budget that is too small for the task.",
+      "topic_tag": "vocabulary_in_context"
+    }
+  },
+  {
+    "id": "sat_rw_cs_005",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The Venus flytrap is an unusual plant. Unlike most flora that rely solely on soil nutrients, this carnivorous plant supplements its diet by trapping insects. When an insect touches the sensitive hairs on the inner surface of the leaves, the trap snaps shut. Digestive enzymes then break down the prey. This unique adaptation allows the Venus flytrap to thrive in nutrient-poor environments where other plants might perish.",
+      "question": "Which choice best describes the overall structure of the text?",
+      "options": [
+        "It introduces a unique plant, explains its specialized mechanism, and then describes the evolutionary benefit of this mechanism.",
+        "It compares a carnivorous plant to other plants, details how it digests food, and then argues that it is superior.",
+        "It presents a problem faced by a plant, details the plant's solution, and concludes with a warning about its habitat.",
+        "It classifies a type of plant, describes its physical appearance, and then explains its diet."
+      ],
+      "correct_answer": "It introduces a unique plant, explains its specialized mechanism, and then describes the evolutionary benefit of this mechanism.",
+      "explanation": "The text starts by introducing the Venus flytrap and its unusual diet, then explains how the trap mechanism works, and finally states how this adaptation helps it survive in nutrient-poor environments.",
+      "topic_tag": "text_structure"
+    }
+  },
+  {
+    "id": "sat_rw_cs_006",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "In 1928, Alexander Fleming returned from holiday to find that a mold had contaminated one of his petri dishes containing Staphylococcus bacteria. He observed that the bacteria immediately surrounding the mold had been destroyed. Instead of simply discarding the ruined dish, Fleming investigated further, eventually isolating the active substance he named penicillin. This accidental discovery revolutionized modern medicine, demonstrating that sometimes, a keen eye for anomalies is as crucial as deliberate experimentation.",
+      "question": "What is the primary purpose of the text?",
+      "options": [
+        "To argue that accidental discoveries are more important than planned experiments in science.",
+        "To detail the specific biological mechanisms by which penicillin destroys Staphylococcus bacteria.",
+        "To recount a historical scientific discovery in order to illustrate a broader point about scientific observation.",
+        "To criticize Alexander Fleming for poor laboratory hygiene that led to contaminated samples."
+      ],
+      "correct_answer": "To recount a historical scientific discovery in order to illustrate a broader point about scientific observation.",
+      "explanation": "The passage tells the story of Fleming's discovery and concludes with the broader lesson that 'a keen eye for anomalies is as crucial as deliberate experimentation.' It does not argue that accidents are *more* important, just *as* crucial.",
+      "topic_tag": "author_purpose"
+    }
+  },
+  {
+    "id": "sat_rw_cs_007",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Text 1\nThe rapid advancement of artificial intelligence presents an unprecedented opportunity for economic growth and efficiency. By automating routine tasks, AI can free human workers to focus on creative and strategic endeavors. Furthermore, AI-driven diagnostics in medicine are already saving lives by identifying diseases earlier and more accurately than human doctors.\n\nText 2\nWhile the technological marvels of AI are undeniable, we must approach its widespread implementation with extreme caution. The displacement of workers in manufacturing and administrative sectors could lead to severe economic disparity. Moreover, algorithms trained on historical data often inherit and amplify societal biases, potentially leading to discriminatory outcomes in fields like hiring and criminal justice.",
+      "question": "Based on the texts, how would the author of Text 2 most likely respond to the claims made in Text 1?",
+      "options": [
+        "By agreeing that AI will lead to economic growth, but arguing that this growth will not benefit the medical field.",
+        "By pointing out that the 'efficiency' and 'automation' mentioned in Text 1 may lead to significant job losses and societal inequality.",
+        "By denying that AI has the capacity to automate routine tasks or improve medical diagnostics.",
+        "By arguing that AI's creative and strategic capabilities are currently overstated by optimists."
+      ],
+      "correct_answer": "By pointing out that the 'efficiency' and 'automation' mentioned in Text 1 may lead to significant job losses and societal inequality.",
+      "explanation": "Text 1 highlights the benefits of automation (freeing humans, economic growth). Text 2 explicitly warns that this displacement of workers could lead to 'severe economic disparity.' Thus, Text 2's author would point out the negative consequences of the automation praised in Text 1.",
+      "topic_tag": "cross_text"
+    }
+  },
+  {
+    "id": "sat_rw_cs_008",
+    "type": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Text 1\nHistorian A argues that the fall of the Roman Empire was primarily due to internal decay. Economic instability, political corruption, and a decline in civic virtue severely weakened the state from within, making it impossible to maintain control over such a vast territory.\n\nText 2\nHistorian B asserts that external pressures were the decisive factor in Rome's collapse. Continuous invasions by Germanic tribes and other groups overwhelmed the Roman military. Regardless of internal issues, no empire could have withstood such relentless and massive external assaults.",
+      "question": "Which choice best describes the relationship between the two texts?",
+      "options": [
+        "Text 2 provides specific examples to support the general theory proposed in Text 1.",
+        "Text 2 presents an alternative explanation for a historical event discussed in Text 1.",
+        "Text 2 details the long-term consequences of the historical event analyzed in Text 1.",
+        "Text 2 questions the validity of the historical evidence used in Text 1."
+      ],
+      "correct_answer": "Text 2 presents an alternative explanation for a historical event discussed in Text 1.",
+      "explanation": "Text 1 claims the fall of Rome was 'primarily due to internal decay.' Text 2 claims it was 'decisive factor... external pressures.' They are presenting alternative explanations for the same event.",
+      "topic_tag": "cross_text"
+    }
+  },
+  {
+    "id": "sat_rw_ii_001",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Many urban planners are advocating for '15-minute cities,' a concept where most daily necessities and services, such as work, shopping, education, and healthcare, are located within a 15-minute walk or bike ride from a person's home. Proponents argue this design reduces reliance on automobiles, thereby decreasing traffic congestion and carbon emissions. Additionally, it can foster a stronger sense of community by encouraging local interactions.",
+      "question": "What is the main idea of the text?",
+      "options": [
+        "Urban planners are attempting to ban cars from modern cities to reduce carbon emissions.",
+        "The '15-minute city' model is a proposed urban design that aims to make daily needs locally accessible, bringing environmental and social benefits.",
+        "People who live in 15-minute cities are generally healthier because they walk and bike more often.",
+        "Shopping and healthcare are the most important services to have close to residential areas."
+      ],
+      "correct_answer": "The '15-minute city' model is a proposed urban design that aims to make daily needs locally accessible, bringing environmental and social benefits.",
+      "explanation": "The text defines 15-minute cities as places where necessities are locally accessible, and lists the benefits: decreasing emissions (environmental) and fostering community (social). This option captures the entire core message.",
+      "topic_tag": "main_idea"
+    }
+  },
+  {
+    "id": "sat_rw_ii_002",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "Coral reefs are incredibly diverse ecosystems, often referred to as the 'rainforests of the sea.' They provide shelter and food for roughly 25% of all marine species, despite covering less than 1% of the ocean floor. Moreover, reefs protect coastlines from the damaging effects of wave action and tropical storms, saving billions of dollars in potential property damage globally.",
+      "question": "According to the text, which of the following is a benefit provided by coral reefs?",
+      "options": [
+        "They generate oxygen for marine mammals.",
+        "They cover a large percentage of the ocean floor.",
+        "They shield coastal areas from storm damage.",
+        "They are the only habitat for most marine species."
+      ],
+      "correct_answer": "They shield coastal areas from storm damage.",
+      "explanation": "The text explicitly states: 'reefs protect coastlines from the damaging effects of wave action and tropical storms.' The other options are either not stated or contradict the text (they cover less than 1%, not a large percentage).",
+      "topic_tag": "details"
+    }
+  },
+  {
+    "id": "sat_rw_ii_003",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "In studying the migratory patterns of the Arctic Tern, researchers have marveled at the bird's endurance. Breeding in the Arctic during the northern summer, these birds travel to the Antarctic coast for the southern summer. This round trip can exceed 44,000 miles. By tracking them with miniature geolocators, scientists discovered that the terns do not fly in a straight line; instead, they take convoluted routes that capitalize on global wind systems to minimize energy expenditure.",
+      "question": "Which statement best captures the central idea of the text?",
+      "options": [
+        "Miniature geolocators have revolutionized the study of bird migration by providing exact flight paths.",
+        "The Arctic Tern undertakes an exceptionally long migration, utilizing wind patterns to make the journey energy-efficient.",
+        "Arctic Terns travel to the Antarctic primarily to avoid the harsh winters of the Northern Hemisphere.",
+        "Global wind systems are the primary factor determining the breeding locations of migratory birds."
+      ],
+      "correct_answer": "The Arctic Tern undertakes an exceptionally long migration, utilizing wind patterns to make the journey energy-efficient.",
+      "explanation": "The passage discusses the incredibly long migration of the Arctic Tern (over 44,000 miles) and how they use convoluted routes based on wind systems to save energy. This encapsulates the main point of the text.",
+      "topic_tag": "main_idea"
+    }
+  },
+  {
+    "id": "sat_rw_ii_004",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Some literary historians have argued that Emily Dickinson's reclusive lifestyle was entirely a product of her later years. However, recent analysis of her early correspondence suggests a different narrative. Even in her twenties, Dickinson frequently expressed a strong preference for the solitude of her family home over social gatherings in town, indicating that her inclination towards isolation developed much earlier than previously thought.",
+      "question": "Which quotation from Dickinson's letters would best support the recent analysis mentioned in the text?",
+      "options": [
+        "'I find the changing of the seasons to be a constant source of inspiration for my verse.'",
+        "'Though I am young, the lively chatter of the parlor exhausts me; my true peace is found alone in my room.'",
+        "'My later years have brought a quietness that I never anticipated in my youth.'",
+        "'The letters I receive from friends are my only connection to the bustling world outside.'"
+      ],
+      "correct_answer": "'Though I am young, the lively chatter of the parlor exhausts me; my true peace is found alone in my room.'",
+      "explanation": "The recent analysis suggests her inclination toward isolation began early (in her twenties). This quotation explicitly states that 'though I am young' she prefers to be 'alone in my room,' directly supporting the claim.",
+      "topic_tag": "textual_evidence"
+    }
+  },
+  {
+    "id": "sat_rw_ii_005",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Ecologists have long theorized that the reintroduction of apex predators into an ecosystem can trigger a 'trophic cascade'\u2014a series of cascading effects down the food chain. A study of Yellowstone National Park suggests that the reintroduction of gray wolves in 1995 led to a decrease in elk populations, which in turn allowed overgrazed willow and aspen trees along riverbanks to recover. This vegetation recovery supposedly stabilized the banks and improved habitat for beavers and songbirds.",
+      "question": "Which finding from a subsequent study, if true, would most strongly challenge the claim about the trophic cascade in Yellowstone?",
+      "options": [
+        "Elk populations in Yellowstone had already begun declining steadily five years prior to the reintroduction of the wolves due to a harsh winter.",
+        "Beaver populations in the park increased significantly between 2000 and 2010.",
+        "Gray wolves in Yellowstone have been observed hunting animals other than elk, such as bison.",
+        "Willow and aspen trees in areas of the park without wolves showed similar signs of recovery due to a change in climate patterns."
+      ],
+      "correct_answer": "Willow and aspen trees in areas of the park without wolves showed similar signs of recovery due to a change in climate patterns.",
+      "explanation": "The passage claims the wolf reintroduction caused the vegetation recovery via reducing elk. If the vegetation recovered equally well without wolves due to climate, it challenges the causal link of the trophic cascade theory.",
+      "topic_tag": "command_of_evidence"
+    }
+  },
+  {
+    "id": "sat_rw_ii_006",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Linguist Noam Chomsky proposed the theory of 'Universal Grammar,' suggesting that the ability to acquire language is biologically innate and that all human languages share a fundamental underlying structure. This theory implies that children do not merely learn language through imitation and reward, as behaviorists previously thought, but rather have an instinctual capacity to grasp syntactic rules.",
+      "question": "Which observation of child language acquisition would best support Chomsky's theory of Universal Grammar?",
+      "options": [
+        "Children often successfully memorize and repeat long songs they hear on the television.",
+        "Children consistently make grammatical errors they have never heard adults make, such as saying 'I eated' instead of 'I ate.'",
+        "Children who are explicitly corrected by their parents learn language faster than those who are not.",
+        "Children raised in bilingual households often mix vocabulary from both languages in early speech."
+      ],
+      "correct_answer": "Children consistently make grammatical errors they have never heard adults make, such as saying 'I eated' instead of 'I ate.'",
+      "explanation": "Saying 'I eated' shows the child is applying a structural rule (adding -ed for past tense) rather than imitating adults (who say 'ate'). This supports the idea of an innate capacity to grasp grammatical rules, rather than mere imitation.",
+      "topic_tag": "textual_evidence"
+    }
+  },
+  {
+    "id": "sat_rw_ii_007",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "In the highly competitive market of smartphones, Company X has recently shifted its strategy. Rather than continuing to release a new flagship model every twelve months, it has announced it will only release a major update every two years. Concurrently, the company is increasing its investment in customer service and long-term software updates for existing devices.",
+      "question": "Based on the text, what can most reasonably be inferred about Company X's previous strategy?",
+      "options": [
+        "It was highly successful and forced competitors out of the market.",
+        "It prioritized frequent hardware releases over long-term support for older devices.",
+        "It focused heavily on budget-friendly phones rather than flagship models.",
+        "It relied entirely on software updates to keep customers satisfied."
+      ],
+      "correct_answer": "It prioritized frequent hardware releases over long-term support for older devices.",
+      "explanation": "The new strategy is described as shifting *away* from yearly releases and *toward* investing in long-term software updates. This implies that the previous strategy lacked focus on long-term updates and heavily favored frequent (yearly) hardware releases.",
+      "topic_tag": "inferences"
+    }
+  },
+  {
+    "id": "sat_rw_ii_008",
+    "type": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "The discovery of exoplanet Kepler-186f generated significant excitement because it was the first Earth-sized planet found within its star's habitable zone. However, astronomers caution that being in the habitable zone merely means the planet's surface temperature could allow for liquid water. Without knowing the composition of Kepler-186f's atmosphere, it is impossible to determine its actual surface temperature or whether it could support life as we know it.",
+      "question": "Which statement can be most logically inferred from the text?",
+      "options": [
+        "Kepler-186f currently has liquid water on its surface.",
+        "A planet's atmosphere plays a crucial role in determining its surface temperature.",
+        "Kepler-186f is the only Earth-sized planet ever discovered by astronomers.",
+        "Planets outside a star's habitable zone can never have atmospheres."
+      ],
+      "correct_answer": "A planet's atmosphere plays a crucial role in determining its surface temperature.",
+      "explanation": "The text states that 'Without knowing the composition of Kepler-186f's atmosphere, it is impossible to determine its actual surface temperature.' This directly implies that the atmosphere is a critical factor in determining the temperature.",
+      "topic_tag": "inferences"
+    }
+  },
+  {
+    "id": "sat_rw_sec_001",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The Great Wall of China is not a single, continuous structure; rather, it is a series of fortifications built by various dynasties over centuries. The earliest walls were constructed using rammed earth and _______ the later, more famous sections built during the Ming Dynasty relied heavily on bricks and stone.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "wood, however,",
+        "wood; however,",
+        "wood however",
+        "wood however,"
+      ],
+      "correct_answer": "wood; however,",
+      "explanation": "The sentence contains two independent clauses: 'The earliest walls were constructed using rammed earth and wood' and 'the later... sections... relied heavily on bricks and stone.' A semicolon is needed to separate them, and 'however' acts as a conjunctive adverb followed by a comma.",
+      "topic_tag": "sentence_boundaries"
+    }
+  },
+  {
+    "id": "sat_rw_sec_002",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Many deep-sea creatures possess bioluminescence, the ability to produce light chemically. This trait serves multiple functions, including attracting prey, confusing predators, and _______ communicating with mates in the pitch-black environment.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "even,",
+        "even",
+        "even:",
+        "even;"
+      ],
+      "correct_answer": "even",
+      "explanation": "The word 'even' modifies 'communicating' and forms part of the list 'attracting prey, confusing predators, and even communicating with mates'. No punctuation is needed around 'even' here because it flows directly into the gerund phrase without disrupting the sentence structure.",
+      "topic_tag": "boundaries"
+    }
+  },
+  {
+    "id": "sat_rw_sec_003",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "The new manager implemented several changes to the office workflow. She introduced flexible hours, upgraded the software systems, _______ created a more relaxed dress code.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "and",
+        "and,",
+        "and she",
+        ", and"
+      ],
+      "correct_answer": ", and",
+      "explanation": "This is a list of three items: 'introduced flexible hours', 'upgraded the software systems', and 'created a more relaxed dress code'. A serial comma before 'and' is standard convention to separate the final item in the list.",
+      "topic_tag": "punctuation"
+    }
+  },
+  {
+    "id": "sat_rw_sec_004",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Despite the harsh conditions of the desert, a surprising variety of flora and fauna _______ to thrive there by developing specialized adaptations for water conservation.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "manages",
+        "manage",
+        "is managing",
+        "has managed"
+      ],
+      "correct_answer": "manage",
+      "explanation": "The subject is 'a surprising variety', which functions here as a plural subject referring to multiple types of flora and fauna. Therefore, the plural verb 'manage' is correct.",
+      "topic_tag": "subject_verb_agreement"
+    }
+  },
+  {
+    "id": "sat_rw_sec_005",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Before the architect finalized the blueprints, she reviewed them carefully, ensuring that neither the structural engineers nor the lead designer _______ any concerns regarding the safety of the proposed cantilevered roof.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "correct_answer": "had",
+      "explanation": "The sentence is in the past tense ('finalized', 'reviewed'). Therefore, the past tense 'had' is required. If it were present, it would be 'has' because in a 'neither... nor...' construction, the verb agrees with the noun closest to it ('the lead designer', singular).",
+      "topic_tag": "verb_tense"
+    }
+  },
+  {
+    "id": "sat_rw_sec_006",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The committee members debated the budget proposal for hours, but they could not reach an agreement on how to allocate the funds. Ultimately, the decision was left to the chairperson, who had _______ own ideas about the department's priorities.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "their",
+        "her",
+        "its",
+        "one's"
+      ],
+      "correct_answer": "her",
+      "explanation": "The antecedent for the pronoun is 'the chairperson', a singular noun. Therefore, 'her' (or 'his') is the correct singular possessive pronoun. 'Their' is plural, 'its' applies to objects, and 'one's' is overly formal and lacks agreement here.",
+      "topic_tag": "pronoun_antecedent"
+    }
+  },
+  {
+    "id": "sat_rw_sec_007",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Punctuation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Many scientists trace the origins of modern genetics back to one man: Gregor Mendel. Through his meticulous experiments with pea plants, Mendel discovered the fundamental laws of _______ dominance, segregation, and independent assortment.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "inheritance;",
+        "inheritance",
+        "inheritance:",
+        "inheritance,"
+      ],
+      "correct_answer": "inheritance:",
+      "explanation": "The phrase 'the fundamental laws of inheritance' introduces a list of those specific laws ('dominance, segregation, and independent assortment'). A colon is used after an independent clause to introduce a list or explanation.",
+      "topic_tag": "colon_usage"
+    }
+  },
+  {
+    "id": "sat_rw_sec_008",
+    "type": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Punctuation",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "The novel's protagonist, an aging detective named _______ is a complex character struggling with his past mistakes while trying to solve a seemingly impossible murder.",
+      "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": [
+        "Arthur,",
+        "Arthur",
+        "Arthur;",
+        "Arthur:"
+      ],
+      "correct_answer": "Arthur,",
+      "explanation": "The phrase 'an aging detective named Arthur' is a nonrestrictive appositive modifying 'The novel's protagonist'. It must be set off by commas. Since there is a comma before 'an', there must be a comma after 'Arthur'.",
+      "topic_tag": "commas_appositives"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_001",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "While researching, a student took the following notes:\n- The Voyager 1 spacecraft was launched in 1977.\n- Its primary mission was to study Jupiter and Saturn.\n- In 2012, it became the first human-made object to enter interstellar space.\n- It continues to send data back to Earth, though its power supply is dwindling.",
+      "question": "The student wants to emphasize the longevity and ongoing significance of the Voyager 1 mission. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": [
+        "Launched in 1977 to study Jupiter and Saturn, Voyager 1 is a spacecraft with a dwindling power supply.",
+        "Although it was launched in 1977, Voyager 1 remains significant because it continues to send data back to Earth from interstellar space.",
+        "Voyager 1 completed its primary mission of studying Jupiter and Saturn before entering interstellar space in 2012.",
+        "In 2012, Voyager 1, which was launched in 1977, became the first human-made object to reach interstellar space."
+      ],
+      "correct_answer": "Although it was launched in 1977, Voyager 1 remains significant because it continues to send data back to Earth from interstellar space.",
+      "explanation": "This option highlights both the 'longevity' (launched in 1977) and the 'ongoing significance' (continues to send data from interstellar space) exactly as the prompt requested.",
+      "topic_tag": "rhetorical_synthesis"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_002",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "While researching, a student took the following notes:\n- Marie Tharp was an American geologist and oceanographic cartographer.\n- In the 1950s, she created the first scientific map of the Atlantic Ocean floor.\n- Her map revealed the presence of the Mid-Atlantic Ridge.\n- This discovery provided crucial evidence for the theory of plate tectonics, which was controversial at the time.",
+      "question": "The student wants to explain Marie Tharp's contribution to the theory of plate tectonics. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": [
+        "Marie Tharp, an American geologist and oceanographic cartographer, mapped the Atlantic Ocean floor in the 1950s.",
+        "The theory of plate tectonics was controversial in the 1950s when Marie Tharp was an oceanographic cartographer.",
+        "By creating the first scientific map of the Atlantic Ocean floor, Marie Tharp revealed the Mid-Atlantic Ridge, providing crucial evidence for plate tectonics.",
+        "The Mid-Atlantic Ridge was discovered in the 1950s by Marie Tharp, who was an American geologist."
+      ],
+      "correct_answer": "By creating the first scientific map of the Atlantic Ocean floor, Marie Tharp revealed the Mid-Atlantic Ridge, providing crucial evidence for plate tectonics.",
+      "explanation": "This option connects Tharp's specific action (mapping the floor and revealing the ridge) directly to her contribution to the theory (providing crucial evidence), fulfilling the prompt's goal.",
+      "topic_tag": "rhetorical_synthesis"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_003",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "While researching, a student took the following notes:\n- The Axolotl is a species of salamander native to Mexico City.\n- Unlike most amphibians, axolotls exhibit neoteny, meaning they reach adulthood without undergoing metamorphosis.\n- They retain their larval features, such as external gills, throughout their lives.\n- Axolotls are highly sought after by scientists for their incredible ability to regenerate lost body parts, including limbs and heart tissue.",
+      "question": "The student wants to contrast the axolotl's development with that of typical amphibians. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": [
+        "Axolotls are native to Mexico City and are studied by scientists because they can regenerate limbs and heart tissue.",
+        "While most amphibians undergo metamorphosis to reach adulthood, the axolotl exhibits neoteny, retaining larval features like external gills its entire life.",
+        "Because they exhibit neoteny, axolotls retain their external gills and are capable of regenerating lost body parts.",
+        "The axolotl is an unusual salamander that never undergoes metamorphosis, preferring to live in Mexico City."
+      ],
+      "correct_answer": "While most amphibians undergo metamorphosis to reach adulthood, the axolotl exhibits neoteny, retaining larval features like external gills its entire life.",
+      "explanation": "The prompt asks to *contrast* the axolotl's development with *typical amphibians*. This option explicitly sets up the contrast ('While most amphibians undergo metamorphosis... the axolotl exhibits neoteny').",
+      "topic_tag": "rhetorical_synthesis"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_004",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The city council proposed building a new highway to alleviate traffic congestion downtown. _______ many local business owners strongly opposed the plan, arguing that bypassing the downtown area would severely hurt their sales.",
+      "question": "Which choice completes the text with the most logical transition?",
+      "options": [
+        "However,",
+        "Furthermore,",
+        "Therefore,",
+        "For instance,"
+      ],
+      "correct_answer": "However,",
+      "explanation": "The first sentence describes a proposal to help the city. The second sentence describes opposition to that plan. 'However' is the correct transition to show this contrast.",
+      "topic_tag": "transitions"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_005",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "To accurately date ancient artifacts, archaeologists frequently rely on radiocarbon dating, a technique that measures the decay of carbon-14 isotopes. _______ this method is highly effective for organic materials up to 50,000 years old, it is completely useless for dating inorganic objects like stone tools or pottery.",
+      "question": "Which choice completes the text with the most logical transition?",
+      "options": [
+        "Because",
+        "While",
+        "Moreover,",
+        "Consequently,"
+      ],
+      "correct_answer": "While",
+      "explanation": "The sentence sets up a contrast between the method being 'highly effective for organic materials' and 'completely useless for... inorganic objects'. 'While' appropriately signals this concession/contrast relationship within a complex sentence.",
+      "topic_tag": "transitions"
+    }
+  },
+  {
+    "id": "sat_rw_eoi_006",
+    "type": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "Proper sleep hygiene is crucial for cognitive function and overall health. It helps improve memory consolidation and regulates mood. _______ it strengthens the immune system, making the body less susceptible to illness.",
+      "question": "Which choice completes the text with the most logical transition?",
+      "options": [
+        "Additionally,",
+        "Conversely,",
+        "Nevertheless,",
+        "As a result,"
+      ],
+      "correct_answer": "Additionally,",
+      "explanation": "The passage lists benefits of proper sleep hygiene. 'Additionally' is the correct transition to add another point ('strengthens the immune system') to the previously mentioned benefits.",
+      "topic_tag": "transitions"
+    }
+  },
+  {
+    "id": "sat_m_alg_001",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "Solve the equation for $x$.",
+      "question": "If $3x + 7 = 22$, what is the value of $x$?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "15"
+      ],
+      "correct_answer": "5",
+      "explanation": "Subtract 7 from both sides to get $3x = 15$. Divide by 3 to get $x = 5$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_002",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Consider the equation below.",
+      "question": "If $2(x - 4) + 3 = 5x - 17$, what is the value of $x$?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "4",
+      "explanation": "Expand the left side: $2x - 8 + 3 = 5x - 17$, which simplifies to $2x - 5 = 5x - 17$. Subtract $2x$ from both sides to get $-5 = 3x - 17$. Add 17 to both sides to get $12 = 3x$. Divide by 3 to find $x = 4$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_003",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A system of equations is given.",
+      "question": "If $2x + y = 10$ and $x - y = 2$, what is the value of $x + y$?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_answer": "6",
+      "explanation": "Add the two equations: $(2x + y) + (x - y) = 10 + 2$, which gives $3x = 12$, so $x = 4$. Substitute $x = 4$ into the second equation: $4 - y = 2$, so $y = 2$. Therefore, $x + y = 4 + 2 = 6$.",
+      "topic_tag": "systems_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_004",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A system of equations is given.",
+      "question": "If $3x - 2y = 14$ and $y = 2x - 9$, what is the value of $y$?",
+      "options": [
+        "-1",
+        "1",
+        "4",
+        "5"
+      ],
+      "correct_answer": "-1",
+      "explanation": "Substitute $y = 2x - 9$ into the first equation: $3x - 2(2x - 9) = 14$. This expands to $3x - 4x + 18 = 14$, which simplifies to $-x = -4$, so $x = 4$. Substitute $x = 4$ back into the expression for $y$: $y = 2(4) - 9 = 8 - 9 = -1$.",
+      "topic_tag": "systems_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_005",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A line in the $xy$-plane passes through the points $(2, 5)$ and $(4, 11)$.",
+      "question": "What is the $y$-intercept of this line?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "3"
+      ],
+      "correct_answer": "-1",
+      "explanation": "First, find the slope $m = (11 - 5) / (4 - 2) = 6 / 2 = 3$. Use the point-slope form with $(2, 5)$: $y - 5 = 3(x - 2)$. This simplifies to $y = 3x - 6 + 5$, or $y = 3x - 1$. The $y$-intercept is -1.",
+      "topic_tag": "linear_functions"
+    }
+  },
+  {
+    "id": "sat_m_alg_006",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "A company's total cost $C$, in dollars, to produce $x$ units of a product is given by the function $C(x) = 15x + 250$.",
+      "question": "What does the number 250 represent in the context of this problem?",
+      "options": [
+        "The cost to produce one unit of the product",
+        "The number of units produced",
+        "The initial cost before producing any units",
+        "The total cost to produce 250 units"
+      ],
+      "correct_answer": "The initial cost before producing any units",
+      "explanation": "In the linear equation $C(x) = 15x + 250$, the constant term 250 represents the $y$-intercept, which is the cost when $x=0$. Therefore, it represents the initial or fixed cost.",
+      "topic_tag": "linear_functions"
+    }
+  },
+  {
+    "id": "sat_m_alg_007",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Consider the inequality $5 - 2x < 11$.",
+      "question": "Which of the following is a possible value for $x$?",
+      "options": [
+        "-5",
+        "-4",
+        "-3",
+        "0"
+      ],
+      "correct_answer": "0",
+      "explanation": "Subtract 5 from both sides to get $-2x < 6$. Divide by -2 and reverse the inequality sign to get $x > -3$. The only option greater than -3 is 0.",
+      "topic_tag": "linear_inequalities"
+    }
+  },
+  {
+    "id": "sat_m_alg_008",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A student needs to buy at least 5 notebooks. Standard notebooks cost $2 each, and premium notebooks cost $5 each. The student has a budget of $20.",
+      "question": "If the student buys $x$ standard notebooks and $y$ premium notebooks, which system of inequalities represents this situation?",
+      "options": [
+        "$x + y \\ge 5$ and $2x + 5y \\le 20$",
+        "$x + y \\le 5$ and $2x + 5y \\ge 20$",
+        "$x + y \\ge 5$ and $5x + 2y \\le 20$",
+        "$2x + 5y \\ge 5$ and $x + y \\le 20$"
+      ],
+      "correct_answer": "$x + y \\ge 5$ and $2x + 5y \\le 20$",
+      "explanation": "The total number of notebooks is $x + y$, and they need at least 5, so $x + y \\ge 5$. The total cost is $2x + 5y$, and the budget is $20, so $2x + 5y \\le 20$.",
+      "topic_tag": "linear_inequalities"
+    }
+  },
+  {
+    "id": "sat_m_adv_001",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Consider the algebraic expression $(2x^2 + 3x - 1) - (x^2 - 4x + 2)$.",
+      "question": "Which of the following expressions is equivalent to the one above?",
+      "options": [
+        "$x^2 - x + 1$",
+        "$x^2 + 7x - 3$",
+        "$3x^2 - x + 1$",
+        "$x^2 - x - 3$"
+      ],
+      "correct_answer": "$x^2 + 7x - 3$",
+      "explanation": "Distribute the negative sign in the second polynomial: $2x^2 + 3x - 1 - x^2 + 4x - 2$. Combine like terms: $(2x^2 - x^2) + (3x + 4x) + (-1 - 2) = x^2 + 7x - 3$.",
+      "topic_tag": "polynomials"
+    }
+  },
+  {
+    "id": "sat_m_adv_002",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Consider the expression $\\frac{x^2 - 9}{x^2 + 6x + 9}$.",
+      "question": "For $x \\neq -3$, which of the following is equivalent to the expression?",
+      "options": [
+        "$\\frac{x-3}{x+3}$",
+        "$\\frac{x+3}{x-3}$",
+        "$-1$",
+        "$1$"
+      ],
+      "correct_answer": "$\\frac{x-3}{x+3}$",
+      "explanation": "Factor the numerator as a difference of squares: $(x-3)(x+3)$. Factor the denominator as a perfect square: $(x+3)^2$. The expression becomes $\\frac{(x-3)(x+3)}{(x+3)(x+3)}$. Cancel the common factor of $(x+3)$ to get $\\frac{x-3}{x+3}$.",
+      "topic_tag": "rational_expressions"
+    }
+  },
+  {
+    "id": "sat_m_adv_003",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A quadratic equation is given by $x^2 - 8x + 15 = 0$.",
+      "question": "What is the sum of the solutions to the given equation?",
+      "options": [
+        "-8",
+        "-5",
+        "5",
+        "8"
+      ],
+      "correct_answer": "8",
+      "explanation": "The equation factors as $(x-3)(x-5)=0$, so the solutions are $x=3$ and $x=5$. The sum of the solutions is $3+5=8$. Alternatively, using Vieta's formulas, the sum of the roots of $ax^2+bx+c=0$ is $-b/a = -(-8)/1 = 8$.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_004",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "An equation is given as $2x^2 + 4x - 6 = 0$.",
+      "question": "What is the product of the solutions to the given equation?",
+      "options": [
+        "-6",
+        "-3",
+        "2",
+        "3"
+      ],
+      "correct_answer": "-3",
+      "explanation": "Divide the entire equation by 2 to get $x^2 + 2x - 3 = 0$. This factors as $(x+3)(x-1)=0$, so the solutions are $x=-3$ and $x=1$. The product is $(-3)(1) = -3$. Alternatively, using Vieta's formulas, the product is $c/a = -6/2 = -3$.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_005",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "The population of a town $P$ can be modeled by the function $P(t) = 15000(1.04)^t$, where $t$ is the number of years since 2010.",
+      "question": "What does the value 1.04 represent in this model?",
+      "options": [
+        "The population grows by 104 people each year.",
+        "The population grows by 4% each year.",
+        "The population grows by 1.04% each year.",
+        "The initial population in 2010 was 1.04."
+      ],
+      "correct_answer": "The population grows by 4% each year.",
+      "explanation": "The function is in the form $P(t) = P_0(1+r)^t$. Here, $1+r = 1.04$, meaning $r = 0.04$. This corresponds to a 4% annual growth rate.",
+      "topic_tag": "exponential_functions"
+    }
+  },
+  {
+    "id": "sat_m_adv_006",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "The graph of the function $f(x) = -2(x - 3)^2 + 8$ is a parabola in the $xy$-plane.",
+      "question": "What is the maximum value of the function $f(x)$?",
+      "options": [
+        "-2",
+        "3",
+        "8",
+        "11"
+      ],
+      "correct_answer": "8",
+      "explanation": "The function is given in vertex form $f(x) = a(x-h)^2 + k$, where the vertex is $(h,k) = (3,8)$. Since $a = -2$ is negative, the parabola opens downwards, meaning the vertex is the maximum point. The maximum value is the $y$-coordinate of the vertex, which is 8.",
+      "topic_tag": "parabolas"
+    }
+  },
+  {
+    "id": "sat_m_adv_007",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Operations with polynomials",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Expand the expression $(2x + 3)(x - 4)$.",
+      "question": "Which of the following is the expanded form of the given expression?",
+      "options": [
+        "$2x^2 - 5x - 12$",
+        "$2x^2 + 5x - 12$",
+        "$2x^2 - 11x - 12$",
+        "$2x^2 - 12$"
+      ],
+      "correct_answer": "$2x^2 - 5x - 12$",
+      "explanation": "Use the FOIL method: First terms multiply to $2x^2$. Outer terms to $-8x$. Inner terms to $+3x$. Last terms to $-12$. Combine $-8x$ and $3x$ to get $-5x$. The result is $2x^2 - 5x - 12$.",
+      "topic_tag": "polynomials"
+    }
+  },
+  {
+    "id": "sat_m_adv_008",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Operations with polynomials",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "Divide the polynomial $x^3 - 2x^2 + x - 2$ by $x - 2$.",
+      "question": "What is the quotient?",
+      "options": [
+        "$x^2 - 1$",
+        "$x^2 + 1$",
+        "$x^2 - 2x + 1$",
+        "$x^2 + x - 1$"
+      ],
+      "correct_answer": "$x^2 + 1$",
+      "explanation": "Notice that $x^3 - 2x^2 + x - 2$ can be factored by grouping: $x^2(x - 2) + 1(x - 2) = (x^2 + 1)(x - 2)$. Dividing by $(x - 2)$ leaves $x^2 + 1$. Alternatively, use polynomial long division.",
+      "topic_tag": "polynomials"
+    }
+  },
+  {
+    "id": "sat_m_psda_001",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, percentages",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "A recipe for 4 servings of pancakes requires 2 cups of flour. John wants to make 10 servings.",
+      "question": "How many cups of flour will John need?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct_answer": "5",
+      "explanation": "The ratio of servings to flour is 4:2, or 2:1 (2 servings per cup of flour). To make 10 servings, divide by 2 to get 5 cups of flour.",
+      "topic_tag": "ratios"
+    }
+  },
+  {
+    "id": "sat_m_psda_002",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, percentages",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A store is having a sale where a jacket is discounted by 20%. The sale price is $60.",
+      "question": "What was the original price of the jacket?",
+      "options": [
+        "$72",
+        "$75",
+        "$80",
+        "$120"
+      ],
+      "correct_answer": "$75",
+      "explanation": "Let $P$ be the original price. A 20% discount means the jacket is sold for 80% of its original price. So, $0.80P = 60$. Divide by 0.80: $P = 60 / 0.80 = 75$.",
+      "topic_tag": "percentages"
+    }
+  },
+  {
+    "id": "sat_m_psda_003",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-way tables, statistics",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A survey of 100 students asked about their preferred subject: Math or English. 45 students were male. 25 males preferred Math. 30 females preferred English.",
+      "question": "How many females preferred Math?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "55"
+      ],
+      "correct_answer": "25",
+      "explanation": "Total students = 100. Total males = 45, so total females = 100 - 45 = 55. If 30 females preferred English, the number of females who preferred Math is 55 - 30 = 25.",
+      "topic_tag": "data_analysis"
+    }
+  },
+  {
+    "id": "sat_m_psda_004",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-way tables, statistics",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "The mean score of 5 students on a test is 82. When a 6th student's score is included, the mean drops to 80.",
+      "question": "What was the score of the 6th student?",
+      "options": [
+        "70",
+        "72",
+        "78",
+        "80"
+      ],
+      "correct_answer": "70",
+      "explanation": "The sum of the original 5 scores is $5 \times 82 = 410$. The sum of the 6 scores is $6 \times 80 = 480$. The 6th student's score is $480 - 410 = 70$.",
+      "topic_tag": "statistics"
+    }
+  },
+  {
+    "id": "sat_m_psda_005",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles.",
+      "question": "If one marble is drawn at random, what is the probability that it is NOT blue?",
+      "options": [
+        "3/10",
+        "1/2",
+        "7/10",
+        "4/5"
+      ],
+      "correct_answer": "7/10",
+      "explanation": "Total marbles = $5 + 3 + 2 = 10$. The number of marbles that are NOT blue is $5 (red) + 2 (green) = 7$. The probability is $7/10$.",
+      "topic_tag": "probability"
+    }
+  },
+  {
+    "id": "sat_m_psda_006",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A fair six-sided die is rolled twice.",
+      "question": "What is the probability that the sum of the two rolls is exactly 8?",
+      "options": [
+        "1/6",
+        "5/36",
+        "1/9",
+        "1/12"
+      ],
+      "correct_answer": "5/36",
+      "explanation": "Total possible outcomes when rolling two dice = $6 \times 6 = 36$. The outcomes that sum to 8 are (2,6), (3,5), (4,4), (5,3), and (6,2). There are 5 such outcomes. The probability is $5/36$.",
+      "topic_tag": "probability"
+    }
+  },
+  {
+    "id": "sat_m_psda_007",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Scatter plots and line of best fit",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A scatter plot shows a strong negative linear association between variable $X$ and variable $Y$. A line of best fit is drawn.",
+      "question": "Which of the following could be the equation for the line of best fit?",
+      "options": [
+        "$Y = 3X + 5$",
+        "$Y = -2X + 10$",
+        "$Y = 0.5X - 4$",
+        "$Y = X^2 - 2$"
+      ],
+      "correct_answer": "$Y = -2X + 10$",
+      "explanation": "A strong negative linear association means the line of best fit must have a negative slope. Only $Y = -2X + 10$ has a negative slope (-2).",
+      "topic_tag": "scatter_plots"
+    }
+  },
+  {
+    "id": "sat_m_psda_008",
+    "type": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Scatter plots and line of best fit",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A researcher created a line of best fit to model the relationship between hours studied ($x$) and test score ($y$). The equation is $y = 5.2x + 40$.",
+      "question": "What is the best interpretation of the slope 5.2 in this context?",
+      "options": [
+        "For every additional hour studied, the test score increases by an estimated 5.2 points.",
+        "A student who studies for 0 hours will score a 5.2.",
+        "The maximum possible score on the test is 5.2 higher than the average.",
+        "A student must study for 5.2 hours to pass the test."
+      ],
+      "correct_answer": "For every additional hour studied, the test score increases by an estimated 5.2 points.",
+      "explanation": "The slope of a linear model $y = mx + b$ represents the estimated change in $y$ for a one-unit increase in $x$. Here, it means an increase of 5.2 points in test score per additional hour studied.",
+      "topic_tag": "line_of_best_fit"
+    }
+  },
+  {
+    "id": "sat_m_geo_001",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "A rectangular prism has a length of 5 cm, a width of 4 cm, and a volume of 60 cubic cm.",
+      "question": "What is the height of the prism?",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "correct_answer": "3 cm",
+      "explanation": "The volume of a rectangular prism is $V = l \\cdot w \\cdot h$. Here, $60 = 5 \\cdot 4 \\cdot h$, which simplifies to $60 = 20h$. Dividing by 20 gives $h = 3$.",
+      "topic_tag": "volume"
+    }
+  },
+  {
+    "id": "sat_m_geo_002",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "A circle has an area of $36\\pi$ square inches.",
+      "question": "What is the circumference of the circle, in inches?",
+      "options": [
+        "$6\\pi$",
+        "$12\\pi$",
+        "$18\\pi$",
+        "$36\\pi$"
+      ],
+      "correct_answer": "$12\\pi$",
+      "explanation": "The area of a circle is $A = \\pi r^2$. So $\\pi r^2 = 36\\pi$, meaning $r^2 = 36$ and $r = 6$. The circumference is $C = 2\\pi r = 2\\pi(6) = 12\\pi$.",
+      "topic_tag": "area"
+    }
+  },
+  {
+    "id": "sat_m_geo_003",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, triangles",
+    "difficulty": "Easy",
+    "question": {
+      "passage": "In a triangle, two of the interior angles measure $45^\\circ$ and $65^\\circ$.",
+      "question": "What is the measure of the third interior angle?",
+      "options": [
+        "$60^\\circ$",
+        "$70^\\circ$",
+        "$80^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correct_answer": "$70^\\circ$",
+      "explanation": "The sum of interior angles in any triangle is $180^\\circ$. The sum of the given angles is $45^\\circ + 65^\\circ = 110^\\circ$. The third angle is $180^\\circ - 110^\\circ = 70^\\circ$.",
+      "topic_tag": "triangles"
+    }
+  },
+  {
+    "id": "sat_m_geo_004",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, triangles",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Two parallel lines are intersected by a transversal. One of the acute angles formed measures $40^\\circ$.",
+      "question": "What is the measure of any of the obtuse angles formed?",
+      "options": [
+        "$50^\\circ$",
+        "$130^\\circ$",
+        "$140^\\circ$",
+        "$320^\\circ$"
+      ],
+      "correct_answer": "$140^\\circ$",
+      "explanation": "When parallel lines are cut by a transversal, any acute angle and any obtuse angle are supplementary. Therefore, the obtuse angle is $180^\\circ - 40^\\circ = 140^\\circ$.",
+      "topic_tag": "angles"
+    }
+  },
+  {
+    "id": "sat_m_geo_005",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trig",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "In right triangle $ABC$, the length of the hypotenuse $AB$ is 13, and the length of leg $AC$ is 5.",
+      "question": "What is the length of leg $BC$?",
+      "options": [
+        "8",
+        "12",
+        "14",
+        "18"
+      ],
+      "correct_answer": "12",
+      "explanation": "Using the Pythagorean theorem $a^2 + b^2 = c^2$, we have $5^2 + BC^2 = 13^2$. This is $25 + BC^2 = 169$. Subtracting 25 yields $BC^2 = 144$, so $BC = 12$.",
+      "topic_tag": "right_triangles"
+    }
+  },
+  {
+    "id": "sat_m_geo_006",
+    "type": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trig",
+    "difficulty": "Hard",
+    "question": {
+      "passage": "In a right triangle, angle $\theta$ is acute and $\\sin(\theta) = 3/5$.",
+      "question": "What is the value of $\tan(\theta)$?",
+      "options": [
+        "3/4",
+        "4/5",
+        "4/3",
+        "5/3"
+      ],
+      "correct_answer": "3/4",
+      "explanation": "In a right triangle, sine is opposite/hypotenuse. So, opposite = 3 and hypotenuse = 5. By the Pythagorean theorem, the adjacent side is $\\sqrt{5^2 - 3^2} = \\sqrt{16} = 4$. Tangent is opposite/adjacent, so $\tan(\theta) = 3/4$.",
+      "topic_tag": "trigonometry"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_1",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 1 = 5$, what is the value of $x$?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "1",
+      "explanation": "Subtract 1 from both sides to get $4x = 4$. Divide by 4 to get $x = 1$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_2",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 2 = 10$, what is the value of $x$?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "explanation": "Subtract 2 from both sides to get $4x = 8$. Divide by 4 to get $x = 2$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_3",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 3 = 15$, what is the value of $x$?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "explanation": "Subtract 3 from both sides to get $4x = 12$. Divide by 4 to get $x = 3$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_4",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 4 = 20$, what is the value of $x$?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Subtract 4 from both sides to get $4x = 16$. Divide by 4 to get $x = 4$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_5",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 5 = 25$, what is the value of $x$?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "5",
+      "explanation": "Subtract 5 from both sides to get $4x = 20$. Divide by 4 to get $x = 5$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_6",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 6 = 30$, what is the value of $x$?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": "6",
+      "explanation": "Subtract 6 from both sides to get $4x = 24$. Divide by 4 to get $x = 6$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_7",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 7 = 35$, what is the value of $x$?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_answer": "7",
+      "explanation": "Subtract 7 from both sides to get $4x = 28$. Divide by 4 to get $x = 7$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_alg_var_8",
+    "type": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the equation.",
+      "question": "If $4x + 8 = 40$, what is the value of $x$?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_answer": "8",
+      "explanation": "Subtract 8 from both sides to get $4x = 32$. Divide by 4 to get $x = 8$.",
+      "topic_tag": "linear_equations"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_1",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 1 = 0$, what is the positive value of $x$?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2"
+      ],
+      "correct_answer": "1",
+      "explanation": "Add 1 to both sides to get $x^2 = 1$. Take the square root of both sides to find $x = 1$ or $x = -1$. The positive value is 1.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_2",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 4 = 0$, what is the positive value of $x$?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "explanation": "Add 4 to both sides to get $x^2 = 4$. Take the square root of both sides to find $x = 2$ or $x = -2$. The positive value is 2.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_3",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 9 = 0$, what is the positive value of $x$?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct_answer": "3",
+      "explanation": "Add 9 to both sides to get $x^2 = 9$. Take the square root of both sides to find $x = 3$ or $x = -3$. The positive value is 3.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_4",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 16 = 0$, what is the positive value of $x$?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add 16 to both sides to get $x^2 = 16$. Take the square root of both sides to find $x = 4$ or $x = -4$. The positive value is 4.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_5",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 25 = 0$, what is the positive value of $x$?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "correct_answer": "5",
+      "explanation": "Add 25 to both sides to get $x^2 = 25$. Take the square root of both sides to find $x = 5$ or $x = -5$. The positive value is 5.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_6",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 36 = 0$, what is the positive value of $x$?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "12"
+      ],
+      "correct_answer": "6",
+      "explanation": "Add 36 to both sides to get $x^2 = 36$. Take the square root of both sides to find $x = 6$ or $x = -6$. The positive value is 6.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_7",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 49 = 0$, what is the positive value of $x$?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "14"
+      ],
+      "correct_answer": "7",
+      "explanation": "Add 49 to both sides to get $x^2 = 49$. Take the square root of both sides to find $x = 7$ or $x = -7$. The positive value is 7.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_adv_var_8",
+    "type": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Find the positive solution.",
+      "question": "If $x^2 - 64 = 0$, what is the positive value of $x$?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "16"
+      ],
+      "correct_answer": "8",
+      "explanation": "Add 64 to both sides to get $x^2 = 64$. Take the square root of both sides to find $x = 8$ or $x = -8$. The positive value is 8.",
+      "topic_tag": "quadratics"
+    }
+  },
+  {
+    "id": "sat_m_added_001",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_002",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_003",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_004",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_005",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  },
+  {
+    "id": "sat_m_added_006",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_007",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_008",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_009",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_010",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  },
+  {
+    "id": "sat_m_added_011",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_012",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_013",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_014",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_015",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  },
+  {
+    "id": "sat_m_added_016",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_017",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_018",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_019",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_020",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  },
+  {
+    "id": "sat_m_added_021",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_022",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_023",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_024",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_025",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  },
+  {
+    "id": "sat_m_added_026",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "System of Equations",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "Solve the system of equations:  + y = 10$ and  - y = 2$. What is the value of True",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "explanation": "Add the two equations: 3x = 12 => x = 4.",
+      "topic_tag": "system_of_equations"
+    }
+  },
+  {
+    "id": "sat_m_added_027",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Quadratic Roots",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "What are the solutions to ^2 - 5x + 6 = 0True",
+      "options": [
+        "=2, x=3$",
+        "=-2, x=-3$",
+        "=1, x=6$",
+        "=-1, x=5$"
+      ],
+      "correct_answer": "=2, x=3$",
+      "explanation": "Factor as (x-2)(x-3) = 0.",
+      "topic_tag": "quadratic_roots"
+    }
+  },
+  {
+    "id": "sat_m_added_028",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Geometry Area",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "A circle has a radius of $. What is its area in terms of $\\piTrue",
+      "options": [
+        "\\pi$",
+        "\\pi$",
+        "\\pi$",
+        "\\pi$"
+      ],
+      "correct_answer": "\\pi$",
+      "explanation": "Area = pi * r^2 = pi * 49.",
+      "topic_tag": "geometry_area"
+    }
+  },
+  {
+    "id": "sat_m_added_029",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Function Evaluation",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "If (x) = 3x^2 - 4x + 1$, what is (3)True",
+      "options": [
+        "16",
+        "14",
+        "22",
+        "10"
+      ],
+      "correct_answer": "16",
+      "explanation": "f(3) = 3(9) - 4(3) + 1 = 27 - 12 + 1 = 16.",
+      "topic_tag": "function_evaluation"
+    }
+  },
+  {
+    "id": "sat_m_added_030",
+    "type": "Math",
+    "domain": "Advanced Math & Algebra",
+    "skill": "Percentage Change",
+    "difficulty": "Medium",
+    "question": {
+      "passage": "Solve the following math problem carefully.",
+      "question": "The price of an item increased from $\\$ to $\\$. What was the percentage increase?",
+      "options": [
+        "25\\%",
+        "20\\%",
+        "15\\%",
+        "30\\%"
+      ],
+      "correct_answer": "25\\%",
+      "explanation": "Increase = 20 / 80 = 0.25 = 25%.",
+      "topic_tag": "percentage_change"
+    }
+  }
+]

@@ -1,202 +1,86 @@
-# 🤖 Knowza AI — Features
+# 🤖 Knowza AI — Feature Catalog (v3.0.0)
 
-Knowza AI is a **standalone platform** for students. It is not connected to school management or teachers. Students access Knowza AI with a **personal account and personal subscription**, receiving a personalized AI tutor and a full suite of self-directed learning tools.
-
----
-
-## 🔑 Key Fact: Knowza AI is for Students Only
-
-- **Target audience:** Students / learners / self-directed learners
-- **Not for:** School administrators or teachers (they have the LMS)
-- **Access:** Personal Knowza AI account or existing Knowza account with purchased access
-- **Subscription:** Personal (B2C) — completely independent from any school tariff
+Knowza AI is an autonomous, full-spectrum learning ecosystem built exclusively for students and self-directed learners. It encompasses 20 specialized modules tailored for exam excellence (IELTS, SAT, Milliy Sertifikat) and CEFR foundation mastery.
 
 ---
 
-## 🎓 Onboarding — Personal Profile Setup
+## 🚀 Complete 20-Module Feature Catalog
 
-On first entry, the student fills out their profile (`AIProfile`). Without this, the AI does not know who it is talking to or how to respond.
+### 1. 📖 IELTS Adaptive Reading Simulator (`Reading.jsx`)
+- Dynamically synthesizes CEFR-calibrated academic reading passages.
+- Includes 4 standard IELTS question types: True/False/Not Given, Multiple Choice, Matching Headings, and Summary Completion.
+- Instant submission grading with comprehensive explanations and Band Score conversion (0.0–9.0).
 
-**What the student provides:**
+### 2. ✍️ IELTS AI Writing Evaluator (`Writing.jsx`)
+- Generates Task 1 (visual data / charts / letters) and Task 2 (discursive essay) prompts.
+- Evaluates submissions across official Cambridge IELTS criteria:
+  1. *Task Achievement / Response*
+  2. *Coherence and Cohesion*
+  3. *Lexical Resource*
+  4. *Grammatical Range and Accuracy*
+- Line-by-line grammar corrections and vocabulary enhancement recommendations.
 
-- **Learning goal** — IELTS, DTM, CEFR, university entrance, or a custom goal
-- **Target result** — e.g. `"IELTS 7.5"` or `"DTM 180 points"`
-- **Current level** — Zero / Basic / Advanced
-- **Primary subject** — Mathematics, English, Physics, etc.
-- **AI response language** — Uzbek (Latin), Uzbek (Cyrillic), Russian, Mixed
-- **Daily study time** — `"2 hours"`, `"1.5 hours"`
-- **Time to reach goal** — `"6 months"`, `"3 months"`
-- **Grade or age** — `"11th grade"`, `"17"`
-- **City and country** — for regional context
+### 3. 💬 24/7 Socratic AI Tutor (`Tutor.jsx`)
+- Conversational Socratic tutor that leads students toward answers through guided questions.
+- Multiple pedagogical intents: `EXPLAIN_SIMPLE`, `EXPLAIN_DEEP`, `SIMPLIFY`, `DEEPEN`.
+- Streaming responses with KaTeX math formula rendering and Markdown formatting.
 
-> All of these fields are injected into **every single AI response** for maximum personalization.
+### 4. 🗺️ Deterministic 4-Phase Study Planner (`Planner.jsx`)
+- 7-module Python engine creating tailored study paths across 4 phases: *Diagnostic & Foundation*, *Skills Development*, *Exam Simulation*, and *Final Review*.
+- 0-token instant generation for Free tier; token-compressed summaries for Pro tier.
+- Gap-based allocation dedicating 70% of study time to weakest diagnostic sub-skills.
 
----
+### 5. 🧪 Adaptive Diagnostic Assessment V2 (`Diagnostic.jsx`)
+- Item Response Theory (IRT Rasch model) test converging on student proficiency in 20 questions.
+- Assesses Grammar, Vocabulary, Reading, and Listening with precise CEFR placement (A0 to Strong B2).
 
-## 🤖 AI Tutor (Chat)
+### 6. 🃏 SM-2 Spaced Repetition Flashcards (`FlashCards.jsx`)
+- Daily vocabulary decks generated from a 15-topic academic pool.
+- SuperMemo SM-2 algorithm scheduling cards based on repetition count, ease factor, and recall quality.
 
-The core feature of Knowza AI. The student converses with the AI like a personal tutor.
+### 7. 🔬 Deep Research Studio (`Research.jsx`)
+- Autonomous multi-step research agent performing live web search and reflection.
+- Generates structured research papers with dynamic Table of Contents (TOC), full-screen reading mode, and PDF export.
 
-**What it can do:**
+### 8. 📝 Mock Exam Simulator (`MockExam.jsx`)
+- Timed full-length mock examinations for SAT, IELTS, and Milliy Sertifikat.
+- Simulates official test conditions with section transitions, time warnings, and post-exam analytics.
 
-- **Simple explanation** — short, clear answer to a question (`EXPLAIN_SIMPLE`)
-- **Deep explanation** — comprehensive, multi-angle breakdown of a topic (`EXPLAIN_DEEP`)
-- **Simplify** — rewrite a complex text in plain language (`SIMPLIFY`)
-- **Deepen** — expand on a previous response with more detail (`DEEPEN`)
-- **Help during a test** — hints without spoilers (`TEST_HELP`)
-- **Analyze mistakes** — post-exam performance breakdown (`TEST_FEEDBACK`)
+### 9. 🏫 Interactive Atomic Lesson Room (`Lesson.jsx`)
+- Micro-skill lesson environment with interactive dialogues and comprehension checks.
+- Enforces 90% mastery threshold before unlocking subsequent curriculum nodes.
 
-**Chat features:**
+### 10. 🎯 Practice Test Runner (`Test.jsx`)
+- Practice test interface with real-time Socratic hints from the AI Test Coach.
+- Tracks question attempts and feeds error patterns directly into `SkillGap`.
 
-- Responds in the student's language (auto-detected or set by profile)
-- Adapts explanation complexity to `current_level`
-- Knows the student's learning goal and contextualizes examples accordingly
-- Saves session history — the student can continue a conversation later
-- Supports **streaming** — response appears progressively, like ChatGPT
+### 11. 📊 Cognitive Analytics Dashboard (`Analytics.jsx`)
+- Detailed visualization of CEFR mastery progression, daily learning streaks, and subject competency radar charts.
+- Identifies emerging knowledge gaps and forecasts target exam scores.
 
----
+### 12. 🎮 Central Learning Cockpit (`Dashboard.jsx`)
+- Overview of today's learning missions, streak counter, upcoming milestones, and quick action cards.
 
-## 🧠 Long-Term Memory
+### 13. 🌐 Spatial Landing Page (`Home.jsx`)
+- Modern product presentation with 3D interactive Globe, coverflow demonstration slider, feature comparison grids, and pricing tiers.
 
-Knowza AI remembers each student between sessions and gets smarter over time.
+### 14. 🧭 Guided Onboarding (`Onboarding.jsx`)
+- Multi-step personalization setup: exam track, target score, timeline, daily study hours, and learning language.
 
-- Every 10 messages the AI automatically updates a **compressed summary** about the user
-- In future responses, the AI knows: what the student has already studied, where they struggled, what they enjoy
-- The student can enable or disable memory collection in settings
-- Memory is stored in `ai_memory_summary` — a private field accessible only to the AI
+### 15. 🔐 Dedicated Student Auth (`Login.jsx`)
+- Secure JWT-based authentication isolated from institutional LMS portals.
 
----
+### 16. 🖼️ Workspace Navigation Shell (`Layout.jsx`)
+- Fluid sidebar navigation with real-time AI quota badges and notifications.
 
-## 🗺 Personalized Learning Roadmap
+### 17. 👤 Profile & AI Memory Controls (`Profile.jsx`)
+- Student profile management, target goal adjustment, and AI long-term memory toggle (`is_memory_enabled`).
 
-AI builds an individual study plan for each student.
+### 18. ⭐ Pro Subscription Upgrade Hub (`Pro.jsx`)
+- Flexible subscription tiers (1, 3, 9 months) with instant feature unlocking and Uzbek electronic receipt generation.
 
-**How it works:**
-1. Student taps "Generate Roadmap"
-2. AI analyzes: goal, level, target score, daily time, deadline
-3. A `LearningPath` is created — a sequential list of topics to study
-4. Each topic (`LearningNode`): name, description, estimated time, status
+### 19. 📚 Comprehensive Platform Manual (`Guide.jsx`)
+- Step-by-step user guide detailing how to maximize each AI tool in the workspace.
 
-**Node statuses:**
-
-```
-🔒 Locked → ✅ Available → ▶️ In Progress → ✅ Completed
-```
-
-- Cannot move to the next topic without finishing prerequisites
-- Any node can be regenerated if it doesn't fit the student's needs
-
----
-
-## 📋 Daily Missions — Task Queue
-
-Every day, Knowza AI generates a personalized task list.
-
-**Task types:**
-
-| Type | Description |
-|---|---|
-| `lesson` | Study a new topic |
-| `test` | Take a test on recently studied material |
-| `review` | Revisit previously covered content |
-| `practice` | Solve practical exercises |
-
-**Priorities:** `high` / `medium` / `low` — based on skill gaps and deadline proximity
-
-- Tasks are linked to Roadmap nodes — completing a task advances node progress
-- Marked as done via a "Complete" action
-
----
-
-## 🧪 Sandbox Tests (AI-Generated)
-
-The student can request an AI-generated test on any topic at any time.
-
-**Student provides:**
-- Topic (`"Quadratic Equations"`, `"Past Perfect"`, `"Newton's Laws"`)
-- Difficulty (defaults to profile level if not set)
-
-**Student receives:**
-- A full test with questions and answer options
-- After submission — automatic error analysis
-- Weak topics recorded in `SkillGap` and factored into future daily missions
-
----
-
-## 🤔 Socratic Coach — Smart Error Breakdown
-
-After a wrong answer, the AI **does not reveal the correct answer immediately**. It asks guiding questions.
-
-**Example:**
-- Student answered `2x + 5 = 13` incorrectly
-- AI: *"What do you think needs to happen first to isolate x?"*
-- Student thinks, tries again — learns actively instead of passively
-
-This approach builds **critical thinking** and improves long-term retention.
-
----
-
-## 📰 AI Articles with Web Search
-
-The student can ask AI to write a deep educational article on any topic.
-
-**Process:**
-1. AI performs a **live web search** (top 3 sources)
-2. Finds a **YouTube video** on the topic and appends the link
-3. Generates a full article (up to 8192 output tokens)
-4. Runs a **Reflection Loop** — verifies accuracy before delivery
-5. Caches result in **semantic cache** — similar future requests return instantly
-
-The student can save any article to their personal library (`SavedResearch`).
-
----
-
-## 📊 Personal Analytics
-
-The Knowza AI dashboard shows the student:
-
-- **Streak** — active learning day series (own system, separate from LMS)
-  - Current streak
-  - Best streak ever
-  - Date of last activity
-- **Skill Gaps** — topics with frequent mistakes (`SkillGap`)
-  - Topic name
-  - Subject
-  - Error count
-  - Status: `weak` (needs work) / `ok`
-- **Goal progress** — how far to the `target_score`
-
----
-
-## 💾 Personal Library
-
-Students can save AI-generated materials:
-
-- **Saved Research** — saved AI articles on topics
-- Available at any time for review
-- Can be used as personal study notes
-
----
-
-## 🔐 Knowza AI Subscription
-
-Knowza AI has its **own separate access system**, completely independent from any school or LMS subscription.
-
-| Tier | What it includes |
-|---|---|
-| **Free** | Limited AI requests per day |
-| **Knowza AI Premium** | Unlimited access, priority LLM routing, long-term memory, full personalization, PDF export |
-
-> **Knowza AI and Knowza LMS are two completely separate products with separate subscriptions.** Being enrolled at a school on Knowza LMS does **NOT** grant Knowza AI access — and a Knowza AI Premium subscription does not include LMS access. There is no shared subscription between them.
-
----
-
-## 🌍 Language Support
-
-Knowza AI responds in the student's language, detected automatically or set by profile:
-
-- 🇺🇿 Uzbek (Latin script)
-- 🇺🇿 Uzbek (Cyrillic script)
-- 🇷🇺 Russian
-- 🇺🇸 English
-- Mixed — combination of languages (common in Uzbekistan)
+### 20. 🔍 Universal Knowledge Search (`Search.jsx`)
+- Fast multi-resource search across study notes, saved research articles, and vocabulary decks.

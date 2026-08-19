@@ -501,6 +501,92 @@ class KnowzaAIViewSet(viewsets.ViewSet):
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
     
+    @action(detail=False, methods=['get'])
+    def flashcard_deck_cards(self, request):
+        """Get all cards for a specific flashcard deck."""
+        from ..models import FlashCardDeck
+        from ..serializers import FlashCardSerializer
+        try:
+            deck_id = request.query_params.get('deck_id')
+            if not deck_id:
+                return Response({'error': 'deck_id majburiy'}, status=status.HTTP_400_BAD_REQUEST)
+                
+            deck = FlashCardDeck.objects.get(id=deck_id, user=request.user)
+            cards = deck.cards.all()
+            serializer = FlashCardSerializer(cards, many=True)
+            return Response({"success": True, "data": serializer.data})
+        except FlashCardDeck.DoesNotExist:
+            return Response({'error': 'Toplam topilmadi'}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=False, methods=['get'])
+    def flashcard_all_user_cards(self, request):
+        """Get all flashcards for the current user across all decks."""
+        from ..models import FlashCard
+        from ..serializers import FlashCardSerializer
+        try:
+            cards = FlashCard.objects.filter(deck__user=request.user).order_by('-created_at')
+            serializer = FlashCardSerializer(cards, many=True)
+            return Response({"success": True, "data": serializer.data})
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=False, methods=['post'])
+    def flashcard_auto_generate_daily(self, request):
+        """Auto-generate flashcards for the day based on user study hours."""
+        from ..ai_engine.srs_engine import generate_cards_for_topic, create_deck_with_cards
+        from ..models import FlashCardDeck, UserProfile
+        from django.utils import timezone
+        
+        try:
+            # Check if auto deck was already created today
+            today = timezone.now().date()
+            if FlashCardDeck.objects.filter(user=request.user, title__contains="Daily Vocab", created_at__date=today).exists():
+                return Response({"success": False, "message": "Bugun uchun kartochkalar allaqachon yaratilgan"})
+
+            exam_type = request.data.get('exam_type', 'ielts')
+            topic = "Kundalik " + exam_type.upper() + " Lug'at (" + str(today) + ")"
+            
+            # Determine count based on profile or request
+            count = 20 # Default
+            profile = getattr(request.user, 'profile', None)
+            if profile and profile.study_hours_per_day:
+                # E.g. 10 cards per study hour
+                hours = 2
+                try:
+                    hours = int(profile.study_hours_per_day)
+                except:
+                    pass
+                count = min(hours * 10, 50)
+            
+            count = int(request.data.get('count', count))
+            
+            cards_data = generate_cards_for_topic(
+                user=request.user,
+                exam_type=exam_type,
+                topic=topic,
+                deck_type="vocabulary",
+                count=count,
+            )
+            
+            deck = create_deck_with_cards(
+                user=request.user,
+                exam_type=exam_type,
+                title=f"Daily Vocab - {today.strftime('%d.%m.%Y')}",
+                topic=topic,
+                deck_type="vocabulary",
+                cards_data=cards_data,
+            )
+            
+            from ..serializers import FlashCardDeckSerializer
+            serializer = FlashCardDeckSerializer(deck)
+            return Response({"success": True, "data": serializer.data})
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+    
     @action(detail=False, methods=['post'])
     def generate_flashcards(self, request):
         """AI-generate flashcards for a topic."""
@@ -510,7 +596,7 @@ class KnowzaAIViewSet(viewsets.ViewSet):
             topic = request.data.get('topic', '')
             deck_type = request.data.get('deck_type', 'vocabulary')
             title = request.data.get('title', f"{topic} - {exam_type.upper()}")
-            count = min(int(request.data.get('count', 10)), 20)
+            count = min(int(request.data.get('count', 10)), 100)
             
             cards_data = generate_cards_for_topic(
                 user=request.user,

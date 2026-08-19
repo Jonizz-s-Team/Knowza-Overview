@@ -1,0 +1,100 @@
+.knowza-ai-loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(248, 250, 252, 0.95);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+}
+
+.knowza-ai-loader-wrapper.inline {
+  position: relative;
+  min-height: 400px;
+  background: transparent;
+  backdrop-filter: none;
+}
+
+.knowza-cloud-loader {
+  --cloud-color: #274ed5;
+  --arrows-color: #7b9aff;
+  --time-animation: 1s;
+  transform: scale(1.2);
+}
+
+.knowza-cloud-loader #cloud {
+  width: 110px;
+  height: 110px;
+}
+
+.knowza-cloud-loader #cloud rect {
+  fill: var(--cloud-color);
+}
+
+.knowza-cloud-loader #cloud g:nth-child(3) {
+  transform-origin: 50% 72.8938%;
+  fill: var(--arrows-color);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.25));
+  animation: knowza-rotation var(--time-animation) linear infinite;
+}
+
+.knowza-cloud-loader #shapes g g circle {
+  animation: knowza-cloud calc(var(--time-animation) * 2) linear infinite;
+}
+
+.knowza-cloud-loader #shapes g g circle:nth-child(2) {
+  animation-delay: calc((var(--time-animation) * 2) / -3);
+}
+
+.knowza-cloud-loader #shapes g g circle:nth-child(3) {
+  animation-delay: calc((var(--time-animation) * 2) / -1.5);
+}
+
+.knowza-cloud-loader svg #lines g line {
+  stroke-width: 5;
+  transform-origin: 50% 50%;
+  rotate: -65deg;
+  animation: knowza-lines calc(var(--time-animation) / 1.33) linear infinite;
+}
+
+@keyframes knowza-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes knowza-lines {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes knowza-cloud {
+  0% {
+    cx: 20;
+    cy: 60;
+    r: 15;
+  }
+  50% {
+    cx: 50;
+    cy: 45;
+    r: 20;
+  }
+  100% {
+    cx: 80;
+    cy: 60;
+    r: 15;
+  }
+}

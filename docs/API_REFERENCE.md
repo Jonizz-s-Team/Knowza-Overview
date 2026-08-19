@@ -177,6 +177,38 @@ flowchart LR
 
 ---
 
+
+---
+
+## 🤖 Knowza AI & Adaptive IELTS Services
+
+The Knowza AI subsystem delivers personalized adaptive tutoring, dynamic exam generation, and automated criteria evaluation.
+
+```mermaid
+flowchart LR
+    A[Student App] --> B[Knowza AI Router]
+    B --> C[IELTS Adaptive Engine]
+    B --> D[Deterministic Planner]
+    B --> E[Socratic Coach]
+    B --> F[SRS FlashCards]
+    B --> G[Deep Research]
+```
+
+### Core API Endpoints
+
+| Domain | Method | Endpoint | Purpose |
+|---|---|---|---|
+| **IELTS Reading** | `POST` | `/api/ielts-adaptive/generate_reading/` | Generate dynamic reading passage with 4 question formats |
+| **IELTS Reading** | `POST` | `/api/ielts-adaptive/submit_reading/` | Submit reading answers and receive band score evaluation |
+| **IELTS Writing** | `POST` | `/api/ielts-adaptive/generate_writing/` | Generate Task 1 or Task 2 essay prompt |
+| **IELTS Writing** | `POST` | `/api/ielts-adaptive/submit_writing/` | Submit essay for 4-criteria AI evaluation |
+| **Socratic AI Chat** | `POST` | `/api/knowza-ai/chat/` | Conversational tutoring with SSE streaming |
+| **Study Roadmap** | `POST` | `/api/knowza-ai/generate_roadmap/` | Generate 4-phase deterministic study roadmap |
+| **Test Coach** | `POST` | `/api/test-coach/hint/` | Socratic hint during practice without answer spoiler |
+| **Deep Research** | `POST` | `/api/knowza-ai/generate_article/` | Agentic web research with reflection loop |
+| **Daily Missions** | `GET` | `/api/knowza-ai/queue/` | Retrieve daily prioritized study queue |
+| **SRS Vocabulary** | `GET` | `/api/knowza-ai/flashcards/` | Fetch daily SM-2 spaced repetition review deck |
+
 ## 🌐 API Architecture Overview
 
 ```mermaid

@@ -24,11 +24,12 @@ class RoadmapSchema(BaseModel):
     weeks: List[RoadmapWeekSchema] = Field(description="Haftalarga bo'lingan Duolingo uslubidagi o'quv rejasi")
 
 
-def generate_roadmap(profile_id):
+def generate_roadmap(profile_id, is_weekly_update=False):
     profile = AIProfile.objects.get(id=profile_id)
     
-    # Eskilarni o'chirish (ko'pchilik bo'lgani uchun .all().delete())
-    profile.learning_paths.all().delete()
+    if not is_weekly_update:
+        # Eskilarni o'chirish (ko'pchilik bo'lgani uchun .all().delete())
+        profile.learning_paths.all().delete()
 
     user = profile.user
     goals = getattr(user, 'target_goals', [])
@@ -143,6 +144,25 @@ def generate_roadmap(profile_id):
             interests=getattr(user, 'interests', [])
         )
         
+        path = None
+        target_week = 1
+        global_order = 0
+        created_nodes = []
+        
+        if is_weekly_update:
+            path = profile.learning_paths.filter(goal_direction=direction).first()
+            if path:
+                last_node = path.nodes.order_by('-order').first()
+                if last_node:
+                    target_week = last_node.week_number + 1
+                    global_order = last_node.order + 1
+                    created_nodes = [last_node]
+            
+        # Truncate plan to only 1 week for AI to process
+        plan["weeks"] = plan["weeks"][:1]
+        for w in plan["weeks"]:
+            w["week_number"] = target_week
+        
         timeline = plan["timeline"]
         timeline_str = f"{current_score_num} -> {target_score_num} in {timeline['days_needed']} days"
         todays_mission = plan["todays_mission"]
@@ -156,7 +176,8 @@ def generate_roadmap(profile_id):
                 language=language,
                 user=user,
                 daily_hours_float=daily_hours_float,
-                ms_subject=ms_subject
+                ms_subject=ms_subject,
+                target_week=target_week
             )
         except Exception:
             greeting = f"Salom! Sizning {direction} bo'yicha maqsadingizga {timeline['weeks_needed']} haftada erishamiz."
@@ -164,26 +185,32 @@ def generate_roadmap(profile_id):
 
         total_nodes = sum(len(w.get("nodes", [])) for w in weeks_data)
 
-        path = LearningPath.objects.create(
-            profile=profile,
-            goal_direction=direction,
-            goal_type=goal_type,
-            title=f"Roadmap: {direction}",
-            subject=subject,
-            total_nodes=total_nodes,
-            meta_data={
-                "greeting": greeting,
-                "todays_mission": todays_mission,
-                "prediction": timeline_str,
-                "phases": plan["phases"],
-                "milestones": plan["milestones"],
-                "daily_allocation": plan["daily_allocation"],
-                "tier": plan["tier"]
-            }
-        )
+        if not path:
+            path = LearningPath.objects.create(
+                profile=profile,
+                goal_direction=direction,
+                goal_type=goal_type,
+                title=f"Roadmap: {direction}",
+                subject=subject,
+                total_nodes=total_nodes,
+                meta_data={
+                    "greeting": greeting,
+                    "todays_mission": todays_mission,
+                    "prediction": timeline_str,
+                    "phases": plan["phases"],
+                    "milestones": plan["milestones"],
+                    "daily_allocation": plan["daily_allocation"],
+                    "tier": plan["tier"]
+                }
+            )
+        else:
+            path.total_nodes += total_nodes
+            path.meta_data["greeting"] = greeting
+            path.meta_data["todays_mission"] = todays_mission
+            path.save()
         
-        created_nodes = []
-        global_order = 0
+        
+        # created_nodes and global_order are already initialized above
         for week in weeks_data:
             week_number = week.get("week_number", 1)
             nodes_data = week.get("nodes", [])
@@ -210,7 +237,7 @@ def generate_roadmap(profile_id):
     return created_paths
 
 
-def _generate_pro_content(plan, direction, level, subject, language, user, daily_hours_float, ms_subject):
+def _generate_pro_content(plan, direction, level, subject, language, user, daily_hours_float, ms_subject, target_week=1):
     prompt_path = os.path.join(os.path.dirname(__file__), 'prompts', 'prompt_roadmap.txt')
     with open(prompt_path, 'r', encoding='utf-8') as f:
         system_prompt = f.read().strip()
@@ -231,7 +258,7 @@ def _generate_pro_content(plan, direction, level, subject, language, user, daily
         diag = DiagnosticTest.objects.filter(user=user, status='completed').order_by('-completed_at').first()
         if diag:
             weakness_lines.append(f"\n🎯 O'QUVCHINING ANIQ DIAGNOSTIKA TESTI TAHLILI:")
-            weakness_lines.append(f"- Natija / Daraja: Band {diag.estimated_band or diag.display_level} (Umumiy aniqlik: {diag.accuracy_percent}%)")
+            weakness_lines.append(f"- Natija / Daraja: Band {diag.estimated_band or diag.display_level} (Umumiy aniqlik: {getattr(diag, 'accuracy', getattr(diag, 'accuracy_percent', 0))}%)")
             
             if diag.weak_topics and isinstance(diag.weak_topics, list) and len(diag.weak_topics) > 0:
                 formatted_topics = [t.replace('grammar_', '').replace('reading_', '').replace('writing_', '').replace('listening_', '').replace('_', ' ').title() for t in diag.weak_topics]
@@ -257,9 +284,13 @@ def _generate_pro_content(plan, direction, level, subject, language, user, daily
         if gaps:
             weakness_lines.append(f"- Qo'shimcha zaif ko'nikmalar: {', '.join(gaps)}")
         
-        mems = list(AIMemoryNode.objects.filter(user=user, is_resolved=False).values_list('value', flat=True)[:5])
+        mems = list(AIMemoryNode.objects.filter(
+            user=user, 
+            is_resolved=False,
+            created_at__gte=timezone.now() - timezone.timedelta(days=7)
+        ).values_list('value', flat=True)[:10])
         if mems:
-            weakness_lines.append(f"- Xatolar ro'yxati: {', '.join(mems)}")
+            weakness_lines.append(f"- O'tgan haftadagi xatolar ro'yxati (BULARNI ALBATTA TO'G'RILASH KERAK): {', '.join(mems)}")
     except Exception as e:
         print("Error compiling diagnostic weaknesses for roadmap generation:", e)
 
@@ -281,6 +312,7 @@ CRITICAL DIRECTIVE (ENG MUHIM TALAB):
 2. Har bir darsning nomi va tavsifida (description) u yo'l qo'ygan grammatik va akademik xatosi hamda uni qanday qilib to'g'ri ishlash kerakligi batafsil tushuntirilsin.
 3. Har bir kunning vaqt yig'indisi ANIQ {daily_minutes} daqiqa bo'lsin.
 4. 'greeting' qismida o'quvchining diagnostika testida aniqlangan ushbu xatolari (grammatika, reading, writing bo'shliqlari) aynan ushbu individual reja orqali qanday bosqichma-bosqich yo'qotilishi haqida tushuntirish bering.
+5. FAKATGINA 1 HAFTALIK (7 kunlik) reja tuzing. Hafta raqami: {target_week}. Reja faqat shu {target_week}-hafta uchun bo'lsin.
 """
 
     response = call_ai(

@@ -136,33 +136,31 @@ def generate_cards_for_topic(user, exam_type: str, topic: str, deck_type: str = 
     Use AI to generate flashcards.
     Returns list of normalized dicts with keys: front, back, hint, example_sentence
     """
-    # Build strict prompt that specifies EXACT JSON field names
+    # Build strict prompt that specifies EXACT JSON field names and count
     system_instruction = (
-        "Sen aqlli flashcard generatorisan. "
+        f"Sen aqlli flashcard generatorisan. Senga {count} ta lug'at yaratish vazifasi berildi.\n"
+        f"MUHIM: Aniq {count} ta so'zdan iborat bo'lishi shart!\n"
         "FAQAT quyidagi qat'iy JSON formatida javob ber, BOSHQA HECH NARSA YO'Q:\n"
         "{\n"
         '  "cards": [\n'
         "    {\n"
-        '      "front": "inglizcha so\'z yoki tushuncha",\n'
-        '      "back": "o\'zbekcha tarjimasi yoki ta\'rif",\n'
-        '      "hint": "qisqa maslahat yoki eslatma",\n'
-        '      "example_sentence": "misolda ishlatilgan gap"\n'
+        '      "front": "ingliz tilidagi so\'z yoki tushuncha",\n'
+        '      "back": "so\'zning o\'zbek tilidagi tarjimasi",\n'
+        '      "hint": "ingliz tilida so\'zning to\'liq ta\'rifi (English definition)",\n'
+        '      "example_sentence": "ingliz tilida misol gap"\n'
         "    }\n"
         "  ]\n"
         "}\n"
-        "MUHIM: Faqat 'front', 'back', 'hint', 'example_sentence' maydonlarini ishlatgin. "
+        "MUHIM: 'front', 'hint' va 'example_sentence' faqat INGLIZ TILIDA bo'lishi shart! Faqat 'back' o'zbek tilida bo'lsin. "
         "Boshqa maydon nomlarini ISHLATMA. JSON formatini buzmаgin."
     )
 
     if exam_type.lower() in ['ielts', 'foundation']:
-        context = f"IELTS Academy darsi uchun '{topic}' mavzusida {count} ta lug'at kartochkasi yaratgin. front=inglizcha so'z, back=o'zbekcha tarjima, hint=qisqa eslatma, example_sentence=inglizcha misol gap."
+        context = f"IELTS Academy darsi uchun '{topic}' mavzusida {count} ta lug'at kartochkasi yaratgin. front=inglizcha so'z, back=o'zbekcha tarjima, hint=inglizcha ta'rif, example_sentence=inglizcha misol gap."
     elif exam_type.lower() == 'sat':
-        if deck_type.lower() == 'formula':
-            context = f"SAT Math uchun '{topic}' mavzusida {count} ta formula kartochkasi yaratgin. front=formula nomi, back=formula ifodasi, hint=eslatma, example_sentence=misol."
-        else:
-            context = f"SAT uchun '{topic}' mavzusida {count} ta lug'at kartochkasi yaratgin. front=inglizcha so'z, back=o'zbekcha tarjima, hint=qisqa eslatma, example_sentence=inglizcha misol gap."
+        context = f"SAT darsi uchun '{topic}' mavzusida {count} ta lug'at kartochkasi yaratgin. front=inglizcha so'z, back=o'zbekcha tarjima, hint=inglizcha ta'rif, example_sentence=inglizcha misol gap."
     else:
-        context = f"'{topic}' mavzusida {count} ta kartochka yaratgin. front=tushuncha/savol, back=ta'rif/javob, hint=eslatma, example_sentence=misol."
+        context = f"'{topic}' mavzusida {count} ta lug'at kartochkasi yaratgin. front=inglizcha, back=o'zbekcha, hint=inglizcha, example_sentence=inglizcha."
 
     result = call_ai(
         prompt=context,

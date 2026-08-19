@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "ms_diag_0001",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #1",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0002",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #2",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0003",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #3",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0004",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #4",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0005",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #5",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0006",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #6",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0007",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #7",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0008",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #8",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0009",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #9",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0010",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #10",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0011",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #11",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0012",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #12",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0013",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #13",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0014",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #14",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0015",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #15",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0016",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #16",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0017",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #17",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0018",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #18",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0019",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #19",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0020",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #20",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0021",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #21",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0022",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #22",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0023",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #23",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0024",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #24",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0025",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #25",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0026",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #26",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #26)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0027",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #27",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0028",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #28",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0029",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #29",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0030",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #30",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0031",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #31",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #31)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0032",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #32",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0033",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #33",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0034",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #34",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0035",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #35",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0036",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #36",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #36)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0037",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #37",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0038",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #38",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0039",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #39",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0040",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #40",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0041",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #41",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #41)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0042",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #42",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0043",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #43",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0044",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #44",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0045",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #45",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0046",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #46",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #46)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0047",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #47",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0048",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #48",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0049",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #49",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0050",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #50",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0051",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #51",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #51)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0052",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #52",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0053",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #53",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0054",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #54",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0055",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #55",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0056",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #56",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #56)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0057",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #57",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0058",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #58",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0059",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #59",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0060",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #60",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0061",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #61",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #61)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0062",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #62",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0063",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #63",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0064",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #64",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0065",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #65",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0066",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #66",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #66)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0067",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #67",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0068",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #68",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0069",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #69",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0070",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #70",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0071",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #71",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #71)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0072",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #72",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0073",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #73",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0074",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #74",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0075",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #75",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0076",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #76",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #76)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0077",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #77",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0078",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #78",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0079",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #79",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0080",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #80",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0081",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #81",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #81)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0082",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #82",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0083",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #83",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0084",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #84",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0085",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #85",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0086",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #86",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #86)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0087",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #87",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0088",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #88",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0089",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #89",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0090",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #90",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0091",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #91",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #91)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0092",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #92",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0093",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #93",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0094",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #94",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0095",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #95",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0096",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #96",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #96)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0097",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #97",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0098",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #98",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0099",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #99",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0100",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #100",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0101",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #101",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #101)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0102",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #102",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0103",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #103",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0104",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #104",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0105",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #105",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0106",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #106",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #106)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0107",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #107",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0108",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #108",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0109",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #109",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0110",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #110",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0111",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #111",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #111)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0112",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #112",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0113",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #113",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0114",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #114",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0115",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #115",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0116",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #116",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #116)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0117",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #117",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0118",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #118",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0119",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #119",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0120",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #120",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0121",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #121",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #121)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0122",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #122",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0123",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #123",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0124",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #124",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0125",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #125",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0126",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #126",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #126)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0127",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #127",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0128",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #128",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0129",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #129",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0130",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #130",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0131",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #131",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #131)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0132",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #132",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0133",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #133",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0134",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #134",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0135",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #135",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0136",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #136",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #136)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0137",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #137",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0138",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #138",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0139",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #139",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0140",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #140",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0141",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #141",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #141)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0142",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #142",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0143",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #143",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0144",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #144",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0145",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #145",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0146",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #146",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #146)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0147",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #147",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0148",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #148",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0149",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #149",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0150",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #150",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0151",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #151",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #151)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0152",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #152",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0153",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #153",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0154",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #154",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0155",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #155",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0156",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #156",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #156)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0157",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #157",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0158",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #158",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0159",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #159",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0160",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #160",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0161",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #161",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #161)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0162",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #162",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0163",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #163",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0164",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #164",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0165",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #165",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0166",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #166",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #166)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0167",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #167",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0168",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #168",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0169",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #169",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0170",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #170",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0171",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #171",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #171)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0172",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #172",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0173",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #173",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0174",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #174",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0175",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #175",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0176",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #176",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #176)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0177",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #177",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0178",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #178",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0179",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #179",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0180",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #180",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0181",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #181",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #181)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0182",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #182",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0183",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #183",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0184",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #184",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0185",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #185",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0186",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #186",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #186)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0187",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #187",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0188",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #188",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0189",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #189",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0190",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #190",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0191",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #191",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #191)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0192",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #192",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0193",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #193",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0194",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #194",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0195",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #195",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0196",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #196",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #196)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0197",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #197",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0198",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #198",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0199",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #199",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0200",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #200",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0201",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #201",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #201)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0202",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #202",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0203",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #203",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0204",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #204",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0205",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #205",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0206",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #206",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #206)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0207",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #207",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0208",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #208",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0209",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #209",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0210",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #210",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0211",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #211",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #211)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0212",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #212",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0213",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #213",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0214",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #214",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0215",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #215",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0216",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #216",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #216)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0217",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #217",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0218",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #218",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0219",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #219",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0220",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #220",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0221",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #221",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #221)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0222",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #222",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0223",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #223",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0224",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #224",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0225",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #225",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0226",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #226",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #226)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0227",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #227",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0228",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #228",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0229",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #229",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0230",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #230",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0231",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #231",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #231)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0232",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #232",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0233",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #233",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0234",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #234",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0235",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #235",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0236",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #236",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #236)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0237",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #237",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0238",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #238",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0239",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #239",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0240",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #240",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0241",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #241",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #241)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0242",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #242",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0243",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #243",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0244",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #244",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0245",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #245",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0246",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #246",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #246)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0247",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #247",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0248",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #248",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0249",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #249",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0250",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #250",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0251",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #251",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #251)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0252",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #252",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0253",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #253",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0254",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #254",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0255",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #255",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0256",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #256",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #256)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0257",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #257",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0258",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #258",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0259",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #259",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0260",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #260",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0261",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #261",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #261)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0262",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #262",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0263",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #263",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0264",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #264",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0265",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #265",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0266",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #266",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #266)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0267",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #267",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0268",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #268",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0269",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #269",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0270",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #270",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0271",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #271",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #271)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0272",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #272",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0273",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #273",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0274",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #274",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0275",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #275",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0276",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #276",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #276)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0277",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #277",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0278",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #278",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0279",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #279",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0280",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #280",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0281",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #281",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #281)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0282",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #282",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0283",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #283",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0284",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #284",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0285",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #285",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0286",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #286",
+    "difficulty": "easy",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #286)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0287",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #287",
+    "difficulty": "medium",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0288",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #288",
+    "difficulty": "hard",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0289",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #289",
+    "difficulty": "easy",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0290",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #290",
+    "difficulty": "medium",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0291",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #291",
+    "difficulty": "hard",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #291)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0292",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #292",
+    "difficulty": "easy",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0293",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #293",
+    "difficulty": "medium",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0294",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #294",
+    "difficulty": "hard",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0295",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #295",
+    "difficulty": "easy",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  },
+  {
+    "id": "ms_diag_0296",
+    "subject": "O'zbek tili va Adabiyot",
+    "topic": "O'zbek tili va Adabiyot Diagnostik Savol #296",
+    "difficulty": "medium",
+    "question": "Ot so'z turkumining ma'no turlari nechta? (Nishon #296)",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct_option": 0,
+    "explanation": "O'zbek tilida ot so'z turkumi ma'nosiga ko'ra atoqli va turdosh otlarga, hamda aniq va mavhum otlarga bo'linadi."
+  },
+  {
+    "id": "ms_diag_0297",
+    "subject": "Matematika",
+    "topic": "Matematika Diagnostik Savol #297",
+    "difficulty": "hard",
+    "question": "Teng yonli uchburchakning asosidagi burchagi 50 gradus bo'lsa, uchidagi burchakni toping.",
+    "options": [
+      "80 gradus",
+      "100 gradus",
+      "50 gradus",
+      "130 gradus"
+    ],
+    "correct_option": 0,
+    "explanation": "180 - (50 + 50) = 80 gradus."
+  },
+  {
+    "id": "ms_diag_0298",
+    "subject": "Tarix",
+    "topic": "Tarix Diagnostik Savol #298",
+    "difficulty": "easy",
+    "question": "Birinchi jahon urushi qaysi yillarda bo'lib o'tgan?",
+    "options": [
+      "1914-1918",
+      "1939-1945",
+      "1905-1907",
+      "1917-1922"
+    ],
+    "correct_option": 0,
+    "explanation": "1-jahon urushi 1914-yildan 1918-yilgacha davom etgan."
+  },
+  {
+    "id": "ms_diag_0299",
+    "subject": "Fizika",
+    "topic": "Fizika Diagnostik Savol #299",
+    "difficulty": "medium",
+    "question": "Yorug'likning vakuumdagi tezligi qancha?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "1000 km/s",
+      "340 m/s"
+    ],
+    "correct_option": 0,
+    "explanation": "Yorug'lik tezligi vakuumda c = 3 * 10^8 m/s yoki 300 000 km/s."
+  },
+  {
+    "id": "ms_diag_0300",
+    "subject": "Ingliz tili (CEFR Diagnostic)",
+    "topic": "Ingliz tili (CEFR Diagnostic) Diagnostik Savol #300",
+    "difficulty": "hard",
+    "question": "What is the meaning of 'Reluctant'?",
+    "options": [
+      "Unwilling and hesitant",
+      "Eager and excited",
+      "Fast and quick",
+      "Brave and strong"
+    ],
+    "correct_option": 0,
+    "explanation": "'Reluctant' means feeling or showing hesitation or unwillingness."
+  }
+]

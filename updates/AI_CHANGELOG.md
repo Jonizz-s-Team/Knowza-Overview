@@ -12,12 +12,37 @@ For the full platform changelog: [`updates/README.md`](README.md)
 
 | Version | Period | AI Milestone |
 |---|---|---|
+| **v3.0.0** | Aug 19, 2026 | **🚀 Major:** Knowza 3.0: Full CEFR Foundation · IELTS Reading & Writing Suite · Socratic Coach · 20-Page Ecosystem |
 | **v2.9.0** | Jul 20–27, 2026 | **⚡ Major:** Hybrid Deterministic Engine · 0-Token Free Tier · Granular Tiering |
 | **v2.8.5** | Jul 1–19, 2026 | Multi-Provider key rotation · Uzbek electronic invoice PDF · Academic exam sandbox tests |
 | **v2.8.0** | Jun 21–30, 2026 | Full personalization fields exposed in API |
 | **v2.7.5** | Jun 12–19, 2026 | AI UI consolidated into dedicated chat interface |
 | **v2.0.0** | Apr 1–27, 2026 | **🔴 Major:** KnowzaShield · Groq gateway · Structured JSON · Quota UI |
 | **v1.2.0** | Jan 11–31, 2026 | **⭐ First AI:** Google Gemini chat · Notes sidebar · Client-side pipeline |
+
+---
+
+## v3.0.0 — Knowza 3.0: Full-Spectrum CEFR AI Foundation & Adaptive IELTS Suite
+**August 19, 2026**
+
+### What changed
+
+**Full-Spectrum English Foundation Engine (A0 to Strong B2 Mastery)**
+- Formulated an atomic micro-skills curriculum covering A0 Absolute Beginner to Strong B2 Upper-Intermediate.
+- Enforced a mandatory 90% Mastery Threshold before advancing between nodes. Integrated bilingual code-switching and misinterpretation detection for sub-90% performance.
+- Automated error gap tracking and daily review generation via `srs_engine.py` and `queue_engine.py`.
+
+**Adaptive IELTS Suite (Reading & Writing Engines)**
+- **IELTS Reading Engine (`ielts_reading_engine.py`)**: Generated dynamic academic passages across 4 question formats with automated Cambridge band score calculation (0.0–9.0).
+- **IELTS Writing Engine (`ielts_writing_engine.py`)**: Real-time evaluation of Task 1 and Task 2 essays across official criteria (Task Achievement, Coherence & Cohesion, Lexical Resource, Grammatical Range & Accuracy) with sentence-level corrections.
+- Integrated REST endpoints under `/api/ielts-adaptive/`.
+
+**Mock Exam Simulator & Socratic Coach**
+- Introduced real-time Socratic hints during tests (`test_coach.py`) that guide students toward correct deduction without spoiling answers.
+- Implemented multi-section timed mock exams (`mock_engine.py`, `test_engine.py`).
+
+**Complete 20-Page Knowza AI Frontend Suite**
+- Rolled out the complete 20-module client application under `/knowza-ai/*` including Reading, Writing, Tutor, Mock Exams, Interactive Lessons, Analytics, and Pro Centers.
 
 ---
 
