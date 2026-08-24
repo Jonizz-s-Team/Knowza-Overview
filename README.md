@@ -17,25 +17,26 @@ Modern educational institutions and students face a fragmented learning experien
 
 **Knowza** solves this by uniting the institutional management layer and the personalized adaptive AI intelligence layer into **one seamless ecosystem**:
 
-```
-                                    ┌────────────────────────┐
-                                    │    KNOWZA ECOSYSTEM    │
-                                    │      (knowza.uz)       │
-                                    └───────────┬────────────┘
-                                                │
-                 ┌──────────────────────────────┴──────────────────────────────┐
-                 ▼                                                             ▼
-  ┌──────────────────────────────┐                              ┌──────────────────────────────┐
-  │       🏫 KNOWZA LMS          │                              │        🤖 KNOWZA AI          │
-  │   Institutional Platform     │                              │   Adaptive Intelligence      │
-  ├──────────────────────────────┤                              ├──────────────────────────────┤
-  │ • 7 Role-Based Dashboards    │                              │ • IRT Adaptive Diagnostic    │
-  │ • Multi-Tenant School CRM    │                              │ • IELTS Reading & Writing    │
-  │ • Sentinel Anti-Cheat Engine │                              │ • Socratic Test Coach        │
-  │ • Schedule & Homework Grid   │                              │ • 7-Module Study Planner     │
-  │ • Gamification (XP, Leagues) │                              │ • SM-2 Spaced Repetition SRS │
-  │ • B2B SaaS Tier Licensing    │                              │ • KnowzaShield AI Firewall   │
-  └──────────────────────────────┘                              └──────────────────────────────┘
+```mermaid
+flowchart TB
+    ECO["🌐 KNOWZA ECOSYSTEM<br/><b>knowza.uz</b>"]
+    
+    ECO --> LMS
+    ECO --> AI
+
+    subgraph LMS_BOX ["🏫 Knowza LMS — Institutional Platform"]
+        LMS["<b>7 Role-Based Dashboards</b><br/>Multi-Tenant School CRM<br/>Sentinel Anti-Cheat Engine<br/>Schedule & Homework Grid<br/>Gamification · XP · Leagues<br/>B2B SaaS Tier Licensing"]
+    end
+
+    subgraph AI_BOX ["🤖 Knowza AI — Adaptive Intelligence"]
+        AI["<b>IRT Adaptive Diagnostic</b><br/>IELTS Reading & Writing<br/>Socratic Test Coach<br/>7-Module Study Planner<br/>SM-2 Spaced Repetition SRS<br/>KnowzaShield AI Firewall"]
+    end
+
+    style ECO fill:#4F46E5,stroke:#312E81,color:#fff,font-size:16px
+    style LMS fill:#059669,stroke:#065F46,color:#fff
+    style AI fill:#D97706,stroke:#92400E,color:#fff
+    style LMS_BOX fill:#ECFDF5,stroke:#059669,stroke-width:2px
+    style AI_BOX fill:#FFFBEB,stroke:#D97706,stroke-width:2px
 ```
 
 ---
@@ -58,39 +59,70 @@ Modern educational institutions and students face a fragmented learning experien
 
 Knowza is built on a shared, robust backend powering both the institutional LMS operations and high-throughput AI streams:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 KNOWZA UNIFIED PLATFORM                                 │
-│                                                                                         │
-│  ┌─────────────────────────────────┐           ┌─────────────────────────────────────┐  │
-│  │      React 19 Frontend SPA      │──────────▶│        Django REST Framework        │  │
-│  │  • Knowza LMS Role Dashboards   │           │              API Layer              │  │
-│  │  • Knowza AI 20-Module Cockpit  │           └──────────────────┬──────────────────┘  │
-│  └─────────────────────────────────┘                              │                     │
-│                                                                   │                     │
-│                 ┌─────────────────────────────────────────────────┴──────────────────┐  │
-│                 ▼                                                                    ▼  │
-│  ┌──────────────────────────────┐                                 ┌──────────────────────────────┐
-│  │      LMS ENGINE LAYER        │                                 │       AI ENGINE LAYER        │
-│  │                              │                                 │                              │
-│  │ • Knowza Sentinel Anti-Cheat │                                 │ • Multi-Provider Router      │
-│  │ • Multi-Tenant Organization  │                                 │   (Groq / Gemini / GPT-4o)   │
-│  │ • Server-Authoritative Tests │                                 │ • IRT Rasch Diagnostic V2   │
-│  │ • Classroom & Schedule Grid  │                                 │ • IELTS Reading & Writing    │
-│  │ • Gamification & Leagues     │                                 │ • Deterministic Planner      │
-│  │ • B2B SaaS Tariff Control    │                                 │ • Socratic Dialogue Coach    │
-│  │ • Dynamic Uzbek Invoicing    │                                 │ • KnowzaShield Firewall      │
-│  └──────────────┬───────────────┘                                 └──────────────┬───────────────┘
-│                 │                                                                │      │
-│                 └───────────────────────────────┬────────────────────────────────┘      │
-│                                                 ▼                                       │
-│                         ┌──────────────────────────────────────────────┐                │
-│                         │        PostgreSQL / Redis Storage Layer      │                │
-│                         │  • Tenant Orgs & Roles    • AI Profiles      │                │
-│                         │  • Exam Sessions & Logs   • Semantic Cache   │                │
-│                         │  • XP, Streaks & Stars    • Flashcards (SRS) │                │
-│                         └──────────────────────────────────────────────┘                │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph PLATFORM ["🏛️ KNOWZA UNIFIED PLATFORM"]
+        direction TB
+
+        subgraph PRESENTATION ["Presentation Layer"]
+            FE["⚛️ <b>React 19 Frontend SPA</b><br/>Knowza LMS Role Dashboards<br/>Knowza AI 20-Module Cockpit"]
+        end
+
+        subgraph API_LAYER ["API Gateway"]
+            API["🔗 <b>Django REST Framework</b><br/>API Layer"]
+        end
+
+        FE -->|"HTTPS / REST"| API
+
+        subgraph ENGINES ["Business Logic Engines"]
+            direction LR
+
+            subgraph LMS_ENGINE ["🏫 LMS Engine Layer"]
+                L1["Knowza Sentinel Anti-Cheat"]
+                L2["Multi-Tenant Organization"]
+                L3["Server-Authoritative Tests"]
+                L4["Classroom & Schedule Grid"]
+                L5["Gamification & Leagues"]
+                L6["B2B SaaS Tariff Control"]
+                L7["Dynamic Uzbek Invoicing"]
+            end
+
+            subgraph AI_ENGINE ["🤖 AI Engine Layer"]
+                A1["Multi-Provider Router<br/><i>Groq / Gemini / GPT-4o</i>"]
+                A2["IRT Rasch Diagnostic V2"]
+                A3["IELTS Reading & Writing"]
+                A4["Deterministic Planner"]
+                A5["Socratic Dialogue Coach"]
+                A6["KnowzaShield Firewall"]
+            end
+        end
+
+        API --> LMS_ENGINE
+        API --> AI_ENGINE
+
+        subgraph STORAGE ["💾 PostgreSQL / Redis Storage Layer"]
+            direction LR
+            S1["Tenant Orgs & Roles"]
+            S2["Exam Sessions & Logs"]
+            S3["XP, Streaks & Stars"]
+            S4["AI Profiles"]
+            S5["Semantic Cache"]
+            S6["Flashcards · SRS"]
+        end
+
+        LMS_ENGINE --> STORAGE
+        AI_ENGINE --> STORAGE
+    end
+
+    style PLATFORM fill:#0F172A,stroke:#334155,color:#F8FAFC,stroke-width:3px
+    style PRESENTATION fill:#1E293B,stroke:#3B82F6,color:#93C5FD
+    style API_LAYER fill:#1E293B,stroke:#8B5CF6,color:#C4B5FD
+    style ENGINES fill:#1E293B,stroke:#475569,color:#CBD5E1
+    style LMS_ENGINE fill:#064E3B,stroke:#10B981,color:#A7F3D0,stroke-width:2px
+    style AI_ENGINE fill:#78350F,stroke:#F59E0B,color:#FDE68A,stroke-width:2px
+    style STORAGE fill:#1E1B4B,stroke:#6366F1,color:#C7D2FE,stroke-width:2px
+    style FE fill:#1D4ED8,stroke:#2563EB,color:#fff
+    style API fill:#7C3AED,stroke:#8B5CF6,color:#fff
 ```
 
 ---
