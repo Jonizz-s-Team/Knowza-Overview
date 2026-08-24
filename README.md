@@ -19,24 +19,24 @@ Modern educational institutions and students face a fragmented learning experien
 
 ```mermaid
 flowchart TB
-    ECO["🌐 KNOWZA ECOSYSTEM<br/><b>knowza.uz</b>"]
-    
+    ECO(["KNOWZA ECOSYSTEM\nknowza.uz"])
+
     ECO --> LMS
     ECO --> AI
 
-    subgraph LMS_BOX ["🏫 Knowza LMS — Institutional Platform"]
-        LMS["<b>7 Role-Based Dashboards</b><br/>Multi-Tenant School CRM<br/>Sentinel Anti-Cheat Engine<br/>Schedule & Homework Grid<br/>Gamification · XP · Leagues<br/>B2B SaaS Tier Licensing"]
+    subgraph LMS_BOX ["Knowza LMS · Institutional Platform"]
+        LMS["7 Role-Based Dashboards\nMulti-Tenant School CRM\nSentinel Anti-Cheat Engine\nSchedule, Homework Grid\nGamification · XP · Leagues\nB2B SaaS Tier Licensing"]
     end
 
-    subgraph AI_BOX ["🤖 Knowza AI — Adaptive Intelligence"]
-        AI["<b>IRT Adaptive Diagnostic</b><br/>IELTS Reading & Writing<br/>Socratic Test Coach<br/>7-Module Study Planner<br/>SM-2 Spaced Repetition SRS<br/>KnowzaShield AI Firewall"]
+    subgraph AI_BOX ["Knowza AI · Adaptive Intelligence"]
+        AI["IRT Adaptive Diagnostic\nIELTS Reading, Writing\nSocratic Test Coach\n7-Module Study Planner\nSM-2 Spaced Repetition SRS\nKnowzaShield AI Firewall"]
     end
 
-    style ECO fill:#4F46E5,stroke:#312E81,color:#fff,font-size:16px
+    style ECO fill:#4F46E5,stroke:#312E81,color:#fff
     style LMS fill:#059669,stroke:#065F46,color:#fff
     style AI fill:#D97706,stroke:#92400E,color:#fff
-    style LMS_BOX fill:#ECFDF5,stroke:#059669,stroke-width:2px
-    style AI_BOX fill:#FFFBEB,stroke:#D97706,stroke-width:2px
+    style LMS_BOX fill:#ECFDF5,stroke:#059669,stroke-width:2px,color:#065F46
+    style AI_BOX fill:#FFFBEB,stroke:#D97706,stroke-width:2px,color:#92400E
 ```
 
 ---
@@ -61,15 +61,15 @@ Knowza is built on a shared, robust backend powering both the institutional LMS 
 
 ```mermaid
 flowchart TB
-    subgraph PLATFORM ["🏛️ KNOWZA UNIFIED PLATFORM"]
+    subgraph PLATFORM ["KNOWZA UNIFIED PLATFORM"]
         direction TB
 
         subgraph PRESENTATION ["Presentation Layer"]
-            FE["⚛️ <b>React 19 Frontend SPA</b><br/>Knowza LMS Role Dashboards<br/>Knowza AI 20-Module Cockpit"]
+            FE["React 19 Frontend SPA\nLMS Role Dashboards\nAI 20-Module Cockpit"]
         end
 
         subgraph API_LAYER ["API Gateway"]
-            API["🔗 <b>Django REST Framework</b><br/>API Layer"]
+            API["Django REST Framework\nAPI Layer"]
         end
 
         FE -->|"HTTPS / REST"| API
@@ -77,20 +77,20 @@ flowchart TB
         subgraph ENGINES ["Business Logic Engines"]
             direction LR
 
-            subgraph LMS_ENGINE ["🏫 LMS Engine Layer"]
+            subgraph LMS_ENGINE ["LMS Engine Layer"]
                 L1["Knowza Sentinel Anti-Cheat"]
                 L2["Multi-Tenant Organization"]
                 L3["Server-Authoritative Tests"]
-                L4["Classroom & Schedule Grid"]
-                L5["Gamification & Leagues"]
+                L4["Classroom, Schedule Grid"]
+                L5["Gamification, Leagues"]
                 L6["B2B SaaS Tariff Control"]
                 L7["Dynamic Uzbek Invoicing"]
             end
 
-            subgraph AI_ENGINE ["🤖 AI Engine Layer"]
-                A1["Multi-Provider Router<br/><i>Groq / Gemini / GPT-4o</i>"]
+            subgraph AI_ENGINE ["AI Engine Layer"]
+                A1["Multi-Provider Router\nGroq / Gemini / GPT-4o"]
                 A2["IRT Rasch Diagnostic V2"]
-                A3["IELTS Reading & Writing"]
+                A3["IELTS Reading, Writing"]
                 A4["Deterministic Planner"]
                 A5["Socratic Dialogue Coach"]
                 A6["KnowzaShield Firewall"]
@@ -100,11 +100,11 @@ flowchart TB
         API --> LMS_ENGINE
         API --> AI_ENGINE
 
-        subgraph STORAGE ["💾 PostgreSQL / Redis Storage Layer"]
+        subgraph STORAGE ["PostgreSQL / Redis Storage Layer"]
             direction LR
-            S1["Tenant Orgs & Roles"]
-            S2["Exam Sessions & Logs"]
-            S3["XP, Streaks & Stars"]
+            S1["Tenant Orgs, Roles"]
+            S2["Exam Sessions, Logs"]
+            S3["XP, Streaks, Stars"]
             S4["AI Profiles"]
             S5["Semantic Cache"]
             S6["Flashcards · SRS"]
